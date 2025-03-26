@@ -3,14 +3,14 @@
 import { useState, useEffect } from "react"
 import { ArrowLeft, Trophy, Clock, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { wordBuildingQuestionsByLevel } from "@/data/word-building-data-by-level"
+import { wordBuildingDataByLevel } from "@/data/word-building-data-by-level"
 import { getLevelName } from "@/utils/level-utils"
 import { addScoreAndExperience, updateAchievement } from "@/lib/user-progress"
 import { playSound } from "@/utils/sound-effects"
 
 // Update the interface to include level
 interface WordBuildingProps {
-  level: keyof typeof wordBuildingQuestionsByLevel 
+  level: keyof typeof wordBuildingDataByLevel 
   onBack: (currentLevel: string) => void // 添加返回参数
 }
 
@@ -22,7 +22,7 @@ export default function WordBuilding({ level, onBack }: WordBuildingProps) {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
   const [gameOver, setGameOver] = useState(false)
   const [gameResult, setGameResult] = useState<"timeout" | "completed" | null>(null)
-  const [shuffledQuestions, setShuffledQuestions] = useState<(typeof wordBuildingQuestionsByLevel)["middle-school-8-unit1"]>(
+  const [shuffledQuestions, setShuffledQuestions] = useState<(typeof wordBuildingDataByLevel)["middle-school-8-unit1"]>(
     [],
   )
   const [shuffledOptions, setShuffledOptions] = useState<string[]>([])
@@ -38,7 +38,7 @@ export default function WordBuilding({ level, onBack }: WordBuildingProps) {
 
   // Shuffle questions on component mount
   useEffect(() => {
-    const levelQuestions = wordBuildingQuestionsByLevel[level] || wordBuildingQuestionsByLevel["middle-school-8-unit1"]
+    const levelQuestions = wordBuildingDataByLevel[level] || wordBuildingDataByLevel["middle-school-8-unit1"]
     const shuffled = [...levelQuestions].sort(() => Math.random() - 0.5)
     setShuffledQuestions(shuffled)
 
@@ -51,7 +51,7 @@ export default function WordBuilding({ level, onBack }: WordBuildingProps) {
   }, [level])
 
   // Current question from shuffled array
-  const currentQuestion = shuffledQuestions[currentQuestionIndex] || wordBuildingQuestionsByLevel["middle-school-8-unit1"][0]
+  const currentQuestion = shuffledQuestions[currentQuestionIndex] || wordBuildingDataByLevel["middle-school-8-unit1"][0]
 
   useEffect(() => {
     if (gameOver) return
@@ -160,7 +160,7 @@ export default function WordBuilding({ level, onBack }: WordBuildingProps) {
 
   const handleRestart = () => {
     // Reshuffle questions for a new game
-    const levelQuestions = wordBuildingQuestionsByLevel[level] || wordBuildingQuestionsByLevel["middle-school-8-unit1"]
+    const levelQuestions = wordBuildingDataByLevel[level] || wordBuildingDataByLevel["middle-school-8-unit1"]
     const shuffled = [...levelQuestions].sort(() => Math.random() - 0.5)
     setShuffledQuestions(shuffled)
 

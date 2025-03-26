@@ -35,7 +35,7 @@ export default function RootClassification({ level, onBack }: RootClassification
   }, [level])
 
   useEffect(() => {
-    const levelData = rootClassificationDataByLevel[level] || rootClassificationDataByLevel["middle-school-8"]
+    const levelData = rootClassificationDataByLevel[level] || rootClassificationDataByLevel["middle-school-8-unit1"]
 
     // Get 3 random categories
     const shuffledCategories = [...levelData.categories].sort(() => 0.5 - Math.random()).slice(0, 3)
@@ -152,7 +152,7 @@ export default function RootClassification({ level, onBack }: RootClassification
   }
 
   const handleRestart = () => {
-    const levelData = rootClassificationDataByLevel[level] || rootClassificationDataByLevel["middle-school-8"]
+    const levelData = rootClassificationDataByLevel[level] || rootClassificationDataByLevel["middle-school-8-unit1"]
 
     // Get 3 random categories
     const shuffledCategories = [...levelData.categories].sort(() => 0.5 - Math.random()).slice(0, 3)
@@ -231,7 +231,7 @@ export default function RootClassification({ level, onBack }: RootClassification
             <Button
               variant="outline"
               className="border-[#6366f1] text-[#a5b4fc] hover:bg-[#3a1d6f] hover:text-[#d8b4fe]"
-              onClick={onBack}
+              onClick={() => onBack(level)} // 传递当前关卡
             >
               返回魔法岛
             </Button>

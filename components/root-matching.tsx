@@ -41,7 +41,7 @@ export default function RootMatching({ level, onBack }: RootMatchingProps) {
 
   // 初始化游戏数据
   useEffect(() => {
-    const levelData = rootsMatchingDataByLevel[level] || rootsMatchingDataByLevel["middle-school-8"]
+    const levelData = rootsMatchingDataByLevel[level] || rootsMatchingDataByLevel["middle-school-8-unit1"]
 
     // 左侧按原始顺序展示所有词根
     setRootItems([...levelData])
@@ -167,7 +167,7 @@ export default function RootMatching({ level, onBack }: RootMatchingProps) {
   }
 
   const handleRestart = () => {
-    const levelData = rootsMatchingDataByLevel[level] || rootsMatchingDataByLevel["middle-school-8"]
+    const levelData = rootsMatchingDataByLevel[level] || rootsMatchingDataByLevel["middle-school-8-unit1"]
 
     // 左侧按原始顺序展示所有词根
     setRootItems([...levelData])

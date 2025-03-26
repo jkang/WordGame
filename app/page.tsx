@@ -19,7 +19,7 @@ const SELECTED_UNIT_KEY = "selectedUnit"
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState<string>("home")
-  const [selectedLevel, setSelectedLevel] = useState<string>("middle-school-8")
+  const [selectedLevel, setSelectedLevel] = useState<string>("middle-school-8-unit1")
   const [selectedUnit, setSelectedUnit] = useState<string>("")
   const [showProfile, setShowProfile] = useState<boolean>(false)
   const [userProgress, setUserProgress] = useState(loadUserProgress())
@@ -115,15 +115,15 @@ export default function Home() {
         )}
 
         {currentPage === "word-building" && (
-          <WordBuilding level={selectedLevel} onBack={handleBack} />
+          <WordBuilding level={selectedLevel as "middle-school-8-unit1" | "middle-school-8-unit2" | "middle-school-8-unit3" | "middle-school-8-unit4" | "middle-school-8-unit6" | "middle-school-8-unit7" | "middle-school-8-unit9" | "high-school-1-unit1" | "high-school-1-unit2" | "high-school-1-unit3"} onBack={handleBack} />
         )}
 
         {currentPage === "root-matching" && (
-          <RootMatching level={selectedLevel} onBack={handleBack} />
+          <RootMatching level={selectedLevel as "middle-school-8-unit1" | "middle-school-8-unit2" | "middle-school-8-unit3" | "middle-school-8-unit4" | "middle-school-8-unit6" | "middle-school-8-unit7" | "middle-school-8-unit9" | "high-school-1-unit1" | "high-school-1-unit2" | "high-school-1-unit3"} onBack={handleBack} />
         )}
 
         {currentPage === "root-classification" && (
-          <RootClassification level={selectedLevel} onBack={handleBack} />
+          <RootClassification level={selectedLevel as "middle-school-8-unit1" | "middle-school-8-unit2" | "middle-school-8-unit3" | "middle-school-8-unit4" | "middle-school-8-unit6" | "middle-school-8-unit7" | "middle-school-8-unit9" | "high-school-1-unit1" | "high-school-1-unit2" | "high-school-1-unit3"} onBack={handleBack} />
         )}
 
         {currentPage === "word-card-game" && (
