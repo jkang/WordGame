@@ -35,6 +35,7 @@ export default function RootClassification({ level, onBack }: RootClassification
   }, [level])
 
   useEffect(() => {
+    console.log("Level changed:", level);
     const levelData = rootClassificationDataByLevel[level] || rootClassificationDataByLevel["middle-school-8-unit1"]
 
     // Get 3 random categories
