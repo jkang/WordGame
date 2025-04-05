@@ -1,20 +1,21 @@
 import type { VocabularyWord } from "@/types/vocabulary"
 
-import { middleSchoolUnit1Vocabulary } from "./middleschool/middle-school-8-Unit1"
-import { middleSchoolUnit2Vocabulary } from "./middleschool/middle-school-8-Unit2"
-import { middleSchoolUnit3Vocabulary } from "./middleschool/middle-school-8-Unit3"
-import { middleSchoolUnit4Vocabulary } from "./middleschool/middle-school-8-Unit4"
-import { middleSchoolUnit5Vocabulary } from "./middleschool/middle-school-8-Unit5"
-import { middleSchoolUnit6Vocabulary } from "./middleschool/middle-school-8-Unit6"
-import { middleSchoolUnit7Vocabulary } from "./middleschool/middle-school-8-Unit7"
-import { middleSchoolUnit8Vocabulary } from "./middleschool/middle-school-8-Unit8"
-import { middleSchoolUnit9Vocabulary } from "./middleschool/middle-school-8-Unit9"
-import { middleSchoolUnit10Vocabulary } from "./middleschool/middle-school-8-Unit10"
+import { middleSchoolUnit1Vocabulary } from "./words/middleschool/middle-school-8-Unit1"
+import { middleSchoolUnit2Vocabulary } from "./words/middleschool/middle-school-8-Unit2"
+import { middleSchoolUnit3Vocabulary } from "./words/middleschool/middle-school-8-Unit3"
+import { middleSchoolUnit4Vocabulary } from "./words/middleschool/middle-school-8-Unit4"
+import { middleSchoolUnit5Vocabulary } from "./words/middleschool/middle-school-8-Unit5"
+import { middleSchoolUnit6Vocabulary } from "./words/middleschool/middle-school-8-Unit6"
+import { middleSchoolUnit7Vocabulary } from "./words/middleschool/middle-school-8-Unit7"
+import { middleSchoolUnit8Vocabulary } from "./words/middleschool/middle-school-8-Unit8"
+import { middleSchoolUnit9Vocabulary } from "./words/middleschool/middle-school-8-Unit9"
+import { middleSchoolUnit10Vocabulary } from "./words/middleschool/middle-school-8-Unit10"
 
-import  { highSchoolUnit1 } from "./highschool/high-school-unit1"
-import  { highSchoolUnit2 } from "./highschool/high-school-unit2"
-import  { highSchoolUnit3 } from "./highschool/high-school-unit3"
-import  { highSchoolUnit4 } from "./highschool/high-school-unit4"
+import  { highSchoolUnit1 } from "./words/highschool/high-school-unit1"
+import  { highSchoolUnit2 } from "./words/highschool/high-school-unit2"
+import  { highSchoolUnit3 } from "./words/highschool/high-school-unit3"
+import  { highSchoolUnit4 } from "./words/highschool/high-school-unit4"
+import  { highSchoolUnit5 } from "./words/highschool/high-school-unit5"
 
 // Combine all units into a map
 export const vocabularyByLevelUnit: Record<string, VocabularyWord[]> = {
@@ -32,5 +33,6 @@ export const vocabularyByLevelUnit: Record<string, VocabularyWord[]> = {
   "high-school-1-unit2": highSchoolUnit2,
   "high-school-1-unit3": highSchoolUnit3,
   "high-school-1-unit4": highSchoolUnit4,
+  "high-school-1-unit5": highSchoolUnit5,
 }
 
