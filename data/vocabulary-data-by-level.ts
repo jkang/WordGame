@@ -1,9 +1,20 @@
 import type { VocabularyWord } from "@/types/vocabulary"
-import  { highSchoolUnit2 } from "@/data/high-school-unit2"
-import  { highSchoolUnit3 } from "@/data/high-school-unit3"
-import  { highSchoolUnit4 } from "@/data/high-school-unit4"
-import {middleSchoolUnit1Vocabulary, middleSchoolUnit2Vocabulary,middleSchoolUnit3Vocabulary,middleSchoolUnit4Vocabulary,middleSchoolUnit5Vocabulary,middleSchoolUnit6Vocabulary,middleSchoolUnit7Vocabulary,middleSchoolUnit8Vocabulary,middleSchoolUnit9Vocabulary,middleSchoolUnit10Vocabulary} from "@/data/middle-school-vocabulary"
-import { highSchoolUnit1 } from "./high-school-unit1"
+
+import { middleSchoolUnit1Vocabulary } from "./middleschool/middle-school-8-Unit1"
+import { middleSchoolUnit2Vocabulary } from "./middleschool/middle-school-8-Unit2"
+import { middleSchoolUnit3Vocabulary } from "./middleschool/middle-school-8-Unit3"
+import { middleSchoolUnit4Vocabulary } from "./middleschool/middle-school-8-Unit4"
+import { middleSchoolUnit5Vocabulary } from "./middleschool/middle-school-8-Unit5"
+import { middleSchoolUnit6Vocabulary } from "./middleschool/middle-school-8-Unit6"
+import { middleSchoolUnit7Vocabulary } from "./middleschool/middle-school-8-Unit7"
+import { middleSchoolUnit8Vocabulary } from "./middleschool/middle-school-8-Unit8"
+import { middleSchoolUnit9Vocabulary } from "./middleschool/middle-school-8-Unit9"
+import { middleSchoolUnit10Vocabulary } from "./middleschool/middle-school-8-Unit10"
+
+import  { highSchoolUnit1 } from "./highschool/high-school-unit1"
+import  { highSchoolUnit2 } from "./highschool/high-school-unit2"
+import  { highSchoolUnit3 } from "./highschool/high-school-unit3"
+import  { highSchoolUnit4 } from "./highschool/high-school-unit4"
 
 // Combine all units into a map
 export const vocabularyByLevelUnit: Record<string, VocabularyWord[]> = {
