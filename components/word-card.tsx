@@ -1,6 +1,6 @@
 "use client"
 import type { VocabularyWord } from "@/types/vocabulary"
-import  { FANTASY_THEME, generateWordVisual } from "@/components/visual-memory-generator"
+import { FANTASY_THEME, generateWordVisual } from "@/components/visual-memory-generator"
 
 // Define a map of word to SVG template content
 export const wordCardTemplates: Record<string, string> = {
@@ -42,7 +42,6 @@ function wrapText(text: string, maxWidth: number, fontSize: number): string[] {
   return lines
 }
 
-
 export function WordCard({ word }: WordCardProps) {
   // Get the SVG template for this word, or use a default template
   const template = wordCardTemplates[word.word.toLowerCase()]
@@ -57,7 +56,8 @@ export function WordCard({ word }: WordCardProps) {
     word.wordRootMemory || (word.word.length > 4 ? `${word.word}。` : "这是一个基础词汇，建议直接记忆。")
 
   // Format example if available
-  const exampleParts = word.example ? word.example.split("。") : []
+  const exampleText = word.examples && word.examples.length > 0 ? word.examples[0] : `Example with ${word.word}`
+  const exampleParts = exampleText.split("。")
   const englishExample = exampleParts[0] || `Example with ${word.word}`
   const chineseExample = exampleParts[1] || ``
 
