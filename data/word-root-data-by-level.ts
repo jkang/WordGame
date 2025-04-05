@@ -1,150 +1,1190 @@
-import { wordRootData } from "./word-root-data"
+export const wordBuildingDataByLevel = {
+  "middle-school-8-unit1": [
+    {
+      id: "ms1-wb1",
+      meaning: "胃痛，腹痛",
+      options: ["ache", "stomach", "head"],
+      correctOptions: ["stomach", "ache"],
+    },
+    {
+      id: "ms1-wb2",
+      meaning: "牙痛",
+      options: ["tooth", "ache", "foot"],
+      correctOptions: ["tooth", "ache"],
+    },
+    {
+      id: "ms1-wb3",
+      meaning: "头痛",
+      options: ["ache", "head", "neck"],
+      correctOptions: ["head", "ache"],
+    },
+    {
+      id: "ms1-wb4",
+      meaning: "X光，X射线",
+      options: ["X", "ray", "Y"],
+      correctOptions: ["X", "ray"],
+    },
+    {
+      id: "ms1-wb5",
+      meaning: "乘客，旅客",
+      options: ["enger", "pass", "mess"],
+      correctOptions: ["pass", "enger"],
+    },
+    {
+      id: "ms1-wb6",
+      meaning: "她自己",
+      options: ["self", "her", "him"],
+      correctOptions: ["her", "self"],
+    },
+    {
+      id: "ms1-wb7",
+      meaning: "鼻出血",
+      options: ["bleed", "nose", "ear"],
+      correctOptions: ["nose", "bleed"],
+    },
+    {
+      id: "ms1-wb8",
+      meaning: "晒伤的",
+      options: ["ed", "sun", "burn", "moon"],
+      correctOptions: ["sun", "burn", "ed"],
+    },
+    {
+      id: "ms1-wb9",
+      meaning: "我们自己",
+      options: ["our", "selves", "them"],
+      correctOptions: ["our", "selves"],
+    },
+    {
+      id: "ms1-wb10",
+      meaning: "登山者",
+      options: ["er", "climb", "walk"],
+      correctOptions: ["climb", "er"],
+    },
+    {
+      id: "ms1-wb11",
+      meaning: "意外事件;事故",
+      options: ["ent", "accid", "occ"],
+      correctOptions: ["accid", "ent"],
+    },
+    {
+      id: "ms1-wb12",
+      meaning: "状况，情况",
+      options: ["situat", "ion", "state"],
+      correctOptions: ["situat", "ion"],
+    },
+    {
+      id: "ms1-wb13",
+      meaning: "公斤，千克",
+      options: ["gram", "kilo", "centi"],
+      correctOptions: ["kilo", "gram"],
+    },
+    {
+      id: "ms1-wb14",
+      meaning: "重要性",
+      options: ["ance", "im", "port", "state"],
+      correctOptions: ["im", "port", "ance"],
+    },
+    {
+      id: "ms1-wb15",
+      meaning: "决心，决定",
+      options: ["ion", "decis", "cid"],
+      correctOptions: ["decis", "ion"],
+    },
+  ],
 
-export const wordRootDataByLevel = {
-  "middle-school-8": wordRootData,
-  "high-school-unit1": {
-    prefixes: [
-      { id: "hs-p1", prefix: "in-", meaning: "进入，在内", examples: ["include", "inside", "input"] },
-      { id: "hs-p2", prefix: "trans-", meaning: "变换，转变", examples: ["translate", "transform", "transport"] },
-      { id: "hs-", prefix: "con-", meaning: "共同", examples: ["congratulate", "conference", "connect"] },
-      { id: "hs-p4", prefix: "ex-", meaning: "表加强", examples: ["exact", "examine", "excellent"] },
-      { id: "hs-p5", prefix: "il-", meaning: "不", examples: ["illegal", "illogical", "illiterate"] },
-      { id: "hs-p6", prefix: "sur-", meaning: "上", examples: ["survive", "surface", "surpass"] },
-      { id: "hs-p7", prefix: "dis-", meaning: "不", examples: ["disappoint", "disagree", "dislike"] },
-      { id: "hs-p8", prefix: "ap-", meaning: "表加强", examples: ["apply", "appear", "approve"] },
-      { id: "hs-p9", prefix: "pro-", meaning: "向前", examples: ["promote", "progress", "provide"] },
-      { id: "hs-p10", prefix: "re-", meaning: "一再", examples: ["remark", "return", "repeat"] },
-    ],
-    roots: [
-      { id: "hs-r1", root: "-clude-", meaning: "关", examples: ["include", "exclude", "conclude"] },
-      { id: "hs-r2", root: "-memor-", meaning: "记忆", examples: ["memorial", "memory", "memorize"] },
-      { id: "hs-r3", root: "-act-", meaning: "做", examples: ["exact", "action", "active"] },
-      { id: "hs-r4", root: "-late-", meaning: "带来", examples: ["translate", "relate", "correlate"] },
-      { id: "hs-r5", root: "-ply-", meaning: "重叠", examples: ["apply", "reply", "supply"] },
-      { id: "hs-r6", root: "-lect-", meaning: "讲", examples: ["lecture", "select", "collect"] },
-      { id: "hs-r7", root: "-grat-", meaning: "令人高兴的", examples: ["grateful", "congratulate", "gratitude"] },
-      { id: "hs-r8", root: "-posit-", meaning: "放", examples: ["position", "positive", "deposit"] },
-      { id: "hs-r9", root: "-pon-", meaning: "放", examples: ["component", "postpone", "opponent"] },
-      { id: "hs-r10", root: "-viv-", meaning: "生命", examples: ["survive", "vivid", "revive"] },
-      { id: "hs-r11", root: "-bio-", meaning: "生命，生物", examples: ["biography", "biology", "biosphere"] },
-      { id: "hs-r12", root: "-graph-", meaning: "写", examples: ["biography", "photograph", "telegraph"] },
-      { id: "hs-r13", root: "-tele-", meaning: "远", examples: ["telescope", "telephone", "television"] },
-      { id: "hs-r14", root: "-scope-", meaning: "视野", examples: ["telescope", "microscope", "periscope"] },
-      { id: "hs-r15", root: "-fer-", meaning: "带来", examples: ["differ", "refer", "transfer"] },
-      { id: "hs-r16", root: "-mark-", meaning: "做标记", examples: ["remark", "bookmark", "landmark"] },
-      { id: "hs-r17", root: "-legal-", meaning: "合法的", examples: ["illegal", "legal", "legislation"] },
-      { id: "hs-r18", root: "-cid-", meaning: "切", examples: ["accident", "decide", "incident"] },
-      { id: "hs-r19", root: "-mot-", meaning: "动", examples: ["promote", "motion", "motor"] },
-      { id: "hs-r20", root: "-appoint-", meaning: "委任", examples: ["disappoint", "appointment", "appoint"] },
-      { id: "hs-r21", root: "-port-", meaning: "拿，运", examples: ["portable", "import", "export"] },
-    ],
-    suffixes: [
-      { id: "hs-s1", suffix: "-ful", meaning: "充满...的", examples: ["grateful", "beautiful", "careful"] },
-      { id: "hs-s2", suffix: "-able", meaning: "可...的", examples: ["portable", "suitable", "comfortable"] },
-      { id: "hs-s3", suffix: "-ion", meaning: "表示名词", examples: ["position", "action", "education"] },
-      { id: "hs-s4", suffix: "-ial", meaning: "...的", examples: ["memorial", "special", "official"] },
-      { id: "hs-s5", suffix: "-ure", meaning: "表名词", examples: ["lecture", "culture", "structure"] },
-      { id: "hs-s6", suffix: "-ate", meaning: "表动词", examples: ["congratulate", "create", "educate"] },
-      { id: "hs-s7", suffix: "-ent", meaning: "表示物", examples: ["component", "student", "different"] },
-      { id: "hs-s8", suffix: "-y", meaning: "表名词", examples: ["memory", "biography", "accuracy"] },
-    ],
-  },
+  "middle-school-8-unit2": [
+    {
+      id: "ms2-wb1",
+      meaning: "志愿者;义务做",
+      options: ["volunt", "eer", "ion"],
+      correctOptions: ["volunt", "eer"],
+    },
+    {
+      id: "ms2-wb2",
+      meaning: "满足，满意",
+      options: ["satis", "fact", "ion", "act"],
+      correctOptions: ["satis", "fact", "ion"],
+    },
+    {
+      id: "ms2-wb3",
+      meaning: "所有者，物主",
+      options: ["er", "own", "or"],
+      correctOptions: ["own", "er"],
+    },
+    {
+      id: "ms2-wb4",
+      meaning: "破损的，残缺的",
+      options: ["brok", "en", "un"],
+      correctOptions: ["brok", "en"],
+    },
+    {
+      id: "ms2-wb5",
+      meaning: "有残疾的",
+      options: ["dis", "abl", "ed", "en"],
+      correctOptions: ["dis", "abl", "ed"],
+    },
+    {
+      id: "ms2-wb6",
+      meaning: "想象，设想",
+      options: ["imag", "ine", "ing"],
+      correctOptions: ["imag", "ine"],
+    },
+    {
+      id: "ms2-wb7",
+      meaning: "困难",
+      options: ["dif", "ficult", "y", "ly"],
+      correctOptions: ["dif", "ficult", "y"],
+    },
+    {
+      id: "ms2-wb8",
+      meaning: "训练，培训",
+      options: ["ing", "train", "try"],
+      correctOptions: ["train", "ing"],
+    },
+    {
+      id: "ms2-wb9",
+      meaning: "激动的，兴奋的",
+      options: ["ex", "cit", "ed", "ing"],
+      correctOptions: ["ex", "cit", "ed"],
+    },
+    {
+      id: "ms2-wb10",
+      meaning: "仁慈，善良",
+      options: ["ness", "kind", "good"],
+      correctOptions: ["kind", "ness"],
+    },
+    {
+      id: "ms2-wb11",
+      meaning: "聪明的，机灵的",
+      options: ["er", "clev", "clar"],
+      correctOptions: ["clev", "er"],
+    },
+    {
+      id: "ms2-wb12",
+      meaning: "懂，理解",
+      options: ["stand", "under", "over"],
+      correctOptions: ["under", "stand"],
+    },
+    {
+      id: "ms2-wb13",
+      meaning: "孤独的，寂寞的",
+      options: ["ly", "lone", "along"],
+      correctOptions: ["lone", "ly"],
+    },
+    {
+      id: "ms2-wb14",
+      meaning: "打扫(清除)干净",
+      options: ["up", "clean", "down"],
+      correctOptions: ["clean", "up"],
+    },
+    {
+      id: "ms2-wb15",
+      meaning: "变得更高兴，振奋起来",
+      options: ["cheer", "up", "down"],
+      correctOptions: ["cheer", "up"],
+    },
+  ],
+  "middle-school-8-unit3": [
+    {
+      id: "ms3-wb1",
+      meaning: "垃圾，废物",
+      options: ["rubb", "ish", "sh"],
+      correctOptions: ["rubb", "ish"],
+    },
+    {
+      id: "ms3-wb2",
+      meaning: "二者都不;也不",
+      options: ["ne", "either", "ther"],
+      correctOptions: ["ne", "either"],
+    },
+    {
+      id: "ms3-wb3",
+      meaning: "提供，供给",
+      options: ["pro", "vide", "ide", "re"],
+      correctOptions: ["pro", "vide"],
+    },
+    {
+      id: "ms3-wb4",
+      meaning: "无论如何,不管怎样",
+      options: ["any", "way", "why"],
+      correctOptions: ["any", "way"],
+    },
+    {
+      id: "ms3-wb5",
+      meaning: "取决于，依靠",
+      options: ["de", "pend", "end", "pen"],
+      correctOptions: ["de", "pend"],
+    },
+    {
+      id: "ms3-wb6",
+      meaning: "发展，壮大",
+      options: ["de", "velop", "lop", "en"],
+      correctOptions: ["de", "velop"],
+    },
+    {
+      id: "ms3-wb7",
+      meaning: "独立自主的",
+      options: ["in", "depend", "ent", "ant"],
+      correctOptions: ["in", "depend", "ent"],
+    },
+    {
+      id: "ms3-wb8",
+      meaning: "独立",
+      options: ["in", "depend", "ence", "ance"],
+      correctOptions: ["in", "depend", "ence"],
+    },
+    {
+      id: "ms3-wb9",
+      meaning: "不公平的",
+      options: ["un", "fair", "air", "in"],
+      correctOptions: ["un", "fair"],
+    },
+    {
+      id: "ms3-wb10",
+      meaning: "公正性，合理性",
+      options: ["fair", "ness", "less"],
+      correctOptions: ["fair", "ness"],
+    },
+    {
+      id: "ms3-wb11",
+      meaning: "邻居",
+      options: ["neigh", "bor", "or", "er"],
+      correctOptions: ["neigh", "bor"],
+    },
+  ],
+  "middle-school-8-unit4": [
+    {
+      id: "ms4-wb1",
+      meaning: "午夜，子夜",
+      options: ["mid", "night", "day"],
+      correctOptions: ["mid", "night"],
+    },
+    {
+      id: "ms4-wb2",
+      meaning: "沟通,通信",
+      options: ["com", "munic", "ate", "ion"],
+      correctOptions: ["com", "munic", "ate"],
+    },
+    {
+      id: "ms4-wb3",
+      meaning: "交流，沟通",
+      options: ["com", "ation", "munic", "ate"],
+      correctOptions: ["com", "munic", "ation"],
+    },
+    {
+      id: "ms4-wb4",
+      meaning: "年级较长的",
+      options: ["eld", "er", "est", "old"],
+      correctOptions: ["eld", "er"],
+    },
+    {
+      id: "ms4-wb5",
+      meaning: "代替",
+      options: ["in", "stead", "read", "st"],
+      correctOptions: ["in", "stead"],
+    },
+    {
+      id: "ms4-wb6",
+      meaning: "任何,不管什么",
+      options: ["what", "ever", "when", "er"],
+      correctOptions: ["what", "ever"],
+    },
+    {
+      id: "ms4-wb7",
+      meaning: "紧张不安的",
+      options: ["nerv", "ous", "ness", "less"],
+      correctOptions: ["nerv", "ous"],
+    },
+    {
+      id: "ms4-wb8",
+      meaning: "讲解，解释",
+      options: ["ex", "plain", "plane", "in"],
+      correctOptions: ["ex", "plain"],
+    },
+    {
+      id: "ms4-wb9",
+      meaning: "关系，联系",
+      options: ["relat", "ion", "ate", "re"],
+      correctOptions: ["relat", "ion"],
+    },
+    {
+      id: "ms4-wb10",
+      meaning: "成员，会员",
+      options: ["ber", "mem", "rem"],
+      correctOptions: ["mem", "ber"],
+    },
+    {
+      id: "ms4-wb11",
+      meaning: "压力",
+      options: ["sure", "pres", "pre"],
+      correctOptions: ["pres", "sure"],
+    },
+    {
+      id: "ms4-wb12",
+      meaning: "比赛，竞争",
+      options: ["com", "pete", "pet", "con"],
+      correctOptions: ["com", "pete"],
+    },
+    {
+      id: "ms4-wb13",
+      meaning: "意见，想法",
+      options: ["opin", "ion", "un", "on"],
+      correctOptions: ["opin", "ion"],
+    },
+    {
+      id: "ms4-wb14",
+      meaning: "典型的",
+      options: ["typ", "ic", "al", "all"],
+      correctOptions: ["typ", "ic", "al"],
+    },
+    {
+      id: "ms4-wb15",
+      meaning: "足球",
+      options: ["foot", "ball", "hand", "bowl"],
+      correctOptions: ["foot", "ball"],
+    },
+    {
+      id: "ms4-wb16",
+      meaning: "继续，连续",
+      options: ["con", "tinu", "e", "dis"],
+      correctOptions: ["con", "tinu", "e"],
+    },
+    {
+      id: "ms4-wb17",
+      meaning: "比较",
+      options: ["com", "pare", "pair", "pre"],
+      correctOptions: ["com", "pare"],
+    },
+    {
+      id: "ms4-wb18",
+      meaning: "发育，成长，发展",
+      options: ["de", "velop", "ment", "re"],
+      correctOptions: ["de", "velop", "ment"],
+    },
+  ],
 
-  "high-school-unit2":  {
-    prefixes: [
-      { id: "hs2-p1", prefix: "re-", meaning: "再次，向后", examples: ["remain", "recycle", "retell"] }, // remain - re + main, recycle - re + cycle, retell - re + tell
-      { id: "hs2-p2", prefix: "un-", meaning: "不", examples: ["unfortunate"] }, // unfortunate - un + fortunate
-      { id: "hs2-p3", prefix: "inter-", meaning: "在...之间", examples: ["interrupt"] }, // interrupt - inter + rupt
-      { id: "hs2-p4", prefix: "over-", meaning: "在...之上", examples: ["overlook"] }, // overlook - over + look
-      { id: "hs2-p5", prefix: "de-", meaning: "向下，分离，表加强", examples: ["defend", "decide"] }, // defend - de + fend, decide - de + cide
-      { id: "hs2-p6", prefix: "con-", meaning: "共同，一起", examples: ["conventional"] }, // conventional - con + vent + -ional
-      { id: "hs2-p7", prefix: "en-", meaning: "使...，在...之内", examples: ["enthusiastic", "entry"] }, // enthusiastic - en + thusiasm + -tic, entry - en + -try
-    ],
-    roots: [
-      { id: "hs2-r1", root: "-main-", meaning: "停留，留下", examples: ["remain"] }, // remain - re + main
-      { id: "hs2-r2", root: "-minor-", meaning: "较小的", examples: ["minority"] }, // minority - minor + -ity
-      { id: "hs2-r3", root: "-vent-", meaning: "来", examples: ["conventional"] }, // conventional - con + vent + -ional
-      { id: "hs2-r4", root: "-cup-", meaning: "抓住，占有", examples: ["occupy"] }, // occupy - oc- + cup + -y
-      { id: "hs2-r5", root: "-pass-", meaning: "感情，感受", examples: ["passive"] }, // passive - pass + -ive
-      { id: "hs2-r6", root: "-motiv-", meaning: "移动， двигать", examples: ["motivation"] }, // motivation - motiv + -ation
-      { id: "hs2-r7", root: "-cycle-", meaning: "圆，环", examples: ["recycle"] }, // recycle - re + cycle
-      { id: "hs2-r8", root: "-crea-", meaning: "创造", examples: ["creature"] }, // creature - crea + -ture
-      { id: "hs2-r9", root: "-phys-", meaning: "自然，物理", examples: ["physics"] }, // physics - phys + -ics
-      { id: "hs2-r10", root: "-analy-", meaning: "分解，分析", examples: ["analyse"] }, // analyse - ana- + -lyse
-      { id: "hs2-r11", root: "-frag-", meaning: "打破，打碎", examples: ["fragile"] }, // fragile - frag + -ile
-      { id: "hs2-r12", root: "-wit-", meaning: "知道", examples: ["witness"] }, // witness - wit + -ness
-      { id: "hs2-r13", root: "-strum-", meaning: "构造，建立", examples: ["instrument"] }, // instrument - in- + strum + -ent
-      { id: "hs2-r14", root: "-mott-", meaning: "动", examples: ["motto"] }, // motto - mott + -o
-      { id: "hs2-r15", root: "-adolesc-", meaning: "成长", examples: ["adolescence"] }, // adolescence - adolesc + -ence
-      { id: "hs2-r16", root: "-rupt-", meaning: "断裂，打破", examples: ["interrupt"] }, // interrupt - inter + rupt
-      { id: "hs2-r17", root: "-tron-", meaning: "电子", examples: ["electronic"] }, // electronic - electron + -ic
-      { id: "hs2-r18", root: "-cid-", meaning: "切，割，决定", examples: ["decide", "accident"] }, // decide - de + cide, accident - ac- + cid + -ent (general example)
-      { id: "hs2-r19", root: "-fend-", meaning: "打击，防御", examples: ["defend"] }, // defend - de + fend
-      { id: "hs2-r20", root: "-poten-", meaning: "能力，力量", examples: ["potential"] }, // potential - poten + -tial
-      { id: "hs2-r21", root: "-pur-", meaning: "目的，意图", examples: ["purpose", "purposefully"] }, // purpose, purposefully - purpose + -ful/-ly
-      { id: "hs2-r22", root: "-minister-", meaning: "服务，管理", examples: ["minister"] }, // minister
-      { id: "hs2-r23", root: "-trem-", meaning: "极端", examples: ["extreme", "extremely"] }, // extreme, extremely - extreme + -ly
-      { id: "hs2-r24", root: "-fort-", meaning: "幸运", examples: ["unfortunate"] }, // unfortunate - un + fortunate
-      { id: "hs2-r25", root: "-tell-", meaning: "讲述", examples: ["retell"] }, // retell - re + tell
-      { id: "hs2-r26", root: "-other-", meaning: "其他的", examples: ["other"] }, // other
-    ],
-    suffixes: [
-      { id: "hs2-s1", suffix: "-ity", meaning: "表示名词", examples: ["minority"] }, // minority - minor + -ity
-      { id: "hs2-s2", suffix: "-ive", meaning: "...的", examples: ["passive"] }, // passive - pass + -ive
-      { id: "hs2-s3", suffix: "-tion", meaning: "表示名词", examples: ["motivation", "occupation"] }, // motivation, occupation - occupy + -ation
-      { id: "hs2-s4", suffix: "-al", meaning: "...的", examples: ["potential", "conventional"] }, // potential, conventional - convent + -ional
-      { id: "hs2-s5", suffix: "-ly", meaning: "副词后缀", examples: ["sincerely", "thoroughly", "normally", "electronically", "extremely", "unfortunately", "purposefully", "purposely", "poorly"] }, // many adverbs
-      { id: "hs2-s6", suffix: "-ment", meaning: "表示名词", examples: ["instrument"] }, // instrument - instrument
-      { id: "hs2-s7", suffix: "-ant", meaning: "表示人或物", examples: ["assistant", "immigrant", "servant"] }, // added general examples, no direct example in unit2 but common suffix
-      { id: "hs2-s8", suffix: "-ence", meaning: "表示名词", examples: ["adolescence", "defence"] }, // adolescence, defence - defend + -ence
-      { id: "hs2-s9", suffix: "-ic", meaning: "...的", examples: ["enthusiastic", "electronic", "physics"] }, // enthusiastic, electronic, physics
-      { id: "hs2-s10", suffix: "-able", meaning: "可...的", examples: ["fragile", "bearable", "portable"] }, // fragile, bearable, portable (general example)
-      { id: "hs2-s11", suffix: "-ness", meaning: "表示名词", examples: ["witness"] }, // witness - witness
-      { id: "hs2-s12", suffix: "-o", meaning: "表抽象名词", examples: ["motto"] }, // motto - motto
-      { id: "hs2-s13", suffix: "-ward", meaning: "向...", examples: ["award", "forward", "backward"] }, // award, forward, backward (general example)
-    ],
-  },
+  "middle-school-8-unit5": [
+    {
+      id: "ms5-wb1",
+      meaning: "暴风雨",
+      options: ["storm", "rain", "sun"],
+      correctOptions: ["rain", "storm"],
+    },
+    {
+      id: "ms5-wb2",
+      meaning: "手电筒",
+      options: ["light", "flash", "dark"],
+      correctOptions: ["flash", "light"],
+    },
+    {
+      id: "ms5-wb3",
+      meaning: "睡着的，熟睡的",
+      options: ["a", "sleep", "wake"],
+      correctOptions: ["a", "sleep"],
+    },
+    {
+      id: "ms5-wb4",
+      meaning: "倒下的，落下的",
+      options: ["fall", "en", "ing"],
+      correctOptions: ["fall", "en"],
+    },
+    {
+      id: "ms5-wb5",
+      meaning: "覆盖着冰的，冰冷的",
+      options: ["ice", "y", "ly"],
+      correctOptions: ["ice", "y"],
+    },
+    {
+      id: "ms5-wb6",
+      meaning: "认识到，了解",
+      options: ["real", "ize", "ise", "ist"],
+      correctOptions: ["real", "ize"],
+    },
+    {
+      id: "ms5-wb7",
+      meaning: "章节，段落",
+      options: ["pass", "age", "way"],
+      correctOptions: ["pass", "age"],
+    },
+    {
+      id: "ms5-wb8",
+      meaning: "彻底地，完全地",
+      options: ["complete", "ly", "ful", "com"],
+      correctOptions: ["complete", "ly"],
+    },
+    {
+      id: "ms5-wb9",
+      meaning: "震惊的，震撼的",
+      options: ["shock", "ed", "ing"],
+      correctOptions: ["shock", "ed"],
+    },
+    {
+      id: "ms5-wb10",
+      meaning: "寂静，沉默",
+      options: ["sil", "ence", "ance", "ent"],
+      correctOptions: ["sil", "ence"],
+    },
+    {
+      id: "ms5-wb11",
+      meaning: "不久前，近来",
+      options: ["recent", "ly", "ent", "re"],
+      correctOptions: ["recent", "ly"],
+    },
+    {
+      id: "ms5-wb12",
+      meaning: "恐怖分子",
+      options: ["terror", "ist", "ism", "er"],
+      correctOptions: ["terror", "ist"],
+    },
+    {
+      id: "ms5-wb13",
+      meaning: "在很大程度上",
+      options: ["heavy", "ly", "ful", "heav"],
+      correctOptions: ["heavy", "ly"],
+    },
+    {
+      id: "ms5-wb14",
+      meaning: "突然地",
+      options: ["sudden", "ly", "den", "ful"],
+      correctOptions: ["sudden", "ly"],
+    },
+    {
+      id: "ms5-wb15",
+      meaning: "报导，报告",
+      options: ["port", "re", "ex"],
+      correctOptions: ["re", "port"],
+    },
+  ],
+  "middle-school-8-unit6": [
+    {
+      id: "ms6-wb1",
+      meaning: "提醒，使想起",
+      options: ["mind", "re", "dis"],
+      correctOptions: ["re", "mind"],
+    },
+    {
+      id: "ms6-wb2",
+      meaning: "使激动，使兴奋",
+      options: ["cite", "ex", "in"],
+      correctOptions: ["ex", "cite"],
+    },
+    {
+      id: "ms6-wb3",
+      meaning: "西方的，欧美的",
+      options: ["ern", "West", "East"],
+      correctOptions: ["West", "ern"],
+    },
+    {
+      id: "ms6-wb4",
+      meaning: "继姐(妹)",
+      options: ["sister", "step", "half"],
+      correctOptions: ["step", "sister"],
+    },
+    {
+      id: "ms6-wb5",
+      meaning: "王子",
+      options: ["ince", "pr", "king"],
+      correctOptions: ["pr", "ince"],
+    },
+    {
+      id: "ms6-wb6",
+      meaning: "皇帝",
+      options: ["or", "emper", "king"],
+      correctOptions: ["emper", "or"],
+    },
+    {
+      id: "ms6-wb7",
+      meaning: "内衣",
+      options: ["wear", "under", "over"],
+      correctOptions: ["under", "wear"],
+    },
+    {
+      id: "ms6-wb8",
+      meaning: "无人,没有任何人",
+      options: ["body", "no", "any"],
+      correctOptions: ["no", "body"],
+    },
+    {
+      id: "ms6-wb9",
+      meaning: "愚蠢的,傻的",
+      options: ["id", "stup", "stud"],
+      correctOptions: ["stup", "id"],
+    },
+    {
+      id: "ms6-wb10",
+      meaning: "继母",
+      options: ["mother", "step", "grand"],
+      correctOptions: ["step", "mother"],
+    },
+    {
+      id: "ms6-wb11",
+      meaning: "丈夫",
+      options: ["band", "hus", "wife"],
+      correctOptions: ["hus", "band"],
+    },
+    {
+      id: "ms6-wb12",
+      meaning: "月光",
+      options: ["light", "moon", "sun"],
+      correctOptions: ["moon", "light"],
+    },
+    {
+      id: "ms6-wb13",
+      meaning: "物体，目标",
+      options: ["ject", "ob", "sub"],
+      correctOptions: ["ob", "ject"],
+    },
+    {
+      id: "ms6-wb14",
+      meaning: "魔法，巫术",
+      options: ["ic", "mag", "man"],
+      correctOptions: ["mag", "ic"],
+    },
+    {
+      id: "ms6-wb15",
+      meaning: "愚蠢的;傻子",
+      options: ["y", "sill", "seri"],
+      correctOptions: ["sill", "y"],
+    },
+  ],
+  "middle-school-8-unit7": [
+    {
+      id: "ms7-wb1",
+      meaning: "游乐场",
+      options: ["park", "amuse", "ment"],
+      correctOptions: ["amuse", "ment", "park"],
+    },
+    {
+      id: "ms7-wb2",
+      meaning: "难以置信的",
+      options: ["un", "believe", "able"],
+      correctOptions: ["un", "believe", "able"],
+    },
+    {
+      id: "ms7-wb3",
+      meaning: "进步，进展",
+      options: ["pro", "gress", "gre"],
+      correctOptions: ["pro", "gress"],
+    },
+    {
+      id: "ms7-wb4",
+      meaning: "不寻常的",
+      options: ["un", "usual", "use"],
+      correctOptions: ["un", "usual"],
+    },
+    {
+      id: "ms7-wb5",
+      meaning: "和平的，平静的",
+      options: ["ful", "peace", "ful"],
+      correctOptions: ["peace", "ful"],
+    },
+    {
+      id: "ms7-wb6",
+      meaning: "茶艺",
+      options: ["art", "tea", "tee"],
+      correctOptions: ["tea", "art"],
+    },
+    {
+      id: "ms7-wb7",
+      meaning: "表演，演出",
+      options: ["form", "per", "ance", "formu"],
+      correctOptions: ["per", "form", "ance"],
+    },
+    {
+      id: "ms7-wb8",
+      meaning: "茶具",
+      options: ["set", "tea", "sit"],
+      correctOptions: ["tea", "set"],
+    },
+    {
+      id: "ms7-wb9",
+      meaning: "收集",
+      options: ["col", "lect", "let"],
+      correctOptions: ["col", "lect"],
+    },
+    {
+      id: "ms7-wb10",
+      meaning: "简直; 仅仅",
+      options: ["simp", "ly", "ply"],
+      correctOptions: ["simp", "ly"],
+    },
+    {
+      id: "ms7-wb11",
+      meaning: "赤道",
+      options: ["equat", "or", "equ"],
+      correctOptions: ["equat", "or"],
+    },
+    {
+      id: "ms7-wb12",
+      meaning: "无论何时",
+      options: ["when", "ever", "where"],
+      correctOptions: ["when", "ever"],
+    },
+    {
+      id: "ms7-wb13",
+      meaning: "大多数地，主要地",
+      options: ["most", "ly", "lye"],
+      correctOptions: ["most", "ly"],
+    },
+    {
+      id: "ms7-wb14",
+      meaning: "地点，位置",
+      options: ["locat", "ion", "loc"],
+      correctOptions: ["locat", "ion"],
+    },
+    {
+      id: "ms7-wb15",
+      meaning: "西南的",
+      options: ["south", "west", "ern", "ernest"],
+      correctOptions: ["south", "west", "ern"],
+    },
+  ],
 
-  "high-school-unit3": {
-    prefixes: [
-      { id: "hs3-p1", prefix: "un-", meaning: "不", examples: ["unbearable"] },
-      { id: "hs3-p2", prefix: "dis-", meaning: "不，dis-", examples: ["disadvantage", "disaster"] },
-      { id: "hs3-p3", prefix: "over-", meaning: "超过，在上", examples: ["overcome"] },
-      { id: "hs3-p4", prefix: "ad-", meaning: "to, toward, 表加强", examples: ["admire", "address", "attend", "accommodation", "assume"] },
-      { id: "hs3-p5", prefix: "ex-", meaning: "出，向外", examples: ["extension", "exercise", "example"] },
-      { id: "hs3-p6", prefix: "re-", meaning: "一再，再次", examples: ["remind", "reasonable", "re-radiation"] }, // reasonable - re- intensive, remind - re- again, radiation - re- again (hypothetical)
-    ],
-    roots: [
-      { id: "hs3-r1", root: "-clar-", meaning: "清楚", examples: ["clarify"] },
-      { id: "hs3-r2", root: "-fair-", meaning: "做，为", examples: ["affair"] },
-      { id: "hs3-r3", root: "-mir-", meaning: "惊奇，看", examples: ["admire"] },
-      { id: "hs3-r4", root: "-spect-", meaning: "看", examples: ["suspect", "especially"] }, // especially - es- (ex-) + special + -ly, special related to spect-
-      { id: "hs3-r5", root: "-vari-", meaning: "变化，多样", examples: ["variety"] },
-      { id: "hs3-r6", root: "-sum-", meaning: "拿取，高", examples: ["assume"] },
-      { id: "hs3-r7", root: "-miss-", meaning: "送出，放出", examples: ["miss"] }, // miss - let go, send away feeling
-      { id: "hs3-r8", root: "-sacr-", meaning: "神圣", examples: ["sacrifice"] },
-      { id: "hs3-r9", root: "-termin-", meaning: "边界，限制", examples: ["determine"] },
-      { id: "hs3-r10", root: "-aster-", meaning: "星星", examples: ["disaster"] },
-      { id: "hs3-r11", root: "-bear-", meaning: " বহন，忍受", examples: ["unbearable"] },
-      { id: "hs3-r12", root: "-ample-", meaning: "折叠", examples: ["example"] }, // example - ex- + ample - taken out from fold, a sample
-      { id: "hs3-r13", root: "-punct-", meaning: "点，刺", examples: ["punctual"] },
-      { id: "hs3-r14", root: "-hibit-", meaning: "持有", examples: ["prohibit"] },
-      { id: "hs3-r15", root: "-valid-", meaning: "强壮，有价值", examples: ["valid"] },
-      { id: "hs3-r16", root: "-come-", meaning: "来，去", examples: ["overcome", "accommodation"] }, // accommodation - ac- + commod- + -ation, commod- related to come
-      { id: "hs3-r17", root: "-dress-", meaning: "引导，调整", examples: ["address"] },
-      { id: "hs3-r18", root: "-tail-", meaning: "切割", examples: ["tailor"] },
-      { id: "hs3-r19", root: "-don-", meaning: "给予", examples: ["donate"] },
-      { id: "hs3-r20", root: "-foc-", meaning: "中心，火炉", examples: ["focus"] },
-      { id: "hs3-r21", root: "-radi-", meaning: "光线，射线", examples: ["radiation"] },
-      { id: "hs3-r22", root: "-tend-", meaning: "伸展", examples: ["attend", "extension"] }, // extension - ex- + tend- + -ion, attend - at- + tend-
-    ],
-    suffixes: [
-      { id: "hs3-s1", suffix: "-able", meaning: "可...的", examples: ["unbearable", "reasonable", "available"] },
-      { id: "hs3-s2", suffix: "-ion", meaning: "表示名词", examples: ["extension", "radiation", "accommodation"] },
-      { id: "hs3-s3", suffix: "-ty", meaning: "表示名词", examples: ["variety", "duty"] },
-      { id: "hs3-s4", suffix: "-er", meaning: "表示人或物", examples: ["taxpayer", "tailor", "cheer"] }, // tailor - person who tails (cuts), cheer - one who cheers
-      { id: "hs3-s5", suffix: "-ance", meaning: "表示名词", examples: ["importance", "guidance"] },
-      { id: "hs3-s6", suffix: "-ive", meaning: "...的", examples: ["passive", "active", "expensive"] }, // Added general example, not directly from wordlist 3 but useful.
-    ],
-  },
+  "middle-school-8-unit8": [
+    {
+      id: "ms8-wb1",
+      meaning: "财宝，财富",
+      options: ["trea", "sure", "ser"],
+      correctOptions: ["trea", "sure"],
+    },
+    {
+      id: "ms8-wb2",
+      meaning: "岛屿",
+      options: ["i", "sland", "land", "eye"],
+      correctOptions: ["i", "sland"],
+    },
+    {
+      id: "ms8-wb3",
+      meaning: "经典著作，名著",
+      options: ["class", "ic", "sic"],
+      correctOptions: ["class", "ic"],
+    },
+    {
+      id: "ms8-wb4",
+      meaning: "书或纸张的页",
+      options: ["pa", "ge", "pe"],
+      correctOptions: ["pa", "ge"],
+    },
+    {
+      id: "ms8-wb5",
+      meaning: "快点",
+      options: ["ur", "hyr", "ry"],
+      correctOptions: ["hur", "ry"],
+    },
+    {
+      id: "ms8-wb6",
+      meaning: "预期的，到期的",
+      options: ["ed", "to", "due"],
+      correctOptions: ["du", "e"],
+    },
+    {
+      id: "ms8-wb7",
+      meaning: "转运",
+      options: ["ship", "sheep", "pip"],
+      correctOptions: ["ship"],
+    },
+    {
+      id: "ms8-wb8",
+      meaning: "东西",
+      options: ["oo", "toll", "tool"],
+      correctOptions: ["to", "ol"],
+    },
+    {
+      id: "ms8-wb9",
+      meaning: "炮，枪",
+      options: ["qun", "q", "gun", "g"],
+      correctOptions: ["gun"],
+    },
+    {
+      id: "ms8-wb10",
+      meaning: "刻字",
+      options: ["car", "carve", "mark"],
+      correctOptions: ["mark"],
+    },
+    {
+      id: "ms8-wb11",
+      meaning: "沙滩",
+      options: ["and", "sand", "ond"],
+      correctOptions: ["sand"],
+    },
+    {
+      id: "ms8-wb12",
+      meaning: "食人肉者",
+      options: ["cann", "a", "nil", "bal"],
+      correctOptions: ["cann", "i", "bal"],
+    },
+    {
+      id: "ms8-wb13",
+      meaning: "向",
+      options: ["tow", "ards", "tor", "ds"],
+      correctOptions: ["to", "wards"],
+    },
+    {
+      id: "ms8-wb14",
+      meaning: "土壤",
+      options: ["end", "and", "land"],
+      correctOptions: ["land"],
+    },
+    {
+      id: "ms8-wb15",
+      meaning: "小说",
+      options: ["shin", "sci", "fiction"],
+      correctOptions: ["fic", "tion"],
+    },
+  ],
+
+  "middle-school-8-unit9": [
+    {
+      id: "ms9-wb1",
+      meaning: "娱乐，消遣",
+      options: ["muse", "ment", "amu"],
+      correctOptions: ["amu", "muse", "ment"],
+    },
+    {
+      id: "ms9-wb2",
+      meaning: "发明，创造",
+      options: ["vent", "in", "ion"],
+      correctOptions: ["in", "vent", "ion"],
+    },
+    {
+      id: "ms9-wb3",
+      meaning: "难以置信的",
+      options: ["un", "believe", "able"],
+      correctOptions: ["un", "believe", "able"],
+    },
+    {
+      id: "ms9-wb4",
+      meaning: "进步，进展",
+      options: ["pro", "gress", "gre"],
+      correctOptions: ["pro", "gress"],
+    },
+    {
+      id: "ms9-wb5",
+      meaning: "特别的，不寻常的",
+      options: ["un", "usual", "use"],
+      correctOptions: ["un", "usual"],
+    },
+    {
+      id: "ms9-wb6",
+      meaning: "鼓励，激励",
+      options: ["en", "courage", "cour"],
+      correctOptions: ["en", "courage"],
+    },
+    {
+      id: "ms9-wb7",
+      meaning: "和平的，平静的",
+      options: ["peace", "ful", "full"],
+      correctOptions: ["peace", "ful"],
+    },
+    {
+      id: "ms9-wb8",
+      meaning: "表演，演出",
+      options: ["per", "form", "ance"],
+      correctOptions: ["per", "form", "ance"],
+    },
+    {
+      id: "ms9-wb9",
+      meaning: "完美的，理想的",
+      options: ["per", "fect", "fact"],
+      correctOptions: ["per", "fect"],
+    },
+    {
+      id: "ms9-wb10",
+      meaning: "仅仅，只",
+      options: ["simp", "ly", "ply"],
+      correctOptions: ["simp", "ly"],
+    },
+    {
+      id: "ms9-wb11",
+      meaning: "无论何时",
+      options: ["when", "ever", "where"],
+      correctOptions: ["when", "ever"],
+    },
+    {
+      id: "ms9-wb12",
+      meaning: "大多数地，主要地",
+      options: ["most", "ly", "lie"],
+      correctOptions: ["most", "ly"],
+    },
+    {
+      id: "ms9-wb13",
+      meaning: "地点，位置",
+      options: ["locat", "ion", "loc"],
+      correctOptions: ["locat", "ion"],
+    },
+  ],
+
+  "middle-school-8-unit10": [
+    {
+      id: "ms10-wb1",
+      meaning: "记忆，回忆",
+      options: ["mem", "ory", "mory"],
+      correctOptions: ["mem", "ory"],
+    },
+    {
+      id: "ms10-wb2",
+      meaning: "生产者，制造者",
+      options: ["make", "er", "mer"],
+      correctOptions: ["make", "er"],
+    },
+    {
+      id: "ms10-wb3",
+      meaning: "软体玩具",
+      options: ["soft", "toy", "soy"],
+      correctOptions: ["soft", "toy"],
+    },
+    {
+      id: "ms10-wb4",
+      meaning: "棋类游戏",
+      options: ["board", "game", "bame"],
+      correctOptions: ["board", "game"],
+    },
+    {
+      id: "ms10-wb5",
+      meaning: "初中",
+      options: ["junior", "high", "school"],
+      correctOptions: ["junior", "high", "school"],
+    },
+    {
+      id: "ms10-wb6",
+      meaning: "诚实的",
+      options: ["hon", "est", "nest"],
+      correctOptions: ["hon", "est"],
+    },
+    {
+      id: "ms10-wb7",
+      meaning: "家乡",
+      options: ["home", "town", "mown"],
+      correctOptions: ["home", "town"],
+    },
+    {
+      id: "ms10-wb8",
+      meaning: "现今",
+      options: ["now", "days", "days"],
+      correctOptions: ["now", "days"],
+    },
+    {
+      id: "ms10-wb9",
+      meaning: "彩色铅笔",
+      options: ["cray", "on", "yon"],
+      correctOptions: ["cray", "on"],
+    },
+    {
+      id: "ms10-wb10",
+      meaning: "世纪",
+      options: ["cent", "ury", "tury"],
+      correctOptions: ["cent", "ury"],
+    },
+    {
+      id: "ms10-wb11",
+      meaning: "孩童时期",
+      options: ["child", "hood", "good"],
+      correctOptions: ["child", "hood"],
+    },
+    {
+      id: "ms10-wb12",
+      meaning: "卧室",
+      options: ["bed", "room", "boom"],
+      correctOptions: ["bed", "room"],
+    },
+  ],
+
+  "high-school-1-unit1": [
+    {
+      id: "hs-wb1",
+      meaning: "翻译",
+      options: ["trans", "late", "ion"],
+      correctOptions: ["trans", "late", "ion"],
+    },
+    {
+      id: "hs-wb2",
+      meaning: "包含，包括",
+      options: ["in", "clude", "ing"],
+      correctOptions: ["in", "clude", "ing"],
+    },
+    {
+      id: "hs-wb3",
+      meaning: "纪念碑，纪念物",
+      options: ["memor", "ial", "re"],
+      correctOptions: ["re", "memor", "ial"],
+    },
+    {
+      id: "hs-wb4",
+      meaning: "感激的，感谢的",
+      options: ["grate", "ful", "un"],
+      correctOptions: ["un", "grate", "ful"],
+    },
+    {
+      id: "hs-wb5",
+      meaning: "祝贺",
+      options: ["con", "grat", "ulate"],
+      correctOptions: ["con", "grat", "ulate"],
+    },
+    {
+      id: "hs-wb6",
+      meaning: "位置",
+      options: ["posit", "ion", "re"],
+      correctOptions: ["re", "posit", "ion"],
+    },
+    {
+      id: "hs-wb7",
+      meaning: "成分，零部件",
+      options: ["com", "pon", "ent"],
+      correctOptions: ["com", "pon", "ent"],
+    },
+    {
+      id: "hs-wb8",
+      meaning: "违法的，非法的",
+      options: ["il", "legal", "ly"],
+      correctOptions: ["il", "legal", "ly"],
+    },
+    {
+      id: "hs-wb9",
+      meaning: "幸存，生还",
+      options: ["sur", "viv", "e"],
+      correctOptions: ["sur", "viv", "e"],
+    },
+    {
+      id: "hs-wb10",
+      meaning: "传记",
+      options: ["bio", "graph", "y"],
+      correctOptions: ["bio", "graph", "y"],
+    },
+  ],
+
+  "high-school-1-unit2": [
+    {
+      id: "hs2-wb1",
+      meaning: "余下,留下",
+      options: ["re", "main", "ed"],
+      correctOptions: ["re", "main"],
+    },
+    {
+      id: "hs2-wb2",
+      meaning: "少数",
+      options: ["ity", "minor", "ly"],
+      correctOptions: ["minor", "ity"],
+    },
+    {
+      id: "hs2-wb3",
+      meaning: "惯例的,传统的",
+      options: ["con", "vent", "ional", "al"],
+      correctOptions: ["con", "vent", "ional"],
+    },
+    {
+      id: "hs2-wb4",
+      meaning: "占领,占据",
+      options: ["oc", "cupy", "un"],
+      correctOptions: ["oc", "cupy"],
+    },
+    {
+      id: "hs2-wb5",
+      meaning: "热心的,热情的",
+      options: ["en", "thus", "iastic"],
+      correctOptions: ["en", "thus", "iastic"],
+    },
+    {
+      id: "hs2-wb6",
+      meaning: "被动的",
+      options: ["ive", "pass", "act"],
+      correctOptions: ["pass", "ive"],
+    },
+    {
+      id: "hs2-wb7",
+      meaning: "动机,动力",
+      options: ["motiv", "ation", "ing"],
+      correctOptions: ["motiv", "ation"],
+    },
+    {
+      id: "hs2-wb8",
+      meaning: "保护,防御",
+      options: ["fend", "de", "re"],
+      correctOptions: ["de", "fend"],
+    },
+    {
+      id: "hs2-wb9",
+      meaning: "潜在的",
+      options: ["tial", "po", "ten"],
+      correctOptions: ["po", "ten", "tial"],
+    },
+    {
+      id: "hs2-wb10",
+      meaning: "回收利用",
+      options: ["cycle", "re", "bi"],
+      correctOptions: ["re", "cycle"],
+    },
+    {
+      id: "hs2-wb11",
+      meaning: "物理(学)",
+      options: ["ics", "phys", "bio"],
+      correctOptions: ["phys", "ics"],
+    },
+    {
+      id: "hs2-wb12",
+      meaning: "易碎的",
+      options: ["frag", "ile", "ag"],
+      correctOptions: ["frag", "ile"],
+    },
+    {
+      id: "hs2-wb13",
+      meaning: "目击;见证",
+      options: ["ness", "wit", "less"],
+      correctOptions: ["wit", "ness"],
+    },
+    {
+      id: "hs2-wb14",
+      meaning: "打扰,打断",
+      options: ["rupt", "inter", "dis"],
+      correctOptions: ["inter", "rupt"],
+    },
+    {
+      id: "hs2-wb15",
+      meaning: "不幸的",
+      options: ["un", "fortun", "ate", "ly"],
+      correctOptions: ["un", "fortun", "ate"],
+    },
+  ],
+  "high-school-1-unit3": [
+    {
+      id: "hs3-wb1",
+      meaning: "澄清,阐明",
+      options: ["ify", "clar", "ex"],
+      correctOptions: ["clar", "ify"],
+    },
+    {
+      id: "hs3-wb2",
+      meaning: "钦佩;羡慕",
+      options: ["mire", "ad", "re"],
+      correctOptions: ["ad", "mire"],
+    },
+    {
+      id: "hs3-wb3",
+      meaning: "怀疑",
+      options: ["pect", "sus", "sub"],
+      correctOptions: ["sus", "pect"],
+    },
+    {
+      id: "hs3-wb4",
+      meaning: "变化;多样性",
+      options: ["ety", "vari", "ver"],
+      correctOptions: ["vari", "ety"],
+    },
+    {
+      id: "hs3-wb5",
+      meaning: "决定,决心",
+      options: ["de", "termin", "e", "ion"],
+      correctOptions: ["de", "termin", "e"],
+    },
+    {
+      id: "hs3-wb6",
+      meaning: "纳税人",
+      options: ["er", "tax", "pay", "or"],
+      correctOptions: ["tax", "pay", "er"],
+    },
+    {
+      id: "hs3-wb7",
+      meaning: "灾难,祸患",
+      options: ["aster", "dis", "dat"],
+      correctOptions: ["dis", "aster"],
+    },
+    {
+      id: "hs3-wb8",
+      meaning: "无法忍受的",
+      options: ["un", "able", "bear", "in"],
+      correctOptions: ["un", "bear", "able"],
+    },
+    {
+      id: "hs3-wb9",
+      meaning: "准时的",
+      options: ["ual", "punct", "act"],
+      correctOptions: ["punct", "ual"],
+    },
+    {
+      id: "hs3-wb10",
+      meaning: "禁止,阻止",
+      options: ["pro", "hibit", "bit"],
+      correctOptions: ["pro", "hibit"],
+    },
+    {
+      id: "hs3-wb11",
+      meaning: "战胜,克服",
+      options: ["come", "over", "out"],
+      correctOptions: ["over", "come"],
+    },
+    {
+      id: "hs3-wb12",
+      meaning: "捐赠,赠送",
+      options: ["ate", "don", "din"],
+      correctOptions: ["don", "ate"],
+    },
+    {
+      id: "hs3-wb13",
+      meaning: "不利条件;弱点",
+      options: ["dis", "advantage", "ad"],
+      correctOptions: ["dis", "advantage"],
+    },
+    {
+      id: "hs3-wb14",
+      meaning: "放射;放射物",
+      options: ["ation", "radi", "red"],
+      correctOptions: ["radi", "ation"],
+    },
+    {
+      id: "hs3-wb15",
+      meaning: "重要性",
+      options: ["im", "port", "ance", "ent"],
+      correctOptions: ["im", "port", "ance"],
+    },
+  ],
+
+    "high-school-1-unit4": {
+      prefixes: [
+        { id: "wl4-p1", prefix: "ad-", meaning: "加强; 向", examples: ["attend", "alike", "available", "apparent", "anniversary"] }, // attend (at-), alike (a-), available (a-), apparent (ap-), anniversary(an-) - variants through assimilation or historical change
+        { id: "wl4-p2", prefix: "in-", meaning: "不; 无", examples: ["injure", "innocent"] },
+        { id: "wl4-p3", prefix: "re-", meaning: "一再; 重新", examples: ["resemble", "remind"] },
+        { id: "wl4-p4", prefix: "de-", meaning: "向下; 加强", examples: ["decrease", "debate"] },
+        { id: "wl4-p5", prefix: "ob-", meaning: "反; 向", examples: ["object"] },
+        { id: "wl4-p6", prefix: "ex-", meaning: "出; 外", examples: ["exercise", "extension", "experiment"] },
+        { id: "wl4-p7", prefix: "ant-", meaning: "相反", examples: ["Antarctic"] },
+        { id: "wl4-p8", prefix: "con-", meaning: "共同; 加强", examples: ["considerate", "constant"] }, // considerate (con-), constant (con-)
+      ],
+      roots: [
+        { id: "wl4-r1", root: "-tend-", meaning: "伸展", examples: ["attend", "extension"] },
+        { id: "wl4-r2", root: "-jur-", meaning: "法律; 发誓", examples: ["injure"] },
+        { id: "wl4-r3", root: "-sembl-", meaning: "一样; 相似", examples: ["resemble"] },
+        { id: "wl4-r4", root: "-mind-", meaning: "头脑; 思想", examples: ["remind"] },
+        { id: "wl4-r5", root: "-like-", meaning: "相似", examples: ["alike"] },
+        { id: "wl4-r6", root: "-crease-", meaning: "增长", examples: ["decrease", "increase"] }, // Added increase for context
+        { id: "wl4-r7", root: "-reg-", meaning: "规则", examples: ["regular"] },
+        { id: "wl4-r8", root: "-ann-/-enn-", meaning: "年", examples: ["anniversary"] },
+        { id: "wl4-r9", root: "-vers-", meaning: "转", examples: ["anniversary"] },
+        { id: "wl4-r10", root: "-sider-", meaning: "星星; 考虑", examples: ["considerate"] }, // Root of consider
+        { id: "wl4-r11", root: "-ject-", meaning: "扔", examples: ["object"] },
+        { id: "wl4-r12", root: "-starv-", meaning: "挨饿; 死", examples: ["starvation"] },
+        { id: "wl4-r13", root: "-erc-", meaning: "活动; 工作", examples: ["exercise"] }, // From exercere
+        { id: "wl4-r14", root: "-arct-", meaning: "熊; 北方", examples: ["Antarctic"] }, // From arctic
+        { id: "wl4-r15", root: "-curr-", meaning: "跑", examples: ["currency", "curriculum"] },
+        { id: "wl4-r16", root: "-noc-", meaning: "伤害", examples: ["innocent"] },
+        { id: "wl4-r17", root: "-vail-/-val-", meaning: "价值; 强壮", examples: ["available"] },
+        { id: "wl4-r18", root: "-bat-", meaning: "打; 击", examples: ["debate"] },
+        { id: "wl4-r19", root: "-par-", meaning: "出现; 看见", examples: ["apparent"] },
+        { id: "wl4-r20", root: "-optim-", meaning: "最好", examples: ["optimistic"] },
+        { id: "wl4-r21", root: "-peri-", meaning: "尝试; 冒险", examples: ["experiment"] },
+        { id: "wl4-r22", root: "-stant-", meaning: "站立", examples: ["constant"] },
+      ],
+      suffixes: [
+        { id: "wl4-s1", suffix: "-able", meaning: "可...的; 能...的", examples: ["reasonable", "available"] },
+        { id: "wl4-s2", suffix: "-y", meaning: "形容词后缀", examples: ["wealthy", "guilty"] }, // Added guilty
+        { id: "wl4-s3", suffix: "-ion", meaning: "名词后缀; 行为; 状态", examples: ["starvation", "extension", "objection", "curriculum"] }, // Added objection
+        { id: "wl4-s4", suffix: "-ar", meaning: "形容词后缀; ...的", examples: ["regular", "similar"] }, // Added similar for context
+        { id: "wl4-s5", suffix: "-ary", meaning: "名词/形容词后缀", examples: ["anniversary"] },
+        { id: "wl4-s6", suffix: "-ate", meaning: "形容词/动词后缀", examples: ["considerate"] },
+        { id: "wl4-s7", suffix: "-ent", meaning: "形容词/名词后缀", examples: ["innocent", "apparent", "experiment", "consistent"] }, // Added consistent for context
+        { id: "wl4-s8", suffix: "-ency", meaning: "名词后缀; 性质; 状态", examples: ["currency"] },
+        { id: "wl4-s9", suffix: "-ment", meaning: "名词后缀; 结果; 行为", examples: ["experiment", "punishment"] }, // Added punishment for context
+        { id: "wl4-s10", suffix: "-istic", meaning: "形容词后缀; ...的", examples: ["optimistic", "pessimistic"] }, // Added pessimistic for context
+        { id: "wl4-s11", suffix: "-ise/-ize", meaning: "动词后缀; 使...", examples: ["exercise", "organize"] }, // Added organize for context
+        { id: "wl4-s12", suffix: "-ine", meaning: "形容词/名词后缀", examples: ["routine", "feminine"] }, // Added feminine for context
+      ],
+    },
 }

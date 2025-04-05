@@ -1,7 +1,5 @@
-import type { VocabularyWord } from "@/types/vocabulary"
-import  { highSchoolUnit2 } from "@/data/high-school-unit2"
-import  { highSchoolUnit3 } from "@/data/high-school-unit3"
-import {middleSchoolUnit1Vocabulary, middleSchoolUnit2Vocabulary,middleSchoolUnit3Vocabulary,middleSchoolUnit4Vocabulary,middleSchoolUnit5Vocabulary,middleSchoolUnit6Vocabulary,middleSchoolUnit7Vocabulary,middleSchoolUnit8Vocabulary,middleSchoolUnit9Vocabulary,middleSchoolUnit10Vocabulary} from "@/data/middle-school-vocabulary"
+import type { VocabularyWord } from "@/types/vocabulary";
+
 
 export const highSchoolUnit1: VocabularyWord[] = [
   {
@@ -10,7 +8,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "包含, 包括",
     wordRootMemory: "词根记忆: in(进入)+clude(关)→关进里面→包含, 包括",
-    example: "Tour includes bike, helmet, and bottled water. 此次旅行提供自行车、头盔和瓶装水。(2018年全国卷 1)",
+    examples: ["Tour includes bike, helmet, and bottled water. 此次旅行提供自行车、头盔和瓶装水。(2018年全国卷 1)"],
     usageNotes: [
       "用 including sb./sth. = sb./sth. included, 如: Many people like the book, including me/me included. 许多人喜欢这本书, 我也不例外。",
     ],
@@ -21,7 +19,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "可视电话",
     wordRootMemory: "记 组合词: video(视频)+phone(电话)→能看得见通话双方的电话→可视电话",
-    example: "Videophones are becoming more common in offices. 可视电话在办公室里变得越来越普遍。",
+    examples: ["Videophones are becoming more common in offices. 可视电话在办公室里变得越来越普遍。"],
     usageNotes: [],
   },
   {
@@ -30,7 +28,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "酒精; 酒",
     wordRootMemory: "源自阿拉伯语 al-kuhl, 原意为“眼影粉”，后指通过蒸馏得到的“精华”",
-    example: "Too much alcohol is harmful to health. 过量饮酒有害健康。",
+    examples: ["Too much alcohol is harmful to health. 过量饮酒有害健康。"],
     usageNotes: ["常指含酒精的饮料，也指化学上的酒精。"],
   },
   {
@@ -39,7 +37,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "modal v.",
     definition: "应当, 应该",
     wordRootMemory: "来源于古英语 āhte，是 owe 的过去式，表示“欠债”、“义务”，引申为“应该”",
-    example: "You ought to apologize to her. 你应该向她道歉。",
+    examples: ["You ought to apologize to her. 你应该向她道歉。"],
     usageNotes: [
       "should, ought to",
       'should 和 ought to 都表示"应该"的意思。二者用法基本相同, 只是 ought to 常用来表示因责任、义务等而应该做的事情, 语气稍重一些, 而 should 则表示宜于做某事。',
@@ -52,7 +50,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "纪念碑; 纪念物 adj. 纪念的",
     wordRootMemory: "记 词根记忆: memor(记忆)+ial→值得记忆的东西→纪念碑, 纪念物",
-    example: "We visited the Lincoln Memorial in Washington D.C. 我们参观了华盛顿特区的林肯纪念堂。",
+    examples: ["We visited the Lincoln Memorial in Washington D.C. 我们参观了华盛顿特区的林肯纪念堂。"],
     usageNotes: ["memorial day 阵亡将士纪念日"],
   },
   {
@@ -61,8 +59,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "疯狂的",
     wordRootMemory: "可能源自中古英语 crased，意为“破碎的”，引申为精神错乱，失去理智。",
-    example:
-      "be crazy about... 对………着迷、迷恋: A lot of people in England are crazy about football. 英国很多人对足球很着迷。(2020年全国卷 1)",
+    examples: ["be crazy about... 对………着迷、迷恋: A lot of people in England are crazy about football. 英国很多人对足球很着迷。(2020年全国卷 1)"],
     usageNotes: ["口语常用，表示极度喜爱、不理智的、或混乱的状态。"],
   },
   {
@@ -71,7 +68,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "具有挑战性的",
     wordRootMemory: "由动词 challenge 加上 -ing 构成，challenge 本身含义为“挑战”，-ing 使其形容词化。",
-    example: "Learning a new language can be challenging but rewarding. 学习一门新语言可能具有挑战性，但也很有意义。",
+    examples: ["Learning a new language can be challenging but rewarding. 学习一门新语言可能具有挑战性，但也很有意义。"],
     usageNotes: ["常用来形容任务、工作或形势等，需要付出努力和智慧才能克服。"],
   },
   {
@@ -80,7 +77,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "精确的, 准确的, 确切的",
     wordRootMemory: "记 词根记忆: ex(表加强)+act(做)→努力做出精确的结果→精确的",
-    example: "Could you tell me the exact time the train arrives? 你能告诉我火车到达的确切时间吗？",
+    examples: ["Could you tell me the exact time the train arrives? 你能告诉我火车到达的确切时间吗？"],
     usageNotes: ["强调没有误差，与事实或标准完全一致。"],
     relatedWords: ["exactly(adv. 准确地, 确切地; 正是如此)"],
   },
@@ -90,7 +87,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "翻译; (使)转变",
     wordRootMemory: "记 词根记忆: trans(变换)+late→将一种语言转换为另外一种语言→翻译",
-    example: "She translated the poem from French to English. 她把这首诗从法语翻译成英语。",
+    examples: ["She translated the poem from French to English. 她把这首诗从法语翻译成英语。"],
     usageNotes: ["translate A into B  将A翻译成B", "也可用于比喻，表示转变、转换。"],
     relatedWords: ["translation(n. 翻译; 译文)", "translator(n. 翻译家, 译者)"],
   },
@@ -100,7 +97,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "头晕目眩的",
     wordRootMemory: "源自古英语 dysig，意为“愚蠢的”、“迟钝的”，后来含义演变为“头昏眼花的”。",
-    example: "I felt dizzy after spinning around. 旋转之后我感到头晕。",
+    examples: ["I felt dizzy after spinning around. 旋转之后我感到头晕。"],
     usageNotes: ["常用于描述因身体不适或眩晕而感到失去平衡的状态。"],
   },
   {
@@ -109,7 +106,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "确信, 肯定 adv.〈口语〉的确, 一定, 当然",
     wordRootMemory: "源自古法语 seur，意为“安全的”、“可靠的”，引申为“确定的”、“自信的”。",
-    example: "Are you sure you locked the door? 你确定你锁门了吗？",
+    examples: ["Are you sure you locked the door? 你确定你锁门了吗？"],
     usageNotes: [
       "1. be sure about 有把握, 确信",
       "2. be sure to do... 一定会做…: Quite a few people used to believe that disaster was sure to strike if a mirror was broken. 很多人曾经相信, 如果镜子碎了, 那么灾难肯定就会降临。",
@@ -125,7 +122,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[U] 福利; 安宁, 幸福",
     wordRootMemory: "组合词: well(好的) + fare(状况) → 好的状况 → 福利",
-    example: "The government is responsible for the welfare of its citizens. 政府有责任保障其公民的福利。",
+    examples: ["The government is responsible for the welfare of its citizens. 政府有责任保障其公民的福利。"],
     usageNotes: ["多指社会福利、公共福利，也��个人的幸福安康。"],
   },
   {
@@ -134,8 +131,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "普通的, 平常的",
     wordRootMemory: "源自拉丁语 ordinarius，意为“符合常规的”、“按顺序的”，引申为“普通的”。",
-    example:
-      "We live an ordinary life in a small town. 我们在一个小镇过着平凡的生活。",
+    examples: ["We live an ordinary life in a small town. 我们在一个小镇过着平凡的生活。"],
     usageNotes: ["指常见、不特殊、不引人注目的事物。"],
     relatedWords: ["extraordinary(adj. 不平常的, 不一般的)"],
   },
@@ -145,7 +141,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vi.",
     definition: "申请 vt. 应用; 涂, 敷",
     wordRootMemory: "记 词根记忆: ap(表加强)+ply(重叠)→多次重叠, 反复使用→应用",
-    example: "Students need to apply for scholarships before the deadline. 学生需要在截止日期前申请奖学金。",
+    examples: ["Students need to apply for scholarships before the deadline. 学生需要在截止日期前申请奖学金。"],
     usageNotes: [
       "1. apply for 申请",
       "2. apply to a university 向大学申请",
@@ -166,8 +162,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[C] 讲课, 演讲",
     wordRootMemory: "记 词根记忆: lect(讲)+ure(表名词)→讲课",
-    example:
-      "The professor delivered a fascinating lecture on ancient history. 教授做了一场关于古代史的精彩讲座。",
+    examples: ["The professor delivered a fascinating lecture on ancient history. 教授做了一场关于古代史的精彩讲座。"],
     usageNotes: ["give/deliver a lecture 作讲座"],
   },
   {
@@ -176,7 +171,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "感激的, 感谢的",
     wordRootMemory: "记 词根记忆: grate(=grat, 令人高兴的)+ful(…的)→感激的",
-    example: "I am grateful for all the help you’ve given me. 我很感谢你给我的所有帮助。",
+    examples: ["I am grateful for all the help you’ve given me. 我很感谢你给我的所有帮助。"],
     usageNotes: ["be grateful to sb. for sth. 因某事感谢某人"],
   },
   {
@@ -185,14 +180,13 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "(felt, felt, feeling) 感觉; 触摸; 认为 vi. 摸索, 寻找 link. v. 觉得; 摸起来",
     wordRootMemory: "源自古英语 fēlan，原意为“触摸”、“感知”。",
-    example: "Studying a subject that you feel pointless is never a fun or easy task. 学习一个你觉得毫无意义的科目从来不是一件有趣或容易的事。(2020年天津卷)",
+    examples: ["Studying a subject that you feel pointless is never a fun or easy task. 学习一个你觉得毫无意义的科目从来不是一件有趣或容易的事。(2020年天津卷)"],
     usageNotes: [
       "1. feel 用作系动词, 表示人的感觉或感情时, 可用进行时态: I feel lonely. 我觉得孤独。// I am feeling better now. 我现在感觉好多了。注意: feel 表示某物给人的感觉时不能用进行时态: This cloth feels smooth. 这块布摸起来很光滑。",
       "2. feel 用作及物动词, 后可接名词、代词、复合宾语或从句: We can't see air but we can feel it. 我们看不到空气, 但能感觉到它。// I felt that he liked me very much. 我觉得他很喜欢我。",
       "feel + 形容词  感觉...",
       "feel like + 名词/动名词  感觉像...",
     ],
-    relatedPhrases: ["feel like doing sth. 想做某事"],
     relatedWords: ["feeling(n. 感情; 感觉)"],
   },
   {
@@ -201,13 +195,11 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "祝贺, 恭贺",
     wordRootMemory: "记 词根记忆: con(共同)+grat(高兴)+ul+ate(表动词)→与获奖者一起高兴→祝贺",
-    example:
-      "I want to take this chance to congratulate you on your promotion to Sales Manager. 我想借此机会祝贺你晋升为销售经理。",
+    examples: ["I want to take this chance to congratulate you on your promotion to Sales Manager. 我想借此机会祝贺你晋升为销售经理。"],
     usageNotes: [
       '用 congratulate 的名词形式是 congratulation, 多用复数, 后面也可以跟介词 on, 表示"对某事表示祝贺", 如: Congratulations on your achievements! 祝贺你取得的成就!',
       "congratulate sb. on sth. 就某事祝贺某人: A housewarming party is a chance for friends and family to congratulate the person on the new home. 暖房派对是亲朋好友祝贺房主乔迁新居的机会。(2020年全国卷 3)",
     ],
-    relatedPhrases: [],
   },
   {
     word: "position",
@@ -215,7 +207,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "位置; 职位",
     wordRootMemory: "记 词根记忆: posit(放)+ion(表名词)→放下的地方→位置",
-    example: "The hotel is in a perfect position near the beach. 这家旅馆位置绝佳，靠近海滩。",
+    examples: ["The hotel is in a perfect position near the beach. 这家旅馆位置绝佳，靠近海滩。"],
     usageNotes: ["in a position to do sth.  有能力做某事", "take up a position  就职"],
   },
   {
@@ -224,7 +216,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "成分; 零部件",
     wordRootMemory: "记 词根记忆: com(共同)+pon(放)+ent(表示物)→放到一起的东西→成分; 零部件",
-    example: "Software is a vital component of any computer system. 软件是任何计算机系统的重要组成部分。",
+    examples: ["Software is a vital component of any computer system. 软件是任何计算机系统的重要组成部分。"],
     usageNotes: ["常用于科技、工程领域，指构成复杂系统的基本单元。"],
   },
   {
@@ -265,8 +257,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[C] 胜利",
     wordRootMemory: "源自拉丁语 victoria，胜利女神的名字",
-    example:
-      "The team celebrated their victory with great joy. 球队欢天喜地庆祝他们的胜利。",
+    example: "The team celebrated their victory with great joy. 球队欢天喜地庆祝他们的胜利。",
     usageNotes: [
       "辨 victory, triumph",
       '两个词都有"胜利"的意思, victory 指在比赛中获胜, 是中性词; triumph 意为"伟大的胜利, 凯旋", 强调胜利带来的荣誉感, 是褒义词。',
@@ -279,8 +270,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vi.",
     definition: "幸存, 生还; 存活, 继续存在 vt. 比…活得长",
     wordRootMemory: "记 词根记忆: sur(上)+viv(生命)+e→活在生命之上→幸存",
-    example:
-      "The Xi'an City Wall is the most complete city wall that has survived China's long history. 西安城墙是中国漫长的历史上现存最完整的城墙。(2021年全国甲卷)",
+    example: "The Xi'an City Wall is the most complete city wall that has survived China's long history. 西安城墙是中国漫长的历史上现存最完整的城墙。(2021年全国甲卷)",
     usageNotes: ["survive an accident/disaster/operation  在事故/灾难/手术中幸存"],
     relatedWords: ["survival(n. 幸存, 生还)", "survivor(n. 幸存者)"],
   },
@@ -308,8 +298,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[C, U] 回忆, 记忆",
     wordRootMemory: "记 词根记忆: memor(记忆)+y(表名词)→记忆",
-    example:
-      "The old man often thinks about the happy memories of the past alone. 那位老人经常一个人重温那些美好的过往。",
+    example: "The old man often thinks about the happy memories of the past alone. 那位老人经常一个人重温那些美好的过往。",
     usageNotes: ["④ in memory of 纪念", "have a good/bad memory  记忆力好/差", "in one's memory  在某人的记忆中"],
     relatedWords: ["memorable(adj. 值得纪念的)"],
   },
@@ -376,8 +365,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "望远镜",
     wordRootMemory: "记 词根记忆: tele(远)+scope(视野)→望远镜",
-    example:
-      "Teachers and students went to the playground to look at the stars in the sky through a telescope. 老师和学生们来到操场上, 通过望远镜观看天上的星星。",
+    example: "Teachers and students went to the playground to look at the stars in the sky through a telescope. 老师和学生们来到操场上, 通过望远镜观看天上的星星。",
     usageNotes: ["look through a telescope  用望远镜观看"],
   },
   {
@@ -395,8 +383,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "极好的, 美妙的, 很棒的; 奇异的",
     wordRootMemory: "源自 fantasy，加上形容词后缀 -stic",
-    example:
-      "What's fantastic about history is the way it broadens our horizons. 历史的奇妙之处在于它开阔我们视野的方式。(2020年天津卷)",
+    example: "What's fantastic about history is the way it broadens our horizons. 历史的奇妙之处在于它开阔我们视野的方式。(2020年天津卷)",
     usageNotes: ["口语常用，表示非常棒、令人惊叹。"],
   },
   {
@@ -427,8 +414,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "事故, 意外事件",
     wordRootMemory: "记 词根记忆: ac(表加强)+cid(切)+ent(表名词)→不小心切到手→意外事件",
-    example:
-      "If the new safety system had been put to use, the accident would never have happened. 如果新的安全系统被投入使用了, 事故就不会发生了。(2017年北京卷)",
+    example: "If the new safety system had been put to use, the accident would never have happened. 如果新的安全系统被投入使用了, 事故就不会发生了。(2017年北京卷)",
     usageNotes: ["by accident  偶然地，意外地", "have an accident  发生事故", "traffic accident  交通事故"],
   },
   {
@@ -470,8 +456,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "改变; 更换; 兑换 n. [U]零钱; [C]变化",
     wordRootMemory: "源自古法语 changier，意为“交换”、“改变”。",
-    example:
-      "If we don't stop climate change, many animals and plants in the world will be gone. 如果我们不阻止气候变化, 世界上许多动植物就会消失。(2018年北京卷)",
+    example: "If we don't stop climate change, many animals and plants in the world will be gone. 如果我们不阻止气候变化, 世界上许多动植物就会消失。(2018年北京卷)",
     usageNotes: ["1. change sth. with sb. 和某人交换某物", "2. change... into... 将……变成…; 兑换(把钱换成零票或硬币)", "change one's mind  改变主意", "make a change  做出改变"],
   },
   {
@@ -514,8 +499,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "促进; 提升; 推销",
     wordRootMemory: "记 词根记忆: pro(向前)+mot(动)+e→使向前运动→促进; 提升",
-    example:
-      "All our projects aim to promote the development of poor and remote communities. 我们所有的项目都旨在促进贫困和偏远社区的发展。(2019年北京卷)",
+    example: "All our projects aim to promote the development of poor and remote communities. 我们所有的项目都旨在促进贫困和偏远社区的发展。(2019年北京卷)",
     usageNotes: ["promote sth.  促进某事", "promote sb. to ...  将某人提升到...职位", "promote sales  促销"],
   },
   {
@@ -524,8 +508,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vi.",
     definition: "安家, 定居 vt. 解决(问题)",
     wordRootMemory: "源自古英语 setlan，意为“安置”、“使固定”。",
-    example:
-      "All the problems were settled. 所有的问题都解决了。",
+    example: "All the problems were settled. 所有的问题都解决了。",
     usageNotes: ["1. settle for sth. 勉强认可某事(物)", "2. settle down 定居", "settle a dispute/argument  解决争端/争论", "settle in  适应新环境"],
     relatedWords: ["settled(adj. 固定的)", "settler(n. 移民者; 殖民者)", "settlement(n. 定居; 解决; 安置)"],
   },
@@ -535,8 +518,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "解释, 说明",
     wordRootMemory: "源自 explain 加上名词后缀 -ation",
-    example:
-      "The most likely explanation for Jack's absence was that his car had been delayed by traffic. 杰克缺席最可能的原因是他遇到了交通阻塞。",
+    example: "The most likely explanation for Jack's absence was that his car had been delayed by traffic. 杰克缺席最可能的原因是他遇到了交通阻塞。",
     usageNotes: ["give/offer an explanation  给出解释", "explanation for sth.  对...的解释"],
   },
   {
@@ -545,10 +527,9 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "日期; 约会 vt. 约会; 注明日期",
     wordRootMemory: "源自中古法语 date，来源于拉丁语 datum，意为“给出的（日期）”。",
-    example:
-      "Most of the young people don't know the exact date of their parents' births. 大多数年轻人不知道父母的生日是哪一天。",
+    example: "Most of the young people don't know the exact date of their parents' births. 大多数年轻人不知道父母的生日是哪一天。",
     usageNotes: ["1. out of date 过时的", "2. up to date 最新的; 最近的",
-    "辨 date, day",
+      "辨 date, day",
       'date 指具体的日期(年、月、日), 一般用单数; day 泛指"日子", a day 指"一天"。用 date 提问, 问的是"几月几号"。用 day 提问, 问的是"星期几"。date from = date back to 意为"始于, 追溯到", 常用一般现在时且无被动语态。'],
     relatedWords: [],
   },
@@ -567,8 +548,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "比得上; (和…)相似; (和…)相配; 配对 n. 比赛; 火柴",
     wordRootMemory: "源自古英语 mæcca，意为“伙伴”、“对手”、“匹配物”。",
-    example:
-      "The final match 总决赛",
+    example: "The final match 总决赛",
     usageNotes: ["match sth.  与...相配", "match sb. in sth.  在某方面与某人匹敌", "a football match  足球比赛"],
   },
   {
@@ -586,8 +566,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "提出(想法或计划); 漂浮, (使)浮动",
     wordRootMemory: "记 联想记忆: 船 (boat) 在水里漂浮 (float)",
-    example:
-      "We floated the idea to my mum of sharing a house. 我们向母亲提出了关于合住的想法。(2020年全国卷 3)",
+    example: "We floated the idea to my mum of sharing a house. 我们向母亲提出了关于合住的想法。(2020年全国卷 3)",
     usageNotes: ["float an idea/plan/company  提出想法/计划/公司上市", "float on water  漂浮在水面上"],
   },
   {
@@ -608,22 +587,4 @@ export const highSchoolUnit1: VocabularyWord[] = [
     example: "Heat the soup in the microwave for two minutes. 用微波炉把汤加热两分钟。",
     usageNotes: ["microwave oven  微波炉", "microwave cooking  微波烹饪"],
   },
-]
-
-// Combine all units into a map
-export const vocabularyByLevelUnit: Record<string, VocabularyWord[]> = {
-  "middle-school-8-unit1": middleSchoolUnit1Vocabulary,
-  "middle-school-8-unit2": middleSchoolUnit2Vocabulary,
-  "middle-school-8-unit3": middleSchoolUnit3Vocabulary,
-  "middle-school-8-unit4": middleSchoolUnit4Vocabulary,
-  "middle-school-8-unit5": middleSchoolUnit5Vocabulary,
-  "middle-school-8-unit6": middleSchoolUnit6Vocabulary,
-  "middle-school-8-unit7": middleSchoolUnit7Vocabulary,
-  "middle-school-8-unit8": middleSchoolUnit8Vocabulary,
-  "middle-school-8-unit9": middleSchoolUnit9Vocabulary,
-  "middle-school-8-unit10": middleSchoolUnit10Vocabulary,
-  "high-school-1-unit1": highSchoolUnit1,
-  "high-school-1-unit2": highSchoolUnit2,
-  "high-school-1-unit3": highSchoolUnit3,
-}
-
+];

@@ -8,7 +8,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "重要，要紧，有关系",
     wordRootMemory: "源自拉丁语 materia，意为“物质”，引申为“重要的事情”。",
-    example: "What's the matter? 怎么了?出什么事了?",
+    examples: ["What's the matter? 怎么了?出什么事了?"],
     usageNotes: ["常用于疑问句和否定句中，表示是否重要或要紧。"],
   },
   {
@@ -17,7 +17,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "疼痛的，酸痛的",
     wordRootMemory: "源自古英语 sār，意为“疼痛的”。",
-    example: "My muscles are sore after the workout. 锻炼后我的肌肉酸痛。",
+    examples: ["My muscles are sore after the workout. 锻炼后我的肌肉酸痛。"],
     usageNotes: ["常用来形容身体部位的疼痛感，如 sore throat (喉咙痛)。"],
   },
   {
@@ -26,7 +26,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "胃，腹部",
     wordRootMemory: "源自拉丁语 stomachus，源自希腊语 stomachos，意为“食道”、“胃”。",
-    example: "I have a pain in my stomach. 我胃疼。",
+    examples: ["I have a pain in my stomach. 我胃疼。"],
     usageNotes: ["既可以指胃这个器官，也可以指腹部。"],
   },
   {
@@ -35,7 +35,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "胃痛，腹痛",
     wordRootMemory: "组合词: stomach (胃) + ache (疼痛)",
-    example: "have a stomachache 胃痛",
+    examples: ["have a stomachache 胃痛"],
     usageNotes: ["指胃部或腹部的疼痛。"],
   },
   {
@@ -44,7 +44,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "脚 (复数feet)",
     wordRootMemory: "源自古英语 fōt，与德语 Fuß 和荷兰语 voet 同源。",
-    example: "He hurt his foot playing basketball. 他打篮球时脚受伤了。",
+    examples: ["He hurt his foot playing basketball. 他打篮球时脚受伤了。"],
     usageNotes: ["单数 foot，复数 feet。"],
   },
   {
@@ -53,7 +53,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "颈，脖子",
     wordRootMemory: "源自古英语 hnecca，与德语 Nacken 和荷兰语 nek 同源。",
-    example: "She wore a scarf around her neck. 她脖子上围了一条围巾。",
+    examples: ["She wore a scarf around her neck. 她脖子上围了一条围巾。"],
     usageNotes: ["指连接头部和身体的部分。"],
   },
   {
@@ -62,7 +62,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "喉咙",
     wordRootMemory: "源自古英语 þrote，与德语 Kehle 和荷兰语 keel 同源。",
-    example: "I have a sore throat. 我喉咙痛。",
+    examples: ["I have a sore throat. 我喉咙痛。"],
     usageNotes: ["指口腔后部到食道和气管的部分。"],
   },
   {
@@ -71,7 +71,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "发烧，发热",
     wordRootMemory: "源自拉丁语 febris，意为“发热”。",
-    example: "have a fever 发烧",
+    examples: ["have a fever 发烧"],
     usageNotes: ["指体温异常升高。"],
   },
   {
@@ -80,7 +80,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "躺，平躺",
     wordRootMemory: "源自古英语 licgan，意为“躺下”。",
-    example: "I need to lie down and rest. 我需要躺下休息一下。",
+    examples: ["I need to lie down and rest. 我需要躺下休息一下。"],
     usageNotes: ["注意与动词 lie (说谎) 区分，两者拼写相同但含义和过去式不同。"],
   },
   {
@@ -89,7 +89,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "躺下",
     wordRootMemory: "短语动词，由动词 lie 和副词 down 组成。",
-    example: "lie down 躺下",
+    examples: ["lie down 躺下"],
     usageNotes: ["表示躺下的动作。"],
   },
   {

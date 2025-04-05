@@ -4,11 +4,8 @@ export interface VocabularyWord {
   partOfSpeech: string
   definition: string
   wordRootMemory?: string
-  example?: string
   examples?: string[]
   usageNotes?: string[]
   relatedWords?: string[]
-  relatedPhrases?: string[]
-  relatedWordsExtra?: string[]
 }
 

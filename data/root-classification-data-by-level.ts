@@ -41,6 +41,7 @@ export const rootClassificationDataByLevel = {
   "high-school-1-unit1": HIGH_SCHOOL_1_UNIT1_DATA,
   "high-school-1-unit2": HIGH_SCHOOL_1_UNIT1_DATA,
   "high-school-1-unit3": HIGH_SCHOOL_1_UNIT1_DATA,
+  "high-school-1-unit4": HIGH_SCHOOL_1_UNIT1_DATA,
 }
 
 
