@@ -261,4 +261,3 @@ export function WordCard({ word }: WordCardProps) {
     </div>
   )
 }
-
