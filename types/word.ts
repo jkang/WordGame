@@ -5,3 +5,10 @@ export interface Word {
   isMarked: boolean
 }
 
+export interface WordBuilding
+{
+  id: string,
+  meaning: string,
+  options: string[],
+  correctOptions: string [],
+}

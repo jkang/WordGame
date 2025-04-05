@@ -1,5 +1,3 @@
-import { wordRootData } from "./word-root-data";
-
 export const highSchoolUnit1RootData = {
     prefixes: [
       { id: "hs-p1", prefix: "in-", meaning: "进入，在内", examples: ["include", "inside", "input"] },

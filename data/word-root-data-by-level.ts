@@ -1,9 +1,9 @@
-import { highSchoolUnit1RootData } from "./rootdata/high-school-unit1";
-import { highSchoolUnit2RootData } from "./rootdata/high-school-unit2";
-import { highSchoolUnit3RootData } from "./rootdata/high-school-unit3";
-import { highSchoolUnit4RootData } from "./rootdata/high-school-unit4";
-import { highSchoolUnit5RootData } from "./rootdata/high-school-unit5";
-import { wordRootData } from "./rootdata/word-root-data";
+import { highSchoolUnit1RootData } from "./roots/high-school-unit1";
+import { highSchoolUnit2RootData } from "./roots/high-school-unit2";
+import { highSchoolUnit3RootData } from "./roots/high-school-unit3";
+import { highSchoolUnit4RootData } from "./roots/high-school-unit4";
+import { highSchoolUnit5RootData } from "./roots/high-school-unit5";
+import { wordRootData } from "./roots/word-root-data";
 
 export const wordRootDataByLevel = {
   "middle-school-8": wordRootData,

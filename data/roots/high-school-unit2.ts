@@ -1,6 +1,3 @@
-import { wordRootData } from "./word-root-data";
-
-
 export const highSchoolUnit2RootData = {
     prefixes: [
       { id: "hs2-p1", prefix: "re-", meaning: "再次，向后", examples: ["remain", "recycle", "retell"] }, // remain - re + main, recycle - re + cycle, retell - re + tell
