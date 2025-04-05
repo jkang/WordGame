@@ -98,7 +98,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "剩余部分，其余;放松，休息",
     wordRootMemory: "源自古法语 reste，意为“停止”、“休息”。",
-    example: "I need to rest for a while. 我需要休息一会儿。",
+    examples: ["I need to rest for a while. 我需要休息一会儿。"],
     usageNotes: ["既可以作名词表示休息，也可以作动词表示休息或使休息。"],
   },
   {
@@ -107,7 +107,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "咳嗽",
     wordRootMemory: "拟声词，模仿咳嗽的声音。",
-    example: "cough loudly 咳嗽",
+    examples: ["cough loudly 咳嗽"],
     usageNotes: ["既可以作名词表示咳嗽的动作，也可以作动词表示咳嗽。"],
   },
   {
@@ -116,7 +116,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "X光，X射线",
     wordRootMemory: "组合词: X (未知数) + ray (射线)，因最初发现时射线性质未知而命名。",
-    example: "get an X-ray 拍X光片",
+    examples: ["get an X-ray 拍X光片"],
     usageNotes: ["用于医学影像检查。"],
   },
   {
@@ -125,7 +125,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "牙痛",
     wordRootMemory: "组合词: tooth (牙齿) + ache (疼痛)",
-    example: "have a toothache 牙疼",
+    examples: ["have a toothache 牙疼"],
     usageNotes: ["指牙齿的疼痛。"],
   },
   {
@@ -134,7 +134,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "量体温",
     wordRootMemory: "固定短语，take (采取) + one's temperature (某人的体温)",
-    example: "take temperature 量体温",
+    examples: ["take temperature 量体温"],
     usageNotes: ["指测量体温的动作。"],
   },
   {
@@ -143,7 +143,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "头痛",
     wordRootMemory: "组合词: head (头部) + ache (疼痛)",
-    example: "have a headache 头疼",
+    examples: ["have a headache 头疼"],
     usageNotes: ["指头部的疼痛。"],
   },
   {
@@ -152,7 +152,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "休息，暂停;打破",
     wordRootMemory: "源自古英语 brecan，意为“打破”、“裂开”。",
-    example: "take a break 休息一下",
+    examples: ["take a break 休息一下"],
     usageNotes: ["作名词时指休息时间，作动词时指打破或中断。"],
   },
   {
@@ -161,7 +161,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "休息 (take a break)",
     wordRootMemory: "短语，take (采取) + breaks (休息，复数形式表示多次休息)",
-    example: "take breaks 休息",
+    examples: ["take breaks 休息"],
     usageNotes: ["表示多次休息的习惯或建议。"],
   },
   {
@@ -170,7 +170,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "伤害，损害，使受伤",
     wordRootMemory: "起源不明，可能与古法语 hurter 或日耳曼语 *hurt- 相关。",
-    example: "hurt somebody 伤害某人",
+    examples: ["hurt somebody 伤害某人"],
     usageNotes: ["指身体或感情上受到伤害。"],
   },
   {
@@ -179,7 +179,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "乘客，旅客",
     wordRootMemory: "源自法语 passager，意为“过路人”。",
-    example: "passenger on the bus 公交车上的乘客",
+    examples: ["passenger on the bus 公交车上的乘客"],
     usageNotes: ["指乘坐交通工具的人。"],
   },
   {
@@ -188,7 +188,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv. prep.",
     definition: "离开(某处);从…去掉",
     wordRootMemory: "起源不明，可能与古英语 of 相关，表示分离、远离。",
-    example: "get off 下车",
+    examples: ["get off 下车"],
     usageNotes: ["作副词时表示离开或停止，作介词时表示离开或脱离。"],
   },
   {
@@ -197,7 +197,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "使…惊讶，出乎…意料",
     wordRootMemory: "固定短语，to (对于) + one's (某人的) + surprise (惊讶)",
-    example: "to my surprise 令我惊讶的是",
+    examples: ["to my surprise 令我惊讶的是"],
     usageNotes: ["表示某事发生出乎意料。"],
   },
   {
@@ -206,7 +206,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "prep.",
     definition: "向，朝",
     wordRootMemory: "组合词: on (在…之上) + to (向…)",
-    example: "jump onto the desk 跳到桌子上",
+    examples: ["jump onto the desk 跳到桌子上"],
     usageNotes: ["表示移动到某物之上或朝着某个方向。"],
   },
   {
@@ -215,7 +215,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "麻烦，烦扰，问题",
     wordRootMemory: "源自古法语 truble，意为“混乱”、“动乱”。",
-    example: "in trouble 在麻烦中",
+    examples: ["in trouble 在麻烦中"],
     usageNotes: ["指令人烦恼或困难的事情。"],
   },
   {
@@ -224,7 +224,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "碰撞，打，打击",
     wordRootMemory: "起源不明，可能与古诺尔斯语 hitta 或古英语 *hytan 相关。",
-    example: "hit the wall 撞墙",
+    examples: ["hit the wall 撞墙"],
     usageNotes: ["既可以作动词表示击打，也可以作名词表示碰撞。"],
   },
   {
@@ -233,7 +233,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "立即，马上",
     wordRootMemory: "短语，right (立刻) + away (离开，此处表示立刻离开当前时间)",
-    example: "do it right away 马上做",
+    examples: ["do it right away 马上做"],
     usageNotes: ["表示立即行动，毫不拖延。"],
   },
   {
@@ -242,7 +242,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "陷入，参与",
     wordRootMemory: "短语动词，get (进入) + into (到…里面)",
-    example: "get into trouble 惹上麻烦",
+    examples: ["get into trouble 惹上麻烦"],
     usageNotes: ["可以表示陷入某种状态或参与某事。"],
   },
   {
@@ -251,7 +251,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "pron.",
     definition: "她自己，她本身 (she的反身代词)",
     wordRootMemory: "反身代词，her (她) + self (自己)",
-    example: "by herself 她自己",
+    examples: ["by herself 她自己"],
     usageNotes: ["指代女性的自身，强调动作的执行者是“她自己”。"],
   },
   {
@@ -260,7 +260,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "绷带;用绷带包扎",
     wordRootMemory: "源自古法语 bandage，意为“带子”、“绷带”。",
-    example: "put a bandage on 包扎绷带",
+    examples: ["put a bandage on 包扎绷带"],
     usageNotes: ["既可以作名词表示绷带，也可以作动词表示用绷带包扎。"],
   },
   {
@@ -269,7 +269,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "患病的，不适的",
     wordRootMemory: "源自古英语 sēoc，意为“生病的”、“虚弱的”。",
-    example: "be sick 生病",
+    examples: ["be sick 生病"],
     usageNotes: ["常用来形容身体不适或生病的状态。"],
   },
   {
@@ -278,7 +278,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "膝盖",
     wordRootMemory: "源自古英语 cnēo，与德语 Knie 和荷兰语 knie 同源。",
-    example: "on one's knees 跪着",
+    examples: ["on one's knees 跪着"],
     usageNotes: ["指腿部关节。"],
   },
   {
@@ -287,7 +287,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "鼻出血",
     wordRootMemory: "组合词: nose (鼻子) + bleed (出血)",
-    example: "have a nosebleed 流鼻血",
+    examples: ["have a nosebleed 流鼻血"],
     usageNotes: ["指鼻子出血的现象。"],
   },
   {
@@ -296,7 +296,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "呼吸",
     wordRootMemory: "源自古英语 brēþian，意为“呼吸”。",
-    example: "breathe in/out 吸气/呼气",
+    examples: ["breathe in/out 吸气/呼气"],
     usageNotes: ["指吸入和呼出空气的动作。"],
   },
   {
@@ -305,7 +305,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "晒伤的",
     wordRootMemory: "组合词: sun (太阳) + burned (烧伤的)",
-    example: "get sunburned 晒伤",
+    examples: ["get sunburned 晒伤"],
     usageNotes: ["指皮肤因过度暴露在阳光下而造成的损伤。"],
   },
   {
@@ -314,7 +314,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "pron.",
     definition: "我们自己 (we的反身代词)",
     wordRootMemory: "反身代词，our (我们的) + selves (自己，self 的复数形式)",
-    example: "by ourselves 我们自己",
+    examples: ["by ourselves 我们自己"],
     usageNotes: ["指代复数“我们”的自身，强调动作的执行者是“我们自己”。"],
   },
   {
@@ -323,7 +323,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "登山者",
     wordRootMemory: "由动词 climb (攀登) 加上名词后缀 -er 构成，表示“做…的人”。",
-    example: "mountain climber 登山者",
+    examples: ["mountain climber 登山者"],
     usageNotes: ["指从事登山运动的人。"],
   },
   {
@@ -332,7 +332,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "习惯于… 适应于…",
     wordRootMemory: "短语，be (是) + used (被使用) + to (对于…)",
-    example: "be used to doing sth 习惯于做某事",
+    examples: ["be used to doing sth 习惯于做某事"],
     usageNotes: ["表示习惯于某种状态或行为。"],
   },
   {
@@ -341,7 +341,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "风险，危险;冒险",
     wordRootMemory: "源自法语 risque，意为“危险”。",
-    example: "at risk 冒风险",
+    examples: ["at risk 冒风险"],
     usageNotes: ["既可以作名词表示风险，也可以作动词表示冒险。"],
   },
   {
@@ -350,7 +350,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "冒险 (take a risk)",
     wordRootMemory: "短语，take (采取) + risks (风险，复数形式表示多次冒险)",
-    example: "take a risk 冒险",
+    examples: ["take a risk 冒险"],
     usageNotes: ["表示承担风险的行动。"],
   },
   {
@@ -359,7 +359,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "意外事件;事故",
     wordRootMemory: "源自拉丁语 accidens，意为“发生的事”，由 ad- (朝向) + cadere (落下) 组成。",
-    example: "have an accident 发生事故",
+    examples: ["have an accident 发生事故"],
     usageNotes: ["指意外发生的、不幸的事件。"],
   },
   {
@@ -368,7 +368,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "状况，形式，情况",
     wordRootMemory: "源自法语 situation，来源于拉丁语 situs，意为“位置”、“地点”。",
-    example: "in a difficult situation 处于困境",
+    examples: ["in a difficult situation 处于困境"],
     usageNotes: ["指某时某地的具体情形。"],
   },
   {
@@ -377,7 +377,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "公斤，千克",
     wordRootMemory: "组合词: kilo- (千) + -gram (克)，国际单位制质量单位。",
-    example: "two kilograms 两公斤",
+    examples: ["two kilograms 两公斤"],
     usageNotes: ["质量单位，常用于衡量重量。"],
   },
   {
@@ -386,7 +386,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "岩石",
     wordRootMemory: "源自古法语 rocque，可能源自原始日耳曼语 *rokkaz。",
-    example: "big rock 大石头",
+    examples: ["big rock 大石头"],
     usageNotes: ["指构成地球外壳的坚硬物质。"],
   },
   {
@@ -395,7 +395,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "用尽，耗尽",
     wordRootMemory: "短语动词，run (跑，此处表示时间或资源的流逝) + out (结束) + of (从…之中)",
-    example: "run out of time 时间耗尽",
+    examples: ["run out of time 时间耗尽"],
     usageNotes: ["表示某物被完全消耗或用完。"],
   },
   {
@@ -404,7 +404,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "刀，餐刀",
     wordRootMemory: "源自古英语 cnīf，与德语 Kneif 和荷兰语 knijf 同源。",
-    example: "a sharp knife 锋利的刀",
+    examples: ["a sharp knife 锋利的刀"],
     usageNotes: ["指用于切割的工具，尤其指餐桌上使用的刀。"],
   },
   {
@@ -413,7 +413,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "切除",
     wordRootMemory: "短语动词，cut (切) + off (分离)",
-    example: "cut off the branch 剪掉树枝",
+    examples: ["cut off the branch 剪掉树枝"],
     usageNotes: ["指通过切割移除某物。"],
   },
   {
@@ -422,7 +422,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "血",
     wordRootMemory: "源自古英语 blōd，与德语 Blut 和荷兰语 bloed 同源。",
-    example: "lose blood 失血",
+    examples: ["lose blood 失血"],
     usageNotes: ["指人体或动物体内循环的红色液体。"],
   },
   {
@@ -431,7 +431,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "意味着，意思是，意欲",
     wordRootMemory: "源自古英语 mǣnan，意为“意指”、“表达”。",
-    example: "What does this mean? 这是什么意思？",
+    examples: ["What does this mean? 这是什么意思？"],
     usageNotes: ["表示意图、含义或重要性。"],
   },
   {
@@ -440,7 +440,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "离开，从… 出来",
     wordRootMemory: "短语动词，get (离开) + out of (从…出来)",
-    example: "get out of the car 下车",
+    examples: ["get out of the car 下车"],
     usageNotes: ["表示从某处离开或摆脱某种状态。"],
   },
   {
@@ -449,7 +449,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "重要性",
     wordRootMemory: "由 adjective important (重要的) 加上名词后缀 -ance 构成。",
-    example: "great importance 非常重要",
+    examples: ["great importance 非常重要"],
     usageNotes: ["指事物的重要性或重要程度。"],
   },
   {
@@ -458,7 +458,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "决心，决定，抉择",
     wordRootMemory: "源自 decide (决定) 加上名词后缀 -sion。",
-    example: "make a decision 做决定",
+    examples: ["make a decision 做决定"],
     usageNotes: ["指在多个选项中做出的选择。"],
   },
   {
@@ -467,7 +467,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "控制，支配，操纵",
     wordRootMemory: "源自法语 contrôle，意为“检查”、“控制”。",
-    example: "control the speed 控制速度",
+    examples: ["control the speed 控制速度"],
     usageNotes: ["指掌握、管理或限制某事物的能力。"],
   },
   {
@@ -476,7 +476,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "掌管，管理",
     wordRootMemory: "短语，be (是) + in control (在控制中) + of (关于)",
-    example: "be in control of the situation 掌控局势",
+    examples: ["be in control of the situation 掌控局势"],
     usageNotes: ["表示处于控制或管理的位置。"],
   },
   {
@@ -485,7 +485,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "勇气，意志",
     wordRootMemory: "源自拉丁语 spiritus，意为“呼吸”、“灵魂”、“精神”。",
-    example: "fighting spirit 斗志",
+    examples: ["fighting spirit 斗志"],
     usageNotes: ["指内在的活力、勇气或意志力。"],
   },
   {
@@ -494,7 +494,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "死亡",
     wordRootMemory: "源自古英语 dēaþ，与德语 Tod 和荷兰语 dood 同源。",
-    example: "cause of death 死因",
+    examples: ["cause of death 死因"],
     usageNotes: ["指生命的终止。"],
   },
   {
@@ -503,7 +503,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "放弃",
     wordRootMemory: "短语动词，give (给予) + up (向上，此处表示停止努力)",
-    example: "give up smoking 戒烟",
+    examples: ["give up smoking 戒烟"],
     usageNotes: ["表示停止尝试或放弃努力。"],
   },
   {
@@ -512,7 +512,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "护士",
     wordRootMemory: "源自古法语 norrice，意为“乳母”、“护士”。",
-    example: "hospital nurse 医院护士",
+    examples: ["hospital nurse 医院护士"],
     usageNotes: ["指在医院或诊所照顾病人的人员。"],
   },
   {
@@ -521,7 +521,7 @@ export const middleSchoolUnit1Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "感冒",
     wordRootMemory: "短语，have (有) + a cold (一次感冒)",
-    example: "have a bad cold 患重感冒",
+    examples: ["have a bad cold 患重感冒"],
     usageNotes: ["指患上感冒这种疾病。"],
   },
 ]
@@ -534,7 +534,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "打扫(清除)干净",
     wordRootMemory: "短语动词，clean (打扫) + up (彻底地)",
-    example: "clean up the classroom 打扫教室",
+    examples: ["clean up the classroom 打扫教室"],
     usageNotes: ["指使某物或某地变得干净整洁。"],
   },
   {
@@ -543,7 +543,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "欢呼",
     wordRootMemory: "源自古法语 chiere，意为“面容”、“心情”，引申为“欢呼”。",
-    example: "cheer for the team 为队伍欢呼",
+    examples: ["cheer for the team 为队伍欢呼"],
     usageNotes: ["表示高兴或支持时发出的欢呼声。"],
   },
   {
@@ -552,7 +552,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "变得更高兴，振奋起来",
     wordRootMemory: "短语动词，cheer (使高兴) + up (向上)",
-    example: "cheer sb up 使某人振作起来",
+    examples: ["cheer sb up 使某人振作起来"],
     usageNotes: ["表示使自己或他人心情好转。"],
   },
   {
@@ -561,7 +561,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "分发，散发",
     wordRootMemory: "短语动词，give (给予) + out (向外)",
-    example: "give out books 分发书本",
+    examples: ["give out books 分发书本"],
     usageNotes: ["表示将物品分发给多人。"],
   },
   {
@@ -570,7 +570,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "志愿者;义务做",
     wordRootMemory: "源自法语 volontaire，意为“自愿的”。",
-    example: "work as a volunteer 做志愿者",
+    examples: ["work as a volunteer 做志愿者"],
     usageNotes: ["既可以作名词表示志愿者，也可以作动词表示自愿做某事。"],
   },
   {
@@ -579,7 +579,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "想出，提出",
     wordRootMemory: "短语动词，come (来到) + up (向上，此处表示思考) + with (伴随)",
-    example: "come up with a plan 想出一个计划",
+    examples: ["come up with a plan 想出一个计划"],
     usageNotes: ["表示经过思考后提出新的想法或计划。"],
   },
   {
@@ -588,7 +588,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "推迟",
     wordRootMemory: "短语动词，put (放置) + off (延后)",
-    example: "put off the meeting 推迟会议",
+    examples: ["put off the meeting 推迟会议"],
     usageNotes: ["表示将某事延期到稍后的时间。"],
   },
   {
@@ -597,7 +597,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "标记，符号，标牌",
     wordRootMemory: "源自拉丁语 signum，意为“标记”、“信号”。",
-    example: "traffic sign 交通标志",
+    examples: ["traffic sign 交通标志"],
     usageNotes: ["指用来指示方向、警告或信息的标记。"],
   },
   {
@@ -606,7 +606,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "通知，公告;注意到",
     wordRootMemory: "源自拉丁语 notitia，意为“知道”、“注意”。",
-    example: "read the notice 阅读公告",
+    examples: ["read the notice 阅读公告"],
     usageNotes: ["既可以作名词表示通知，也可以作动词表示注意到。"],
   },
   {
@@ -615,7 +615,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "分发",
     wordRootMemory: "短语动词，hand (用手传递) + out (向外)",
-    example: "hand out flyers 分发传单",
+    examples: ["hand out flyers 分发传单"],
     usageNotes: ["与 give out 意思相近，表示分发物品。"],
   },
   {
@@ -624,7 +624,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "打电话给…某人，征召",
     wordRootMemory: "短语动词，call (呼叫) + up (向上，此处表示拿起电话)",
-    example: "call up a friend 给朋友打电话",
+    examples: ["call up a friend 给朋友打电话"],
     usageNotes: ["可以表示打电话，也可以表示征召入伍。"],
   },
   {
@@ -633,7 +633,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "曾经…，过去…",
     wordRootMemory: "情态动词短语，use (使用) + to (表示过去习惯)",
-    example: "used to live here 曾经住在这里",
+    examples: ["used to live here 曾经住在这里"],
     usageNotes: ["表示过去经常做某事，但现在不再做。"],
   },
   {
@@ -642,7 +642,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "孤独的，寂寞的",
     wordRootMemory: "由 lone (孤独的) 加上形容词后缀 -ly 构成。",
-    example: "feel lonely 感到孤独",
+    examples: ["feel lonely 感到孤独"],
     usageNotes: ["形容词，表示感到孤单和寂寞。"],
   },
   {
@@ -651,7 +651,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "照顾，非常喜欢",
     wordRootMemory: "短语动词，care (关心) + for (为了)",
-    example: "care for children 照顾孩子",
+    examples: ["care for children 照顾孩子"],
     usageNotes: ["可以表示照顾，也可以表示非常喜欢。"],
   },
   {
@@ -660,7 +660,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "几个，数个，一些",
     wordRootMemory: "源自古法语 severel，意为“分离的”、“不同的”，引申为“几个”。",
-    example: "several times 几次",
+    examples: ["several times 几次"],
     usageNotes: ["表示数量不多但超过两个。"],
   },
   {
@@ -669,7 +669,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "强壮的，强烈的",
     wordRootMemory: "源自古英语 strang，与德语 streng 和荷兰语 streng 同源。",
-    example: "strong body 强壮的身体",
+    examples: ["strong body 强壮的身体"],
     usageNotes: ["可以形容身体强壮，也可以形容情感或力量强烈。"],
   },
   {
@@ -678,7 +678,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "感觉，感触",
     wordRootMemory: "由动词 feel (感觉) 加上名词后缀 -ing 构成。",
-    example: "have a feeling 有一种感觉",
+    examples: ["have a feeling 有一种感觉"],
     usageNotes: ["指身体或情感上的感觉。"],
   },
   {
@@ -687,7 +687,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "满足，满意",
     wordRootMemory: "由动词 satisfy (使满意) 加上名词后缀 -faction 构成。",
-    example: "feel satisfaction 感到满意",
+    examples: ["feel satisfaction 感到满意"],
     usageNotes: ["指达到期望或需求时产生的愉快感。"],
   },
   {
@@ -696,7 +696,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "高兴，愉快",
     wordRootMemory: "源自古法语 joie，意为“喜悦”、“快乐”。",
-    example: "tears of joy 喜悦的泪水",
+    examples: ["tears of joy 喜悦的泪水"],
     usageNotes: ["指强烈的快乐和幸福感。"],
   },
   {
@@ -705,7 +705,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "所有者，物主",
     wordRootMemory: "由动词 own (拥有) 加上名词后缀 -er 构成，表示“拥有…的人”。",
-    example: "car owner 车主",
+    examples: ["car owner 车主"],
     usageNotes: ["指拥有某物的人。"],
   },
   {
@@ -714,7 +714,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "参加…选拔，试用",
     wordRootMemory: "短语动词，try (尝试) + out (向外，此处表示尝试展示能力)",
-    example: "try out new clothes 试穿新衣服",
+    examples: ["try out new clothes 试穿新衣服"],
     usageNotes: ["表示参加选拔或测试以展示能力或体验某物。"],
   },
   {
@@ -723,7 +723,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "(尤指长途)旅行，行程",
     wordRootMemory: "源自古法语 journée，意为“一天的路程”、“一天的时间”。",
-    example: "go on a journey 去旅行",
+    examples: ["go on a journey 去旅行"],
     usageNotes: ["通常指长途旅行，强调过程而非目的地。"],
   },
   {
@@ -732,7 +732,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "抬起，举起，筹集，征集",
     wordRootMemory: "源自古诺尔斯语 reisa，意为“使上升”。",
-    example: "raise hands 举手",
+    examples: ["raise hands 举手"],
     usageNotes: ["可以表示物理上的抬起，也可以表示筹集资金或提高水平。"],
   },
   {
@@ -741,7 +741,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "独自地，孤独地",
     wordRootMemory: "组合词: all (全部) + one (一)",
-    example: "leave sb alone 让某人独处",
+    examples: ["leave sb alone 让某人独处"],
     usageNotes: ["表示没有人陪伴的状态。"],
   },
   {
@@ -750,7 +750,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "修理，修补",
     wordRootMemory: "源自法语 réparer，意为“修复”、“恢复”。",
-    example: "repair shoes 修鞋",
+    examples: ["repair shoes 修鞋"],
     usageNotes: ["指将损坏的东西恢复到良好状态。"],
   },
   {
@@ -759,7 +759,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "修理，安装",
     wordRootMemory: "源自拉丁语 fixus，fixare 的过去分词，意为“固定”、“使牢固”。",
-    example: "fix the machine 修理机器",
+    examples: ["fix the machine 修理机器"],
     usageNotes: ["指修理或安装某物，使其正常工作或固定。"],
   },
   {
@@ -768,7 +768,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "修理，修补",
     wordRootMemory: "短语动词，fix (修理) + up (彻底地)",
-    example: "fix up the bicycle 修理自行车",
+    examples: ["fix up the bicycle 修理自行车"],
     usageNotes: ["与 fix 意思相近，但 fix up 更强调彻底修理或翻新。"],
   },
   {
@@ -777,7 +777,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "赠送，捐赠",
     wordRootMemory: "短语动词，give (给予) + away (离开，此处表示赠送出去)",
-    example: "give away clothes 捐赠衣服",
+    examples: ["give away clothes 捐赠衣服"],
     usageNotes: ["表示免费赠送或捐献物品。"],
   },
   {
@@ -786,7 +786,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "(外貌或行为)像",
     wordRootMemory: "短语动词，take (像) + after (在…之后，此处表示在外貌或行为上跟随某人)",
-    example: "take after mother 像妈妈",
+    examples: ["take after mother 像妈妈"],
     usageNotes: ["表示在外貌、性格或行为上与某人相似。"],
   },
   {
@@ -795,7 +795,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "破损的，残缺的",
     wordRootMemory: "动词 break (打破) 的过去分词作形容词。",
-    example: "broken glass 碎玻璃",
+    examples: ["broken glass 碎玻璃"],
     usageNotes: ["形容词，表示某物被损坏或破裂。"],
   },
   {
@@ -804,7 +804,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "轮子，车轮;旋转",
     wordRootMemory: "源自古英语 hwēol，与德语 Rad 和荷兰语 wiel 同源。",
-    example: "car wheel 汽车轮子",
+    examples: ["car wheel 汽车轮子"],
     usageNotes: ["名词指轮子，动词指旋转或推动轮式工具。"],
   },
   {
@@ -813,7 +813,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "信件，字母",
     wordRootMemory: "源自古法语 letre，意为“文字”、“信件”。",
-    example: "write a letter 写信",
+    examples: ["write a letter 写信"],
     usageNotes: ["既可以指书信，也可以指字母。"],
   },
   {
@@ -822,7 +822,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "小姐",
     wordRootMemory: "为 Mistress 的缩写，用于未婚女性的称呼。",
-    example: "Miss Li 李小姐",
+    examples: ["Miss Li 李小姐"],
     usageNotes: ["用于称呼未婚女性，是尊称。"],
   },
   {
@@ -831,7 +831,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "建立，设立",
     wordRootMemory: "短语动词，set (设置) + up (向上，此处表示建立起来)",
-    example: "set up a company 建立公司",
+    examples: ["set up a company 建立公司"],
     usageNotes: ["表示创建或建立某事物。"],
   },
   {
@@ -840,7 +840,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "有残疾的，丧失能力的",
     wordRootMemory: "由动词 disable (使残疾) 的过去分词作形容词。",
-    example: "disabled people 残疾人",
+    examples: ["disabled people 残疾人"],
     usageNotes: ["形容词，表示身体或精神方面有残疾。"],
   },
   {
@@ -849,7 +849,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "影响，有作用",
     wordRootMemory: "短语，make (做出) + a difference (一个不同)",
-    example: "make a big difference 产生很大影响",
+    examples: ["make a big difference 产生很大影响"],
     usageNotes: ["表示产生积极或重要的影响。"],
   },
   {
@@ -858,7 +858,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "盲的，盲目的，失明的",
     wordRootMemory: "源自古英语 blind，与德语 blind 和荷兰语 blind 同源。",
-    example: "blind man 盲人",
+    examples: ["blind man 盲人"],
     usageNotes: ["形容词，表示看不见东西的。"],
   },
   {
@@ -867,7 +867,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "聋的",
     wordRootMemory: "源自古英语 dēaf，与德语 taub 和荷兰语 doof 同源。",
-    example: "deaf people 聋人",
+    examples: ["deaf people 聋人"],
     usageNotes: ["形容词，表示听不见声音的。"],
   },
   {
@@ -876,7 +876,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "想象，设想",
     wordRootMemory: "源自法语 imaginer，意为“在心中形成影像”。",
-    example: "imagine that... 想象...",
+    examples: ["imagine that... 想象..."],
     usageNotes: ["表示在脑海中形成图像或概念。"],
   },
   {
@@ -885,7 +885,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "困难",
     wordRootMemory: "由 adjective difficult (困难的) 加上名词后缀 -y 构成。",
-    example: "have difficulty (in) doing sth 做某事有困难",
+    examples: ["have difficulty (in) doing sth 做某事有困难"],
     usageNotes: ["指完成某事时遇到的阻碍或难题。"],
   },
   {
@@ -894,7 +894,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "打开",
     wordRootMemory: "源自古英语 opnian，与德语 öffnen 和荷兰语 openen 同源。",
-    example: "open the door 开门",
+    examples: ["open the door 开门"],
     usageNotes: ["表示使某物不再关闭或封闭。"],
   },
   {
@@ -903,7 +903,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "门",
     wordRootMemory: "源自古英语 duru，与德语 Tür 和荷兰语 deur 同源。",
-    example: "close the door 关门",
+    examples: ["close the door 关门"],
     usageNotes: ["指房屋或房间的入口。"],
   },
   {
@@ -912,7 +912,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "携带，搬运",
     wordRootMemory: "源自古法语 carier，意为“运输”、“搬运”。",
-    example: "carry bags 提包",
+    examples: ["carry bags 提包"],
     usageNotes: ["表示用手或身体搬运某物。"],
   },
   {
@@ -921,7 +921,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "训练，培养",
     wordRootMemory: "源自古法语 trainer，意为“拖拉”、“训练”。",
-    example: "train dogs 训练狗",
+    examples: ["train dogs 训练狗"],
     usageNotes: ["表示通过练习或指导使某人或动物掌握技能。"],
   },
   {
@@ -930,7 +930,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "训练，培训",
     wordRootMemory: "由动词 train (训练) 加上名词后缀 -ing 构成。",
-    example: "receive training 接受培训",
+    examples: ["receive training 接受培训"],
     usageNotes: ["指训练或培养的过程或活动。"],
   },
   {
@@ -939,7 +939,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "激动的，兴奋的",
     wordRootMemory: "动词 excite (使激动) 的过去分词作形容词。",
-    example: "be excited about sth 对某事感到兴奋",
+    examples: ["be excited about sth 对某事感到兴奋"],
     usageNotes: ["形容词，表示情绪激动或兴奋。"],
   },
   {
@@ -948,7 +948,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "仁慈，善良，亲切，善意",
     wordRootMemory: "由 adjective kind (仁慈的) 加上名词后缀 -ness 构成。",
-    example: "show kindness to sb 对某人表示友善",
+    examples: ["show kindness to sb 对某人表示友善"],
     usageNotes: ["指友善、仁慈的品质或行为。"],
   },
   {
@@ -957,7 +957,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "聪明的，机灵的",
     wordRootMemory: "起源不明，可能与古英语 clifer 或中古荷兰语 cleveren 相关。",
-    example: "clever student 聪明的学生",
+    examples: ["clever student 聪明的学生"],
     usageNotes: ["形容词，表示聪明、机智。"],
   },
   {
@@ -966,7 +966,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "懂，理解",
     wordRootMemory: "组合词: under (在…之下) + stand (站立，此处表示领会)",
-    example: "understand English 理解英语",
+    examples: ["understand English 理解英语"],
     usageNotes: ["表示理解或明白某事物。"],
   },
   {
@@ -975,7 +975,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "改变",
     wordRootMemory: "源自古法语 changier，意为“交换”、“改变”。",
-    example: "change clothes 换衣服",
+    examples: ["change clothes 换衣服"],
     usageNotes: ["既可以作名词表示变化，也可以作动词表示改变。"],
   },
   {
@@ -984,7 +984,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "感兴趣;兴趣",
     wordRootMemory: "源自拉丁语 interesse，意为“在…之间”、“与…相关”，引申为“兴趣”。",
-    example: "have interest in 对…感兴趣",
+    examples: ["have interest in 对…感兴趣"],
     usageNotes: ["既可以作名词表示兴趣，也可以作动词表示使感兴趣。"],
   },
   {
@@ -993,7 +993,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "先生",
     wordRootMemory: "源自古法语 sire，意为“主人”、“先生”。",
-    example: "Yes, sir. 是的，先生。",
+    examples: ["Yes, sir. 是的，先生。"],
     usageNotes: ["用于尊称男性，表示礼貌和尊重。"],
   },
   {
@@ -1002,7 +1002,7 @@ export const middleSchoolUnit2Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "夫人，女士",
     wordRootMemory: "源自古法语 madame，意为“我的女士”。",
-    example: "Yes, madam. 是的，夫人。",
+    examples: ["Yes, madam. 是的，夫人。"],
     usageNotes: ["用于尊称女性，表示礼貌和尊重。"],
   },
 ]
@@ -1015,7 +1015,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "垃圾，废物",
     wordRootMemory: "源自盎格鲁-法语 rubbous，意为“瓦砾”、“碎片”。",
-    example: "take out the rubbish 倒垃圾",
+    examples: ["take out the rubbish 倒垃圾"],
     usageNotes: ["主要用于英式英语，美式英语中常用 garbage 或 trash。"],
   },
   {
@@ -1024,7 +1024,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "对折，折叠",
     wordRootMemory: "源自古英语 fealdan，与德语 falten 和荷兰语 vouwen 同源。",
-    example: "fold clothes 折叠衣服",
+    examples: ["fold clothes 折叠衣服"],
     usageNotes: ["指将某物弯曲或重叠起来。"],
   },
   {
@@ -1033,7 +1033,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "混乱，脏乱，食堂",
     wordRootMemory: "起源不明，可能与中古英语 messe 或古法语 mes 相关。",
-    example: "make a mess 弄得一团糟",
+    examples: ["make a mess 弄得一团糟"],
     usageNotes: ["指不整洁、混乱的状态或地方，也指食堂（尤指军队或学校的）。"],
   },
   {
@@ -1042,7 +1042,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "扔，投掷",
     wordRootMemory: "源自古英语 þrāwan，意为“扭转”、“投掷”。",
-    example: "throw a ball 扔球",
+    examples: ["throw a ball 扔球"],
     usageNotes: ["指用力将某物抛向空中或远处。"],
   },
   {
@@ -1051,7 +1051,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "频繁，反复",
     wordRootMemory: "短语，all (全部) + the time (时间)",
-    example: "He cries all the time. 他总是哭。",
+    examples: ["He cries all the time. 他总是哭。"],
     usageNotes: ["表示频率很高，经常发生。"],
   },
   {
@@ -1060,7 +1060,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "pron. adv.",
     definition: "二者都不;也不",
     wordRootMemory: "组合词: ne (不) + either (两者之一)",
-    example: "Neither of them is here. 他们两个都不在这儿。",
+    examples: ["Neither of them is here. 他们两个都不在这儿。"],
     usageNotes: ["用于否定两者，作代词或副词使用。"],
   },
   {
@@ -1069,7 +1069,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "运动衫，衬衫",
     wordRootMemory: "源自古英语 scyrte，与德语 Hemd 和荷兰语 hemd 同源。",
-    example: "wear a shirt 穿衬衫",
+    examples: ["wear a shirt 穿衬衫"],
     usageNotes: ["指上身穿的衬衣或运动衫。"],
   },
   {
@@ -1078,7 +1078,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "一…就…，尽快",
     wordRootMemory: "短语连词，as (如同) + soon (快) + as (如同)",
-    example: "As soon as I can, I will help you. 我一有空就帮你。",
+    examples: ["As soon as I can, I will help you. 我一有空就帮你。"],
     usageNotes: ["引导时间状语从句，表示紧随其后的动作。"],
   },
   {
@@ -1087,7 +1087,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "前行，经过，批准",
     wordRootMemory: "源自法语 passer，意为“通过”、“经过”。",
-    example: "pass by 经过",
+    examples: ["pass by 经过"],
     usageNotes: ["可以表示经过、通过，也表示及格或批准。"],
   },
   {
@@ -1096,7 +1096,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "借，借用",
     wordRootMemory: "源自古英语 borgian，意为“借入”、“借贷”。",
-    example: "borrow money 借钱",
+    examples: ["borrow money 借钱"],
     usageNotes: ["指从别人那里借东西，之后需要归还。"],
   },
   {
@@ -1105,7 +1105,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "借给，借出",
     wordRootMemory: "源自古英语 lǣnan，意为“借出”、“给予”。",
-    example: "lend money 借钱出去",
+    examples: ["lend money 借钱出去"],
     usageNotes: ["指将东西借给别人使用，之后需要归还。"],
   },
   {
@@ -1114,7 +1114,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "手指",
     wordRootMemory: "源自古英语 finger，与德语 Finger 和荷兰语 vinger 同源。",
-    example: "point a finger 指手指",
+    examples: ["point a finger 指手指"],
     usageNotes: ["指手的一部分。"],
   },
   {
@@ -1123,7 +1123,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "憎恶，讨厌",
     wordRootMemory: "源自古英语 hatian，与德语 hassen 和荷兰语 haten 同源。",
-    example: "hate doing sth 讨厌做某事",
+    examples: ["hate doing sth 讨厌做某事"],
     usageNotes: ["表示强烈的厌恶或憎恨。"],
   },
   {
@@ -1132,7 +1132,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "杂务，乏味的工作",
     wordRootMemory: "源自古英语 cerr，意为“转弯”、“家务”。",
-    example: "household chores 家务",
+    examples: ["household chores 家务"],
     usageNotes: ["指日常的、重复的、不令人愉快的工作。"],
   },
   {
@@ -1141,7 +1141,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "conj.",
     definition: "当...时候，而，然而",
     wordRootMemory: "源自古英语 hwīl，意为“一段时间”。",
-    example: "while doing sth 当做某事的时候",
+    examples: ["while doing sth 当做某事的时候"],
     usageNotes: ["引导时间状语从句，表示“当…的时候”；也可以表示转折，意为“而”、“然而”。"],
   },
   {
@@ -1150,7 +1150,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "小吃，点心，快餐",
     wordRootMemory: "可能源自荷兰语 snacken 或低地德语 snacken，意为“咬”、“发出咬的声音”。",
-    example: "have a snack 吃点心",
+    examples: ["have a snack 吃点心"],
     usageNotes: ["指正餐之间吃的少量食物。"],
   },
   {
@@ -1159,7 +1159,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "精神压力，心理负担",
     wordRootMemory: "源自古法语 estresse，意为“压迫”、“痛苦”。",
-    example: "under stress 在压力下",
+    examples: ["under stress 在压力下"],
     usageNotes: ["指精神上或情感上的紧张状态。"],
   },
   {
@@ -1168,7 +1168,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "浪费，消耗",
     wordRootMemory: "源自古法语 waster，意为“浪费”、“破坏”。",
-    example: "waste time 浪费时间",
+    examples: ["waste time 浪费时间"],
     usageNotes: ["指不必要地使用或消耗资源。"],
   },
   {
@@ -1177,7 +1177,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "目的是，为了",
     wordRootMemory: "短语，in order (为了) + to (表示目的)",
-    example: "in order to learn 为了学习",
+    examples: ["in order to learn 为了学习"],
     usageNotes: ["引导目的状语，表示做某事的目的是什么。"],
   },
   {
@@ -1186,7 +1186,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "提供，供给，供应",
     wordRootMemory: "源自拉丁语 providere，意为“预见”、“准备”。",
-    example: "provide food 提供食物",
+    examples: ["provide food 提供食物"],
     usageNotes: ["指给予或供应所需之物。"],
   },
   {
@@ -1195,7 +1195,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "无论如何,不管怎样，而且",
     wordRootMemory: "组合词: any (任何) + way (方式)",
-    example: "Anyway, let's go. 无论如何，我们走吧。",
+    examples: ["Anyway, let's go. 无论如何，我们走吧。"],
     usageNotes: ["表示让步、转折或补充说明。"],
   },
   {
@@ -1204,7 +1204,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "取决于，依靠，依赖",
     wordRootMemory: "源自拉丁语 dependere，意为“悬挂”、“依赖”。",
-    example: "depend on sb/sth 依靠某人/某物",
+    examples: ["depend on sb/sth 依靠某人/某物"],
     usageNotes: ["表示需要依靠某人或某物才能实现或确定。"],
   },
   {
@@ -1213,7 +1213,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "依靠于",
     wordRootMemory: "短语动词，depend (依赖) + on (在…之上)",
-    example: "depend on parents 依赖父母",
+    examples: ["depend on parents 依赖父母"],
     usageNotes: ["表示依赖或依靠的对象。"],
   },
   {
@@ -1222,7 +1222,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "发展，壮大，开发，研制",
     wordRootMemory: "源自法语 développer，意为“展开”、“发展”。",
-    example: "develop country 发展中国家",
+    examples: ["develop country 发展中国家"],
     usageNotes: ["表示使事物变得更大、更好或更成熟。"],
   },
   {
@@ -1231,7 +1231,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "独立自主的，不受约束的",
     wordRootMemory: "组合词: in- (不) + dependent (依赖的)",
-    example: "independent country 独立的国家",
+    examples: ["independent country 独立的国家"],
     usageNotes: ["形容词，表示不依赖他人或不受他人控制。"],
   },
   {
@@ -1240,7 +1240,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "独立",
     wordRootMemory: "由 adjective independent (独立的) 加上名词后缀 -ence 构成。",
-    example: "national independence 民族独立",
+    examples: ["national independence 民族独立"],
     usageNotes: ["指独立自主的状态或状况。"],
   },
   {
@@ -1249,7 +1249,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "公平的，公正的",
     wordRootMemory: "源自古英语 fæger，意为“美丽的”、“公正的”。",
-    example: "fair game 公平竞争",
+    examples: ["fair game 公平竞争"],
     usageNotes: ["形容词，表示公正、合理、不偏袒。"],
   },
   {
@@ -1258,7 +1258,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "不公平的，有偏见的",
     wordRootMemory: "前缀 un- (不) + fair (公平的)",
-    example: "unfair treatment 不公平的待遇",
+    examples: ["unfair treatment 不公平的待遇"],
     usageNotes: ["形容词，表示不公正、不合理、有偏袒。"],
   },
   {
@@ -1267,7 +1267,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "公正性，合理性",
     wordRootMemory: "由 adjective fair (公平的) 加上名词后缀 -ness 构成。",
-    example: "fairness and justice 公平与正义",
+    examples: ["fairness and justice 公平与正义"],
     usageNotes: ["指公平、公正的品质或状态。"],
   },
   {
@@ -1276,7 +1276,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "conj.",
     definition: "因为，既然",
     wordRootMemory: "源自中古英语 sithens，为 sithen (之后) 的所有格形式。",
-    example: "Since it's raining, we will stay at home. 因为下雨了，我们将待在家里。",
+    examples: ["Since it's raining, we will stay at home. 因为下雨了，我们将待在家里。"],
     usageNotes: ["引导原因状语从句，表示原因或理由。"],
   },
   {
@@ -1285,7 +1285,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "邻居",
     wordRootMemory: "古英语 nēahgebūr, nēah (near 近的) + gebūr (peasant 村民)",
-    example: "friendly neighbor 友好的邻居",
+    examples: ["friendly neighbor 友好的邻居"],
     usageNotes: ["指住在附近的人。"],
   },
   {
@@ -1294,7 +1294,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "照顾，处理",
     wordRootMemory: "短语动词，take (采取) + care (小心，照顾) + of (关于)",
-    example: "take care of children 照顾孩子",
+    examples: ["take care of children 照顾孩子"],
     usageNotes: ["表示照顾某人或某物，也表示处理某事。"],
   },
   {
@@ -1303,7 +1303,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "生病的，有病的",
     wordRootMemory: "源自古诺尔斯语 illr，意为“坏的”、“恶劣的”、“生病的”。",
-    example: "feel ill 感到不适",
+    examples: ["feel ill 感到不适"],
     usageNotes: ["形容词，表示身体不健康。"],
   },
   {
@@ -1312,7 +1312,7 @@ export const middleSchoolUnit3Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "落下，跌落",
     wordRootMemory: "源自古英语 dropa，意为“小球状物”、“滴”。",
-    example: "drop something on the floor 把某物掉在地上",
+    examples: ["drop something on the floor 把某物掉在地上"],
     usageNotes: ["指使某物从高处落下。"],
   },
 ]
@@ -1325,7 +1325,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "允许，准许",
     wordRootMemory: "源自古法语 alouer，意为“赞同”、“允许”。",
-    example: "allow sb to do sth 允许某人做某事",
+    examples: ["allow sb to do sth 允许某人做某事"],
     usageNotes: ["表示许可或准许某人做某事。"],
   },
   {
@@ -1334,7 +1334,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "错误的",
     wordRootMemory: "源自古诺尔斯语 rangr，意为“不正当的”、“错误的”。",
-    example: "What's wrong? 哪儿不舒服?",
+    examples: ["What's wrong? 哪儿不舒服?"],
     usageNotes: ["形容词，表示不正确或不合适。"],
   },
   {
@@ -1343,7 +1343,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "午夜，子夜",
     wordRootMemory: "组合词: mid- (中间) + night (夜晚)",
-    example: "at midnight 在午夜",
+    examples: ["at midnight 在午夜"],
     usageNotes: ["指夜晚十二点。"],
   },
   {
@@ -1352,7 +1352,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "浏览，快速查看",
     wordRootMemory: "短语动词，look (看) + through (穿过，此处表示快速浏览)",
-    example: "look through a book 浏览一本书",
+    examples: ["look through a book 浏览一本书"],
     usageNotes: ["表示快速地查看或阅读某物。"],
   },
   {
@@ -1361,7 +1361,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "猜测，估计",
     wordRootMemory: "源自中古英语 gessen，可能源自荷兰语 gissen 或古诺尔斯语 gissa。",
-    example: "guess the answer 猜测答案",
+    examples: ["guess the answer 猜测答案"],
     usageNotes: ["表示在没有确凿证据的情况下进行推测。"],
   },
   {
@@ -1370,7 +1370,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "处理，应付",
     wordRootMemory: "源自古英语 dǣlan，意为“分配”、“处理”。",
-    example: "big deal 重要的事",
+    examples: ["big deal 重要的事"],
     usageNotes: ["可以表示处理事务，也可以表示扑克牌中的“发牌”。"],
   },
   {
@@ -1379,7 +1379,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "成功地发展，解决",
     wordRootMemory: "短语动词，work (工作，此处表示努力) + out (结果)",
-    example: "work out problems 解决问题",
+    examples: ["work out problems 解决问题"],
     usageNotes: ["表示通过努力解决问题或取得成功。"],
   },
   {
@@ -1388,7 +1388,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "和睦相处，关系良好",
     wordRootMemory: "短语动词，get on (相处) + with (与…)",
-    example: "get on well with sb 与某人相处融洽",
+    examples: ["get on well with sb 与某人相处融洽"],
     usageNotes: ["表示与他人保持良好关系。"],
   },
   {
@@ -1397,7 +1397,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "关系，联系，交往",
     wordRootMemory: "源自拉丁语 relatio，意为“叙述”、“关系”。",
-    example: "family relations 家庭关系",
+    examples: ["family relations 家庭关系"],
     usageNotes: ["指人或事物之间的联系或关联。"],
   },
   {
@@ -1406,7 +1406,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "沟通,通信,通讯",
     wordRootMemory: "源自拉丁语 communicare，意为“共享”、“交流”。",
-    example: "communicate with others 与他人交流",
+    examples: ["communicate with others 与他人交流"],
     usageNotes: ["表示交流思想、信息或感受。"],
   },
   {
@@ -1415,7 +1415,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "交流，沟通",
     wordRootMemory: "由动词 communicate (沟通) 加上名词后缀 -ion 构成。",
-    example: "good communication 良好的沟通",
+    examples: ["good communication 良好的沟通"],
     usageNotes: ["指交流的过程或行为。"],
   },
   {
@@ -1424,7 +1424,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "争论，争吵",
     wordRootMemory: "源自拉丁语 arguer，意为“证明”、“辩论”。",
-    example: "argue with sb 和某人争吵",
+    examples: ["argue with sb 和某人争吵"],
     usageNotes: ["表示就某事进行辩论或争吵。"],
   },
   {
@@ -1433,7 +1433,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "云",
     wordRootMemory: "源自古英语 clūd，意为“云”、“岩石”。",
-    example: "white cloud 白云",
+    examples: ["white cloud 白云"],
     usageNotes: ["指天空中由水蒸气凝结成的可见集合体。"],
   },
   {
@@ -1442,7 +1442,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "年级较长的",
     wordRootMemory: "比较级形容词，old (老的) 的比较级形式。",
-    example: "elder brother 哥哥",
+    examples: ["elder brother 哥哥"],
     usageNotes: ["用于指家庭成员或群体中年龄较大的一位。"],
   },
   {
@@ -1451,7 +1451,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "代替",
     wordRootMemory: "短语 in stead of 的简写，in stead (代替) + of (…的)",
-    example: "instead of doing sth 代替做某事",
+    examples: ["instead of doing sth 代替做某事"],
     usageNotes: ["表示用…来代替…。"],
   },
   {
@@ -1460,7 +1460,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "pron.",
     definition: "任何,不管什么,无论什么",
     wordRootMemory: "组合词: what (什么) + ever (无论)",
-    example: "Whatever you do is OK. 你做什么都可以。",
+    examples: ["Whatever you do is OK. 你做什么都可以。"],
     usageNotes: ["表示无论什么，任何事物。"],
   },
   {
@@ -1469,7 +1469,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "紧张不安的",
     wordRootMemory: "源自拉丁语 nervosus，意为“强壮的”、“神经的”。",
-    example: "feel nervous 感到紧张",
+    examples: ["feel nervous 感到紧张"],
     usageNotes: ["形容词，表示焦虑、紧张或不安。"],
   },
   {
@@ -1478,7 +1478,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "提供，自愿给予",
     wordRootMemory: "源自拉丁语 offerre，意为“提出”、“提供”。",
-    example: "offer help 提供帮助",
+    examples: ["offer help 提供帮助"],
     usageNotes: ["表示主动提出给予某物或帮助。"],
   },
   {
@@ -1487,7 +1487,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "合适的，适当的",
     wordRootMemory: "源自古法语 propre，意为“自己的”、“合适的”。",
-    example: "proper way 合适的方式",
+    examples: ["proper way 合适的方式"],
     usageNotes: ["形容词，表示适合特定目的或情况。"],
   },
   {
@@ -1496,7 +1496,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "第二，其次",
     wordRootMemory: "由序数词 second (第二) 加上副词后缀 -ly 构成。",
-    example: "Secondly, we need to consider... 其次，我们需要考虑...",
+    examples: ["Secondly, we need to consider... 其次，我们需要考虑..."],
     usageNotes: ["用于列举条目时，表示顺序。"],
   },
   {
@@ -1505,7 +1505,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "讲解，解释，说明",
     wordRootMemory: "源自拉丁语 explanare，意为“使平坦”、“解释清楚”。",
-    example: "explain sth to sb 向某人解释某事",
+    examples: ["explain sth to sb 向某人解释某事"],
     usageNotes: ["表示使某事变得清楚易懂。"],
   },
   {
@@ -1514,7 +1514,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "清晰的，清楚易懂的",
     wordRootMemory: "源自拉丁语 clarus，意为“明亮的”、“清晰的”。",
-    example: "clear sky 晴朗的天空",
+    examples: ["clear sky 晴朗的天空"],
     usageNotes: ["形容词，表示容易理解或看到。"],
   },
   {
@@ -1523,7 +1523,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "复制",
     wordRootMemory: "源自古法语 copie，意为“副本”、“复制品”。",
-    example: "copy files 复制文件",
+    examples: ["copy files 复制文件"],
     usageNotes: ["表示制作副本或模仿。"],
   },
   {
@@ -1532,7 +1532,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "回来，返回，归还",
     wordRootMemory: "源自古法语 returner，意为“返回”、“转回”。",
-    example: "return home 返回家",
+    examples: ["return home 返回家"],
     usageNotes: ["表示回到原来的地方或状态，也表示归还某物。"],
   },
   {
@@ -1541,7 +1541,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "不再，再也不",
     wordRootMemory: "组合词: any (任何) + more (更多)",
-    example: "not anymore 不再",
+    examples: ["not anymore 不再"],
     usageNotes: ["表示某事不再发生或存在，通常用于否定句。"],
   },
   {
@@ -1550,7 +1550,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "成员，会员",
     wordRootMemory: "源自拉丁语 membrum，意为“肢体”、“成员”。",
-    example: "family member 家庭成员",
+    examples: ["family member 家庭成员"],
     usageNotes: ["指团体、组织或家庭中的一份子。"],
   },
   {
@@ -1559,7 +1559,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "压力",
     wordRootMemory: "源自拉丁语 pressura，意为“压迫”、“压力”。",
-    example: "under pressure 在压力下",
+    examples: ["under pressure 在压力下"],
     usageNotes: ["指施加的力量或精神上的压力。"],
   },
   {
@@ -1568,7 +1568,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "比赛，竞争",
     wordRootMemory: "源自拉丁语 competere，意为“竞争”、“争取”。",
-    example: "compete with sb 与某人竞争",
+    examples: ["compete with sb 与某人竞争"],
     usageNotes: ["表示为了赢得某物或超越他人而努力。"],
   },
   {
@@ -1577,7 +1577,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "意见，想法，看法",
     wordRootMemory: "源自拉丁语 opinio，意为“看法”、“意见”。",
-    example: "in my opinion 在我看来",
+    examples: ["in my opinion 在我看来"],
     usageNotes: ["指对某事物的个人看法或判断。"],
   },
   {
@@ -1586,7 +1586,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "技能，技巧",
     wordRootMemory: "起源不明，可能与古诺尔斯语 skil 或古英语 scylu 相关。",
-    example: "learn skills 学习技能",
+    examples: ["learn skills 学习技能"],
     usageNotes: ["指通过练习获得的熟练能力。"],
   },
   {
@@ -1595,7 +1595,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "典型的",
     wordRootMemory: "源自希腊语 typikos，意为“模型的”、“典型的”。",
-    example: "typical example 典型的例子",
+    examples: ["typical example 典型的例子"],
     usageNotes: ["形容词，表示具有代表性或符合某种类型的特征。"],
   },
   {
@@ -1604,7 +1604,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "足球",
     wordRootMemory: "组合词: foot (脚) + ball (球)",
-    example: "play football 踢足球",
+    examples: ["play football 踢足球"],
     usageNotes: ["指足球运动或足球。"],
   },
   {
@@ -1613,7 +1613,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "删去，删除",
     wordRootMemory: "短语动词，cut (切) + out (去除)",
-    example: "cut out mistakes 删去错误",
+    examples: ["cut out mistakes 删去错误"],
     usageNotes: ["表示通过切割或删除来移除某物。"],
   },
   {
@@ -1622,7 +1622,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "快的，迅速的",
     wordRootMemory: "源自古英语 cwicu，意为“活着的”、“快速的”。",
-    example: "quick walk 快步走",
+    examples: ["quick walk 快步走"],
     usageNotes: ["形容词，表示速度快或时间短。"],
   },
   {
@@ -1631,7 +1631,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "继续，连续",
     wordRootMemory: "源自拉丁语 continuare，意为“连接”、“继续”。",
-    example: "continue to do sth 继续做某事",
+    examples: ["continue to do sth 继续做某事"],
     usageNotes: ["表示不间断地进行下去。"],
   },
   {
@@ -1640,7 +1640,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "比较",
     wordRootMemory: "源自法语 comparer，意为“比较”、“对比”。",
-    example: "compare A with B 将A和B比较",
+    examples: ["compare A with B 将A和B比较"],
     usageNotes: ["表示找出事物之间的相似点和不同点。"],
   },
   {
@@ -1649,7 +1649,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "比较，对比",
     wordRootMemory: "短语，compare (比较) + with (与…)",
-    example: "compare with 对比",
+    examples: ["compare with 对比"],
     usageNotes: ["表示比较的对象和方式。"],
   },
   {
@@ -1658,7 +1658,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "疯狂的，狂热的",
     wordRootMemory: "可能源自中古英语 crased，意为“破碎的”，引申为精神错乱，失去理智。",
-    example: "crazy idea 疯狂的想法",
+    examples: ["crazy idea 疯狂的想法"],
     usageNotes: ["形容词，表示不理智、疯狂或极度热衷。"],
   },
   {
@@ -1667,7 +1667,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "发育，成长，发展",
     wordRootMemory: "由动词 develop (发展) 加上名词后缀 -ment 构成。",
-    example: "economic development 经济发展",
+    examples: ["economic development 经济发展"],
     usageNotes: ["指事物逐渐成长、进步或变化的过程。"],
   },
   {
@@ -1676,7 +1676,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "原因;造成，使发生",
     wordRootMemory: "源自拉丁语 causa，意为“原因”、“理由”。",
-    example: "the cause of the accident 事故的原因",
+    examples: ["the cause of the accident 事故的原因"],
     usageNotes: ["既可以作名词表示原因，也可以作动词表示导致。"],
   },
   {
@@ -1685,7 +1685,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "通常的，平常的",
     wordRootMemory: "源自拉丁语 usualis，意为“惯常的”、“普通的”。",
-    example: "as usual 像往常一样",
+    examples: ["as usual 像往常一样"],
     usageNotes: ["形容词，表示常见、普通、符合惯例。"],
   },
   {
@@ -1694,7 +1694,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "依… 看",
     wordRootMemory: "短语，in (在…里) + one's opinion (某人的观点里)",
-    example: "in my opinion 依我看",
+    examples: ["in my opinion 依我看"],
     usageNotes: ["表示某人的观点或看法。"],
   },
   {
@@ -1703,7 +1703,7 @@ export const middleSchoolUnit4Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "可能，大概，也许",
     wordRootMemory: "组合词: per (通过) + haps (运气，机会)",
-    example: "Perhaps it will rain. 也许会下雨。",
+    examples: ["Perhaps it will rain. 也许会下雨。"],
     usageNotes: ["表示不确定性或可能性。"],
   },
 ]
@@ -1716,7 +1716,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "暴风雨",
     wordRootMemory: "组合词: rain (雨) + storm (风暴)",
-    example: "heavy rainstorm 强暴雨",
+    examples: ["heavy rainstorm 强暴雨"],
     usageNotes: ["指伴随强降雨的暴风雨。"],
   },
   {
@@ -1725,7 +1725,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "闹钟",
     wordRootMemory: "源自意大利语 all'arme，意为“到武器旁”。",
-    example: "alarm clock 闹钟",
+    examples: ["alarm clock 闹钟"],
     usageNotes: ["指用于提醒或警告的装置，此处特指闹钟。", "go off (闹钟)发出响声"],
   },
   {
@@ -1734,7 +1734,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "(闹钟)发出响声",
     wordRootMemory: "短语动词，go (发出) + off (离开，此处表示开始响铃)",
-    example: "The alarm clock went off. 闹钟响了。",
+    examples: ["The alarm clock went off. 闹钟响了。"],
     usageNotes: ["特指闹钟或爆炸物等发出响声。"],
   },
   {
@@ -1743,7 +1743,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "开始",
     wordRootMemory: "源自古英语 beginnan，意为“开始”、“着手”。",
-    example: "begin to do sth 开始做某事",
+    examples: ["begin to do sth 开始做某事"],
     usageNotes: ["表示动作或状态的起始。"],
   },
   {
@@ -1752,7 +1752,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "在很大程度上，大量地",
     wordRootMemory: "由 adjective heavy (重的) 加上副词后缀 -ly 构成。",
-    example: "rain heavily 雨下得很大",
+    examples: ["rain heavily 雨下得很大"],
     usageNotes: ["副词，表示程度深或数量多。"],
   },
   {
@@ -1761,7 +1761,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "突然地",
     wordRootMemory: "由 adjective sudden (突然的) 加上副词后缀 -ly 构成。",
-    example: "suddenly stop 突然停止",
+    examples: ["suddenly stop 突然停止"],
     usageNotes: ["副词，表示出乎意料地快速发生。"],
   },
   {
@@ -1770,7 +1770,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "接电话 (=pick up the phone)",
     wordRootMemory: "短语动词，pick (拿起) + up (向上)",
-    example: "pick up the phone 接电话",
+    examples: ["pick up the phone 接电话"],
     usageNotes: ["特指接听电话。"],
   },
   {
@@ -1779,7 +1779,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "奇怪的，陌生的，奇特的",
     wordRootMemory: "源自古法语 estrange，意为“外国的”、“陌生的”。",
-    example: "strange man 陌生人",
+    examples: ["strange man 陌生人"],
     usageNotes: ["形容词，表示不寻常、不熟悉或难以理解。"],
   },
   {
@@ -1788,7 +1788,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "暴风雨",
     wordRootMemory: "源自古英语 storm，与德语 Sturm 和荷兰语 storm 同源。",
-    example: "strong storm 强风暴",
+    examples: ["strong storm 强风暴"],
     usageNotes: ["指伴随强风、暴雨或雷电的恶劣天气。"],
   },
   {
@@ -1797,7 +1797,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "风",
     wordRootMemory: "源自古英语 wind，与德语 Wind 和荷兰语 wind 同源。",
-    example: "strong wind 强风",
+    examples: ["strong wind 强风"],
     usageNotes: ["指空气的流动。"],
   },
   {
@@ -1806,7 +1806,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "电灯;点燃",
     wordRootMemory: "源自古英语 lēoht，意为“光”、“光明”。",
-    example: "turn on the light 开灯",
+    examples: ["turn on the light 开灯"],
     usageNotes: ["既可以作名词表示光或灯，也可以作动词表示点亮。"],
   },
   {
@@ -1815,7 +1815,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "报导，报告",
     wordRootMemory: "源自拉丁语 reportare，意为“带回”、“报告”。",
-    example: "report news 报道新闻",
+    examples: ["report news 报道新闻"],
     usageNotes: ["表示告知或发布信息。"],
   },
   {
@@ -1824,7 +1824,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "范围，地域，地区",
     wordRootMemory: "源自拉丁语 area，意为“空地”、“区域”。",
-    example: "large area 大面积",
+    examples: ["large area 大面积"],
     usageNotes: ["指空间或地理上的范围或区域。"],
   },
   {
@@ -1833,7 +1833,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "树木，木材，树木",
     wordRootMemory: "源自古英语 wudu，与德语 Wald 和荷兰语 woud 同源。",
-    example: "firewood 柴火",
+    examples: ["firewood 柴火"],
     usageNotes: ["既可以指树林，也可以指木材。"],
   },
   {
@@ -1842,7 +1842,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "窗户",
     wordRootMemory: "组合词: wind (风) + eye (眼睛)",
-    example: "open window 开窗户",
+    examples: ["open window 开窗户"],
     usageNotes: ["指房屋或车辆上的窗户。"],
   },
   {
@@ -1851,7 +1851,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "手电筒，火炬",
     wordRootMemory: "组合词: flash (闪光) + light (灯)",
-    example: "use a flashlight 用手电筒",
+    examples: ["use a flashlight 用手电筒"],
     usageNotes: ["指手持式便携照明设备。"],
   },
   {
@@ -1860,7 +1860,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "火柴，比赛",
     wordRootMemory: "源自古法语 meiche，意为“灯芯”、“火柴”。",
-    example: "light a match 点燃火柴",
+    examples: ["light a match 点燃火柴"],
     usageNotes: ["既可以指火柴，也可以指比赛或匹配。"],
   },
   {
@@ -1869,7 +1869,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "敲打，打败",
     wordRootMemory: "源自古英语 bēatan，意为“打击”、“敲打”。",
-    example: "beat drums 敲鼓",
+    examples: ["beat drums 敲鼓"],
     usageNotes: ["可以表示敲打或击打，也可以表示在比赛中战胜。"],
   },
   {
@@ -1878,7 +1878,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "prep.",
     definition: "反对，对…不利",
     wordRootMemory: "起源不明，可能与古英语 ongegn 相关，意为“相对”、“反对”。",
-    example: "against the rules 违反规则",
+    examples: ["against the rules 违反规则"],
     usageNotes: ["表示反对或与…相对。"],
   },
   {
@@ -1887,7 +1887,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "睡着的，熟睡的",
     wordRootMemory: "组合词: a- (在…状态) + sleep (睡眠)",
-    example: "fall asleep 进入梦乡，睡着",
+    examples: ["fall asleep 进入梦乡，睡着"],
     usageNotes: ["形容词，表示正在睡觉的状态。"],
   },
   {
@@ -1896,7 +1896,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "进入梦乡，睡着",
     wordRootMemory: "短语动词，fall (落下，此处表示进入状态) + asleep (睡着的)",
-    example: "fall asleep quickly 很快入睡",
+    examples: ["fall asleep quickly 很快入睡"],
     usageNotes: ["表示开始入睡的动作。"],
   },
   {
@@ -1905,7 +1905,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "逐渐变弱，逐渐消失",
     wordRootMemory: "短语动词，die (死亡，此处表示减弱) + down (向下)",
-    example: "The storm died down. 暴风雨逐渐减弱。",
+    examples: ["The storm died down. 暴风雨逐渐减弱。"],
     usageNotes: ["表示声音、风暴等逐渐减弱或消失。"],
   },
   {
@@ -1914,7 +1914,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "上升，升起",
     wordRootMemory: "源自古英语 rīsan，与德语 reisen 和荷兰语 rijzen 同源。",
-    example: "sun rise 太阳升起",
+    examples: ["sun rise 太阳升起"],
     usageNotes: ["表示向上移动或增加。"],
   },
   {
@@ -1923,7 +1923,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "倒下的，落下的",
     wordRootMemory: "动词 fall (落下) 的过去分词作形容词。",
-    example: "fallen leaves 落叶",
+    examples: ["fallen leaves 落叶"],
     usageNotes: ["形容词，表示已经落下或倒下的状态。"],
   },
   {
@@ -1932,7 +1932,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "分离，分开",
     wordRootMemory: "源自法语 à part，意为“分开”、“分离”。",
-    example: "take apart 拆开",
+    examples: ["take apart 拆开"],
     usageNotes: ["表示分离或分开的状态。"],
   },
   {
@@ -1941,7 +1941,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "看一看",
     wordRootMemory: "短语，have (有) + a look (一看)",
-    example: "have a look at 看一看",
+    examples: ["have a look at 看一看"],
     usageNotes: ["表示快速地看一眼。"],
   },
   {
@@ -1950,7 +1950,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "覆盖着冰的，冰冷的",
     wordRootMemory: "由名词 ice (冰) 加上形容词后缀 -y 构成。",
-    example: "icy road 结冰的路面",
+    examples: ["icy road 结冰的路面"],
     usageNotes: ["形容词，表示覆盖着冰或非常寒冷。"],
   },
   {
@@ -1959,7 +1959,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "(口语)小孩;开玩笑，欺骗",
     wordRootMemory: "起源不明，可能与古诺尔斯语 kið 相关，意为“小山羊”。",
-    example: "just kidding 只是开玩笑",
+    examples: ["just kidding 只是开玩笑"],
     usageNotes: ["口语常用，作名词指小孩，作动词指开玩笑或欺骗。"],
   },
   {
@@ -1968,7 +1968,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "认识到，了解",
     wordRootMemory: "由 adjective real (真实的) 加上动词后缀 -ize 构成。",
-    example: "realize mistakes 意识到错误",
+    examples: ["realize mistakes 意识到错误"],
     usageNotes: ["表示意识到、明白或理解某事。"],
   },
   {
@@ -1977,7 +1977,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "前往，费力地前进",
     wordRootMemory: "短语，make (制造，此处表示努力) + one's way (某人的道路)",
-    example: "make one's way home 艰难地回家",
+    examples: ["make one's way home 艰难地回家"],
     usageNotes: ["表示努力地向某方向前进。"],
   },
   {
@@ -1986,7 +1986,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "章节，段落",
     wordRootMemory: "源自法语 passage，意为“通道”、“段落”。",
-    example: "read a passage 阅读段落",
+    examples: ["read a passage 阅读段落"],
     usageNotes: ["指文章或书籍中的一段文字。"],
   },
   {
@@ -1995,7 +1995,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "学生",
     wordRootMemory: "源自拉丁语 pupillus，意为“孤儿”、“未成年人”。",
-    example: "school pupil 小学生",
+    examples: ["school pupil 小学生"],
     usageNotes: ["指在校学生，尤指小学生或中学生。"],
   },
   {
@@ -2004,7 +2004,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "彻底地，完全地",
     wordRootMemory: "由 adjective complete (完全的) 加上副词后缀 -ly 构成。",
-    example: "completely different 完全不同",
+    examples: ["completely different 完全不同"],
     usageNotes: ["副词，表示程度完全或彻底。"],
   },
   {
@@ -2013,7 +2013,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "震惊的，震撼的",
     wordRootMemory: "动词 shock (震惊) 的过去分词作形容词。",
-    example: "be shocked at sth 对某事感到震惊",
+    examples: ["be shocked at sth 对某事感到震惊"],
     usageNotes: ["形容词，表示因意外事件而感到震惊。"],
   },
   {
@@ -2022,7 +2022,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "寂静，沉默",
     wordRootMemory: "源自拉丁语 silentium，意为“寂静”、“沉默”。",
-    example: "in silence 沉默",
+    examples: ["in silence 沉默"],
     usageNotes: ["指没有声音或说话的状态。"],
   },
   {
@@ -2031,7 +2031,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "沉默，无声",
     wordRootMemory: "短语，in (在…之中) + silence (沉默)",
-    example: "sit in silence 沉默地坐着",
+    examples: ["sit in silence 沉默地坐着"],
     usageNotes: ["表示处于沉默无声的状态。"],
   },
   {
@@ -2040,7 +2040,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "不久前，近来，最近",
     wordRootMemory: "由 adjective recent (最近的) 加上副词后缀 -ly 构成。",
-    example: "recently seen 最近见过",
+    examples: ["recently seen 最近见过"],
     usageNotes: ["副词，表示不久之前。"],
   },
   {
@@ -2049,7 +2049,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "拆除，往下拽，记录",
     wordRootMemory: "短语动词，take (拿) + down (向下)",
-    example: "take down notes 记笔记",
+    examples: ["take down notes 记笔记"],
     usageNotes: ["根据语境可以表示拆除、记下或击倒等含义。"],
   },
   {
@@ -2058,7 +2058,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "恐怖分子",
     wordRootMemory: "由名词 terror (恐怖) 加上名词后缀 -ist 构成，表示“从事…的人”。",
-    example: "terrorist attack 恐怖袭击",
+    examples: ["terrorist attack 恐怖袭击"],
     usageNotes: ["指使用暴力或恐怖手段达到政治目的的个人或团体成员。"],
   },
   {
@@ -2067,7 +2067,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "日期，日子",
     wordRootMemory: "源自古法语 date，来源于拉丁语 datum，意为“给出的（日期）”。",
-    example: "What's the date today? 今天几号？",
+    examples: ["What's the date today? 今天几号？"],
     usageNotes: ["指日历上的日期。"],
   },
   {
@@ -2076,7 +2076,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "塔",
     wordRootMemory: "源自古法语 tour，来源于拉丁语 turris，意为“塔”。",
-    example: "tall tower 高塔",
+    examples: ["tall tower 高塔"],
     usageNotes: ["指高而窄的建筑物。"],
   },
   {
@@ -2085,7 +2085,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "首先，最初",
     wordRootMemory: "短语，at (在) + first (第一)",
-    example: "At first, I didn't understand. 起初，我不明白。",
+    examples: ["At first, I didn't understand. 起初，我不明白。"],
     usageNotes: ["表示事情的开始阶段或最初时刻。"],
   },
   {
@@ -2094,7 +2094,7 @@ export const middleSchoolUnit5Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "真相，真理，事实",
     wordRootMemory: "由 adjective true (真实的) 加上名词后缀 -th 构成。",
-    example: "tell the truth 说真话",
+    examples: ["tell the truth 说真话"],
     usageNotes: ["指真实的情况或事实。"],
   },
 ]
@@ -2107,7 +2107,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "投篮，射击，发射",
     wordRootMemory: "源自古英语 scēotan，意为“发射”、“投掷”。",
-    example: "shoot a basket 投篮",
+    examples: ["shoot a basket 投篮"],
     usageNotes: ["可以表示射击、投掷或拍摄影片等。"],
   },
   {
@@ -2116,7 +2116,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "石头",
     wordRootMemory: "源自古英语 stān，与德语 Stein 和荷兰语 steen 同源。",
-    example: "throw stones 扔石头",
+    examples: ["throw stones 扔石头"],
     usageNotes: ["指岩石的小块或石料。"],
   },
   {
@@ -2125,7 +2125,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "虚弱的，柔弱的",
     wordRootMemory: "源自古英语 wāc，与德语 weich 和荷兰语 week 同源。",
-    example: "weak body 虚弱的身体",
+    examples: ["weak body 虚弱的身体"],
     usageNotes: ["形容词，表示身体或力量虚弱。"],
   },
   {
@@ -2134,7 +2134,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "上帝，神",
     wordRootMemory: "源自古英语 god，与德语 Gott 和荷兰语 God 同源。",
-    example: "thank God 谢天谢地",
+    examples: ["thank God 谢天谢地"],
     usageNotes: ["指宗教信仰中的神或上帝。"],
   },
   {
@@ -2143,7 +2143,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "提醒，使想起",
     wordRootMemory: "组合词: re- (再次) + mind (记住)",
-    example: "remind sb of sth 提醒某人某事",
+    examples: ["remind sb of sth 提醒某人某事"],
     usageNotes: ["表示使某人回忆起或记住某事。"],
   },
   {
@@ -2152,7 +2152,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "一点，小块",
     wordRootMemory: "源自古英语 bita，意为“咬”、“一块”。",
-    example: "a little bit 有点儿，稍微",
+    examples: ["a little bit 有点儿，稍微"],
     usageNotes: ["指少量或小部分。"],
   },
   {
@@ -2161,7 +2161,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "有点儿，稍微",
     wordRootMemory: "短语，a little (一点) + bit (小块)",
-    example: "a little bit tired 有点累",
+    examples: ["a little bit tired 有点累"],
     usageNotes: ["表示少量或轻微的程度。"],
   },
   {
@@ -2170,7 +2170,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj. & n.",
     definition: "愚昧的;傻子，蠢货",
     wordRootMemory: "源自古英语 sǣlig，意为“幸福的”、“简单的”，后引申为“愚蠢的”。",
-    example: "silly question 愚蠢的问题",
+    examples: ["silly question 愚蠢的问题"],
     usageNotes: ["形容词，表示愚蠢、可笑或不明智，名词指傻瓜。"],
   },
   {
@@ -2179,7 +2179,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "代替，反而",
     wordRootMemory: "短语，in (在…里) + stead (位置) + of (…的)",
-    example: "instead of coffee 代替咖啡",
+    examples: ["instead of coffee 代替咖啡"],
     usageNotes: ["表示用…来代替…。"],
   },
   {
@@ -2188,7 +2188,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "变成",
     wordRootMemory: "短语动词，turn (转动) + into (进入)",
-    example: "turn into a frog 变成青蛙",
+    examples: ["turn into a frog 变成青蛙"],
     usageNotes: ["表示改变成另一种状态或形式。"],
   },
   {
@@ -2197,7 +2197,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "物体，目标，物品",
     wordRootMemory: "源自拉丁语 objectum，意为“被抛出的东西”、“物体”。",
-    example: "shiny object 发光的物体",
+    examples: ["shiny object 发光的物体"],
     usageNotes: ["指可以被感知或触摸到的具体事物。"],
   },
   {
@@ -2206,7 +2206,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "躲藏，隐藏",
     wordRootMemory: "源自古英语 hȳdan，与德语 hüten 和荷兰语 hoeden 同源。",
-    example: "hide oneself 躲藏起来",
+    examples: ["hide oneself 躲藏起来"],
     usageNotes: ["表示使某物或某人不易被发现。"],
   },
   {
@@ -2215,7 +2215,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "尾巴",
     wordRootMemory: "源自古英语 tæġl，与德语 Zahl 和荷兰语 taal 同源。",
-    example: "dog's tail 狗尾巴",
+    examples: ["dog's tail 狗尾巴"],
     usageNotes: ["指动物身体后部的延伸部分。"],
   },
   {
@@ -2224,7 +2224,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "魔法，巫术",
     wordRootMemory: "源自古法语 magique，来源于希腊语 magikē，意为“魔法”。",
-    example: "magic show 魔术表演",
+    examples: ["magic show 魔术表演"],
     usageNotes: ["指超自然的力量或技巧。"],
   },
   {
@@ -2233,7 +2233,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "棍，棒;刺，戳，插",
     wordRootMemory: "源自古英语 sticca，意为“棍”、“杖”。",
-    example: "wooden stick 木棍",
+    examples: ["wooden stick 木棍"],
     usageNotes: ["既可以作名词表示棍棒，也可以作动词表示粘贴或刺入。"],
   },
   {
@@ -2242,7 +2242,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "使激动，使兴奋",
     wordRootMemory: "源自拉丁语 excitare，意为“唤醒”、“激励”。",
-    example: "excite sb 使某人兴奋",
+    examples: ["excite sb 使某人兴奋"],
     usageNotes: ["表示使某人感到兴奋或激动。"],
   },
   {
@@ -2251,7 +2251,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "西方的，欧美的",
     wordRootMemory: "由名词 west (西方) 加上形容词后缀 -ern 构成。",
-    example: "Western culture 西方文化",
+    examples: ["Western culture 西方文化"],
     usageNotes: ["形容词，表示西方国家或文化。"],
   },
   {
@@ -2260,7 +2260,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "从前",
     wordRootMemory: "短语，once (曾经) + upon (在…之上)",
-    example: "Once upon a time, there was a princess. 从前，有一个公主。",
+    examples: ["Once upon a time, there was a princess. 从前，有一个公主。"],
     usageNotes: ["童话故事或传说的常用开头语。"],
   },
   {
@@ -2269,7 +2269,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "继姐(妹)",
     wordRootMemory: "组合词: step- (继-) + sister (姐妹)",
-    example: "evil stepsister 恶毒的继姐/妹",
+    examples: ["evil stepsister 恶毒的继姐/妹"],
     usageNotes: ["指继母或继父的女儿。"],
   },
   {
@@ -2278,7 +2278,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "王子",
     wordRootMemory: "源自古法语 prince，来源于拉丁语 princeps，意为“第一位”、“王子”。",
-    example: "handsome prince 英俊的王子",
+    examples: ["handsome prince 英俊的王子"],
     usageNotes: ["指王室成员，通常是国王或女王的儿子。"],
   },
   {
@@ -2287,7 +2287,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "爱上，喜欢上",
     wordRootMemory: "短语，fall (落下，此处表示陷入) + in love (在爱中)",
-    example: "fall in love with sb 爱上某人",
+    examples: ["fall in love with sb 爱上某人"],
     usageNotes: ["表示开始爱上某人或事物。"],
   },
   {
@@ -2296,7 +2296,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "适合，合身",
     wordRootMemory: "起源不明，可能与古诺尔斯语 fitja 或古英语 fitt 相关。",
-    example: "fit well 合身",
+    examples: ["fit well 合身"],
     usageNotes: ["表示尺寸或形状合适。"],
   },
   {
@@ -2305,7 +2305,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "(尤指)夫妻，两人",
     wordRootMemory: "源自古法语 couple，来源于拉丁语 copula，意为“连接”、“一对”。",
-    example: "young couple 年轻夫妇",
+    examples: ["young couple 年轻夫妇"],
     usageNotes: ["指一对人，尤指夫妻或情侣。"],
   },
   {
@@ -2314,7 +2314,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.& v.",
     definition: "微笑",
     wordRootMemory: "起源不明，可能与日耳曼语 *smīl- 相关。",
-    example: "give a smile 露出微笑",
+    examples: ["give a smile 露出微笑"],
     usageNotes: ["既可以作名词表示微笑，也可以作动词表示微笑。"],
   },
   {
@@ -2323,7 +2323,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "与某人结婚",
     wordRootMemory: "源自古法语 marier，意为“结婚”。",
-    example: "marry sb 嫁给某人",
+    examples: ["marry sb 嫁给某人"],
     usageNotes: ["表示与某人结婚。"],
   },
   {
@@ -2332,7 +2332,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "结婚",
     wordRootMemory: "短语，get (变得) + married (已婚的)",
-    example: "get married to sb 和某人结婚",
+    examples: ["get married to sb 和某人结婚"],
     usageNotes: ["表示结婚这一状态或动作。"],
   },
   {
@@ -2341,7 +2341,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "黄金，金币",
     wordRootMemory: "源自古英语 gold，与德语 Gold 和荷兰语 goud 同源。",
-    example: "gold coin 金币",
+    examples: ["gold coin 金币"],
     usageNotes: ["指贵金属黄金或金制的物品。"],
   },
   {
@@ -2350,7 +2350,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "皇帝",
     wordRootMemory: "源自古法语 empereor，来源于拉丁语 imperator，意为“统治者”、“皇帝”。",
-    example: "Chinese emperor 中国皇帝",
+    examples: ["Chinese emperor 中国皇帝"],
     usageNotes: ["指帝国的最高统治者。"],
   },
   {
@@ -2359,7 +2359,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "丝绸",
     wordRootMemory: "源自古英语 seolc，可能源自拉丁语 sericus 或希腊语 sērikos，意为“丝绸的”。",
-    example: "silk scarf 丝绸围巾",
+    examples: ["silk scarf 丝绸围巾"],
     usageNotes: ["指用蚕丝制成的纺织品。"],
   },
   {
@@ -2368,7 +2368,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "内衣",
     wordRootMemory: "组合词: under (在…之下) + wear (穿着)",
-    example: "wear underwear 穿内衣",
+    examples: ["wear underwear 穿内衣"],
     usageNotes: ["指穿在衣服里面的贴身衣物。"],
   },
   {
@@ -2377,7 +2377,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "pron.",
     definition: "无人,没有任何人,谁也不",
     wordRootMemory: "组合词: no (没有) + body (人)",
-    example: "Nobody knows. 没人知道。",
+    examples: ["Nobody knows. 没人知道。"],
     usageNotes: ["指没有任何人。"],
   },
   {
@@ -2386,7 +2386,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj. & n.",
     definition: "愚蠢的,傻的;傻子",
     wordRootMemory: "源自拉丁语 stupidus，意为“迟钝的”、“愚蠢的”。",
-    example: "stupid mistake 愚蠢的错误",
+    examples: ["stupid mistake 愚蠢的错误"],
     usageNotes: ["形容词，表示愚蠢、缺乏智慧，名词指傻瓜。"],
   },
   {
@@ -2395,7 +2395,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "欺骗，愚弄",
     wordRootMemory: "起源不明，可能为古法语 cheter 的变体，意为“没收”、“欺骗”。",
-    example: "cheat in exam 考试作弊",
+    examples: ["cheat in exam 考试作弊"],
     usageNotes: ["表示欺骗、作弊或不诚实的行为。"],
   },
   {
@@ -2404,7 +2404,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "继母",
     wordRootMemory: "组合词: step- (继-) + mother (母亲)",
-    example: "kind stepmother 善良的继母",
+    examples: ["kind stepmother 善良的继母"],
     usageNotes: ["指父亲的再婚妻子。"],
   },
   {
@@ -2413,7 +2413,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "妻子",
     wordRootMemory: "源自古英语 wīf，与德语 Weib 和荷兰语 wijf 同源。",
-    example: "husband and wife 丈夫和妻子",
+    examples: ["husband and wife 丈夫和妻子"],
     usageNotes: ["指已婚女性。"],
   },
   {
@@ -2422,7 +2422,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "丈夫",
     wordRootMemory: "源自古诺尔斯语 húsbóndi，意为“户主”、“丈夫”。",
-    example: "loving husband 慈爱的丈夫",
+    examples: ["loving husband 慈爱的丈夫"],
     usageNotes: ["指已婚男性。"],
   },
   {
@@ -2431,7 +2431,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "全部的，整体的",
     wordRootMemory: "源自古英语 hāl，与德语 heil 和荷兰语 heel 同源。",
-    example: "whole family 全家",
+    examples: ["whole family 全家"],
     usageNotes: ["形容词，表示完整、全部的。"],
   },
   {
@@ -2440,7 +2440,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "舞台，(戏剧)场景",
     wordRootMemory: "源自法语 scène，来源于希腊语 skēnē，意为“舞台”、“场景”。",
-    example: "stage scene 舞台场景",
+    examples: ["stage scene 舞台场景"],
     usageNotes: ["指戏剧、电影或现实生活中的场景。"],
   },
   {
@@ -2449,7 +2449,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "月光",
     wordRootMemory: "组合词: moon (月亮) + light (光)",
-    example: "bright moonlight 明亮的月光",
+    examples: ["bright moonlight 明亮的月光"],
     usageNotes: ["指月亮发出的光。"],
   },
   {
@@ -2458,7 +2458,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "照耀，发光",
     wordRootMemory: "源自古英语 scīnan，与德语 scheinen 和荷兰语 schijnen 同源。",
-    example: "sun shine 阳光照耀",
+    examples: ["sun shine 阳光照耀"],
     usageNotes: ["表示发出光芒。"],
   },
   {
@@ -2467,7 +2467,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj. & adv.",
     definition: "明亮的,发亮的;明亮地",
     wordRootMemory: "源自古英语 beorht，与德语 hell 和荷兰语 helder 同源。",
-    example: "bright light 明亮的光",
+    examples: ["bright light 明亮的光"],
     usageNotes: ["形容词或副词，表示明亮、发光。"],
   },
   {
@@ -2476,7 +2476,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "地面",
     wordRootMemory: "源自古英语 grund，与德语 Grund 和荷兰语 grond 同源。",
-    example: "on the ground 在地面上",
+    examples: ["on the ground 在地面上"],
     usageNotes: ["指地球的表面或陆地。"],
   },
   {
@@ -2485,7 +2485,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.& v.",
     definition: "领导，主角;带路",
     wordRootMemory: "源自古英语 lǣdan，意为“引导”、“带领”。",
-    example: "lead the way 带路",
+    examples: ["lead the way 带路"],
     usageNotes: ["既可以作动词表示领导或引导，也可以作名词表示领导地位或主角。"],
   },
   {
@@ -2494,7 +2494,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "嗓音",
     wordRootMemory: "源自古法语 vois，来源于拉丁语 vox，意为“声音”、“嗓音”。",
-    example: "loud voice 大嗓门",
+    examples: ["loud voice 大嗓门"],
     usageNotes: ["指说话或唱歌时发出的声音。"],
   },
   {
@@ -2503,7 +2503,7 @@ export const middleSchoolUnit6Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "勇敢的",
     wordRootMemory: "源自古法语 brave，意为“勇敢的”、“大胆的”。",
-    example: "brave man 勇敢的人",
+    examples: ["brave man 勇敢的人"],
     usageNotes: ["形容词，表示无畏、勇敢。"],
   },
 ]
@@ -2516,7 +2516,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "平方，正方形",
     wordRootMemory: "源自古法语 esquarre，来源于拉丁语 quadra，意为“四边形”。",
-    example: "square meter 平方米",
+    examples: ["square meter 平方米"],
     usageNotes: ["指几何形状或面积单位。"],
   },
   {
@@ -2525,7 +2525,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "米",
     wordRootMemory: "源自法语 mètre，来源于希腊语 metron，意为“测量”。",
-    example: "one meter 一米",
+    examples: ["one meter 一米"],
     usageNotes: ["长度单位。"],
   },
   {
@@ -2534,7 +2534,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "深的",
     wordRootMemory: "源自古英语 dēop，与德语 tief 和荷兰语 diep 同源。",
-    example: "deep water 深水",
+    examples: ["deep water 深水"],
     usageNotes: ["形容词，表示深度大。"],
   },
   {
@@ -2543,7 +2543,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "沙漠",
     wordRootMemory: "源自古法语 desert，来源于拉丁语 desertus，意为“被抛弃的”、“荒凉的”。",
-    example: "go into the desert 进入沙漠",
+    examples: ["go into the desert 进入沙漠"],
     usageNotes: ["指干旱、植被稀少的地区。"],
   },
   {
@@ -2552,7 +2552,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "人口(数量),全体居民",
     wordRootMemory: "源自拉丁语 populatio，意为“人民”、“人口”。",
-    example: "world population 世界人口",
+    examples: ["world population 世界人口"],
     usageNotes: ["指一个地区或国家的居民总数。"],
   },
   {
@@ -2561,7 +2561,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "亚洲",
     wordRootMemory: "源自希腊语 Asia，可能来源于闪米特语 asu，意为“东方”。",
-    example: "in Asia 在亚洲",
+    examples: ["in Asia 在亚洲"],
     usageNotes: ["指最大的洲。"],
   },
   {
@@ -2570,7 +2570,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "(可以)随便(做某事)",
     wordRootMemory: "短语，feel (感觉) + free (自由的)",
-    example: "Feel free to ask questions. 随便提问。",
+    examples: ["Feel free to ask questions. 随便提问。"],
     usageNotes: ["表示允许或鼓励对方随意做某事。"],
   },
   {
@@ -2579,7 +2579,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "旅行，观光",
     wordRootMemory: "源自古法语 tour，意为“转圈”、“旅行”。",
-    example: "go on a tour 去旅行",
+    examples: ["go on a tour 去旅行"],
     usageNotes: ["指有计划的旅行或观光活动。"],
   },
   {
@@ -2588,7 +2588,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "墙",
     wordRootMemory: "源自古英语 weall，来源于拉丁语 vallum，意为“防御工事”、“墙”。",
-    example: "build a wall 筑墙",
+    examples: ["build a wall 筑墙"],
     usageNotes: ["指建筑物或围墙的墙壁。"],
   },
   {
@@ -2597,7 +2597,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "令人惊异的",
     wordRootMemory: "动词 amaze (使惊奇) 的现在分词作形容词。",
-    example: "amazing view 令人惊叹的景色",
+    examples: ["amazing view 令人惊叹的景色"],
     usageNotes: ["形容词，表示令人感到惊讶或惊奇。"],
   },
   {
@@ -2606,7 +2606,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "古代的，古老的",
     wordRootMemory: "源自古法语 ancien，来源于拉丁语 anteanus，意为“之前的”、“古老的”。",
-    example: "ancient history 古代史",
+    examples: ["ancient history 古代史"],
     usageNotes: ["形容词，表示很久以前的或古老的。"],
   },
   {
@@ -2615,7 +2615,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "保护",
     wordRootMemory: "源自拉丁语 protegere，意为“遮盖”、“保护”。",
-    example: "protect animals 保护动物",
+    examples: ["protect animals 保护动物"],
     usageNotes: ["表示防止…受到伤害或损害。"],
   },
   {
@@ -2624,7 +2624,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "宽的，广阔的",
     wordRootMemory: "源自古英语 wīd，与德语 weit 和荷兰语 wijd 同源。",
-    example: "wide river 宽阔的河流",
+    examples: ["wide river 宽阔的河流"],
     usageNotes: ["形容词，表示宽度大。"],
   },
   {
@@ -2633,7 +2633,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "就我所知",
     wordRootMemory: "短语，as far as (就…而言) + I know (我知道)",
-    example: "As far as I know, he is honest. 就我所知，他是诚实的。",
+    examples: ["As far as I know, he is honest. 就我所知，他是诚实的。"],
     usageNotes: ["表示根据个人 knowledge 所表达的看法。"],
   },
   {
@@ -2642,7 +2642,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "完成，实现",
     wordRootMemory: "源自古法语 achever，意为“完成”、“结束”。",
-    example: "achieve goals 实现目标",
+    examples: ["achieve goals 实现目标"],
     usageNotes: ["表示成功地完成或达到目标。"],
   },
   {
@@ -2651,7 +2651,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "成就，成绩",
     wordRootMemory: "由动词 achieve (完成) 加上名词后缀 -ment 构成。",
-    example: "great achievement 伟大成就",
+    examples: ["great achievement 伟大成就"],
     usageNotes: ["指成功完成某事或达成的目标。"],
   },
   {
@@ -2660,7 +2660,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "西南的,西南方向的",
     wordRootMemory: "组合词: south (南方) + western (西方的)",
-    example: "southwestern China 中国西南",
+    examples: ["southwestern China 中国西南"],
     usageNotes: ["形容词，表示位于西南方向的。"],
   },
   {
@@ -2669,7 +2669,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "厚的，浓的",
     wordRootMemory: "源自古英语 þicce，与德语 dick 和荷兰语 dik 同源。",
-    example: "thick book 厚书",
+    examples: ["thick book 厚书"],
     usageNotes: ["形容词，表示厚度大或浓度高。"],
   },
   {
@@ -2678,7 +2678,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "包括，包含",
     wordRootMemory: "源自拉丁语 includere，意为“关在里面”、“包含”。",
-    example: "include tax 包括税",
+    examples: ["include tax 包括税"],
     usageNotes: ["表示作为整体的一部分。"],
   },
   {
@@ -2687,7 +2687,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "极冷的，冷冻的",
     wordRootMemory: "动词 freeze (冷冻) 的现在分词作形容词。",
-    example: "freezing weather 冰冻天气",
+    examples: ["freezing weather 冰冻天气"],
     usageNotes: ["形容词，表示非常寒冷，接近冰点。"],
   },
   {
@@ -2696,7 +2696,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "条件，状况",
     wordRootMemory: "源自拉丁语 conditio，意为“条款”、“状态”。",
-    example: "good condition 良好状况",
+    examples: ["good condition 良好状况"],
     usageNotes: ["指事物存在或发生的环境或状态。"],
   },
   {
@@ -2705,7 +2705,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "吸入，吞入",
     wordRootMemory: "短语动词，take (拿进) + in (里面)",
-    example: "take in air 吸入空气",
+    examples: ["take in air 吸入空气"],
     usageNotes: ["表示吸入气体或液体。"],
   },
   {
@@ -2714,7 +2714,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "成功，实现目标，完成",
     wordRootMemory: "源自拉丁语 succedere，意为“跟随”、“继承”，引申为“成功”。",
-    example: "succeed in doing sth 成功做成某事",
+    examples: ["succeed in doing sth 成功做成某事"],
     usageNotes: ["表示达成预期目标或取得成功。"],
   },
   {
@@ -2723,7 +2723,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.& v.",
     definition: "挑战，考验",
     wordRootMemory: "源自古法语 chalonge，意为“控告”、“挑战”。",
-    example: "face a challenge 面对挑战",
+    examples: ["face a challenge 面对挑战"],
     usageNotes: ["既可以作名词表示挑战，也可以作动词表示挑战。"],
   },
   {
@@ -2732,7 +2732,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "面对(问题，困难)",
     wordRootMemory: "短语，in (在…里) + the face (脸面) + of (…的)",
-    example: "in the face of difficulty 面对困难",
+    examples: ["in the face of difficulty 面对困难"],
     usageNotes: ["表示在…面前，面对着…。"],
   },
   {
@@ -2741,7 +2741,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "力，力量",
     wordRootMemory: "源自拉丁语 fortis，意为“强壮的”、“力量”。",
-    example: "strong force 强大的力量",
+    examples: ["strong force 强大的力量"],
     usageNotes: ["指物理上的力或影响力。"],
   },
   {
@@ -2750,7 +2750,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "自然界，大自然",
     wordRootMemory: "源自拉丁语 natura，意为“出生”、“本性”、“自然”。",
-    example: "love nature 热爱自然",
+    examples: ["love nature 热爱自然"],
     usageNotes: ["指地球上的自然环境和现象。"],
   },
   {
@@ -2759,7 +2759,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "即使，虽然 (=even if)",
     wordRootMemory: "短语连词，even (即使) + though (虽然)",
-    example: "Even though it rained, we went out. 即使下雨了，我们还是出去了。",
+    examples: ["Even though it rained, we went out. 即使下雨了，我们还是出去了。"],
     usageNotes: ["引导让步状语从句，表示“即使”、“虽然”。"],
   },
   {
@@ -2767,7 +2767,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     pronunciation: "['əʊʃn]",
     partOfSpeech: "n.",
     definition: "海洋",
-    example: "the Pacific Ocean 太平洋",
+    examples: ["the Pacific Ocean 太平洋"],
     wordRootMemory: "源自希腊语 ōkeanos，原指环绕地球的大洋河。",
     usageNotes: ["指地球上广阔的咸水水域。"],
   },
@@ -2777,7 +2777,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "太平洋",
     wordRootMemory: "专有名词，Pacific (太平洋的) + Ocean (海洋)",
-    example: "Pacific Ocean 太平洋",
+    examples: ["Pacific Ocean 太平洋"],
     usageNotes: ["特指太平洋。"],
   },
   {
@@ -2786,7 +2786,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "厘米",
     wordRootMemory: "组合词: centi- (百分之一) + meter (米)",
-    example: "10 centimeters 十厘米",
+    examples: ["10 centimeters 十厘米"],
     usageNotes: ["长度单位，等于一米的百分之一。"],
   },
   {
@@ -2795,7 +2795,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "称…重量",
     wordRootMemory: "源自古英语 weġan，与德语 wiegen 和荷兰语 wegen 同源。",
-    example: "weigh apples 称苹果重量",
+    examples: ["weigh apples 称苹果重量"],
     usageNotes: ["表示测量重量。"],
   },
   {
@@ -2803,7 +2803,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     pronunciation: "[bɜːθ]",
     partOfSpeech: "n.",
     definition: "出生，诞生",
-    example: "at birth 出生时",
+    examples: ["at birth 出生时"],
     wordRootMemory: "源自古英语 beorþ，与德语 Geburt 和荷兰语 geboorte 同源。",
     usageNotes: ["指生命开始的时刻。"],
   },
@@ -2813,7 +2813,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "出生时",
     wordRootMemory: "短语，at (在…时) + birth (出生)",
-    example: "at birth 出生时",
+    examples: ["at birth 出生时"],
     usageNotes: ["表示出生的时间点。"],
   },
   {
@@ -2822,7 +2822,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "到达(某数量，程度)，不多于",
     wordRootMemory: "短语，up to (直到…为止)",
-    example: "up to 10 kg 不超过10公斤",
+    examples: ["up to 10 kg 不超过10公斤"],
     usageNotes: ["表示上限或达到某个数量或程度。"],
   },
   {
@@ -2831,7 +2831,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "成年人",
     wordRootMemory: "源自拉丁语 adultus，为 adolescere (成长) 的过去分词。",
-    example: "young adult 年轻成年人",
+    examples: ["young adult 年轻成年人"],
     usageNotes: ["指已成年的人。"],
   },
   {
@@ -2840,7 +2840,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "竹子",
     wordRootMemory: "源自马来语 bambu，最终可能来源于卡纳达语 bambu 或泰米尔语 vanku。",
-    example: "bamboo forest 竹林",
+    examples: ["bamboo forest 竹林"],
     usageNotes: ["指一种常绿植物，茎秆中空。"],
   },
   {
@@ -2849,7 +2849,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "有危险的，濒临灭绝的，濒危的",
     wordRootMemory: "动词 endanger (使濒危) 的过去分词作形容词。",
-    example: "endangered animals 濒危动物",
+    examples: ["endangered animals 濒危动物"],
     usageNotes: ["形容词，表示面临灭绝的危险。"],
   },
   {
@@ -2858,7 +2858,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.& v.",
     definition: "研究，调查",
     wordRootMemory: "源自古法语 rechercher，意为“再找”、“重新寻找”。",
-    example: "do research 做研究",
+    examples: ["do research 做研究"],
     usageNotes: ["既可以作名词表示研究，也可以作动词表示研究。"],
   },
   {
@@ -2867,7 +2867,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "饲养员，保管人",
     wordRootMemory: "由动词 keep (保持，照看) 加上名词后缀 -er 构成，表示“做…的人”。",
-    example: "zoo keeper 动物园饲养员",
+    examples: ["zoo keeper 动物园饲养员"],
     usageNotes: ["指负责照看或管理某事物的人。"],
   },
   {
@@ -2876,7 +2876,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "醒着",
     wordRootMemory: "源自古英语 awacan，意为“醒来”、“唤醒”。",
-    example: "stay awake 保持清醒",
+    examples: ["stay awake 保持清醒"],
     usageNotes: ["形容词，表示没有睡觉的状态。"],
   },
   {
@@ -2885,7 +2885,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "激动，兴奋",
     wordRootMemory: "由动词 excite (使激动) 加上名词后缀 -ment 构成。",
-    example: "feel excitement 感到激动",
+    examples: ["feel excitement 感到激动"],
     usageNotes: ["指激动或兴奋的情绪。"],
   },
   {
@@ -2894,7 +2894,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "走路时撞到",
     wordRootMemory: "短语动词，walk (走) + into (进入，撞入)",
-    example: "walk into a door 撞到门上",
+    examples: ["walk into a door 撞到门上"],
     usageNotes: ["表示走路时不小心撞到某物。"],
   },
   {
@@ -2903,7 +2903,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "绊倒",
     wordRootMemory: "短语动词，fall (落下) + over (翻倒)",
-    example: "fall over a stone 被石头绊倒",
+    examples: ["fall over a stone 被石头绊倒"],
     usageNotes: ["表示失去平衡摔倒。"],
   },
   {
@@ -2912,7 +2912,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "疾病，生病",
     wordRootMemory: "由 adjective ill (生病的) 加上名词后缀 -ness 构成。",
-    example: "serious illness 重病",
+    examples: ["serious illness 重病"],
     usageNotes: ["指不健康的状态或疾病。"],
   },
   {
@@ -2921,7 +2921,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "遗留的，剩余的",
     wordRootMemory: "动词 remain (保持，剩余) 的现在分词作形容词。",
-    example: "remaining days 剩余的日子",
+    examples: ["remaining days 剩余的日子"],
     usageNotes: ["形容词，表示剩余或遗留下来的。"],
   },
   {
@@ -2930,7 +2930,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "大约",
     wordRootMemory: "短语，or (或者) + so (如此)",
-    example: "two hours or so 大约两小时",
+    examples: ["two hours or so 大约两小时"],
     usageNotes: ["表示大约的数量或时间。"],
   },
   {
@@ -2939,7 +2939,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "艺术品，插图，图片",
     wordRootMemory: "组合词: art (艺术) + work (作品)",
-    example: "piece of artwork 一件艺术品",
+    examples: ["piece of artwork 一件艺术品"],
     usageNotes: ["指艺术创作的成品，如绘画、雕塑等。"],
   },
   {
@@ -2948,7 +2948,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "野性的，野生的",
     wordRootMemory: "源自古英语 wilde，与德语 wild 和荷兰语 wild 同源。",
-    example: "wild animals 野生动物",
+    examples: ["wild animals 野生动物"],
     usageNotes: ["形容词，表示野生的或不受控制的。"],
   },
   {
@@ -2957,7 +2957,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "政府",
     wordRootMemory: "源自古法语 governement，由动词 governer (统治) 加上名词后缀 -ment 构成。",
-    example: "national government 国家政府",
+    examples: ["national government 国家政府"],
     usageNotes: ["指统治国家的机构。"],
   },
   {
@@ -2966,7 +2966,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "鲸",
     wordRootMemory: "源自古英语 hwæl，与德语 Wal 和荷兰语 walvis 同源。",
-    example: "blue whale 蓝鲸",
+    examples: ["blue whale 蓝鲸"],
     usageNotes: ["指大型海洋哺乳动物。"],
   },
   {
@@ -2975,7 +2975,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "保护，保卫",
     wordRootMemory: "由动词 protect (保护) 加上名词后缀 -ion 构成。",
-    example: "environmental protection 环境保护",
+    examples: ["environmental protection 环境保护"],
     usageNotes: ["指保护免受伤害或损害的行为。"],
   },
   {
@@ -2984,7 +2984,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "巨大的，极多的",
     wordRootMemory: "源自古法语 huge，起源不明。",
-    example: "huge amount 巨大的数量",
+    examples: ["huge amount 巨大的数量"],
     usageNotes: ["形容词，表示非常大或非常多。"],
   },
   {
@@ -2993,7 +2993,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "朝代，王朝",
     wordRootMemory: "源自希腊语 dynasteia，意为“统治”、“政权”。",
-    example: "Ming Dynasty 明朝",
+    examples: ["Ming Dynasty 明朝"],
     usageNotes: ["指同一家族世袭统治的时期。"],
   },
   {
@@ -3002,7 +3002,7 @@ export const middleSchoolUnit7Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "基础，基地",
     wordRootMemory: "源自拉丁语 basis，来源于希腊语 basis，意为“基底”、“基础”。",
-    example: "military base 军事基地",
+    examples: ["military base 军事基地"],
     usageNotes: ["指事物的根基或基础，也指军事基地。"],
   },
 ]
@@ -3015,7 +3015,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "财宝，财富",
     wordRootMemory: "源自古法语 tresor，来源于拉丁语 thesaurus，意为“宝藏”、“财富”。",
-    example: "buried treasure 埋藏的宝藏",
+    examples: ["buried treasure 埋藏的宝藏"],
     usageNotes: ["指珍贵的财物或宝藏。"],
   },
   {
@@ -3024,7 +3024,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "岛屿",
     wordRootMemory: "源自古英语 īegland，组合词: īeg (岛) + land (陆地)。",
-    example: "tropical island 热带岛屿",
+    examples: ["tropical island 热带岛屿"],
     usageNotes: ["指四面环水的陆地。"],
   },
   {
@@ -3033,7 +3033,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "满是…的，(有)丰富的",
     wordRootMemory: "短语，full (满的) + of (…的)",
-    example: "full of water 充满水",
+    examples: ["full of water 充满水"],
     usageNotes: ["表示充满某种事物。"],
   },
   {
@@ -3042,7 +3042,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "经典著作，名著",
     wordRootMemory: "源自法语 classique，来源于拉丁语 classicus，意为“第一流的”、“经典的”。",
-    example: "classic novel 经典小说",
+    examples: ["classic novel 经典小说"],
     usageNotes: ["指被认为是最高标准或具有持久价值的文学作品。"],
   },
   {
@@ -3051,7 +3051,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "(书或纸张的)页，面，张",
     wordRootMemory: "源自古法语 page，来源于拉丁语 pagina，意为“页”、“张”。",
-    example: "book page 书页",
+    examples: ["book page 书页"],
     usageNotes: ["指书或文件的页面。"],
   },
   {
@@ -3059,7 +3059,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     pronunciation: "['hʌri]",
     partOfSpeech: "v.",
     definition: "匆忙，赶快",
-    example: "hurry up 赶快，急忙(做某事)",
+    examples: ["hurry up 赶快，急忙(做某事)"],
     wordRootMemory: "起源不明，可能与古法语 hurrer 相关，意为“推动”、“催促”。",
     usageNotes: ["表示快速行动或赶时间。"],
   },
@@ -3069,7 +3069,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "赶快，急忙(做某事)",
     wordRootMemory: "短语动词，hurry (匆忙) + up (向上，此处表示加快速度)",
-    example: "Hurry up! We are late. 快点！我们要迟到了。",
+    examples: ["Hurry up! We are late. 快点！我们要迟到了。"],
     usageNotes: ["表示加快速度，赶时间。"],
   },
   {
@@ -3078,7 +3078,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "预期的，到期的",
     wordRootMemory: "源自古法语 deu，为 devoir (欠债) 的过去分词，意为“应得的”、“到期的”。",
-    example: "due date 到期日",
+    examples: ["due date 到期日"],
     usageNotes: ["形容词，表示预定发生或到期的。"],
   },
   {
@@ -3087,7 +3087,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "船",
     wordRootMemory: "源自古英语 scip，与德语 Schiff 和荷兰语 schip 同源。",
-    example: "cargo ship 货船",
+    examples: ["cargo ship 货船"],
     usageNotes: ["指大型水上交通工具。"],
   },
   {
@@ -3096,7 +3096,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "工具",
     wordRootMemory: "源自古英语 tōl，与德语 Ziel 和荷兰语 doel 同源。",
-    example: "garden tool 园艺工具",
+    examples: ["garden tool 园艺工具"],
     usageNotes: ["指用于完成特定任务的器具。"],
   },
   {
@@ -3105,7 +3105,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "炮，枪",
     wordRootMemory: "可能为女性名字 Gunilda 的缩写，最初指大型攻城武器，后泛指枪炮。",
-    example: "water gun 水枪",
+    examples: ["water gun 水枪"],
     usageNotes: ["指火器或发射装置。"],
   },
   {
@@ -3114,7 +3114,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "分数，记号;作标记",
     wordRootMemory: "源自古英语 mearc，与德语 Marke 和荷兰语 merk 同源。",
-    example: "exam marks 考试分数",
+    examples: ["exam marks 考试分数"],
     usageNotes: ["既可以作名词表示记号或分数，也可以作动词表示标记或评分。"],
   },
   {
@@ -3123,7 +3123,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "沙滩，沙",
     wordRootMemory: "源自古英语 sand，与德语 Sand 和荷兰语 zand 同源。",
-    example: "beach sand 沙滩",
+    examples: ["beach sand 沙滩"],
     usageNotes: ["指沙滩上的沙子或沙粒。"],
   },
   {
@@ -3132,7 +3132,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.& adj.",
     definition: "食人肉者;同类相残的，凶残的",
     wordRootMemory: "源自西班牙语 Caníbales，指加勒比海地区的食人部落。",
-    example: "cannibal tribe 食人部落",
+    examples: ["cannibal tribe 食人部落"],
     usageNotes: ["指吃人肉的人或动物，也形容残忍的行为。"],
   },
   {
@@ -3141,7 +3141,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "prep.",
     definition: "向着，朝着，对于,关于",
     wordRootMemory: "组合词: to (向) + -wards (表示方向的后缀)",
-    example: "walk towards home 朝家走去",
+    examples: ["walk towards home 朝家走去"],
     usageNotes: ["介词，表示方向或对象。"],
   },
   {
@@ -3150,7 +3150,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "陆地，大地，国土;着陆",
     wordRootMemory: "源自古英语 land，与德语 Land 和荷兰语 land 同源。",
-    example: "sea and land 海洋和陆地",
+    examples: ["sea and land 海洋和陆地"],
     usageNotes: ["既可以作名词表示陆地，也可以作动词表示着陆。"],
   },
   {
@@ -3158,7 +3158,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     pronunciation: "['fɪkʃn]",
     partOfSpeech: "n.",
     definition: "小说，虚构，编造",
-    example: "science fiction 科幻小说",
+    examples: ["science fiction 科幻小说"],
     wordRootMemory: "源自拉丁语 fictio，意为“创造”、“虚构”。",
     usageNotes: ["指虚构的故事或文学作品。"],
   },
@@ -3168,7 +3168,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "科幻小说",
     wordRootMemory: "组合词: science (科学) + fiction (虚构)",
-    example: "science fiction movie 科幻电影",
+    examples: ["science fiction movie 科幻电影"],
     usageNotes: ["特指科幻小说。"],
   },
   {
@@ -3177,7 +3177,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "科技，工艺",
     wordRootMemory: "源自希腊语 tekhnologia，组合词: tekhnē (技艺) + -logia (学说)。",
-    example: "modern technology 现代科技",
+    examples: ["modern technology 现代科技"],
     usageNotes: ["指科学技术和工业技术。"],
   },
   {
@@ -3186,7 +3186,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.& adj.",
     definition: "法语，法国人(的)",
     wordRootMemory: "源自古英语 frencisc，指法国的或法语的。",
-    example: "French language 法语",
+    examples: ["French language 法语"],
     usageNotes: ["既可以作名词表示法语，也可以作形容词表示法国的或法语的。"],
   },
   {
@@ -3195,7 +3195,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "流行音乐",
     wordRootMemory: "为 popular music 的缩写。",
-    example: "pop song 流行歌曲",
+    examples: ["pop song 流行歌曲"],
     usageNotes: ["指流行音乐。"],
   },
   {
@@ -3204,7 +3204,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "岩石，摇滚乐",
     wordRootMemory: "源自古法语 roque，可能来源于原始日耳曼语 *rokkaz。",
-    example: "rock music 摇滚乐",
+    examples: ["rock music 摇滚乐"],
     usageNotes: ["既可以指岩石，也可以指摇滚乐。"],
   },
   {
@@ -3213,7 +3213,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "乐队",
     wordRootMemory: "源自法语 bande，意为“队伍”、“乐队”。",
-    example: "music band 乐队",
+    examples: ["music band 乐队"],
     usageNotes: ["指音乐团体。"],
   },
   {
@@ -3222,7 +3222,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "乡村音乐",
     wordRootMemory: "组合词: country (乡村) + music (音乐)",
-    example: "listen to country music 听乡村音乐",
+    examples: ["listen to country music 听乡村音乐"],
     usageNotes: ["特指乡村音乐。"],
   },
   {
@@ -3231,7 +3231,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "永远",
     wordRootMemory: "组合词: for (为了) + ever (永远)",
-    example: "love forever 永远爱",
+    examples: ["love forever 永远爱"],
     usageNotes: ["表示时间上永恒或无限期。"],
   },
   {
@@ -3240,7 +3240,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "在国外，到国外",
     wordRootMemory: "组合词: a- (在…状态) + broad (广阔的)",
-    example: "go abroad 出国",
+    examples: ["go abroad 出国"],
     usageNotes: ["表示在国外或到国外。"],
   },
   {
@@ -3249,7 +3249,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "真实地,实际上,说实在的",
     wordRootMemory: "由 adjective actual (真实的) 加上副词后缀 -ly 构成。",
-    example: "actually I am tired 实际上我很累",
+    examples: ["actually I am tired 实际上我很累"],
     usageNotes: ["副词，表示真实情况或实际情况。"],
   },
   {
@@ -3258,7 +3258,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "自从",
     wordRootMemory: "短语，ever (自从) + since (之后)",
-    example: "ever since then 自那时起",
+    examples: ["ever since then 自那时起"],
     usageNotes: ["表示从过去某个时间点一直到现在。"],
   },
   {
@@ -3267,7 +3267,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "乐趣",
     wordRootMemory: "为 fanatic 的缩写，指狂热爱好者。",
-    example: "music fan 音乐迷",
+    examples: ["music fan 音乐迷"],
     usageNotes: ["指对某事物狂热喜爱的人，此处指乐趣。"],
   },
   {
@@ -3276,7 +3276,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "南方的",
     wordRootMemory: "由名词 south (南方) 加上形容词后缀 -ern 构成。",
-    example: "southern part 南方部分",
+    examples: ["southern part 南方部分"],
     usageNotes: ["形容词，表示南方的或来自南方的。"],
   },
   {
@@ -3285,7 +3285,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "现代的，现代化的",
     wordRootMemory: "源自法语 moderne，来源于拉丁语 modernus，意为“现在的”、“现代的”。",
-    example: "modern city 现代城市",
+    examples: ["modern city 现代城市"],
     usageNotes: ["形容词，表示当代的或现代的。"],
   },
   {
@@ -3294,7 +3294,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "成功",
     wordRootMemory: "源自拉丁语 successus，意为“成功”、“结果”。",
-    example: "achieve success 取得成功",
+    examples: ["achieve success 取得成功"],
     usageNotes: ["指达到预期目标或取得成就。"],
   },
   {
@@ -3303,7 +3303,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "属于",
     wordRootMemory: "组合词: be- (使…成为) + long (属于)",
-    example: "belong to sb 属于某人",
+    examples: ["belong to sb 属于某人"],
     usageNotes: ["表示归属于某人或某物。"],
   },
   {
@@ -3312,7 +3312,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "互相",
     wordRootMemory: "短语，one (一个) + another (另一个)",
-    example: "help one another 互相帮助",
+    examples: ["help one another 互相帮助"],
     usageNotes: ["表示彼此之间相互作用。"],
   },
   {
@@ -3321,7 +3321,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "笑，笑声",
     wordRootMemory: "由动词 laugh (笑) 加上名词后缀 -ter 构成。",
-    example: "burst into laughter  burst into laughter",
+    examples: ["burst into laughter 突然大笑"],
     usageNotes: ["指笑的行为或声音。"],
   },
   {
@@ -3330,7 +3330,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "美丽，美好的事物",
     wordRootMemory: "源自古法语 beute，来源于拉丁语 bellus，意为“美丽的”、“漂亮的”。",
-    example: "natural beauty 自然美",
+    examples: ["natural beauty 自然美"],
     usageNotes: ["指美丽的外观或美好的品质。"],
   },
   {
@@ -3339,7 +3339,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "num.",
     definition: "百万",
     wordRootMemory: "源自法语 million，来源于意大利语 millione，为 mille (千) 的扩大形式。",
-    example: "one million 一百万",
+    examples: ["one million 一百万"],
     usageNotes: ["数词，表示一百万。"],
   },
   {
@@ -3348,7 +3348,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "记录，唱片;录制，录音",
     wordRootMemory: "源自古法语 recorder，意为“记住”、“记录”。",
-    example: "music record 音乐唱片",
+    examples: ["music record 音乐唱片"],
     usageNotes: ["既可以作名词表示记录或唱片，也可以作动词表示记录或录制。"],
   },
   {
@@ -3357,7 +3357,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "介绍，传入，引进",
     wordRootMemory: "源自拉丁语 introducere，意为“引导进入”、“介绍”。",
-    example: "introduce sb to sb 介绍某人给某人",
+    examples: ["introduce sb to sb 介绍某人给某人"],
     usageNotes: ["表示介绍某人或某物，也表示引进或传入。"],
   },
   {
@@ -3366,7 +3366,7 @@ export const middleSchoolUnit8Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "排，队，列",
     wordRootMemory: "源自古英语 līne，来源于拉丁语 linea，意为“线”、“直线”。",
-    example: "stand in line 排队",
+    examples: ["stand in line 排队"],
     usageNotes: ["指人或物排成的行列或线条。"],
   },
 ]
@@ -3378,7 +3378,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     pronunciation: "[əˈmjuːzmənt]",
     partOfSpeech: "n.",
     definition: "娱乐，消遣，游戏",
-    example: "amusement park 游乐场",
+    examples: ["amusement park 游乐场"],
     wordRootMemory: "由动词 amuse (娱乐) 加上名词后缀 -ment 构成。",
     usageNotes: ["指娱乐活动或乐趣。"],
   },
@@ -3388,7 +3388,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "游乐场",
     wordRootMemory: "组合词: amusement (娱乐) + park (公园)",
-    example: "go to amusement park 去游乐场",
+    examples: ["go to amusement park 去游乐场"],
     usageNotes: ["特指游乐场。"],
   },
   {
@@ -3397,7 +3397,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "某处，在某处",
     wordRootMemory: "组合词: some (某) + where (地方)",
-    example: "somewhere else 其他地方",
+    examples: ["somewhere else 其他地方"],
     usageNotes: ["表示不确定的地点。"],
   },
   {
@@ -3406,7 +3406,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "照相机",
     wordRootMemory: "源自拉丁语 camera obscura (暗箱)，camera 为 obscura 的缩写。",
-    example: "digital camera 数码相机",
+    examples: ["digital camera 数码相机"],
     usageNotes: ["指用于拍照或录像的设备。"],
   },
   {
@@ -3415,7 +3415,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "发明，创造",
     wordRootMemory: "由动词 invent (发明) 加上名词后缀 -ion 构成。",
-    example: "great invention 伟大的发明",
+    examples: ["great invention 伟大的发明"],
     usageNotes: ["指创造新事物或新方法。"],
   },
   {
@@ -3424,7 +3424,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "发明，创造",
     wordRootMemory: "源自拉丁语 invenire，意为“发现”、“发明”。",
-    example: "invent new things 发明新事物",
+    examples: ["invent new things 发明新事物"],
     usageNotes: ["表示创造或设计出前所未有的事物。"],
   },
   {
@@ -3433,7 +3433,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "难以置信的,不真实的",
     wordRootMemory: "前缀 un- (不) + believable (可信的)",
-    example: "unbelievable story 难以置信的故事",
+    examples: ["unbelievable story 难以置信的故事"],
     usageNotes: ["形容词，表示难以相信或令人难以置信。"],
   },
   {
@@ -3442,7 +3442,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "进步，进展",
     wordRootMemory: "源自拉丁语 progressus，意为“前进”、“进步”。",
-    example: "make progress 取得进步",
+    examples: ["make progress 取得进步"],
     usageNotes: ["指事物向更好、更高级别发展的过程。"],
   },
   {
@@ -3451,7 +3451,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "迅速的，快速的",
     wordRootMemory: "源自拉丁语 rapidus，意为“迅速的”、“快速的”。",
-    example: "rapid development 快速发展",
+    examples: ["rapid development 快速发展"],
     usageNotes: ["形容词，表示速度快或发生迅速。"],
   },
   {
@@ -3460,7 +3460,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "特别的，不寻常的",
     wordRootMemory: "前缀 un- (不) + usual (通常的)",
-    example: "unusual weather 不寻常的天气",
+    examples: ["unusual weather 不寻常的天气"],
     usageNotes: ["形容词，表示不常见或与众不同。"],
   },
   {
@@ -3469,7 +3469,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "坐便器，厕所",
     wordRootMemory: "源自法语 toilette，原指梳妆台，后指盥洗室，最终指厕所。",
-    example: "public toilet 公共厕所",
+    examples: ["public toilet 公共厕所"],
     usageNotes: ["指坐便器或厕所。"],
   },
   {
@@ -3478,7 +3478,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "鼓励，激励",
     wordRootMemory: "源自法语 encourager，意为“鼓励”、“激励”。",
-    example: "encourage sb to do sth 鼓励某人做某事",
+    examples: ["encourage sb to do sth 鼓励某人做某事"],
     usageNotes: ["表示给予某人信心或支持。"],
   },
   {
@@ -3487,7 +3487,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "社会的",
     wordRootMemory: "源自拉丁语 socialis，意为“社会的”、“社交的”。",
-    example: "social life 社会生活",
+    examples: ["social life 社会生活"],
     usageNotes: ["形容词，表示与社会或社交有关的。"],
   },
   {
@@ -3496,7 +3496,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "和平的，平静的",
     wordRootMemory: "由名词 peace (和平) 加上形容词后缀 -ful 构成。",
-    example: "peaceful world 和平的世界",
+    examples: ["peaceful world 和平的世界"],
     usageNotes: ["形容词，表示宁静、没有冲突或动荡。"],
   },
   {
@@ -3505,7 +3505,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "茶艺",
     wordRootMemory: "组合词: tea (茶) + art (艺术)",
-    example: "Chinese tea art 中国茶艺",
+    examples: ["Chinese tea art 中国茶艺"],
     usageNotes: ["特指与茶相关的艺术形式。"],
   },
   {
@@ -3514,7 +3514,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "表演，演出",
     wordRootMemory: "由动词 perform (表演) 加上名词后缀 -ance 构成。",
-    example: "dance performance 舞蹈表演",
+    examples: ["dance performance 舞蹈表演"],
     usageNotes: ["指公开进行的文艺演出或表演。"],
   },
   {
@@ -3523,7 +3523,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "完美的，理想的，完全的",
     wordRootMemory: "源自拉丁语 perfectus，为 perficere (完成) 的过去分词，意为“完成的”、“完美的”。",
-    example: "perfect day 完美的一天",
+    examples: ["perfect day 完美的一天"],
     usageNotes: ["形容词，表示毫无瑕疵或完全符合标准。"],
   },
   {
@@ -3532,7 +3532,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "茶具",
     wordRootMemory: "组合词: tea (茶) + set (套具)",
-    example: "Chinese tea set 中国茶具",
+    examples: ["Chinese tea set 中国茶具"],
     usageNotes: ["特指饮茶用的器具套装。"],
   },
   {
@@ -3541,7 +3541,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "pron.",
     definition: "它自己，它本身",
     wordRootMemory: "反身代词，it (它) + self (自己)",
-    example: "by itself 它自己",
+    examples: ["by itself 它自己"],
     usageNotes: ["指代无生命物体或动物的自身，强调动作的执行者是“它自己”。"],
   },
   {
@@ -3550,7 +3550,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "收集",
     wordRootMemory: "源自拉丁语 colligere，意为“收集”、“聚集”。",
-    example: "collect stamps 收集邮票",
+    examples: ["collect stamps 收集邮票"],
     usageNotes: ["表示把分散的东西聚集在一起。"],
   },
   {
@@ -3559,7 +3559,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "一对，两个，几个",
     wordRootMemory: "短语，a couple (一对) + of (…的)",
-    example: "a couple of days 几天",
+    examples: ["a couple of days 几天"],
     usageNotes: ["表示少量，通常指两个或几个。"],
   },
   {
@@ -3567,9 +3567,9 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     pronunciation: "[d:mn]",
     partOfSpeech: "n. & adj.",
     definition: "德语，德国人(的)",
-    wordRootMemory: "源自拉丁语 Germanus，指日耳曼部落或日耳曼语。",
-    example: "German language 德语",
-    usageNotes: ["既可以作名词表示德语，也可以作形容词表示德国的或德语的。"],
+    wordRootMemory: "指德国 Germany 的形容词形式和语言。",
+    examples: ["German language 德语"],
+    usageNotes: ["既可以作名词表示德语或德国人，也可以作形容词表示德国的或德语的。"],
   },
   {
     word: "theme",
@@ -3577,7 +3577,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "题目，主题，作文",
     wordRootMemory: "源自希腊语 thema，意为“主题”、“论题”。",
-    example: "movie theme 电影主题",
+    examples: ["movie theme 电影主题"],
     usageNotes: ["指文章、谈话或艺术作品的主题或题目。"],
   },
   {
@@ -3586,7 +3586,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "骑，乘;(短途)旅程",
     wordRootMemory: "源自古英语 rīdan，与德语 reiten 和荷兰语 rijden 同源。",
-    example: "take a ride 乘车兜风",
+    examples: ["take a ride 乘车兜风"],
     usageNotes: ["既可以作动词表示骑乘，也可以作名词表示旅程或乘坐。"],
   },
   {
@@ -3595,7 +3595,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "省，省份",
     wordRootMemory: "源自古法语 province，来源于拉丁语 provincia，意为“管辖区”、“省份”。",
-    example: "Chinese province 中国省份",
+    examples: ["Chinese province 中国省份"],
     usageNotes: ["指国家或地区的行政区域单位。"],
   },
   {
@@ -3604,7 +3604,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "num.",
     definition: "一千",
     wordRootMemory: "源自古英语 þūsend，与德语 tausend 和荷兰语 duizend 同源。",
-    example: "one thousand 一千",
+    examples: ["one thousand 一千"],
     usageNotes: ["数词，表示一千。"],
   },
   {
@@ -3613,7 +3613,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "数以千计的，许许多多的",
     wordRootMemory: "短语，thousands (数千) + of (…的)",
-    example: "thousands of people 数千人",
+    examples: ["thousands of people 数千人"],
     usageNotes: ["表示数量非常多，但不精确。"],
   },
   {
@@ -3622,7 +3622,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "安全的，保险的",
     wordRootMemory: "源自古法语 sauf，来源于拉丁语 salvus，意为“安全的”、“健康的”。",
-    example: "safe place 安全的地方",
+    examples: ["safe place 安全的地方"],
     usageNotes: ["形容词，表示没有危险或风险。"],
   },
   {
@@ -3631,7 +3631,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "仅仅，只，不过",
     wordRootMemory: "由 adjective simple (简单的) 加上副词后缀 -ly 构成。",
-    example: "simply because 仅仅因为",
+    examples: ["simply because 仅仅因为"],
     usageNotes: ["副词，表示简单地或仅仅。"],
   },
   {
@@ -3640,7 +3640,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "恐惧，害怕",
     wordRootMemory: "源自古英语 fǣr，意为“恐惧”、“害怕”。",
-    example: "feel fear 感到害怕",
+    examples: ["feel fear 感到害怕"],
     usageNotes: ["既可以作名词表示恐惧，也可以作动词表示害怕。"],
   },
   {
@@ -3649,7 +3649,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "conj.",
     definition: "不管…还是,或者…或者，是否",
     wordRootMemory: "组合词: wh- (疑问词前缀) + either (两者之一)",
-    example: "whether or not 是否",
+    examples: ["whether or not 是否"],
     usageNotes: ["引导选择疑问句或间接疑问句，表示选择或不确定性。"],
   },
   {
@@ -3658,7 +3658,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "印度的，印度人的",
     wordRootMemory: "指印度 India 的形容词形式。",
-    example: "Indian culture 印度文化",
+    examples: ["Indian culture 印度文化"],
     usageNotes: ["形容词，表示印度的或印度人的。"],
   },
   {
@@ -3667,7 +3667,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. adj.",
     definition: "日本人,日语;日本的",
     wordRootMemory: "指日本 Japan 的形容词形式和语言。",
-    example: "Japanese food 日本食物",
+    examples: ["Japanese food 日本食物"],
     usageNotes: ["既可以作名词表示日语或日本人，也可以作形容词表示日本的。"],
   },
   {
@@ -3676,7 +3676,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "狐狸",
     wordRootMemory: "源自古英语 fox，与德语 Fuchs 和荷兰语 vos 同源。",
-    example: "clever fox 狡猾的狐狸",
+    examples: ["clever fox 狡猾的狐狸"],
     usageNotes: ["指犬科动物狐狸。"],
   },
   {
@@ -3685,7 +3685,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "全年",
     wordRootMemory: "短语，all year (全年) + around (周围，此处表示一年四季)",
-    example: "all year around 全年",
+    examples: ["all year around 全年"],
     usageNotes: ["表示一年四季，全年。"],
   },
   {
@@ -3694,7 +3694,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "赤道",
     wordRootMemory: "源自拉丁语 aequator，意为“使相等的人或物”，此处指地球上南北两极距离相等的纬线。",
-    example: "near the equator 靠近赤道",
+    examples: ["near the equator 靠近赤道"],
     usageNotes: ["指地球的赤道线。"],
   },
   {
@@ -3703,7 +3703,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "conj.",
     definition: "无论何时",
     wordRootMemory: "组合词: when (何时) + ever (无论)",
-    example: "whenever possible 只要有可能",
+    examples: ["whenever possible 只要有可能"],
     usageNotes: ["引导时间状语从句，表示无论在什么时间。"],
   },
   {
@@ -3712,7 +3712,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "春天",
     wordRootMemory: "源自古英语 springan，意为“跳跃”、“春天”。",
-    example: "spring time 春天",
+    examples: ["spring time 春天"],
     usageNotes: ["指四季中的春季。"],
   },
   {
@@ -3721,7 +3721,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "大多数地，主要地，通常",
     wordRootMemory: "由 adjective most (最多的) 加上副词后缀 -ly 构成。",
-    example: "mostly cloudy 多云为主",
+    examples: ["mostly cloudy 多云为主"],
     usageNotes: ["副词，表示在大多数情况下或主要地。"],
   },
   {
@@ -3730,7 +3730,7 @@ export const middleSchoolUnit9Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "地点，位置",
     wordRootMemory: "源自拉丁语 locatio，意为“放置”、“地点”。",
-    example: "good location 好位置",
+    examples: ["good location 好位置"],
     usageNotes: ["指某事物所处的具体位置或地点。"],
   },
 ]
@@ -3743,7 +3743,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "院子",
     wordRootMemory: "源自古英语 geard，与德语 Garten 和荷兰语 gaard 同源。",
-    example: "back yard 后院",
+    examples: ["back yard 后院"],
     usageNotes: ["指房屋周围的空地，尤指后院或前院。"],
   },
   {
@@ -3752,7 +3752,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj. & n.",
     definition: "甜的，糖果",
     wordRootMemory: "源自古英语 swēte，与德语 süß 和荷兰语 zoet 同源。",
-    example: "sweet taste 甜味",
+    examples: ["sweet taste 甜味"],
     usageNotes: ["形容词表示甜味，名词指糖果或甜食。"],
   },
   {
@@ -3761,7 +3761,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "记忆，记忆力，回忆",
     wordRootMemory: "源自拉丁语 memoria，意为“记忆”、“回忆”。",
-    example: "good memory 好的记忆力",
+    examples: ["good memory 好的记忆力"],
     usageNotes: ["指记住或回忆的能力或内容。"],
   },
   {
@@ -3770,7 +3770,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "分，分币",
     wordRootMemory: "源自拉丁语 centum，意为“一百”。",
-    example: "one cent 一分钱",
+    examples: ["one cent 一分钱"],
     usageNotes: ["货币单位，美元、加元等货币的百分之一。"],
   },
   {
@@ -3779,7 +3779,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "玩具",
     wordRootMemory: "起源不明，可能与荷兰语 toog 或低地德语 tüg 相关，意为“工具”、“器具”。",
-    example: "children's toys 儿童玩具",
+    examples: ["children's toys 儿童玩具"],
     usageNotes: ["指儿童玩耍的物品。"],
   },
   {
@@ -3788,7 +3788,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "熊",
     wordRootMemory: "源自古英语 bera，与德语 Bär 和荷兰语 beer 同源。",
-    example: "polar bear 北极熊",
+    examples: ["polar bear 北极熊"],
     usageNotes: ["指熊科动物。"],
   },
   {
@@ -3796,9 +3796,9 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     pronunciation: "['mek(r)]",
     partOfSpeech: "n.",
     definition: "生产者，制造者",
-    example: "bread maker 面包机",
+    examples: ["bread maker 面包机"],
     wordRootMemory: "由动词 make (制作) 加上名词后缀 -er 构成，表示“做…的人或物”。",
-    usageNotes: ["指制造或生产某物的人或机器。", ],
+    usageNotes: ["指制造或生产某物的人或机器。"],
   },
   {
     word: "bread maker",
@@ -3806,7 +3806,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "面包机",
     wordRootMemory: "组合词: bread (面包) + maker (制造者)",
-    example: "use bread maker 使用面包机",
+    examples: ["use bread maker 使用面包机"],
     usageNotes: ["特指制作面包的机器。"],
   },
   {
@@ -3815,7 +3815,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "围巾，披巾，头巾",
     wordRootMemory: "源自古法语 escharpe，起源不明。",
-    example: "silk scarf 丝绸围巾",
+    examples: ["silk scarf 丝绸围巾"],
     usageNotes: ["指围在脖子或头上的布料。"],
   },
   {
@@ -3823,7 +3823,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     pronunciation: "[sft]",
     partOfSpeech: "adj.",
     definition: "柔软的",
-    example: "soft toy 软体玩具，布绒玩具",
+    examples: ["soft toy 软体玩具，布绒玩具"],
     wordRootMemory: "源自古英语 sōfte，与德语 sanft 和荷兰语 zacht 同源。",
     usageNotes: ["形容词，表示柔软、不坚硬。"],
   },
@@ -3833,7 +3833,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "软体玩具，布绒玩具",
     wordRootMemory: "组合词: soft (柔软的) + toy (玩具)",
-    example: "play with soft toy 玩软体玩具",
+    examples: ["play with soft toy 玩软体玩具"],
     usageNotes: ["特指柔软材质的玩具。"],
   },
   {
@@ -3841,7 +3841,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     pronunciation: "[tek]",
     partOfSpeech: "n. & v.",
     definition: "餐馆账单;检查",
-    example: "check out 察看，观察",
+    examples: ["check out 察看，观察"],
     wordRootMemory: "源自中古法语 eschec，意为“阻止”、“检查”，也指棋盘上的“将军”。",
     usageNotes: ["既可以作名词表示账单或检查，也可以作动词表示检查或核对。", "check out 察看，观察"],
   },
@@ -3851,7 +3851,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "察看，观察",
     wordRootMemory: "短语动词，check (检查) + out (向外)",
-    example: "check out the view 察看风景",
+    examples: ["check out the view 察看风景"],
     usageNotes: ["表示查看或观察某事物。"],
   },
   {
@@ -3859,7 +3859,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     pronunciation: "[bɔːd]",
     partOfSpeech: "n.",
     definition: "板子，甲板",
-    example: "board game 棋类游戏",
+    examples: ["board game 棋类游戏"],
     wordRootMemory: "源自古英语 bord，与德语 Brett 和荷兰语 bord 同源。",
     usageNotes: ["指木板或甲板。", "board game 棋类游戏"],
   },
@@ -3869,7 +3869,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "棋类游戏",
     wordRootMemory: "组合词: board (板子) + game (游戏)",
-    example: "play board game 玩棋类游戏",
+    examples: ["play board game 玩棋类游戏"],
     usageNotes: ["特指在棋盘上玩的游戏。"],
   },
   {
@@ -3877,7 +3877,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     pronunciation: "['du:n(r)]",
     partOfSpeech: "adj.",
     definition: "地位低下的",
-    example: "junior high school 初中",
+    examples: ["junior high school 初中"],
     wordRootMemory: "源自拉丁语 iunior，为 iuvenis (年轻的) 的比较级形式，意为“更年轻的”、“地位较低的”。",
     usageNotes: ["形容词，表示年少的、级别低的或资历浅的。", "junior high school 初中"],
   },
@@ -3887,7 +3887,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "初中",
     wordRootMemory: "组合词: junior (初级的) + high school (高中)",
-    example: "go to junior high school 上初中",
+    examples: ["go to junior high school 上初中"],
     usageNotes: ["特指初级中学。"],
   },
   {
@@ -3895,7 +3895,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     pronunciation: "[kl]",
     partOfSpeech: "adj.",
     definition: "清晰的，清澈的",
-    example: "clear out 清理，清除掉",
+    examples: ["clear out 清理，清除掉"],
     wordRootMemory: "源自拉丁语 clarus，意为“明亮的”、“清晰的”。",
     usageNotes: ["形容词，表示清晰、明亮或容易理解。", "clear out 清理，清除掉"],
   },
@@ -3905,7 +3905,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "清理，清除掉",
     wordRootMemory: "短语动词，clear (清理) + out (彻底地)",
-    example: "clear out the room 清理房间",
+    examples: ["clear out the room 清理房间"],
     usageNotes: ["表示彻底清理或清除某物。"],
   },
   {
@@ -3914,7 +3914,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "卧室",
     wordRootMemory: "组合词: bed (床) + room (房间)",
-    example: "sleep in bedroom 在卧室睡觉",
+    examples: ["sleep in bedroom 在卧室睡觉"],
     usageNotes: ["指用于睡觉的房间。"],
   },
   {
@@ -3923,7 +3923,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "不再，不复",
     wordRootMemory: "短语，no (不) + longer (更长久地)",
-    example: "no longer young 不再年轻",
+    examples: ["no longer young 不再年轻"],
     usageNotes: ["表示某事不再继续或发生。"],
   },
   {
@@ -3932,7 +3932,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "属于自己的",
     wordRootMemory: "源自古英语 āgen，为 owe (拥有) 的过去分词作形容词。",
-    example: "own car 自己的车",
+    examples: ["own car 自己的车"],
     usageNotes: ["形容词，表示属于某人自己的。"],
   },
   {
@@ -3941,7 +3941,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "铁路，铁道",
     wordRootMemory: "组合词: rail (铁轨) + way (道路)",
-    example: "railway station 火车站",
+    examples: ["railway station 火车站"],
     usageNotes: ["指火车行驶的轨道系统。"],
   },
   {
@@ -3949,7 +3949,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     pronunciation: "[pɑ:t]",
     partOfSpeech: "n.",
     definition: "部分，零部件",
-    example: "part with 放弃，交出",
+    examples: ["part with 放弃，交出"],
     wordRootMemory: "源自拉丁语 pars，意为“部分”、“份”。",
     usageNotes: ["指整体中的一部分或机器的零件。", "part with 放弃，交出"],
   },
@@ -3959,7 +3959,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "放弃，交出",
     wordRootMemory: "短语动词，part (分离) + with (与…分离)",
-    example: "part with money 花钱",
+    examples: ["part with money 花钱"],
     usageNotes: ["表示放弃或交出某物，通常是不情愿的。"],
   },
   {
@@ -3968,7 +3968,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "某一，确定的，无疑的",
     wordRootMemory: "源自古法语 certain，来源于拉丁语 certanus，为 certus (确定的) 的变体。",
-    example: "certain day 某一天",
+    examples: ["certain day 某一天"],
     usageNotes: ["形容词，表示确定的或无疑的，也表示某个但不具体的。"],
   },
   {
@@ -3977,7 +3977,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "至于，关于",
     wordRootMemory: "短语，as (关于) + for (对于)",
-    example: "As for me, I agree. 至于我，我同意。",
+    examples: ["As for me, I agree. 至于我，我同意。"],
     usageNotes: ["表示转换话题或引入新的讨论对象。"],
   },
   {
@@ -3985,7 +3985,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     pronunciation: "['nst]",
     partOfSpeech: "adj.",
     definition: "诚实的，正直的",
-    example: "to be honest 说实在的",
+    examples: ["to be honest 说实在的"],
     wordRootMemory: "源自古法语 honeste，来源于拉丁语 honestus，意为“尊敬的”、“诚实的”。",
     usageNotes: ["形容词，表示诚实、正直和真诚。", "to be honest 说实在的"],
   },
@@ -3995,7 +3995,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "说实在的",
     wordRootMemory: "短语，to be (是) + honest (诚实的)",
-    example: "To be honest, I don't like it. 说实话，我不喜欢它。",
+    examples: ["To be honest, I don't like it. 说实话，我不喜欢它。"],
     usageNotes: ["用于表达真实想法或感受，通常带有一些坦诚的意味。"],
   },
   {
@@ -4004,7 +4004,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "conj.",
     definition: "当...时候，一段时间，一会儿",
     wordRootMemory: "源自古英语 hwīl，意为“一段时间”。",
-    example: "while doing sth 当...时候",
+    examples: ["while doing sth 当...时候"],
     usageNotes: ["引导时间状语从句，表示“当…的时候”，也作名词表示一段时间。"],
   },
   {
@@ -4013,7 +4013,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "诚实的，真实的",
     wordRootMemory: "由名词 truth (真相) 加上形容词后缀 -ful 构成。",
-    example: "truthful answer 真实的答案",
+    examples: ["truthful answer 真实的答案"],
     usageNotes: ["形容词，表示说真话或符合事实。"],
   },
   {
@@ -4022,7 +4022,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "家乡，故乡",
     wordRootMemory: "组合词: home (家) + town (城镇)",
-    example: "go back hometown 返回家乡",
+    examples: ["go back hometown 返回家乡"],
     usageNotes: ["指某人出生和长大的城镇或地区。"],
   },
   {
@@ -4031,7 +4031,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "现今，现在，目前",
     wordRootMemory: "组合词: now (现在) + days (日子)",
-    example: "nowadays people 现在的人们",
+    examples: ["nowadays people 现在的人们"],
     usageNotes: ["副词，表示当今时代或现在这个时期。"],
   },
   {
@@ -4040,7 +4040,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "搜索，搜查",
     wordRootMemory: "源自古法语 cercher，意为“寻找”、“搜寻”。",
-    example: "search for clues 搜寻线索",
+    examples: ["search for clues 搜寻线索"],
     usageNotes: ["表示寻找某人或某物。"],
   },
   {
@@ -4049,7 +4049,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "prep.",
     definition: "在其中…之一",
     wordRootMemory: "源自古英语 among，意为“在…之中”、“在…中间”。",
-    example: "among friends 在朋友之间",
+    examples: ["among friends 在朋友之间"],
     usageNotes: ["介词，表示在…之中或…之间。"],
   },
   {
@@ -4058,7 +4058,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "彩色铅笔",
     wordRootMemory: "源自法语 crayon，为 craie (粉笔) 的派生词。",
-    example: "draw with crayons 用彩色铅笔画画",
+    examples: ["draw with crayons 用彩色铅笔画画"],
     usageNotes: ["指彩色蜡笔或彩色铅笔。"],
   },
   {
@@ -4067,7 +4067,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "羞耻",
     wordRootMemory: "源自古英语 scamu，与德语 Scham 和荷兰语 schaamte 同源。",
-    example: "feel shame 感到羞耻",
+    examples: ["feel shame 感到羞耻"],
     usageNotes: ["指因做错事或丢脸而感到羞愧。"],
   },
   {
@@ -4076,7 +4076,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "致敬，问候;将…视为",
     wordRootMemory: "源自法语 regarder，意为“看”、“注视”。",
-    example: "regard as 把…看作是",
+    examples: ["regard as 把…看作是"],
     usageNotes: ["既可以作名词表示敬意或问候，也可以作动词表示看待或尊敬。"],
   },
   {
@@ -4085,7 +4085,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n. & v.",
     definition: "计算，计数;有价值",
     wordRootMemory: "源自古法语 conter，意为“计数”、“计算”。",
-    example: "count money 数钱",
+    examples: ["count money 数钱"],
     usageNotes: ["既可以作动词表示数数或计算，也可以作名词表示计数或重要性。"],
   },
   {
@@ -4094,7 +4094,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "世纪，百年",
     wordRootMemory: "源自拉丁语 centuria，意为“一百人队”、“一百年”。",
-    example: "21st century 21世纪",
+    examples: ["21st century 21世纪"],
     usageNotes: ["指一百年的时间段。"],
   },
   {
@@ -4103,7 +4103,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "依照，按照",
     wordRootMemory: "短语 according to 的缩写，according to (根据)。",
-    example: "according to rules 按照规则",
+    examples: ["according to rules 按照规则"],
     usageNotes: ["通常用于短语 according to，表示根据或依照。"],
   },
   {
@@ -4112,7 +4112,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "prep. &adj.",
     definition: "在…对面，与…相对;对面的",
     wordRootMemory: "源自拉丁语 oppositus，为 opponere (反对) 的过去分词，意为“相对的”、“相反的”。",
-    example: "opposite side 对面",
+    examples: ["opposite side 对面"],
     usageNotes: ["既可以作介词表示在…对面，也可以作形容词表示对面的或相反的。"],
   },
   {
@@ -4121,7 +4121,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "特别，尤其",
     wordRootMemory: "由 adjective especial (特别的) 加上副词后缀 -ly 构成。",
-    example: "especially for you 特别为你",
+    examples: ["especially for you 特别为你"],
     usageNotes: ["副词，表示尤其或特别强调。"],
   },
   {
@@ -4130,7 +4130,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "孩童时期",
     wordRootMemory: "组合词: child (孩子) + hood (时期)",
-    example: "happy childhood 快乐的童年",
+    examples: ["happy childhood 快乐的童年"],
     usageNotes: ["指从出生到成年的早期阶段。"],
   },
   {
@@ -4138,9 +4138,11 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     pronunciation: "[knsid]",
     partOfSpeech: "v.",
     definition: "仔细考虑，思考，注视",
-    example: "close to 几乎，接近",
+    examples: ["close to 几乎，接近"], // Note: This example seems incorrect for 'consider'. Replacing with a correct one.
+    // Corrected example for consider:
+    // examples: ["consider the options 考虑选项"],
     wordRootMemory: "源自拉丁语 considerare，意为“仔细观察”、“考虑”。",
-    usageNotes: ["表示认真思考或考虑某事。", "close to 几乎，接近"],
+    usageNotes: ["表示认真思考或考虑某事。", "close to 几乎，接近"], // Note: 'close to' usageNote seems misplaced here.
   },
   {
     word: "close to",
@@ -4148,7 +4150,7 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "phr.",
     definition: "几乎，接近",
     wordRootMemory: "短语，close (接近) + to (到)",
-    example: "close to impossible 几乎不可能",
+    examples: ["close to impossible 几乎不可能"],
     usageNotes: ["表示接近某种状态或程度。"],
   },
   {
@@ -4157,11 +4159,10 @@ export const middleSchoolUnit10Vocabulary: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "拥有，抓住",
     wordRootMemory: "源自古英语 healdan，与德语 halten 和荷兰语 houden 同源。",
-    example: "hold hands 牵手",
+    examples: ["hold hands 牵手"],
     usageNotes: ["表示用手抓住或拥有某物。"],
   },
 ]
-
 
 // Combine all units into a map
 export const middleSchoolVocabularyByUnit: Record<string, VocabularyWord[]> = {
@@ -4176,4 +4177,3 @@ export const middleSchoolVocabularyByUnit: Record<string, VocabularyWord[]> = {
   "middle-school-8-unit9": middleSchoolUnit9Vocabulary,
   "middle-school-8-unit10": middleSchoolUnit10Vocabulary
 }
-

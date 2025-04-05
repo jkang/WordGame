@@ -1,4 +1,4 @@
-import type { VocabularyWord } from "@/types/vocabulary"
+import type { VocabularyWord } from "@/types/vocabulary";
 
 export const highSchoolUnit2: VocabularyWord[] = [
   {
@@ -7,8 +7,11 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt./adj.",
     definition: "倒空 adj. 空的",
     wordRootMemory: "",
-    example: "Will you please go and empty that drawer? 你能去把抽屉倒空吗? // The street was empty. 大街上空无一人。",
-    usageNotes: [],
+    examples: [
+      "Will you please go and empty that drawer? 你能去把抽屉倒空吗?",
+      "The street was empty. 大街上空无一人。"
+    ],
+    usageNotes: [], // Kept empty as per original
   },
   {
     word: "ankle",
@@ -16,8 +19,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "脚踝",
     wordRootMemory: "",
-    example: "There is something wrong with my ankle. 我的脚踝有点毛病。",
-    usageNotes: [],
+    examples: ["There is something wrong with my ankle. 我的脚踝有点毛病。"],
+    usageNotes: [], // Kept empty as per original
   },
   {
     word: "remain",
@@ -25,8 +28,12 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vi./link. v.",
     definition: "余下,留下 link. v. 保持,仍是",
     wordRootMemory: "词根记忆: re(一再)+main(留)→余下,留下",
-    example: "The price has gone down, but I doubt whether it will remain so. 价格有所下降,但我怀疑它是否会持续下去。 // Every animal sleeps, but the reason for this has remained foggy. 每种动物都睡觉,但这样做的原因仍然不清楚。(2017年北京卷) // It remains to be seen... ……有待观望,…需拭目以待: Having a trip abroad is certainly good for the old couple, but it remains to be seen whether they will enjoy it. 到国外旅行对这对老年夫妇当然有益,但是他们是否喜欢还有待观望。",
-    usageNotes: ["用 remain 作系动词"],
+    examples: [
+      "The price has gone down, but I doubt whether it will remain so. 价格有所下降,但我怀疑它是否会持续下去。",
+      "Every animal sleeps, but the reason for this has remained foggy. 每种动物都睡觉,但这样做的原因仍然不清楚。(2017年北京卷)",
+      "It remains to be seen... ……有待观望,…需拭目以待: Having a trip abroad is certainly good for the old couple, but it remains to be seen whether they will enjoy it. 到国外旅行对这对老年夫妇当然有益,但是他们是否喜欢还有待观望。"
+    ],
+    usageNotes: ["用 remain 作系动词", "remain + adj./noun/prep. phrase: He remained silent. 他保持沉默。", "Only a few leaves remained on the tree. 树上只剩下几片叶子了。"],
   },
   {
     word: "boycott",
@@ -34,8 +41,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n./vt.",
     definition: "联合抵制",
     wordRootMemory: "",
-    example: "They're boycotting the shop. 他们正在联合抵制那家商店。",
-    usageNotes: [],
+    examples: ["They're boycotting the shop. 他们正在联合抵制那家商店。"],
+    usageNotes: [], // Kept empty as per original
   },
   {
     word: "swim",
@@ -43,8 +50,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vi.",
     definition: "游泳;游",
     wordRootMemory: "",
-    example: "Few people have the courage to swim across the Gibraltar Strait. 几乎没人有勇气游过直布罗陀海峡。",
-    usageNotes: [],
+    examples: ["Few people have the courage to swim across the Gibraltar Strait. 几乎没人有勇气游过直布罗陀海峡。"],
+    usageNotes: [], // Kept empty as per original
   },
   {
     word: "minority",
@@ -52,8 +59,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "少数;少数民族",
     wordRootMemory: "词根记忆: minor(较小的)+ity(表名词)→少数",
-    example: "Some people want change, but they're in the minority. 有些人想要变革,但他们只是少数人。",
-    usageNotes: [],
+    examples: ["Some people want change, but they're in the minority. 有些人想要变革,但他们只是少数人。"],
+    usageNotes: ["ethnic minority 少数民族", "in the minority 占少数", "Opposite: majority"],
   },
   {
     word: "thus",
@@ -61,8 +68,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "这样;因而",
     wordRootMemory: "",
-    example: "The new machine will work twice as fast, thus greatly reducing costs. 新机器的运转速度将提升一倍,因而大大降低了成本。",
-    usageNotes: [],
+    examples: ["The new machine will work twice as fast, thus greatly reducing costs. 新机器的运转速度将提升一倍,因而大大降低了成本。"],
+    usageNotes: ["Formal word for 'therefore' or 'in this way'.", "Often introduces a result or consequence."],
     relatedWords: ["hence(adv. 因此; 由此 )", "therefore(adv. 因此, 所以)"],
   },
   {
@@ -71,8 +78,12 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "惯例的,传统的;常规的",
     wordRootMemory: "",
-    example: "a conventional design 传统样式 // conventional weapons 常规武器",
-    usageNotes: [],
+    examples: [
+      "a conventional design 传统样式",
+      "conventional weapons 常规武器",
+      "She is very conventional in her views. 她的观点非常传统。"
+    ],
+    usageNotes: ["Following accepted customs and standards.", "Opposite: unconventional"],
   },
   {
     word: "occupy",
@@ -80,8 +91,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "占领,占据",
     wordRootMemory: "",
-    example: "Caring for the baby occupies most of her time. 她的大部分时间都用来照顾宝宝了。",
-    usageNotes: [],
+    examples: ["Caring for the baby occupies most of her time. 她的大部分时间都用来照顾宝宝了。", "The army occupied the city. 军队占领了这座城市。"],
+    usageNotes: ["occupy space/time 占据空间/时间", "be occupied with sth./doing sth. 忙于某事"],
     relatedWords: ["occupation(n. 占据;职业)"],
   },
   {
@@ -90,8 +101,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "热心的,热情的",
     wordRootMemory: "",
-    example: "I was always an enthusiastic reader, sometimes reading up to three books a day as a child. 我一直是一个热情的读者,小时候有时一天能阅读多达三本书。(2020年全国卷2)",
-    usageNotes: ["be enthusiastic about 对…充满热情的"],
+    examples: ["I was always an enthusiastic reader, sometimes reading up to three books a day as a child. (2020年全国卷2)"],
+    usageNotes: ["be enthusiastic about/over sth. 对…充满热情的", "Showing intense enjoyment, interest, or approval."],
   },
   {
     word: "passive",
@@ -99,8 +110,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "被动的;消极的",
     wordRootMemory: "词根记忆: pass(感情)+ive(…的)→感情用事的→被动的;消极的",
-    example: "passive smoking 被动吸烟",
-    usageNotes: [],
+    examples: ["passive smoking 被动吸烟", "He played a passive role in the relationship. 他在关系中扮演着被动的角色。"],
+    usageNotes: ["Accepting what happens without active response or resistance.", "passive voice (grammar) 被动语态"],
     relatedWords: ["active(adj. 主动的;积极的)"],
   },
   {
@@ -109,8 +120,11 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[C]动机; [U] 动力",
     wordRootMemory: "",
-    example: "What is your motivation to quit your job?你辞职的动机是什么?// Motivation and goal setting are the two sides of the same coin. 动力和目标设定是一枚硬币的两面。(2019年全国卷2)",
-    usageNotes: [],
+    examples: [
+        "What is your motivation to quit your job? 你辞职的动机是什么?",
+        "Motivation and goal setting are the two sides of the same coin. 动力和目标设定是一枚硬币的两面。(2019年全国卷2)"
+    ],
+    usageNotes: ["The reason or reasons one has for acting or behaving in a particular way.", "lack motivation 缺乏动力"],
   },
   {
     word: "fry",
@@ -118,8 +132,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "油炸,油煎",
     wordRootMemory: "",
-    example: "She fried the eggs in a pan. 她在平底锅里煎鸡蛋。",
-    usageNotes: [],
+    examples: ["She fried the eggs in a pan. 她在平底锅里煎鸡蛋。"],
+    usageNotes: ["stir-fry 炒", "deep-fry 油炸"],
   },
   {
     word: "thorough",
@@ -127,8 +141,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "彻底的",
     wordRootMemory: "",
-    example: "She did a thorough job of researching her paper. 她对自己的论文做了详尽彻底的研究。",
-    usageNotes: [],
+    examples: ["She did a thorough job of researching her paper. 她对自己的论文做了详尽彻底的研究。", "The police conducted a thorough search of the area. 警方对该地区进行了彻底搜查。"],
+    usageNotes: ["Complete with regard to every detail; not superficial.", "Often confused with 'through' or 'though'."],
     relatedWords: ["thoroughly(adv. 彻底地)"],
   },
   {
@@ -137,8 +151,9 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj./n.",
     definition: "正常的 n. [U] 正常,常态,普通",
     wordRootMemory: "",
-    example: "With her parents' help, Moore is generally able to live a normal teenage life. 在父母的帮助下,摩尔基本上可以过正常的青少年生活。(2019年北京卷)",
-    usageNotes: ["normally(adv. 正常地; 通常地)", "辨 normal, ordinary", "normal 指的是“正常的”,多数情况下用来形容人的情绪、行为或智力,其反义词是: abnormal; ordinary意为“通常的,普通的”,强调的是一般性、普遍性,说明某事物并不特殊,其反义词是 special."],
+    examples: ["With her parents' help, Moore is generally able to live a normal teenage life. (2019年北京卷)"],
+    usageNotes: ["normal 指的是“正常的”,多数情况下用来形容人的情绪、行为或智力。", "ordinary 意为“通常的,普通的”,强调的是一般性、普遍性。", "back to normal 恢复正常", "above/below normal 高于/低于正常水平"],
+    relatedWords: ["normally(adv. 正常地; 通常地)", "abnormal(adj. 反常的)"],
   },
   {
     word: "sincerely",
@@ -146,8 +161,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "真诚地",
     wordRootMemory: "",
-    example: "Simon's friends sincerely believe that Simon is the right person to do this. 西蒙的朋友都真诚地相信西蒙是做这件事的合适人选。",
-    usageNotes: [],
+    examples: ["Simon's friends sincerely believe that Simon is the right person to do this. 西蒙的朋友都真诚地相信西蒙是做这件事的合适人选。"],
+    usageNotes: ["Used to close letters: Yours sincerely, (UK) / Sincerely, (US)", "Speaking or acting genuinely."],
   },
   {
     word: "poor",
@@ -155,8 +170,9 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "贫穷的;可怜的;差的",
     wordRootMemory: "",
-    example: "Can you believe that in such a rich country there are so many poor people? 在如此富裕的国家里居然有这么多的穷人,你能相信吗?",
-    usageNotes: ["用“the+形容词”表示作为整体的“某一类人”, 如: the poor 指“穷人”,有类似用法的形容词还有 dead, sick, blind, young, old, rich 等。此类词作主语时,谓语动词应使用复数形式。", "poorly(adv. 糟糕地)"],
+    examples: ["Can you believe that in such a rich country there are so many poor people?", "The team gave a poor performance. 球队表现很差。"],
+    usageNotes: ["用“the+形容词”表示作为整体的“某一类人”, 如: the poor 指“穷人”。", "poor quality 质量差", "poor health 健康状况不佳"],
+    relatedWords: ["poorly(adv. 糟糕地)"],
   },
   {
     word: "dull",
@@ -164,8 +180,12 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "单调无味的;阴暗的;迟钝的",
     wordRootMemory: "",
-    example: "Written communications can often read as cold and dull. 文字交流通常读起来冷淡、无聊。(2020年全国卷2) // a dull child 反应迟钝的孩子",
-    usageNotes: [],
+    examples: [
+      "Written communications can often read as cold and dull. (2020年全国卷2)",
+      "a dull child 反应迟钝的孩子",
+      "The weather was dull and grey. 天气阴沉灰暗。"
+    ],
+    usageNotes: ["Lacking interest or excitement.", "Lacking brightness, vividness, or sheen.", "Slow to understand."],
   },
   {
     word: "tip",
@@ -173,8 +193,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "v./n.",
     definition: "给小费; (使) 翻倒,打翻n. 尖端;小费;提示",
     wordRootMemory: "联想记忆: 给外国人一个小提示 (tip), 这里不用给小费 (tip)",
-    example: "Professor Smith gave some tips to his students for their experiments. 史密斯教授对学生们的实验提出了一些建议。",
-    usageNotes: ["(tipped, tipped, tipping)"],
+    examples: ["Professor Smith gave some tips to his students for their experiments. 史密斯教授对学生们的实验提出了一些建议。", "He tipped the waiter generously. 他慷慨地给了服务员小费。", "the tip of the iceberg 冰山一角"],
+    usageNotes: ["(tipped, tipped, tipping)", "tip sb. 给某人小费", "helpful tips 有用的建议/提示"],
   },
   {
     word: "defend",
@@ -182,8 +202,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "保护,防御",
     wordRootMemory: "词根记忆: de(表加强)+fend(打击)→打击回去→保护,防御",
-    example: "defend oneself 自我保护: Plants can defend themselves by using both physical and chemical means. 植物可以通过物理和化学方法来进行自我保护。",
-    usageNotes: ["联想记忆: 父母的过分保护 (defend) 会增加孩子的依赖 (depend) 性"],
+    examples: ["defend oneself 自我保护: Plants can defend themselves by using both physical and chemical means."],
+    usageNotes: ["defend sb./sth. from/against... 保护...免受...", "defend a title/championship 卫冕冠军"],
     relatedWords: ["defence(n. 保护, 防御 )"],
   },
   {
@@ -192,8 +212,11 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj./n.",
     definition: "潜在的,可能的n. [U] 潜力",
     wordRootMemory: "词根记忆: pot(能力)+ent+ial →有能力→潜力",
-    example: "a potential danger 潜在的危险 // My coach said that I had great potential. 教练说我很有潜力。",
-    usageNotes: [],
+    examples: [
+      "a potential danger 潜在的危险",
+      "My coach said that I had great potential. 教练说我很有潜力。"
+    ],
+    usageNotes: ["Having or showing the capacity to develop into something in the future.", "reach one's full potential 发挥全部潜力"],
   },
   {
     word: "recycle",
@@ -201,8 +224,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "回收利用;再次应用",
     wordRootMemory: "词根记忆: re(重新)+cycle(圈,循环)→再循环,回收",
-    example: "recycled paper 再生环保纸",
-    usageNotes: [],
+    examples: ["recycled paper 再生环保纸", "We should recycle plastic bottles and cans. 我们应该回收塑料瓶和易拉罐。"],
+    usageNotes: ["Convert waste into reusable material.", "Related noun: recycling"],
   },
   {
     word: "might",
@@ -210,8 +233,11 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "modal v.",
     definition: "可能;可以",
     wordRootMemory: "",
-    example: "He might come tomorrow, but I'm not sure. 他明天可能来,不过我不确定。// Might | use your cellphone?我可以用一下你的手机吗?",
-    usageNotes: [],
+    examples: [
+        "He might come tomorrow, but I'm not sure. 他明天可能来,不过我不确定。",
+        "Might I use your cellphone? 我可以用一下你的手机吗?"
+    ],
+    usageNotes: ["Used to express possibility (less certain than 'may').", "Used to make polite requests (more formal than 'may' or 'can')."],
   },
   {
     word: "creature",
@@ -219,8 +245,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "生物;动物",
     wordRootMemory: "",
-    example: "As is well known, man is an intelligent and sensible creature. 众所周知,人类是一种智慧而又理性的生物。",
-    usageNotes: [],
+    examples: ["As is well known, man is an intelligent and sensible creature. 众所周知,人类是一种智慧而又理性的生物。"],
+    usageNotes: ["An animal, as distinct from a human being.", "Can sometimes refer to humans, often with a specific quality (e.g., a creature of habit)."],
   },
   {
     word: "rid",
@@ -228,8 +254,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "使…摆脱",
     wordRootMemory: "",
-    example: "Mary is trying to get rid of the mice in her house. 玛丽正在试图除掉她家里的老鼠。",
-    usageNotes: ["(rid, rid, ridding)", "get rid of 摆脱; 除去:"],
+    examples: ["Mary is trying to get rid of the mice in her house. 玛丽正在试图除掉她家里的老鼠。"],
+    usageNotes: ["(rid, rid, ridding)", "Mainly used in the phrase 'get rid of':", "get rid of sth./sb. 摆脱；除去"],
   },
   {
     word: "physics",
@@ -237,8 +263,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[U] 物理(学)",
     wordRootMemory: "词根记忆: phys(=physi, 自然)+ics(…学)→研究自然的学科→物理(学)",
-    example: "The main subjects I studied at school included Chinese, maths, English, physics, chemistry and computer. 我在学校的主修课程包括语文、数学、英语、物理、化学和计算机。",
-    usageNotes: [],
+    examples: ["The main subjects I studied at school included Chinese, maths, English, physics, chemistry and computer."],
+    usageNotes: ["Always takes a singular verb.", "The scientific study of matter, energy, force, and motion."],
     relatedWords: ["physicist (n. 物理学家)"],
   },
   {
@@ -247,8 +273,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "进入;入口",
     wordRootMemory: "",
-    example: "The entry of the ancient tomb was blocked by a big stone. 古墓的入口被一块大石头挡住了。",
-    usageNotes: [],
+    examples: ["The entry of the ancient tomb was blocked by a big stone. 古墓的入口被一块大石头挡住了。"],
+    usageNotes: ["no entry 禁止入内", "diary entry 日记条目", "entry fee 入场费"],
   },
   {
     word: "analyse",
@@ -256,8 +282,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "分析",
     wordRootMemory: "",
-    example: "People do not analyse every problem they meet.人们不会对遇到的每一个问题都进行分析。",
-    usageNotes: ["(美 analyze)"],
+    examples: ["People do not analyse every problem they meet. 人们不会对遇到的每一个问题都进行分析。"],
+    usageNotes: ["(美 analyze)", "To examine something methodically and in detail.", "Related noun: analysis"],
   },
   {
     word: "fragile",
@@ -265,8 +291,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "易碎的;脆弱的;虚弱的",
     wordRootMemory: "词根记忆: frag(打破)+ile(易…的)→易碎的",
-    example: "The thin glass is fragile. 薄玻璃容易碎。",
-    usageNotes: [],
+    examples: ["The thin glass is fragile. 薄玻璃容易碎。", "Handle with care, fragile. 小心轻放，易碎品。"],
+    usageNotes: ["Easily broken or damaged.", "fragile health 身体虚弱", "fragile ego 脆弱的自尊心"],
   },
   {
     word: "witness",
@@ -274,8 +300,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt./n.",
     definition: "目击;见证 n.证人;目击者",
     wordRootMemory: "词根记忆: wit(知道,了解)+ness →知道或了解情况→目击;见证",
-    example: "The police questioned the witness about the accident. 警方就事故向目击者进行了询问。",
-    usageNotes: [],
+    examples: ["The police questioned the witness about the accident. 警方就事故向目击者进行了询问。", "Several people witnessed the robbery. 好几个人目击了抢劫过程。"],
+    usageNotes: ["witness an event/crime 目击事件/犯罪", "call a witness 传唤证人", "bear witness to sth. 为某事作证"],
   },
   {
     word: "instrument",
@@ -283,8 +309,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "乐器;工具,器械",
     wordRootMemory: "",
-    example: "musical instrument 乐器",
-    usageNotes: [],
+    examples: ["musical instrument 乐器", "Surgical instruments must be sterilized. 手术器械必须消毒。"],
+    usageNotes: ["musical instrument 乐器", "scientific instrument 科学仪器", "precision instrument 精密仪器"],
   },
   {
     word: "weep",
@@ -292,8 +318,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "哭泣,流泪",
     wordRootMemory: "联想记忆: 能哭 (weep) 出来说明伤得还不够深 (deep)",
-    example: "She wept bitter tears of disappointment. 她沮丧得痛哭流涕。",
-    usageNotes: ["(wept, wept, weeping)"],
+    examples: ["She wept bitter tears of disappointment. 她沮丧得痛哭流涕。"],
+    usageNotes: ["(wept, wept, weeping)", "More formal or literary than 'cry'.", "weep for joy 喜极而泣"],
   },
   {
     word: "motto",
@@ -301,8 +327,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "箴言,格言",
     wordRootMemory: "词根记忆: mott(=mot, 动)+o(表抽象名词)→行动之指南→箴言,格言",
-    example: "Our team's motto is \"Be the Best.” 我们队的座右铭是“永争第一”。",
-    usageNotes: [],
+    examples: ["Our team's motto is \"Be the Best.” 我们队的座右铭是“永争第一”。"],
+    usageNotes: ["A short sentence or phrase chosen as encapsulating the beliefs or ideals of an individual, family, or institution."],
   },
   {
     word: "award",
@@ -310,8 +336,11 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt./n.",
     definition: "给予,授予 n. 奖品,奖励",
     wordRootMemory: "联想记忆: 奥斯卡金像奖是 Academy Award,又叫学院奖",
-    example: "A 90-year-old has been awarded \"Woman Of The Year\" for being Britain's oldest full-time employee—still working 40 hours a week. 一位 90岁老人被授予“年度最佳女性”称号,因为她是英国最年长的全职员工——现在依然每周工作40个小时。(2019年全国卷 2) // The hero won an award",
-    usageNotes: [],
+    examples: [
+      "A 90-year-old has been awarded \"Woman Of The Year\"... (2019年全国卷 2)",
+      "The hero won an award for bravery. 那位英雄因勇敢而获奖。"
+    ],
+    usageNotes: ["award sb sth / award sth to sb 授予某人某物", "win an award 获奖", "prize vs award: award often implies official recognition."],
   },
   {
     word: "nothing",
@@ -319,8 +348,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "pron.",
     definition: "没有东西,没有什么;无关紧要的东西",
     wordRootMemory: "",
-    example: "There was nothing important in the letter to my parents. 我写给父母的那封信里没什么特别重要的内容。",
-    usageNotes: ["用nothing 作主语时,谓语动词要用第三人称单数形式。"],
+    examples: ["There was nothing important in the letter to my parents.", "I have nothing to say. 我无话可说。"],
+    usageNotes: ["用nothing 作主语时,谓语动词要用第三人称单数形式。", "do nothing 无所事事", "nothing but... 只不过是..."],
   },
   {
     word: "adolescence",
@@ -328,8 +357,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[U] 青春期",
     wordRootMemory: "",
-    example: "Adolescence can be a confusing time. 青春期会是一个充满困惑的时期。",
-    usageNotes: [],
+    examples: ["Adolescence can be a confusing time. 青春期会是一个充满困惑的时期。"],
+    usageNotes: ["The period following the onset of puberty during which a young person develops from a child into an adult."],
     relatedWords: ["adolescent(n. 青少年 adj. 青春期的,青春的)"],
   },
   {
@@ -338,8 +367,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "勤劳的,辛勤工作的",
     wordRootMemory: "",
-    example: "Helen is such a hard-working girl that she will definitely pass the final exam. 海伦学习非常勤奋,她一定能通过期末考试。",
-    usageNotes: [],
+    examples: ["Helen is such a hard-working girl that she will definitely pass the final exam. 海伦学习非常勤奋,她一定能通过期末考试。"],
+    usageNotes: ["Tending to work with energy and commitment; diligent."],
   },
   {
     word: "anyone",
@@ -347,8 +376,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "pron.",
     definition: "任何人,无论谁",
     wordRootMemory: "联想记忆: any(任何)+one(一个)→任何人",
-    example: "Henry is very hard-working. He works on the farm longer than anyone else. 亨利十分勤劳。他在农场的工作时间比其他任何人都长。",
-    usageNotes: [],
+    examples: ["Henry is very hard-working. He works on the farm longer than anyone else.", "Is anyone home? 有人在家吗？"],
+    usageNotes: ["Used in questions, negative statements, or clauses with 'if'.", "Means 'any person'." , "Often interchangeable with 'anybody'."],
   },
   {
     word: "then",
@@ -356,8 +385,11 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "当时,那时;然后;那么(通常用于句首或句尾)",
     wordRootMemory: "",
-    example: "I was 25 then and had just got married. 那时我25岁,刚刚结婚。// She took a shower, and then went to bed. 她洗了淋浴,然后就睡觉了。",
-    usageNotes: ["1. now and then 偶尔,时不时", "2. from then on 从那时起", "3. even then 尽管那样;即使在那时", "4. just then 就在那时候", "5. since then 从那以后"],
+    examples: [
+      "I was 25 then and had just got married. 那时我25岁,刚刚结婚。",
+      "She took a shower, and then went to bed. 她洗了淋浴,然后就睡觉了。"
+    ],
+    usageNotes: ["1. now and then 偶尔", "2. from then on 从那时起", "3. Indicates time, sequence, or consequence."],
   },
   {
     word: "overlook",
@@ -365,8 +397,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "俯瞰;忽视;不理会",
     wordRootMemory: "来自词组 look over(从…上面看过去)",
-    example: "It's a quiet and comfortable hotel overlooking a bay. 这是一个安静、舒适的酒店,俯瞰着海湾。",
-    usageNotes: [],
+    examples: ["It's a quiet and comfortable hotel overlooking a bay. 这是一个安静、舒适的酒店,俯瞰着海湾。", "He seems to have overlooked one important fact. 他似乎忽略了一个重要的事实。"],
+    usageNotes: ["Have a view of from above.", "Fail to notice something.", "Ignore or disregard."],
   },
   {
     word: "interrupt",
@@ -374,8 +406,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "打扰,打断",
     wordRootMemory: "词根记忆: inter(在…之间)+rupt(断裂)→在中间断裂→打断",
-    example: "When people try to interrupt you, have set hours planned and let them know to come back during that time or that you'll find them then. 当人们试图打扰你的时候,约好固定的处理事情的时间,让他们在那个固定的时间再来,或者你去找他们。(2017年全国卷2)",
-    usageNotes: [],
+    examples: ["When people try to interrupt you, have set hours planned... (2017年全国卷2)", "Sorry to interrupt, but I have a question. 对不起打断一下，但我有个问题。"],
+    usageNotes: ["Stop the continuous progress of (an activity or process).", "Stop (someone speaking) by saying or doing something."],
   },
   {
     word: "electronic",
@@ -383,8 +415,11 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "电子的",
     wordRootMemory: "来自 electric(adj. 电的)",
-    example: "an electronic scanner 电子扫描仪 // The average number of electronic devices rose from four per household in 1992 to 13 in 2007. 每个家庭拥有的电子设备的平均数量,从1992年的4件上升至2007年的13件。(2018年全国卷 1)",
-    usageNotes: [],
+    examples: [
+      "an electronic scanner 电子扫描仪",
+      "The average number of electronic devices rose from four per household in 1992 to 13 in 2007. (2018年全国卷 1)"
+    ],
+    usageNotes: ["Relating to devices, systems, or circuits using transistors, microchips, etc.", "electronic mail (email) 电子邮件"],
     relatedWords: ["electronically(adv. 电子地)"],
   },
   {
@@ -393,8 +428,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[U] 阴凉处,树荫处",
     wordRootMemory: "",
-    example: "The big trees provide shade for farmers to rest in summer. 夏天, 大树的树荫可供农民休息。",
-    usageNotes: [],
+    examples: ["The big trees provide shade for farmers to rest in summer. 夏天, 大树的树荫可供农民休息。", "Let's sit in the shade. 我们坐在阴凉处吧。"],
+    usageNotes: ["Comparative darkness and coolness caused by shelter from direct sunlight.", "Can also mean a specific variation of a color (e.g., shades of blue)."],
   },
   {
     word: "butcher",
@@ -402,8 +437,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt./n.",
     definition: "屠宰(动物),残杀(人)n. 肉店; 屠夫",
     wordRootMemory: "",
-    example: "Many small butchers are closing down. 许多小肉店都陆续关门了。",
-    usageNotes: [],
+    examples: ["Many small butchers are closing down. 许多小肉店都陆续关门了。", "He bought some sausages from the butcher's. 他在肉店买了些香肠。"],
+    usageNotes: ["A person who cuts up and sells meat.", "A shop where meat is sold (butcher's shop or butcher's)."],
   },
   {
     word: "decide",
@@ -411,8 +446,12 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "决定,下决心",
     wordRootMemory: "",
-    example: "We decided not to climb the mountain because it was raining heavily. 我们决定不爬山了,因为雨下得很大。// He's decided that he would not play computer games. 他决定不玩电脑游戏了。 // The Yellowstone wolf project has been a valuable experiment to help biologists decide whether to reintroduce wolves to other parts of the country as well. 黄石公园狼群引进计划是一项有价值的试验,可以帮助生物学家决定是否要在美国的其他地区引进狼群。(2017年全国卷 3)",
-    usageNotes: ["1. decide+(not) to do... 决定(不)做…", "2. decide sth. 决定某事", "3. decide+(that)... 决定…"],
+    examples: [
+      "We decided not to climb the mountain because it was raining heavily.",
+      "He's decided that he would not play computer games.",
+      "The Yellowstone wolf project has been a valuable experiment to help biologists decide whether to reintroduce wolves... (2017年全国卷 3)"
+    ],
+    usageNotes: ["1. decide+(not) to do... 决定(不)做…", "2. decide sth. 决定某事", "3. decide+(that)... 决定…", "4. decide between A and B 在A和B之间做决定"],
   },
   {
     word: "rob",
@@ -420,9 +459,9 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "抢夺,抢劫",
     wordRootMemory: "",
-    example: "I was robbed of my bag. 我的包被抢走了。",
-    usageNotes: ["(robbed, robbed, robbing)", "rob sb. of sth. 抢某人的某物:"],
-    relatedWords: ["robber(n. 抢劫者)"],
+    examples: ["I was robbed of my bag. 我的包被抢走了。", "They robbed the bank last night. 他们昨晚抢劫了银行。"],
+    usageNotes: ["(robbed, robbed, robbing)", "rob sb. of sth. 抢某人的某物:", "rob a place 抢劫某个地方"],
+    relatedWords: ["robber(n. 抢劫者)", "robbery(n. 抢劫)"],
   },
   {
     word: "purpose",
@@ -430,8 +469,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "目的,意图",
     wordRootMemory: "",
-    example: "I am sorry but I didn't do it on purpose. 对不起,我不是故意那么做的。",
-    usageNotes: ["on purpose 故意地:"],
+    examples: ["I am sorry but I didn't do it on purpose. 对不起,我不是故意那么做的。", "What is the purpose of your visit? 你访问的目的是什么？"],
+    usageNotes: ["on purpose 故意地:", "for the purpose of 为了...", "sense of purpose 目的感"],
     relatedWords: ["purposefully(adv. 有明确目的地)", "purposely(adv. 故意地)"],
   },
   {
@@ -440,8 +479,12 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "部长;牧师",
     wordRootMemory: "",
-    example: "the Prime Minister 首相 // the Foreign Minister 外交部长",
-    usageNotes: [],
+    examples: [
+        "the Prime Minister 首相",
+        "the Foreign Minister 外交部长",
+        "He is a minister at the local church. 他是当地教堂的牧师。"
+    ],
+    usageNotes: ["A head of a government department.", "A member of the clergy, especially in Protestant churches."],
   },
   {
     word: "taste",
@@ -449,8 +492,13 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n./vt./link. v.",
     definition: "味道;味觉;尝;品味 vt. 品尝;尝出…的味道 link. v. 吃起来,滋味是",
     wordRootMemory: "",
-    example: "The chicken tastes good.这鸡肉味道很好。// The coffee doesn't taste like anything I have ever had before. 这咖啡跟我以前喝过的咖啡味道完全不一样。 // I don't go in for rock and roll. It's much too noisy for my taste. 我不喜欢",
-    usageNotes: ["用taste 可以用作系动词,后常接形容词或 like 介词短语"],
+    examples: [
+      "The chicken tastes good. 这鸡肉味道很好。",
+      "The coffee doesn't taste like anything I have ever had before.",
+      "I don't go in for rock and roll. It's much too noisy for my taste. 我不喜欢摇滚乐，对我来说太吵了。(n.)",
+      "Can I taste the soup? 我能尝尝汤吗？(vt.)"
+    ],
+    usageNotes: ["用taste 可以用作系动词,后常接形容词或 like 介词短语", "have good/bad taste in sth. 对...有好的/差的品味"],
   },
   {
     word: "seal",
@@ -458,8 +506,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "n./vt.",
     definition: "海豹;密封; 印章;封条 vt. 密封; 盖章",
     wordRootMemory: "联想记忆: 顽皮的海豹 (seal), 偷拿 (steal) 零食",
-    example: "The female seal is looking for food for her injured husband. 雌海豹正在为受伤的雄海豹寻找食物。",
-    usageNotes: [],
+    examples: ["The female seal is looking for food for her injured husband. 雌海豹正在为受伤的雄海豹寻找食物。(n.)", "Please seal the envelope before mailing it. 请在邮寄前封好信封。(vt.)"],
+    usageNotes: ["Noun: sea animal or something that seals.", "Verb: to close something securely."],
   },
   {
     word: "extreme",
@@ -467,8 +515,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "极端的;偏激的",
     wordRootMemory: "",
-    example: "extreme opinions 极端的看法",
-    usageNotes: [],
+    examples: ["extreme opinions 极端的看法", "They live in extreme poverty. 他们生活在赤贫中。"],
+    usageNotes: ["Reaching a high or the highest degree; very great.", "extreme weather 极端天气", "go to extremes 走极端"],
     relatedWords: ["extremely(adv. 极端地, 非常地)"],
   },
   {
@@ -477,8 +525,11 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "争吵,吵架;争辩,说理",
     wordRootMemory: "",
-    example: "Susan and her brother argued over which television program to watch. 苏珊和弟弟为看哪个电视节目而争吵。// People argued for the right to strike.人们对罢工权利据理力争。",
-    usageNotes: ["(argue, argued, arguing)", "1. argue with sb. (about/over sth.) (就某事)与某人吵架", "2. argue for sth. 为某事物据理力争,赞成某事物", "3. argue against sth. 不赞成某事物", "4. argue that... 主张…,认为…"],
+    examples: [
+        "Susan and her brother argued over which television program to watch.",
+        "People argued for the right to strike."
+    ],
+    usageNotes: ["1. argue with sb. (about/over sth.) (就某事)与某人争吵", "2. argue for/against sth. 赞成/反对某事并提出理由", "3. argue that... 主张…,认为…", "Related noun: argument"],
   },
   {
     word: "unfortunate",
@@ -486,8 +537,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "不幸的,倒霉的",
     wordRootMemory: "词根记忆: un(不)+fortunate(幸运的)→不幸",
-    example: "I was unfortunate enough to lose my keys. 我把钥匙丢了,真是够倒霉的。",
-    usageNotes: [],
+    examples: ["I was unfortunate enough to lose my keys. 我把钥匙丢了,真是够倒霉的。", "It was unfortunate that he missed the train. 很不幸他错过了火车。"],
+    usageNotes: ["Having or marked by bad luck; unlucky.", "Opposite: fortunate"],
     relatedWords: ["unfortunately(adv. 不幸地)"],
   },
   {
@@ -496,8 +547,13 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "adj./pron./conj./adv.",
     definition: "(两者)都不 conj./adv.也不",
     wordRootMemory: "",
-    example: "Neither the children nor he has had supper. 孩子们和他都没吃晚餐. // Neither has he been to Beijing, nor will he do so. 他没有去过北京,也不会去。// Neither of her sons goes to college. 她的两个儿子都没上大学。// I have never had a girlfriend. Neither has he. 我没有交过女朋友,他也一样。",
-    usageNotes: ["1. neither A nor B作主语时,谓语采用就近原则,即根据B的单复数来决定谓语动词和代词的形式", "2. neither of 短语作主语时,谓语动词用单数", "3. neither/nor + be/have/do+主语,此结构表示前面的内容也适用于另一个人或物", "辨 neither, none", "neither 用于否定两者", "none 用于否定三者或三者以上"],
+    examples: [
+      "Neither the children nor he has had supper. (conj.)",
+      "Neither has he been to Beijing, nor will he do so. (adv.)",
+      "Neither of her sons goes to college. (pron./adj.)",
+      "I have never had a girlfriend. Neither has he. (adv.)"
+    ],
+    usageNotes: ["1. neither A nor B作主语时,谓语采用就近原则", "2. neither of 短语作主语时,谓语动词常用单数", "3. neither/nor + aux. + 主语 (倒装): He doesn't like it, neither do I.", "Refers to two things/people."],
   },
   {
     word: "retell",
@@ -505,8 +561,8 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "重讲,重复,复述",
     wordRootMemory: "",
-    example: "The English teacher asked the students to retell the story one by one. 英语老师让学生一个一个地复述故事。",
-    usageNotes: [],
+    examples: ["The English teacher asked the students to retell the story one by one. 英语老师让学生一个一个地复述故事。"],
+    usageNotes: ["Tell a story or account again or differently.", "Prefix 're-' means 'again'."],
   },
   {
     word: "other",
@@ -514,7 +570,14 @@ export const highSchoolUnit2: VocabularyWord[] = [
     partOfSpeech: "pron./adj.",
     definition: "其他的,另外的",
     wordRootMemory: "",
-    example: "I saw one girl whispering to another. 我看到一个女孩在和另一个女孩耳语。// Disney soon drew other cartoon characters like Donald Duck. 迪士尼很快又画出了其他像唐老鸭这样的卡通人物。// The couple has two girls. One is 8; the other is 4. 这对夫妇有两个女儿,一个8岁,另一个4岁。// Jenny was not getting on very well with the other girls in her class. 珍妮和班上的其他女孩相处得不好。 // Some writers are greater than others. 一些作家比其他作家更伟大。 // Jack and the others paid no attention. 杰克和其他人都没留意。",
-    usageNotes: ["1. each other 彼此", "2. other than 除了", "3. at any other time 在其他任何时间", "4. the other day 前几天", "5. every other day/year 每隔一天或一年", "辨 another, other, the other, others, the others"],
+    examples: [
+      "I saw one girl whispering to another. (pron.)",
+      "Disney soon drew other cartoon characters like Donald Duck. (adj.)",
+      "The couple has two girls. One is 8; the other is 4. (the other)",
+      "Jenny was not getting on very well with the other girls in her class. (the other + plural)",
+      "Some writers are greater than others. (others)",
+      "Jack and the others paid no attention. (the others)"
+    ],
+    usageNotes: ["Refer to '辨 another, other, the other, others, the others' in original source for detailed distinctions.", "each other 彼此", "other than 除了", "the other day 前几天"],
   }
 ]

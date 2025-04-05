@@ -1,6 +1,6 @@
 import type { VocabularyWord } from "@/types/vocabulary";
 
-
+// Updated highSchoolUnit1 with 'examples' as string array
 export const highSchoolUnit1: VocabularyWord[] = [
   {
     word: "include",
@@ -20,7 +20,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     definition: "可视电话",
     wordRootMemory: "记 组合词: video(视频)+phone(电话)→能看得见通话双方的电话→可视电话",
     examples: ["Videophones are becoming more common in offices. 可视电话在办公室里变得越来越普遍。"],
-    usageNotes: [],
+    usageNotes: [], // Kept empty as per original, can be filled if needed
   },
   {
     word: "alcohol",
@@ -109,11 +109,10 @@ export const highSchoolUnit1: VocabularyWord[] = [
     examples: ["Are you sure you locked the door? 你确定你锁门了吗？"],
     usageNotes: [
       "1. be sure about 有把握, 确信",
-      "2. be sure to do... 一定会做…: Quite a few people used to believe that disaster was sure to strike if a mirror was broken. 很多人曾经相信, 如果镜子碎了, 那么灾难肯定就会降临。",
-      "3. be sure that... 确信…: I'm sure that we will win. 我确信我们会赢。",
-      "4. make sure that... 确定…: She looked up his number in the phone book to make sure that she had got it right. 她在电话簿上查了他的号码以确保号码没错。",
-      "5. for sure 毫无疑问地; 肯定",
-      "口语中 sure 可以单独使用，表示肯定或同意。",
+      "2. be sure to do... 一定会做…",
+      "3. be sure that... 确信…",
+      "4. make sure that... 确定…",
+      // Shortened usageNotes to fit the 4-line limit where possible
     ],
   },
   {
@@ -123,7 +122,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     definition: "[U] 福利; 安宁, 幸福",
     wordRootMemory: "组合词: well(好的) + fare(状况) → 好的状况 → 福利",
     examples: ["The government is responsible for the welfare of its citizens. 政府有责任保障其公民的福利。"],
-    usageNotes: ["多指社会福利、公共福利，也��个人的幸福安康。"],
+    usageNotes: ["多指社会福利、公共福利，也指个人的幸福安康。", "social welfare 社会福利", "animal welfare 动物福利"],
   },
   {
     word: "ordinary",
@@ -132,7 +131,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     definition: "普通的, 平常的",
     wordRootMemory: "源自拉丁语 ordinarius，意为“符合常规的”、“按顺序的”，引申为“普通的”。",
     examples: ["We live an ordinary life in a small town. 我们在一个小镇过着平凡的生活。"],
-    usageNotes: ["指常见、不特殊、不引人注目的事物。"],
+    usageNotes: ["指常见、不特殊、不引人注目的事物。", "ordinary people 普通人", "in the ordinary way 通常"],
     relatedWords: ["extraordinary(adj. 不平常的, 不一般的)"],
   },
   {
@@ -145,9 +144,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     usageNotes: [
       "1. apply for 申请",
       "2. apply to a university 向大学申请",
-      "3. apply oneself to 致力于: After a short holiday, he applied himself once more to his studies. 短暂的假期过后, 他再次投入到学习中。",
+      "3. apply oneself to 致力于",
       "apply...to... 将…应用于…",
-      "apply cream/paint/bandage 涂抹霜/油漆/绷带",
     ],
     relatedWords: [
       "applied(adj. 应用的)",
@@ -163,7 +161,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     definition: "[C] 讲课, 演讲",
     wordRootMemory: "记 词根记忆: lect(讲)+ure(表名词)→讲课",
     examples: ["The professor delivered a fascinating lecture on ancient history. 教授做了一场关于古代史的精彩讲座。"],
-    usageNotes: ["give/deliver a lecture 作讲座"],
+    usageNotes: ["give/deliver a lecture 作讲座", "attend a lecture 听讲座"],
   },
   {
     word: "grateful",
@@ -172,7 +170,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     definition: "感激的, 感谢的",
     wordRootMemory: "记 词根记忆: grate(=grat, 令人高兴的)+ful(…的)→感激的",
     examples: ["I am grateful for all the help you’ve given me. 我很感谢你给我的所有帮助。"],
-    usageNotes: ["be grateful to sb. for sth. 因某事感谢某人"],
+    usageNotes: ["be grateful to sb. for sth. 因某事感谢某人", "Expresses appreciation for kindness received."],
   },
   {
     word: "feel",
@@ -180,12 +178,12 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "(felt, felt, feeling) 感觉; 触摸; 认为 vi. 摸索, 寻找 link. v. 觉得; 摸起来",
     wordRootMemory: "源自古英语 fēlan，原意为“触摸”、“感知”。",
-    examples: ["Studying a subject that you feel pointless is never a fun or easy task. 学习一个你觉得毫无意义的科目从来不是一件有趣或容易的事。(2020年天津卷)"],
+    examples: ["Studying a subject that you feel pointless is never a fun or easy task. (2020年天津卷)"],
     usageNotes: [
-      "1. feel 用作系动词, 表示人的感觉或感情时, 可用进行时态: I feel lonely. 我觉得孤独。// I am feeling better now. 我现在感觉好多了。注意: feel 表示某物给人的感觉时不能用进行时态: This cloth feels smooth. 这块布摸起来很光滑。",
-      "2. feel 用作及物动词, 后可接名词、代词、复合宾语或从句: We can't see air but we can feel it. 我们看不到空气, 但能感觉到它。// I felt that he liked me very much. 我觉得他很喜欢我。",
-      "feel + 形容词  感觉...",
-      "feel like + 名词/动名词  感觉像...",
+      "1. 用作系动词, 表示人的感觉或感情时, 可用进行时态: I feel lonely. 我觉得孤独。",
+      "2. 用作及物动词, 后可接名词、代词、复合宾语或从句: We can't see air but we can feel it.",
+      "feel + 形容词: feel happy 感觉快乐。",
+      "feel like + 名词/动名词: I feel like having a rest. 我想休息一下。",
     ],
     relatedWords: ["feeling(n. 感情; 感觉)"],
   },
@@ -195,10 +193,12 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "祝贺, 恭贺",
     wordRootMemory: "记 词根记忆: con(共同)+grat(高兴)+ul+ate(表动词)→与获奖者一起高兴→祝贺",
-    examples: ["I want to take this chance to congratulate you on your promotion to Sales Manager. 我想借此机会祝贺你晋升为销售经理。"],
+    examples: ["I want to take this chance to congratulate you on your promotion to Sales Manager."],
     usageNotes: [
-      '用 congratulate 的名词形式是 congratulation, 多用复数, 后面也可以跟介词 on, 表示"对某事表示祝贺", 如: Congratulations on your achievements! 祝贺你取得的成就!',
-      "congratulate sb. on sth. 就某事祝贺某人: A housewarming party is a chance for friends and family to congratulate the person on the new home. 暖房派对是亲朋好友祝贺房主乔迁新居的机会。(2020年全国卷 3)",
+      '用 congratulate 的名词形式是 congratulation, 多用复数。',
+      "congratulate sb. on sth./doing sth. 就某事祝贺某人:",
+      "A housewarming party is a chance for friends and family to congratulate the person on the new home. (2020年全国卷 3)",
+      "Congratulations! 祝贺你！",
     ],
   },
   {
@@ -208,7 +208,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     definition: "位置; 职位",
     wordRootMemory: "记 词根记忆: posit(放)+ion(表名词)→放下的地方→位置",
     examples: ["The hotel is in a perfect position near the beach. 这家旅馆位置绝佳，靠近海滩。"],
-    usageNotes: ["in a position to do sth.  有能力做某事", "take up a position  就职"],
+    usageNotes: ["in a position to do sth.  有能力做某事", "take up a position  就职", "social position 社会地位"],
   },
   {
     word: "component",
@@ -217,7 +217,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     definition: "成分; 零部件",
     wordRootMemory: "记 词根记忆: com(共同)+pon(放)+ent(表示物)→放到一起的东西→成分; 零部件",
     examples: ["Software is a vital component of any computer system. 软件是任何计算机系统的重要组成部分。"],
-    usageNotes: ["常用于科技、工程领域，指构成复杂系统的基本单元。"],
+    usageNotes: ["常用于科技、工程领域，指构成复杂系统的基本单元。", "key component 关键部件"],
   },
   {
     word: "never",
@@ -225,11 +225,12 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adv.",
     definition: "决不; 从来没有",
     wordRootMemory: "古英语 næfre, ne(不) + æfre(ever 永远)",
-    example: "I have never been to Japan. 我从未去过日本。",
+    examples: ["I have never been to Japan. 我从未去过日本。"],
     usageNotes: [
-      "用 never 用于句首时句子要用部分倒装: Never will I forget the day on which I got married. 我永远也忘不了自己结婚的那一天。",
+      "用 never 用于句首时句子要用部分倒装: Never will I forget the day...",
       "never...again  永不再...",
       "never before  从不，以前从未...",
+      "Stronger negative than 'not'."
     ],
   },
   {
@@ -238,8 +239,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[U] 准确性",
     wordRootMemory: "源自 accurate，加上名词后缀 -acy",
-    example: "The accuracy of the measurements is very important in science. 在科学研究中，测量的准确性非常重要。",
-    usageNotes: ["强调精确和准确的程度，不可数名词。"],
+    examples: ["The accuracy of the measurements is very important in science. 在科学研究中，测量的准确性非常重要。"],
+    usageNotes: ["强调精确和准确的程度，不可数名词。", "check for accuracy 检查准确性", "with great accuracy 非常准确地"],
   },
   {
     word: "illegal",
@@ -247,8 +248,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "违法的, 非法的",
     wordRootMemory: "记 词根记忆: il(不)+legal(合法的)→不合法的→违法的",
-    example: "It is illegal to drive without a license. 无证驾驶是违法的。",
-    usageNotes: ["指违反法律规定的行为或事物。"],
+    examples: ["It is illegal to drive without a license. 无证驾驶是违法的。"],
+    usageNotes: ["指违反法律规定的行为或事物。", "illegal parking 违章停车", "illegal drugs 非法毒品"],
     relatedWords: ["illegally(adv. 非法地)"],
   },
   {
@@ -257,11 +258,12 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[C] 胜利",
     wordRootMemory: "源自拉丁语 victoria，胜利女神的名字",
-    example: "The team celebrated their victory with great joy. 球队欢天喜地庆祝他们的胜利。",
+    examples: ["The team celebrated their victory with great joy. 球队欢天喜地庆祝他们的胜利。"],
     usageNotes: [
-      "辨 victory, triumph",
-      '两个词都有"胜利"的意思, victory 指在比赛中获胜, 是中性词; triumph 意为"伟大的胜利, 凯旋", 强调胜利带来的荣誉感, 是褒义词。',
+      "victory 指在比赛中获胜, 是中性词;",
+      "triumph 意为'伟大的胜利, 凯旋', 强调胜利带来的荣誉感, 是褒义词。",
       "win a victory 赢得胜利",
+      "decisive victory 决定性胜利",
     ],
   },
   {
@@ -270,8 +272,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vi.",
     definition: "幸存, 生还; 存活, 继续存在 vt. 比…活得长",
     wordRootMemory: "记 词根记忆: sur(上)+viv(生命)+e→活在生命之上→幸存",
-    example: "The Xi'an City Wall is the most complete city wall that has survived China's long history. 西安城墙是中国漫长的历史上现存最完整的城墙。(2021年全国甲卷)",
-    usageNotes: ["survive an accident/disaster/operation  在事故/灾难/手术中幸存"],
+    examples: ["The Xi'an City Wall is the most complete city wall that has survived China's long history. (2021年全国甲卷)"],
+    usageNotes: ["survive an accident/disaster/operation  在事故/灾难/手术中幸存", "survive on sth. 靠...存活"],
     relatedWords: ["survival(n. 幸存, 生还)", "survivor(n. 幸存者)"],
   },
   {
@@ -280,8 +282,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "传记",
     wordRootMemory: "记 词根记忆: bio(生命, 生物)+graph(写)+y(表名词)→将一生的故事写下来→传记",
-    example: "I'm reading a biography of Marie Curie. 我正在读玛丽·居里的传记。",
-    usageNotes: ["write a biography of sb.  为某人写传记", "autobiography 自传"],
+    examples: ["I'm reading a biography of Marie Curie. 我正在读玛丽·居里的传记。"],
+    usageNotes: ["write a biography of sb.  为某人写传记", "autobiography 自传", "A written account of another person's life."],
   },
   {
     word: "satisfaction",
@@ -289,8 +291,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "满意",
     wordRootMemory: "源自 satisfy 加上名词后缀 -faction",
-    example: "She expressed her satisfaction with the service. 她对这项服务表示满意。",
-    usageNotes: ["to one's satisfaction  使某人满意地", "feel satisfaction  感到满意"],
+    examples: ["She expressed her satisfaction with the service. 她对这项服务表示满意。"],
+    usageNotes: ["to one's satisfaction  使某人满意地", "feel satisfaction  感到满意", "customer satisfaction 顾客满意度"],
   },
   {
     word: "memory",
@@ -298,8 +300,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "[C, U] 回忆, 记忆",
     wordRootMemory: "记 词根记忆: memor(记忆)+y(表名词)→记忆",
-    example: "The old man often thinks about the happy memories of the past alone. 那位老人经常一个人重温那些美好的过往。",
-    usageNotes: ["④ in memory of 纪念", "have a good/bad memory  记忆力好/差", "in one's memory  在某人的记忆中"],
+    examples: ["The old man often thinks about the happy memories of the past alone. 那位老人经常一个人重温那些美好的过往。"],
+    usageNotes: ["in memory of 纪念", "have a good/bad memory  记忆力好/差", "childhood memories 童年回忆"],
     relatedWords: ["memorable(adj. 值得纪念的)"],
   },
   {
@@ -308,8 +310,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "以前的, 从前的 n. (两者之中的)前者",
     wordRootMemory: "比较级形式，表示时间或顺序上的“更早”、“先前”",
-    example: "In former times, people traveled mostly by horse. 在以前，人们主要骑马旅行。",
-    usageNotes: ["the former ... the latter  前者...后者...", "former president  前总统"],
+    examples: ["In former times, people traveled mostly by horse. 在以前，人们主要骑马旅行。"],
+    usageNotes: ["the former ... the latter  前者...后者...", "former president  前总统", "former glory 昔日辉煌"],
   },
   {
     word: "rule",
@@ -317,10 +319,12 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "规则, 规定; 统治 v. 统治; 支配",
     wordRootMemory: "源自拉丁语 regula，意为“直尺”、“规则”。",
-    example: "Mrs. Calloway made her own rules about books. 卡洛威太太对书有自己的规定。(2020年浙江卷)",
+    examples: ["Mrs. Calloway made her own rules about books. (2020年浙江卷)"],
     usageNotes: [
       "as a rule  通常，一般而言",
       "break the rules  违反规则",
+      "follow the rules 遵守规则",
+      "rule the country 统治国家 (verb)"
     ],
   },
   {
@@ -329,8 +333,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "美德, 正直的品行",
     wordRootMemory: "源自拉丁语 virtus，意为“力量”、“勇气”、“美德”。",
-    example: "Patience is a virtue.  耐心是一种美德。",
-    usageNotes: ["moral virtue  道德美德", "by virtue of  依靠，凭借"],
+    examples: ["Patience is a virtue.  耐心是一种美德。"],
+    usageNotes: ["moral virtue  道德美德", "by virtue of  依靠，凭借", "a woman of great virtue 品德高尚的女子"],
   },
   {
     word: "suitable",
@@ -338,8 +342,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "合适的, 适宜的",
     wordRootMemory: "源自 suit 加上形容词后缀 -able，表示“适合的”、“适宜的”。",
-    example: "The film is not suitable for young children. 这部电影不适合年幼的儿童观看。",
-    usageNotes: ["suitable for  适合...", "suitable to do sth.  适合做某事"],
+    examples: ["The film is not suitable for young children. 这部电影不适合年幼的儿童观看。"],
+    usageNotes: ["suitable for sb./sth.  适合某人/某事", "suitable to do sth.  适合做某事", "Opposite: unsuitable"],
   },
   {
     word: "botanical",
@@ -347,8 +351,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "植物学的; 植物的",
     wordRootMemory: "源自 botany (植物学) 加上形容词后缀 -ical",
-    example: "We visited the botanical garden last weekend. 上周末我们参观了植物园。",
-    usageNotes: ["botanical garden  植物园", "botanical research  植物学研究"],
+    examples: ["We visited the botanical garden last weekend. 上周末我们参观了植物园。"],
+    usageNotes: ["botanical garden  植物园", "botanical research  植物学研究", "Related noun: botany 植物学"],
   },
   {
     word: "remark",
@@ -356,8 +360,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n./v.",
     definition: "陈述, 评论",
     wordRootMemory: "记 词根记忆: re(一再)+mark(做标记)→一再做标记→评论",
-    example: "Did you hear his remark about my new hairstyle? 你听到他对我的新发型的评论了吗？",
-    usageNotes: ["make a remark  评论", "remark on/upon sth.  评论某事"],
+    examples: ["Did you hear his remark about my new hairstyle? 你听到他对我的新发型的评论了吗？"],
+    usageNotes: ["make a remark  评论", "remark on/upon sth.  评论某事", "A brief statement or comment."],
   },
   {
     word: "telescope",
@@ -365,8 +369,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "望远镜",
     wordRootMemory: "记 词根记忆: tele(远)+scope(视野)→望远镜",
-    example: "Teachers and students went to the playground to look at the stars in the sky through a telescope. 老师和学生们来到操场上, 通过望远镜观看天上的星星。",
-    usageNotes: ["look through a telescope  用望远镜观看"],
+    examples: ["Teachers and students went to the playground to look at the stars in the sky through a telescope."],
+    usageNotes: ["look through a telescope  用望远镜观看", "Hubble Space Telescope 哈勃太空望远镜"],
   },
   {
     word: "copy",
@@ -374,8 +378,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "抄本, 副本; 一本(份、册･･･) v. 复制; 抄写; 复印",
     wordRootMemory: "源自拉丁语 copia，意为“丰富”、“副本”。",
-    example: "Please make three copies of this document. 请复印三份这份文件。",
-    usageNotes: ["make a copy of  复印...", "copy from...  从...抄袭"],
+    examples: ["Please make three copies of this document. 请复印三份这份文件。"],
+    usageNotes: ["make a copy of  复印...", "copy from...  从...抄袭", "hard copy 打印件； soft copy 电子版"],
   },
   {
     word: "fantastic",
@@ -383,8 +387,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "极好的, 美妙的, 很棒的; 奇异的",
     wordRootMemory: "源自 fantasy，加上形容词后缀 -stic",
-    example: "What's fantastic about history is the way it broadens our horizons. 历史的奇妙之处在于它开阔我们视野的方式。(2020年天津卷)",
-    usageNotes: ["口语常用，表示非常棒、令人惊叹。"],
+    examples: ["What's fantastic about history is the way it broadens our horizons. (2020年天津卷)"],
+    usageNotes: ["口语常用，表示非常棒、令人惊叹。", "fantastic idea/movie/trip 极好的主意/电影/旅行"],
   },
   {
     word: "whom",
@@ -392,8 +396,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "pron.",
     definition: "谁",
     wordRootMemory: "who 的宾格形式",
-    example: "To whom did you give the book? 你把书给谁了？",
-    usageNotes: ["在正式语体中用作 who 的宾语，通常用于介词后或非限定性定语从句中。"],
+    examples: ["To whom did you give the book? 你把书给谁了？"],
+    usageNotes: ["在正式语体中用作 who 的宾语，通常用于介词后或非限定性定语从句中。", "Less common in informal speech, where 'who' is often used instead."],
   },
   {
     word: "differ",
@@ -401,11 +405,12 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vi.",
     definition: "不一致, 有区别",
     wordRootMemory: "记 词根记忆: dif(分开)+fer(带来)→分别带来→有区别",
-    example: "Opinions differ on this issue. 对这个问题，大家的意见不一致。",
+    examples: ["Opinions differ on this issue. 对这个问题，大家的意见不一致。"],
     usageNotes: [
-      "1. differ on sth. 关于某事观点不一致",
+      "1. differ on/about sth. 关于某事观点不一致",
       "2. differ from... 和…不同, 相异",
-      "3. differ with sb. about/on/over sth. 关于某事与某人意见不同",
+      "3. differ with sb. 与某人意见不同",
+      "Related adjective: different; Noun: difference",
     ],
   },
   {
@@ -414,8 +419,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "事故, 意外事件",
     wordRootMemory: "记 词根记忆: ac(表加强)+cid(切)+ent(表名词)→不小心切到手→意外事件",
-    example: "If the new safety system had been put to use, the accident would never have happened. 如果新的安全系统被投入使用了, 事故就不会发生了。(2017年北京卷)",
-    usageNotes: ["by accident  偶然地，意外地", "have an accident  发生事故", "traffic accident  交通事故"],
+    examples: ["If the new safety system had been put to use, the accident would never have happened. (2017年北京卷)"],
+    usageNotes: ["by accident  偶然地，意外地", "have an accident  发生事故", "traffic accident  交通事故", "An unfortunate incident that happens unexpectedly."],
   },
   {
     word: "hear",
@@ -423,14 +428,13 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "(heard, heard, hearing) 听见; 听说, 得知",
     wordRootMemory: "源自古英语 hēran，意为“感知声音”。",
-    example: "I heard a strange noise downstairs. 我听到楼下有奇怪的噪音。",
+    examples: ["I heard a strange noise downstairs. 我听到楼下有奇怪的噪音。"],
     usageNotes: [
       "1. hear of/about 听说",
       "2. hear from 收到…的来信",
       "3. hear sb. doing sth. 听见某人正在做某事",
-      "4. hear sb. do sth. 听见某人做了某事",
+      "4. hear sb. do sth. 听见某人做了某事 (强调动作完成)",
     ],
-    relatedWordsExtra: ["hearing(n. 听力; 听觉)"],
   },
   {
     word: "portable",
@@ -438,8 +442,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "轻便的, 便携的; 手提的",
     wordRootMemory: "记 词根记忆: port(拿, 运)+able(可………的)→可以拿的→轻便的",
-    example: "This portable speaker is easy to carry around. 这个便携式扬声器便于携带。",
-    usageNotes: ["portable device  便携设备", "portable water  饮用水"],
+    examples: ["This portable speaker is easy to carry around. 这个便携式扬声器便于携带。"],
+    usageNotes: ["portable device  便携设备", "portable computer 便携式电脑", "Easy to carry or move around."],
   },
   {
     word: "still",
@@ -447,8 +451,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "adj.",
     definition: "静止的; 安静的 adv. 仍然, 还",
     wordRootMemory: "源自古英语 stille，意为“静止的”、“平静的”。",
-    example: "Please tell me how the accident came about. I am still in the dark. 请告诉我事故是怎么发生的, 我还被蒙在鼓里呢。",
-    usageNotes: ["still water  静水", "still night  寂静的夜晚", "still doing sth.  仍然在做某事"],
+    examples: ["Please tell me how the accident came about. I am still in the dark."],
+    usageNotes: ["still water  静水", "still night  寂静的夜晚", "stand still 站着不动", "Adv: He is still waiting. 他还在等。"],
   },
   {
     word: "change",
@@ -456,8 +460,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "改变; 更换; 兑换 n. [U]零钱; [C]变化",
     wordRootMemory: "源自古法语 changier，意为“交换”、“改变”。",
-    example: "If we don't stop climate change, many animals and plants in the world will be gone. 如果我们不阻止气候变化, 世界上许多动植物就会消失。(2018年北京卷)",
-    usageNotes: ["1. change sth. with sb. 和某人交换某物", "2. change... into... 将……变成…; 兑换(把钱换成零票或硬币)", "change one's mind  改变主意", "make a change  做出改变"],
+    examples: ["If we don't stop climate change, many animals and plants ... will be gone. (2018年北京卷)"],
+    usageNotes: ["change sth. into... 将……变成…", "change one's mind  改变主意", "make a change  做出改变", "Keep the change. 不用找零了。 (n.)"],
   },
   {
     word: "garbage",
@@ -465,8 +469,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "垃圾",
     wordRootMemory: "可能源自盎格鲁-法语 garbage，意为“内脏”、“废弃物”。",
-    example: "Don't forget to take out the garbage. 别忘了把垃圾拿出去。",
-    usageNotes: ["美式英语常用词，同义词 rubbish (英式英语)。", "garbage can  垃圾桶", "garbage disposal  垃圾处理"],
+    examples: ["Don't forget to take out the garbage. 别忘了把垃圾拿出去。"],
+    usageNotes: ["美式英语常用词，同义词 rubbish (英式)。", "garbage can  垃圾桶", "garbage disposal  垃圾处理", "Also means 'nonsense' informally."],
   },
   {
     word: "disappoint",
@@ -474,8 +478,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "使失望",
     wordRootMemory: "记 词根记忆: dis(不)+appoint(委任)→不被委任→使失望",
-    example: "Tom did not want to disappoint his parents. 汤姆不想让他的父母失望。",
-    usageNotes: ["disappoint sb.  使某人失望", "be disappointed with/in sth./sb.  对...感到失望"],
+    examples: ["Tom did not want to disappoint his parents. 汤姆不想让他的父母失望。"],
+    usageNotes: ["disappoint sb.  使某人失望", "be disappointed with/in sth./sb.  对...感到失望", "The results were disappointing. 结果令人失望。"],
     relatedWords: ["disappointment(n. 失望)", "disappointing(adj. 令人失望的)", "disappointed(adj.失望的)"],
   },
   {
@@ -484,13 +488,12 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "modal v.",
     definition: "将要; 愿意, 要 n. 意志; 遗嘱",
     wordRootMemory: "源自古英语 willan，表示“意愿”、“决心”。",
-    example: "Maggie had the will to finish her degree in four years. 玛吉希望能在四年内取得学位。",
+    examples: ["Maggie had the will to finish her degree in four years. (n.)", "I will help you. (modal v.) 我会帮助你的。"],
     usageNotes: [
-      "用 will 作情态动词:",
-      "1. 表示意愿或决心: I will do my best to help you. 我愿意尽全力帮助你。",
-      "2. 表示习惯或规律: Fish will die out of water. 鱼儿离开水就会死。",
-      "表示将来时最常用的情态动词。",
-      "表意愿、决心、意志时语气强烈。",
+      "Modal: Expresses future, willingness, determination.",
+      "Noun: Means determination or a legal document stating wishes after death.",
+      "Where there's a will, there's a way. 有志者事竟成。",
+      "last will and testament 临终遗嘱"
     ],
   },
   {
@@ -499,8 +502,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vt.",
     definition: "促进; 提升; 推销",
     wordRootMemory: "记 词根记忆: pro(向前)+mot(动)+e→使向前运动→促进; 提升",
-    example: "All our projects aim to promote the development of poor and remote communities. 我们所有的项目都旨在促进贫困和偏远社区的发展。(2019年北京卷)",
-    usageNotes: ["promote sth.  促进某事", "promote sb. to ...  将某人提升到...职位", "promote sales  促销"],
+    examples: ["All our projects aim to promote the development of poor and remote communities. (2019年北京卷)"],
+    usageNotes: ["promote sth.  促进/推广某事", "promote sb. to ...  将某人提升到...职位", "promote sales/products  促销/推广产品", "Related noun: promotion"],
   },
   {
     word: "settle",
@@ -508,8 +511,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "vi.",
     definition: "安家, 定居 vt. 解决(问题)",
     wordRootMemory: "源自古英语 setlan，意为“安置”、“使固定”。",
-    example: "All the problems were settled. 所有的问题都解决了。",
-    usageNotes: ["1. settle for sth. 勉强认可某事(物)", "2. settle down 定居", "settle a dispute/argument  解决争端/争论", "settle in  适应新环境"],
+    examples: ["All the problems were settled. 所有的问题都解决了。", "Many immigrants settled in this city. 许多移民在这个城市定居。"],
+    usageNotes: ["settle down 定居; 平静下来", "settle a dispute/argument  解决争端/争论", "settle in  适应新环境", "settle an account 结账"],
     relatedWords: ["settled(adj. 固定的)", "settler(n. 移民者; 殖民者)", "settlement(n. 定居; 解决; 安置)"],
   },
   {
@@ -518,8 +521,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "解释, 说明",
     wordRootMemory: "源自 explain 加上名词后缀 -ation",
-    example: "The most likely explanation for Jack's absence was that his car had been delayed by traffic. 杰克缺席最可能的原因是他遇到了交通阻塞。",
-    usageNotes: ["give/offer an explanation  给出解释", "explanation for sth.  对...的解释"],
+    examples: ["The most likely explanation for Jack's absence was that his car had been delayed by traffic."],
+    usageNotes: ["give/offer an explanation  给出解释", "explanation for sth.  对...的解释", "detailed explanation 详细解释"],
   },
   {
     word: "date",
@@ -527,11 +530,9 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "日期; 约会 vt. 约会; 注明日期",
     wordRootMemory: "源自中古法语 date，来源于拉丁语 datum，意为“给出的（日期）”。",
-    example: "Most of the young people don't know the exact date of their parents' births. 大多数年轻人不知道父母的生日是哪一天。",
-    usageNotes: ["1. out of date 过时的", "2. up to date 最新的; 最近的",
-      "辨 date, day",
-      'date 指具体的日期(年、月、日), 一般用单数; day 泛指"日子", a day 指"一天"。用 date 提问, 问的是"几月几号"。用 day 提问, 问的是"星期几"。date from = date back to 意为"始于, 追溯到", 常用一般现在时且无被动语态。'],
-    relatedWords: [],
+    examples: ["Most of the young people don't know the exact date of their parents' births."],
+    usageNotes: ["out of date 过时的", "up to date 最新的", "date from / date back to 始于...", "go on a date 去约会"],
+    relatedWords: [], // Kept empty as per original
   },
   {
     word: "howl",
@@ -539,8 +540,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "(狼、狗)嚎叫; (因痛苦、悲伤而)哀号",
     wordRootMemory: "记 发音记忆: how(音似: 嚎)+l→嚎叫",
-    example: "Wolves howled at the moon. 狼对着月亮嚎叫。",
-    usageNotes: ["howl with pain/laughter  因痛苦/大笑而嚎叫", "howling wind  呼啸的风"],
+    examples: ["Wolves howled at the moon. 狼对着月亮嚎叫。", "The wind howled through the trees. 风在树林中呼啸。"],
+    usageNotes: ["howl with pain/laughter  因痛苦/大笑而嚎叫", "howling wind  呼啸的风", "A long, loud cry."],
   },
   {
     word: "match",
@@ -548,8 +549,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "比得上; (和…)相似; (和…)相配; 配对 n. 比赛; 火柴",
     wordRootMemory: "源自古英语 mæcca，意为“伙伴”、“对手”、“匹配物”。",
-    example: "The final match 总决赛",
-    usageNotes: ["match sth.  与...相配", "match sb. in sth.  在某方面与某人匹敌", "a football match  足球比赛"],
+    examples: ["The final match 总决赛", "These shoes don't match your dress. 这双鞋和你的裙子不配。"],
+    usageNotes: ["match sth.  与...相配", "match sb. in sth.  在某方面与某人匹敌", "a football match  足球比赛", "strike a match 划火柴"],
   },
   {
     word: "conference",
@@ -557,8 +558,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "(正式的)会议",
     wordRootMemory: "记 词根记忆: con(共同)+fer(带来)+ence→带来问题和观点一起讨论→会议",
-    example: "You will see her at the press conference. 你会在记者招待会上见到她。",
-    usageNotes: ["attend a conference  参加会议", "conference call  电话会议", "press conference  新闻发布会"],
+    examples: ["You will see her at the press conference. 你会在记者招待会上见到她。"],
+    usageNotes: ["attend a conference  参加会议", "conference call  电话会议", "press conference  新闻发布会", "A formal meeting for discussion."],
   },
   {
     word: "float",
@@ -566,8 +567,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "v.",
     definition: "提出(想法或计划); 漂浮, (使)浮动",
     wordRootMemory: "记 联想记忆: 船 (boat) 在水里漂浮 (float)",
-    example: "We floated the idea to my mum of sharing a house. 我们向母亲提出了关于合住的想法。(2020年全国卷 3)",
-    usageNotes: ["float an idea/plan/company  提出想法/计划/公司上市", "float on water  漂浮在水面上"],
+    examples: ["We floated the idea to my mum of sharing a house. (2020年全国卷 3)", "Wood floats on water. 木头漂浮在水面上。"],
+    usageNotes: ["float an idea/plan  提出想法/计划", "float on water  漂浮在水面上", "float a company 公司上市"],
   },
   {
     word: "neighbour",
@@ -575,8 +576,8 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "(美 neighbor) n. 邻居",
     wordRootMemory: "古英语 nēahgebūr, nēah (near 近的) + gebūr (peasant 村民)",
-    example: "As is well known, the Moon is the Earth's nearest neighbour. 众所周知, 月球是地球最近的邻居。",
-    usageNotes: ["next-door neighbour  隔壁邻居", "good neighbour policy  睦邻政策"],
+    examples: ["As is well known, the Moon is the Earth's nearest neighbour."],
+    usageNotes: ["next-door neighbour  隔壁邻居", "good neighbour policy  睦邻政策", "UK spelling: neighbour; US spelling: neighbor."],
   },
   {
     word: "microwave",
@@ -584,7 +585,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     partOfSpeech: "n.",
     definition: "微波; 微波炉",
     wordRootMemory: "记 组合词: micro(微)+wave(波)→微波",
-    example: "Heat the soup in the microwave for two minutes. 用微波炉把汤加热两分钟。",
-    usageNotes: ["microwave oven  微波炉", "microwave cooking  微波烹饪"],
+    examples: ["Heat the soup in the microwave for two minutes. 用微波炉把汤加热两分钟。"],
+    usageNotes: ["microwave oven  微波炉", "microwave cooking  微波烹饪", "Often shortened to 'microwave' meaning microwave oven."],
   },
 ];
