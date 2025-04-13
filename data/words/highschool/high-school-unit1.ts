@@ -20,7 +20,7 @@ export const highSchoolUnit1: VocabularyWord[] = [
     definition: "可视电话",
     wordRootMemory: "记 组合词: video(视频)+phone(电话)→能看得见通话双方的电话→可视电话",
     examples: ["Videophones are becoming more common in offices. 可视电话在办公室里变得越来越普遍。"],
-    usageNotes: [], // Kept empty as per original, can be filled if needed
+    usageNotes: ["make a videophone call 进行可视电话通话", "use a videophone 使用可视电话", "videophone conference 可视电话会议", "modern videophones often use smartphone apps or computer software"], 
   },
   {
     word: "alcohol",

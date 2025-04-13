@@ -1,30 +1,75 @@
-// Define spirit types with colors and descriptions
-export const SPIRIT_TYPES = [
+// High school unit1 spirits data
+export const highSchoolUnit1SpiritsData = [
+  // 前缀精灵
   {
+    id: "pre1",
+    name: "in-",
+    meaning: "进入，在...内部",
     category: "prefix",
-    name: "前缀精灵",
-    color: "#f9c851",
-    bgGradient: "from-[#f9c851]/10 to-[#ff8a5c]/10",
-    description: "前缀精灵能改变或增强词根的含义，它们总是出现在词根精灵的前面。",
+    description: '这个前缀精灵能赋予词根"进入"或"在...内部"的含义。',
+    examples: ["input", "inside", "include", "inject"],
+    collected: false
   },
   {
+    id: "pre2",
+    name: "trans-",
+    meaning: "变换，转变",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"变换"或"转变"的含义。',
+    examples: ["transport", "transform", "translate", "transfer"],
+    collected: false
+  },
+  {
+    id: "pre3",
+    name: "con-",
+    meaning: "共同",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"共同"的含义。',
+    examples: ["connect", "combine", "concentrate", "conform"],
+    collected: false
+  },
+
+  // 词根精灵
+  {
+    id: "root1",
+    name: "-memor-",
+    meaning: "记忆",
     category: "root",
-    name: "词根精灵",
-    color: "#4ade80",
-    bgGradient: "from-[#4ade80]/10 to-[#22d3ee]/10",
-    description: "词根精灵是单词的核心，它们掌管着单词的基本含义。",
+    description: '这个词根精灵掌管"记忆"的含义。',
+    examples: ["memory", "memorize", "memorial", "remember"],
+    collected: false
   },
   {
-    category: "suffix",
-    name: "后缀精灵",
-    color: "#a78bfa",
-    bgGradient: "from-[#a78bfa]/10 to-[#f472b6]/10",
-    description: "后缀精灵能改变词根的词性或为词根添加特定的含义，它们总是出现在词根精灵的后面。",
+    id: "root2",
+    name: "-clude-",
+    meaning: "关",
+    category: "root",
+    description: '这个词根精灵掌管"关"的含义。',
+    examples: ["include", "exclude", "conclude", "seclude"],
+    collected: false
   },
+  {
+    id: "root3",
+    name: "-grat-",
+    meaning: "令人高兴的",
+    category: "root",
+    description: '这个词根精灵掌管"令人高兴的"的含义。',
+    examples: ["gratitude", "congratulate", "grateful", "gratify"],
+    collected: false
+  },
+  {
+    id: "root4",
+    name: "-port-",
+    meaning: "拿，运",
+    category: "root",
+    description: '这个词根精灵掌管"拿"或"运"的含义。',
+    examples: ["transport", "export", "import", "portable"],
+    collected: false
+  }
 ]
 
 // Sample spirits data
-export const rootSpiritsData = [
+export const sampleSpiritsData = [
   // 前缀精灵
   {
     id: "pre1",
@@ -193,4 +238,97 @@ export const rootSpiritsData = [
     collected: false,
   },
 ]
+
+export const highSchoolUnit2SpiritsData = [
+  // 前缀精灵
+  {
+    id: "pre1",
+    name: "re-",
+    meaning: "再次，向后",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"再次"或"向后"的含义。',
+    examples: ["remain", "recycle", "retell"],
+    collected: false
+  },
+  {
+    id: "pre2",
+    name: "de-",
+    meaning: "向下，分离，加强",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"向下"、"分离"或"加强"的含义。',
+    examples: ["defend", "decide", "potential"],
+    collected: false
+  },
+  {
+    id: "pre3",
+    name: "inter-",
+    meaning: "在...之间",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"在...之间"的含义。',
+    examples: ["interrupt"],
+    collected: false
+  },
+
+  // 词根精灵
+  {
+    id: "root1",
+    name: "-vent-",
+    meaning: "来",
+    category: "root",
+    description: '这个词根精灵掌管"来"的含义。',
+    examples: ["conventional", "motivation"],
+    collected: false
+  },
+  {
+    id: "root2",
+    name: "-rupt-",
+    meaning: "断裂，打破",
+    category: "root",
+    description: '这个词根精灵掌管"断裂"或"打破"的含义。',
+    examples: ["eruption", "abrupt"],
+    collected: false
+  },
+  {
+    id: "root3",
+    name: "-cycle-",
+    meaning: "圆，环",
+    category: "root",
+    description: '这个词根精灵掌管"圆"或"环"的含义。',
+    examples: ["bicycle", "cyclone"],
+    collected: false
+  }
+]
+
+export const rootSpiritsDataByLevel = {
+  "high-school-1-unit1": highSchoolUnit1SpiritsData,
+  "high-school-1-unit2": highSchoolUnit2SpiritsData,
+  "default": sampleSpiritsData
+}
+
+export const SPIRIT_TYPES = [
+      
+{
+    category: "prefix",
+    name: "前缀精灵",
+    color: "#f9c851",
+    bgGradient: "from-[#f9c851]/10 to-[#ff8a5c]/10",
+    description: "前缀精灵能改变或增强词根的含义，它们总是出现在词根精灵的前面。",
+  },
+  {
+    category: "root",
+    name: "词根精灵",
+    color: "#4ade80",
+    bgGradient: "from-[#4ade80]/10 to-[#22d3ee]/10",
+    description: "词根精灵是单词的核心，它们掌管着单词的基本含义。",
+  },
+  {
+    category: "suffix",
+    name: "后缀精灵",
+    color: "#a78bfa",
+    bgGradient: "from-[#a78bfa]/10 to-[#f472b6]/10",
+    description: "后缀精灵能改变词根的词性或为词根添加特定的含义，它们总是出现在词根精灵的后面。",
+  },
+]
+
+
 

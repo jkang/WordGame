@@ -6,17 +6,17 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { getLevelName } from "@/utils/level-utils"
 import { addScoreAndExperience } from "@/lib/user-progress"
-import { SPIRIT_TYPES, rootSpiritsData } from "@/data/root-spirits-data"
+import { SPIRIT_TYPES, rootSpiritsDataByLevel } from "@/data/root-spirits-data"
 import { playSound } from "@/utils/sound-effects"
 
 interface RootSpiritsProps {
-  level: string
+  level: keyof typeof rootSpiritsDataByLevel
   onBack: (currentLevel: string) => void // 添加返回参数
 }
 
 export default function RootSpirits({ level, onBack }: RootSpiritsProps) {
-  const [spirits, setSpirits] = useState(rootSpiritsData)
-  const [filteredSpirits, setFilteredSpirits] = useState(rootSpiritsData)
+  const [spirits, setSpirits] = useState(rootSpiritsDataByLevel[level] || rootSpiritsDataByLevel.default)
+  const [filteredSpirits, setFilteredSpirits] = useState(rootSpiritsDataByLevel[level] || rootSpiritsDataByLevel.default)
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
   const [levelName, setLevelName] = useState("")
