@@ -74,3 +74,18 @@ export const highSchoolUnit5BuildingData: WordBuilding[] = [
     { id: "hs5-wb11", meaning: "补偿;赔偿", options: ["ate", "com", "pens", "pense"], correctOptions: ["com", "pens", "ate"] },
     { id: "hs5-wb12", meaning: "大约", options: ["ly", "approx", "imate", "pro"], correctOptions: ["approx", "imate", "ly"] }
 ];
+
+export const highSchoolUnit6BuildingData: WordBuilding[] = [
+    { id: "hs6-wb1", meaning: "观众,听众", options: ["audi", "ence", "aud"], correctOptions: ["audi", "ence"] },
+    { id: "hs6-wb2", meaning: "(使)变强;加强,增强", options: ["en", "strength", "ing"], correctOptions: ["strength", "en"] },
+    { id: "hs6-wb3", meaning: "毕业;毕业典礼", options: ["grad", "u", "ation"], correctOptions: ["grad", "u", "ation"] },
+    { id: "hs6-wb4", meaning: "通道;进入权利", options: ["ac", "cess", "es"], correctOptions: ["ac", "cess"] },
+    { id: "hs6-wb5", meaning: "智力;理解力", options: ["in", "tell", "i", "gence"], correctOptions: ["in", "tell", "i", "gence"] },
+    { id: "hs6-wb6", meaning: "附录,附属品", options: ["ap", "pend", "ix"], correctOptions: ["ap", "pend", "ix"] },
+    { id: "hs6-wb7", meaning: "发现,找到", options: ["dis", "cover", "er"], correctOptions: ["dis", "cover"] },
+    { id: "hs6-wb8", meaning: "雇用;使用", options: ["em", "ploy", "ment"], correctOptions: ["em", "ploy"] },
+    { id: "hs6-wb9", meaning: "(使)分开,(使)分离", options: ["se", "par", "ate"], correctOptions: ["se", "par", "ate"] },
+    { id: "hs6-wb10", meaning: "搭档,合作者", options: ["part", "ner", "ship"], correctOptions: ["part", "ner"] },
+    { id: "hs6-wb11", meaning: "(把某人)弄糊涂,使迷惑", options: ["con", "fuse", "ion"], correctOptions: ["con", "fuse"] },
+    { id: "hs6-wb12", meaning: "插入,放进", options: ["in", "sert", "ion"], correctOptions: ["in", "sert"] }
+];

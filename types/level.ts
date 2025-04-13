@@ -41,6 +41,7 @@ export const LEVELS: Level[] = [
       { id: "high-school-1-unit3", name: "Unit 3", description: "Wordlist 3", wordCount: 60 },
       { id: "high-school-1-unit4", name: "Unit 4", description: "Wordlist 4", wordCount: 66 },
       { id: "high-school-1-unit5", name: "Unit 5", description: "Wordlist 5", wordCount: 57 },
+      { id: "high-school-1-unit6", name: "Unit 6", description: "Wordlist 6", wordCount: 57 },
     ],
   },
 ]
