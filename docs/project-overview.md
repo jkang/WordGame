@@ -10,6 +10,7 @@ WordGame 是一个面向中学生的英语词汇学习应用，通过游戏化�
 - 语言：TypeScript
 - UI框架：TailwindCSS
 - 状态管理：React Hooks
+- 本地存储：LocalStorage（用于保存用户进度和词根数据）
 
 ## 目录结构
 
@@ -37,6 +38,13 @@ TypeScript 类型定义
 - `vocabulary.ts`: 词汇相关类型定义
 - `level.ts`: 关卡和单元相关类型定义
 - `game.ts`: 游戏相关类型定义
+
+### `/lib`
+核心库和工具函数
+- `storage.ts`: 本地存储基础操作封装
+- `storage-manager.ts`: 本地存储管理器
+- `user-progress.ts`: 用户进度管理
+- `utils.ts`: 通用工具函数
 
 ### `/utils`
 工具函数

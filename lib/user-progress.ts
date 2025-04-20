@@ -22,7 +22,7 @@ export interface UserProgress {
   lastPlayed: string
 }
 
-const STORAGE_KEY = "wordRootAdventureProgress"
+import { loadGameProgress, saveGameProgress, updateGameProgress } from "./storage-manager"
 
 // Initial achievements
 const initialAchievements: UserAchievement[] = [
@@ -81,26 +81,27 @@ const initialUserProgress: UserProgress = {
   lastPlayed: new Date().toISOString(),
 }
 
-// Load user progress from localStorage
+// Load user progress
 export const loadUserProgress = (): UserProgress => {
-  if (typeof window !== "undefined") {
-    const storedData = localStorage.getItem(STORAGE_KEY)
-    if (storedData) {
-      try {
-        return JSON.parse(storedData)
-      } catch (error) {
-        console.error("Error parsing stored user progress:", error)
-      }
+  const savedProgress = loadGameProgress()
+  if (savedProgress) {
+    return {
+      ...initialUserProgress,
+      totalScore: savedProgress.totalScore,
+      totalStars: savedProgress.totalStars,
+      achievements: savedProgress.achievements
     }
   }
   return initialUserProgress
 }
 
-// Save user progress to localStorage
+// Save user progress
 export const saveUserProgress = (progress: UserProgress): void => {
-  if (typeof window !== "undefined") {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
-  }
+  saveGameProgress({
+    totalScore: progress.totalScore,
+    totalStars: progress.totalStars,
+    achievements: progress.achievements
+  })
 }
 
 // Add score and experience to user progress
