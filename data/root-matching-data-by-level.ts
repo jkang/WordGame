@@ -81,6 +81,49 @@ export const rootsMatchingDataByLevel = {
     { id: 11, root: "-fess-", meaning: "说; 承认" },
     { id: 12, root: "pass", meaning: "通过; 步" },
   ],
-  // Potentially more units below...
+  "high-school-1-unit6": [
+    { id: 1, root: "audi-", meaning: "听" },
+    { id: 2, root: "-sert-", meaning: "插入,放置" },
+    { id: 3, root: "-fuse-", meaning: "流,灌" },
+    { id: 4, root: "-grad-", meaning: "行走,等级" },
+    { id: 5, root: "-cess-", meaning: "行走,前进" },
+    { id: 6, root: "-pend-", meaning: "悬挂" },
+    { id: 7, root: "-cover-", meaning: "盖子,覆盖" },
+    { id: 8, root: "se-", meaning: "分开" },
+    { id: 9, root: "-par-", meaning: "相等,部分" },
+    { id: 10, root: "-crease-", meaning: "增长,产生" },
+    { id: 11, root: "dec-", meaning: "十" },
+    { id: 12, root: "-soci-", meaning: "伙伴,社会" }
+  ],
+  
+  "high-school-1-unit7": [
+    { id: 1, root: "-flam-", meaning: "燃烧, 火焰" },
+    { id: 2, root: "-lect-", meaning: "选择" },
+    { id: 3, root: "fast", meaning: "牢的, 紧的" },
+    { id: 4, root: "-migrat-", meaning: "移居, 迁移" },
+    { id: 5, root: "abs-", meaning: "离去, 从" },
+    { id: 6, root: "-tract-", meaning: "拉, 拖" },
+    { id: 7, root: "-fict-", meaning: "做, 制造, 虚构" },
+    { id: 8, root: "-nounce-", meaning: "讲话, 报告, 宣告" },
+    { id: 9, root: "circum-", meaning: "周围, 环绕" },
+    { id: 10, root: "bake", meaning: "烘烤" },
+    { id: 11, root: "extra-", meaning: "以外, 超过" },
+    { id: 12, root: "-ordin-", meaning: "平常的, 顺序" }
+  ],
+  
+  "high-school-1-unit8": [
+    { id: 1, root: "-voc-", meaning: "声音, 喊叫" },
+    { id: 2, root: "-compl-", meaning: "满, 完成" },
+    { id: 3, root: "-sequ-", meaning: "跟随" },
+    { id: 4, root: "-cid-", meaning: "落下" },
+    { id: 5, root: "-velop-", meaning: "包,裹" },
+    { id: 6, root: "-tempt-", meaning: "尝试" },
+    { id: 7, root: "-tain-", meaning: "拿住, 保持" },
+    { id: 8, root: "-nutri-", meaning: "滋养" },
+    { id: 9, root: "-tray-", meaning: "交出" },
+    { id: 10, root: "cata-", meaning: "下面, 向下" },
+    { id: 11, root: "-logu-", meaning: "说话, 言语" },
+    { id: 12, root: "-tect-", meaning: "遮盖, 侦察" }
+  ],
 }
 
