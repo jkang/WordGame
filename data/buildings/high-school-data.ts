@@ -89,3 +89,18 @@ export const highSchoolUnit6BuildingData: WordBuilding[] = [
     { id: "hs6-wb11", meaning: "(把某人)弄糊涂,使迷惑", options: ["con", "fuse", "ion"], correctOptions: ["con", "fuse"] },
     { id: "hs6-wb12", meaning: "插入,放进", options: ["in", "sert", "ion"], correctOptions: ["in", "sert"] }
 ];
+
+export const highSchoolUnit8BuildingData: WordBuilding[] = [
+    { id: "hs8-wb1", meaning: "提倡,拥护,主张", options: ["ad", "voc", "ate", "advo"], correctOptions: ["ad", "voc", "ate"] },
+    { id: "hs8-wb2", meaning: "完成,达到", options: ["ac", "compl", "ish", "plishm"], correctOptions: ["ac", "compl", "ish"] },
+    { id: "hs8-wb3", meaning: "结果,后果", options: ["con", "sequ", "ence", "sequel"], correctOptions: ["con", "sequ", "ence"] },
+    { id: "hs8-wb4", meaning: "事件", options: ["in", "cid", "ent", "idən"], correctOptions: ["in", "cid", "ent"] },
+    { id: "hs8-wb5", meaning: "信封", options: ["en", "velop", "e", "vel"], correctOptions: ["en", "velop", "e"] },
+    { id: "hs8-wb6", meaning: "试图,尝试", options: ["at", "tempt", "temp", "trym"], correctOptions: ["at", "tempt"] },
+    { id: "hs8-wb7", meaning: "营养", options: ["nutri", "tion", "nutr", "sion"], correctOptions: ["nutri", "tion"] },
+    { id: "hs8-wb8", meaning: "出卖,背叛;泄露(秘密)", options: ["be", "tray", "betr", "ayal"], correctOptions: ["be", "tray"] },
+    { id: "hs8-wb9", meaning: "目录", options: ["cata", "logu", "e", "loguex"], correctOptions: ["cata", "logu", "e"] },
+    { id: "hs8-wb10", meaning: "进退两难的局面", options: ["di", "lemma", "dilem", "mas"], correctOptions: ["di", "lemma"] },
+    { id: "hs8-wb11", meaning: "可使用的;可进入的;易接近的", options: ["ac", "cess", "ible", "accessi"], correctOptions: ["ac", "cess", "ible"] },
+    { id: "hs8-wb12", meaning: "灌溉", options: ["ir", "rig", "ation", "rigax"], correctOptions: ["ir", "rig", "ation"] }
+  ];

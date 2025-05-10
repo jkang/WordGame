@@ -496,10 +496,145 @@ export const highSchoolUnit6SpiritsData = [
   }
 ]
 
+export const highSchoolUnit8SpiritsData = [
+  // 前缀精灵
+  {
+    id: "pre1",
+    name: "sub-",
+    meaning: "在...之下，次要的",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"在...之下"或"次要的"含义。',
+    examples: ["submarine", "subway", "subtract", "submerge"],
+    collected: false
+  },
+  {
+    id: "pre2",
+    name: "super-",
+    meaning: "在...之上，超级",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"在...之上"或"超级"的含义。',
+    examples: ["supermarket", "superman", "superior", "supervise"],
+    collected: false
+  },
+  {
+    id: "pre3",
+    name: "ex-",
+    meaning: "向外，前任的",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"向外"或"前任的"含义。',
+    examples: ["export", "exit", "exhale", "ex-president"],
+    collected: false
+  },
+  {
+    id: "pre4",
+    name: "com-",
+    meaning: "共同，一起",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"共同"或"一起"的含义。',
+    examples: ["combine", "communicate", "companion", "complete"],
+    collected: false
+  },
+
+  // 词根精灵
+  {
+    id: "root1",
+    name: "-struct-",
+    meaning: "建造",
+    category: "root",
+    description: '这个词根精灵掌管"建造"的含义。',
+    examples: ["construct", "structure", "instruct", "destruction"],
+    collected: false
+  },
+  {
+    id: "root2",
+    name: "-tract-",
+    meaning: "拉，拖",
+    category: "root",
+    description: '这个词根精灵掌管"拉"或"拖"的含义。',
+    examples: ["attract", "extract", "contract", "tractor"],
+    collected: false
+  },
+  {
+    id: "root3",
+    name: "-mit-/-miss-",
+    meaning: "送，放",
+    category: "root",
+    description: '这个词根精灵掌管"送"或"放"的含义。',
+    examples: ["transmit", "permit", "mission", "admission"],
+    collected: false
+  },
+  {
+    id: "root4",
+    name: "-vert-/-vers-",
+    meaning: "转",
+    category: "root",
+    description: '这个词根精灵掌管"转"的含义。',
+    examples: ["convert", "invert", "reverse", "universe"],
+    collected: false
+  },
+  {
+    id: "root5",
+    name: "-log-",
+    meaning: "言语，学说",
+    category: "root",
+    description: '这个词根精灵掌管"言语"或"学说"的含义。',
+    examples: ["biology", "psychology", "dialogue", "catalog"],
+    collected: false
+  },
+  {
+    id: "root6",
+    name: "-tele-",
+    meaning: "远",
+    category: "root",
+    description: '这个词根精灵掌管"远"的含义。',
+    examples: ["telephone", "television", "telescope", "telegram"],
+    collected: false
+  },
+
+  // 后缀精灵
+  {
+    id: "suf1",
+    name: "-ize",
+    meaning: "使...化",
+    category: "suffix",
+    description: '这个后缀精灵能将词根转变为动词，表示"使...化"。',
+    examples: ["realize", "organize", "memorize", "modernize"],
+    collected: false
+  },
+  {
+    id: "suf2",
+    name: "-ology",
+    meaning: "...学",
+    category: "suffix",
+    description: '这个后缀精灵能将词根转变为名词，表示"...学"。',
+    examples: ["biology", "psychology", "technology", "ecology"],
+    collected: false
+  },
+  {
+    id: "suf3",
+    name: "-ity",
+    meaning: "表示状态或性质",
+    category: "suffix",
+    description: '这个后缀精灵能将形容词转变为名词，表示一种状态或性质。',
+    examples: ["ability", "possibility", "reality", "security"],
+    collected: false
+  },
+  {
+    id: "suf4",
+    name: "-ive",
+    meaning: "有...性质的",
+    category: "suffix",
+    description: '这个后缀精灵能将词根转变为形容词，表示"有...性质的"。',
+    examples: ["active", "creative", "attractive", "positive"],
+    collected: false
+  }
+]
+
 export const rootSpiritsDataByLevel = {
   "high-school-1-unit1": highSchoolUnit1SpiritsData,
   "high-school-1-unit2": highSchoolUnit2SpiritsData,
   "high-school-1-unit6": highSchoolUnit6SpiritsData,
+  "high-school-1-unit8": highSchoolUnit8SpiritsData,
   "default": sampleSpiritsData
 }
 

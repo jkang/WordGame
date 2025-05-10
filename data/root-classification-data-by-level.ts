@@ -136,6 +136,33 @@ export const HIGH_SCHOOL_1_UNIT5_DATA = {
   ],
 }
 
+export const HIGH_SCHOOL_1_UNIT8_DATA = {
+  categories: [
+    { id: "hs8-rc1", root: "ad- (to, toward)", meaning: "向，朝向" },
+    { id: "hs8-rc2", root: "-voc- (voice, call)", meaning: "声音，喊叫" },
+    { id: "hs8-rc3", root: "-compl- (complete)", meaning: "完成，满" },
+    { id: "hs8-rc4", root: "-sequ- (follow)", meaning: "跟随" },
+    { id: "hs8-rc5", root: "-cid- (fall)", meaning: "落下" },
+    { id: "hs8-rc6", root: "-tain- (hold)", meaning: "拿住，保持" },
+  ],
+  words: [
+    { id: "hs8-w1", word: "advocate", categoryId: "hs8-rc2" },
+    { id: "hs8-w2", word: "accomplish", categoryId: "hs8-rc3" },
+    { id: "hs8-w3", word: "consequence", categoryId: "hs8-rc4" },
+    { id: "hs8-w4", word: "incident", categoryId: "hs8-rc5" },
+    { id: "hs8-w5", word: "contain", categoryId: "hs8-rc6" },
+    { id: "hs8-w6", word: "maintain", categoryId: "hs8-rc6" },
+    { id: "hs8-w7", word: "vocabulary", categoryId: "hs8-rc2" },
+    { id: "hs8-w8", word: "complex", categoryId: "hs8-rc3" },
+    { id: "hs8-w9", word: "subsequent", categoryId: "hs8-rc4" },
+    { id: "hs8-w10", word: "accident", categoryId: "hs8-rc5" },
+    { id: "hs8-w11", word: "advance", categoryId: "hs8-rc1" },
+    { id: "hs8-w12", word: "adjust", categoryId: "hs8-rc1" },
+    { id: "hs8-w13", word: "admire", categoryId: "hs8-rc1" },
+    { id: "hs8-w14", word: "obtain", categoryId: "hs8-rc6" },
+  ],
+}
+
 export const rootClassificationDataByLevel = {
   "middle-school-8-unit1": rootClassificationData,
   "middle-school-8-unit2": rootClassificationData,
@@ -152,4 +179,5 @@ export const rootClassificationDataByLevel = {
   "high-school-1-unit3": HIGH_SCHOOL_1_UNIT3_DATA,
   "high-school-1-unit4": HIGH_SCHOOL_1_UNIT4_DATA,
   "high-school-1-unit5": HIGH_SCHOOL_1_UNIT5_DATA,
+  "high-school-1-unit8": HIGH_SCHOOL_1_UNIT8_DATA,
 }
