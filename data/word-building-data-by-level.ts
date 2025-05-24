@@ -37,7 +37,7 @@ export const wordBuildingDataByLevel = {
   "high-school-1-unit4": highSchoolUnit4BuildingData,
   "high-school-1-unit5": highSchoolUnit5BuildingData,
   "high-school-1-unit6": highSchoolUnit6BuildingData,
-//  "high-school-1-unit7": highSchoolUnit7BuildingData,
+ // "high-school-1-unit7": highSchoolUnit7BuildingData,
   "high-school-1-unit8": highSchoolUnit8BuildingData,
 
 }

@@ -21,6 +21,9 @@ import  { highSchoolUnit7 } from "./words/highschool/high-school-unit7"
 import  { highSchoolUnit8 } from "./words/highschool/high-school-unit8"
 import  { highSchoolUnit9 } from "./words/highschool/high-school-unit9"
 import  { highSchoolUnit10 } from "./words/highschool/high-school-unit10"
+import  { highSchoolUnit11 } from "./words/highschool/high-school-unit11"
+import  { highSchoolUnit12 } from "./words/highschool/high-school-unit12"
+
 
 // Combine all units into a map
 export const vocabularyByLevelUnit: Record<string, VocabularyWord[]> = {
@@ -44,5 +47,7 @@ export const vocabularyByLevelUnit: Record<string, VocabularyWord[]> = {
   "high-school-1-unit8": highSchoolUnit8,
   "high-school-1-unit9": highSchoolUnit9,
   "high-school-1-unit10": highSchoolUnit10,
+  "high-school-1-unit11": highSchoolUnit11,
+  "high-school-1-unit12": highSchoolUnit12,
 }
 

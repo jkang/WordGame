@@ -94,7 +94,7 @@ export const highSchoolUnit8BuildingData: WordBuilding[] = [
     { id: "hs8-wb1", meaning: "提倡,拥护,主张", options: ["ad", "voc", "ate", "advo"], correctOptions: ["ad", "voc", "ate"] },
     { id: "hs8-wb2", meaning: "完成,达到", options: ["ac", "compl", "ish", "plishm"], correctOptions: ["ac", "compl", "ish"] },
     { id: "hs8-wb3", meaning: "结果,后果", options: ["con", "sequ", "ence", "sequel"], correctOptions: ["con", "sequ", "ence"] },
-    { id: "hs8-wb4", meaning: "事件", options: ["in", "cid", "ent", "idən"], correctOptions: ["in", "cid", "ent"] },
+    { id: "hs8-wb4", meaning: "事件", options: ["in", "cid", "ent", "iden"], correctOptions: ["in", "cid", "ent"] },
     { id: "hs8-wb5", meaning: "信封", options: ["en", "velop", "e", "vel"], correctOptions: ["en", "velop", "e"] },
     { id: "hs8-wb6", meaning: "试图,尝试", options: ["at", "tempt", "temp", "trym"], correctOptions: ["at", "tempt"] },
     { id: "hs8-wb7", meaning: "营养", options: ["nutri", "tion", "nutr", "sion"], correctOptions: ["nutri", "tion"] },
