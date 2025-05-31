@@ -125,5 +125,75 @@ export const rootsMatchingDataByLevel = {
     { id: 11, root: "-logu-", meaning: "说话, 言语" },
     { id: 12, root: "-tect-", meaning: "遮盖, 侦察" }
   ],
+  "high-school-1-unit9": [
+    { id: 1, root: "ex-", meaning: "出" },
+    { id: 2, root: "press", meaning: "挤, 压" },
+    { id: 3, root: "agri-", meaning: "田地,农业" },
+    { id: 4, root: "cult-", meaning: "耕种,培养" },
+    { id: 5, root: "com-", meaning: "共同" },
+    { id: 6, root: "plex", meaning: "重叠,交叉" },
+    { id: 7, root: "techn-", meaning: "技艺" },
+    { id: 8, root: "-ology", meaning: "…学" },
+    { id: 9, root: "in-", meaning: "使…" },
+    { id: 10, root: "form", meaning: "形式" },
+    { id: 11, root: "per-", meaning: "自始至终" },
+    { id: 12, root: "man", meaning: "手" }
+  ],
+  "high-school-1-unit10": [
+    { id: 1, root: "root9-1", meaning: "meaning9-1" },
+    { id: 2, root: "root9-2", meaning: "meaning9-2" },
+    { id: 3, root: "root9-3", meaning: "meaning9-3" },
+    { id: 4, root: "root9-4", meaning: "meaning9-4" },
+    { id: 5, root: "root9-5", meaning: "meaning9-5" },
+    { id: 6, root: "root9-6", meaning: "meaning9-6" },
+    { id: 7, root: "root9-7", meaning: "meaning9-7" },
+    { id: 8, root: "root9-8", meaning: "meaning9-8" },
+    { id: 9, root: "root9-9", meaning: "meaning9-9" },
+    { id: 10, root: "root9-10", meaning: "meaning9-10" },
+    { id: 11, root: "root9-11", meaning: "meaning9-11" },
+    { id: 12, root: "root9-12", meaning: "meaning9-12" }
+  ],
+  "high-school-1-unit10": [
+    { id: 1, root: "root10-1", meaning: "meaning10-1" },
+    { id: 2, root: "root10-2", meaning: "meaning10-2" },
+    { id: 3, root: "root10-3", meaning: "meaning10-3" },
+    { id: 4, root: "root10-4", meaning: "meaning10-4" },
+    { id: 5, root: "root10-5", meaning: "meaning10-5" },
+    { id: 6, root: "root10-6", meaning: "meaning10-6" },
+    { id: 7, root: "root10-7", meaning: "meaning10-7" },
+    { id: 8, root: "root10-8", meaning: "meaning10-8" },
+    { id: 9, root: "root10-9", meaning: "meaning10-9" },
+    { id: 10, root: "root10-10", meaning: "meaning10-10" },
+    { id: 11, root: "root10-11", meaning: "meaning10-11" },
+    { id: 12, root: "root10-12", meaning: "meaning10-12" }
+  ],
+  "high-school-1-unit11": [
+    { id: 1, root: "root11-1", meaning: "meaning11-1" },
+    { id: 2, root: "root11-2", meaning: "meaning11-2" },
+    { id: 3, root: "root11-3", meaning: "meaning11-3" },
+    { id: 4, root: "root11-4", meaning: "meaning11-4" },
+    { id: 5, root: "root11-5", meaning: "meaning11-5" },
+    { id: 6, root: "root11-6", meaning: "meaning11-6" },
+    { id: 7, root: "root11-7", meaning: "meaning11-7" },
+    { id: 8, root: "root11-8", meaning: "meaning11-8" },
+    { id: 9, root: "root11-9", meaning: "meaning11-9" },
+    { id: 10, root: "root11-10", meaning: "meaning11-10" },
+    { id: 11, root: "root11-11", meaning: "meaning11-11" },
+    { id: 12, root: "root11-12", meaning: "meaning11-12" }
+  ],
+  "high-school-1-unit12": [
+    { id: 1, root: "root12-1", meaning: "meaning12-1" },
+    { id: 2, root: "root12-2", meaning: "meaning12-2" },
+    { id: 3, root: "root12-3", meaning: "meaning12-3" },
+    { id: 4, root: "root12-4", meaning: "meaning12-4" },
+    { id: 5, root: "root12-5", meaning: "meaning12-5" },
+    { id: 6, root: "root12-6", meaning: "meaning12-6" },
+    { id: 7, root: "root12-7", meaning: "meaning12-7" },
+    { id: 8, root: "root12-8", meaning: "meaning12-8" },
+    { id: 9, root: "root12-9", meaning: "meaning12-9" },
+    { id: 10, root: "root12-10", meaning: "meaning12-10" },
+    { id: 11, root: "root12-11", meaning: "meaning12-11" },
+    { id: 12, root: "root12-12", meaning: "meaning12-12" }
+  ]
 }
 

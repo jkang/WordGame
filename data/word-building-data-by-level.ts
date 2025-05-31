@@ -7,6 +7,11 @@ import { highSchoolUnit5BuildingData } from "@/data/buildings/high-school-data"
 import { highSchoolUnit6BuildingData } from "@/data/buildings/high-school-data"
 //import { highSchoolUnit7BuildingData } from "@/data/buildings/high-school-data"
 import { highSchoolUnit8BuildingData } from "@/data/buildings/high-school-data"
+import { highSchoolUnit9BuildingData } from "@/data/buildings/high-school-data"
+import { highSchoolUnit10BuildingData } from "@/data/buildings/high-school-data"
+import { highSchoolUnit11BuildingData } from "@/data/buildings/high-school-data"
+import { highSchoolUnit12BuildingData } from "@/data/buildings/high-school-data"
+
 
 import { middleSchool8Unit1BuildingData } from "@/data/buildings/middle-school-data" 
 import { middleSchool8Unit2BuildingData } from "@/data/buildings/middle-school-data"
@@ -39,5 +44,9 @@ export const wordBuildingDataByLevel = {
   "high-school-1-unit6": highSchoolUnit6BuildingData,
  // "high-school-1-unit7": highSchoolUnit7BuildingData,
   "high-school-1-unit8": highSchoolUnit8BuildingData,
+  "high-school-1-unit9": highSchoolUnit9BuildingData,
+  "high-school-1-unit10": highSchoolUnit10BuildingData,
+  "high-school-1-unit11": highSchoolUnit11BuildingData,
+  "high-school-1-unit12": highSchoolUnit12BuildingData,
 
 }

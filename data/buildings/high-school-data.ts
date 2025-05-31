@@ -104,3 +104,304 @@ export const highSchoolUnit8BuildingData: WordBuilding[] = [
     { id: "hs8-wb11", meaning: "可使用的;可进入的;易接近的", options: ["ac", "cess", "ible", "accessi"], correctOptions: ["ac", "cess", "ible"] },
     { id: "hs8-wb12", meaning: "灌溉", options: ["ir", "rig", "ation", "rigax"], correctOptions: ["ir", "rig", "ation"] }
   ];
+ 
+
+export const highSchoolUnit9BuildingData: WordBuilding[] = [
+    { 
+      id: "hs9-wb1", 
+      meaning: "表达;表示", 
+      options: ["ex", "press", "expre", "ess"], 
+      correctOptions: ["ex", "press"] 
+    }, // express
+    { 
+      id: "hs9-wb2", 
+      meaning: "农业;农学", 
+      options: ["agri", "cult", "ure", "agru"], 
+      correctOptions: ["agri", "cult", "ure"] 
+    }, // agriculture
+    { 
+      id: "hs9-wb3", 
+      meaning: "复杂的", 
+      options: ["com", "plex", "plax", "comp"], 
+      correctOptions: ["com", "plex"] 
+    }, // complex
+    { 
+      id: "hs9-wb4", 
+      meaning: "技术,科技", 
+      options: ["techn", "ology", "nology", "tech"], 
+      correctOptions: ["techn", "ology"] 
+    }, // technology
+    { 
+      id: "hs9-wb5", 
+      meaning: "通知,告诉", 
+      options: ["in", "form", "formx", "inf"], 
+      correctOptions: ["in", "form"] 
+    }, // inform
+    { 
+      id: "hs9-wb6", 
+      meaning: "学术的;(高等)院校的", 
+      options: ["aca", "dem", "ic", "acad"], 
+      correctOptions: ["aca", "dem", "ic"] 
+    }, // academic
+    { 
+      id: "hs9-wb7", 
+      meaning: "永久的,持久的", 
+      options: ["per", "man", "ent", "perm"], 
+      correctOptions: ["per", "man", "ent"] 
+    }, // permanent
+    { 
+      id: "hs9-wb8", 
+      meaning: "安全", 
+      options: ["secur", "ity", "secyr", "tie"], 
+      correctOptions: ["secur", "ity"] 
+    }, // security (derived from secure)
+    { 
+      id: "hs9-wb9", 
+      meaning: "连接;把…联系起来", 
+      options: ["con", "nect", "neck", "conn"], 
+      correctOptions: ["con", "nect"] 
+    }, // connect
+    { 
+      id: "hs9-wb10", 
+      meaning: "经历,体验", 
+      options: ["ex", "peri", "ence", "exper"], 
+      correctOptions: ["ex", "peri", "ence"] 
+    }, // experience
+    { 
+      id: "hs9-wb11", 
+      meaning: "建议;提出", 
+      options: ["sug", "gest", "jest", "sugg"], 
+      correctOptions: ["sug", "gest"] 
+    }, // suggest
+    { 
+      id: "hs9-wb12", 
+      meaning: "推荐;建议", 
+      options: ["re", "commend", "command", "recom"], 
+      correctOptions: ["re", "commend"] 
+    } // recommend
+  ];
+  
+export const highSchoolUnit10BuildingData: WordBuilding[] = [
+  { 
+    id: "hs10-wb1", 
+    meaning: "过重的,超重的", 
+    options: ["over", "weight", "weit", "ov"], 
+    correctOptions: ["over", "weight"] 
+  }, // overweight
+  { 
+    id: "hs10-wb2", 
+    meaning: "古董", 
+    options: ["antiq", "ue", "antix", "quex"], 
+    correctOptions: ["antiq", "ue"] 
+  }, // antique
+  { 
+    id: "hs10-wb3", 
+    meaning: "(因疾病、痛苦、悲伤等)受苦; 遭受", 
+    options: ["suf", "fer", "sub", "ferr"], 
+    correctOptions: ["suf", "fer"] 
+  }, // suffer
+  { 
+    id: "hs10-wb4", 
+    meaning: "(人)文雅的;(物)雅致的,精美的", 
+    options: ["e", "leg", "ant", "elag"], 
+    correctOptions: ["e", "leg", "ant"] 
+  }, // elegant
+  { 
+    id: "hs10-wb5", 
+    meaning: "工会;协会;联合,联盟", 
+    options: ["uni", "on", "ios", "una"], 
+    correctOptions: ["uni", "on"] 
+  }, // union
+  { 
+    id: "hs10-wb6", 
+    meaning: "喜爱,爱慕", 
+    options: ["af", "fect", "ion", "effex"], 
+    correctOptions: ["af", "fect", "ion"] 
+  }, // affection
+  { 
+    id: "hs10-wb7", 
+    meaning: "提及,涉及;参考", 
+    options: ["re", "fer", "ence", "referen"], 
+    correctOptions: ["re", "fer", "ence"] 
+  }, // reference
+  { 
+    id: "hs10-wb8", 
+    meaning: "大多数,大部分", 
+    options: ["major", "ity", "minor", "aty"], 
+    correctOptions: ["major", "ity"] 
+  }, // majority
+  { 
+    id: "hs10-wb9", 
+    meaning: "通信;相一致,相符合", 
+    options: ["cor", "respond", "spond", "resp"], 
+    correctOptions: ["cor", "respond"] 
+  }, // correspond (based on OCR: cor + respond)
+  { 
+    id: "hs10-wb10", 
+    meaning: "贡献;捐款", 
+    options: ["con", "tribut", "ion", "tribux"], 
+    correctOptions: ["con", "tribut", "ion"] 
+  }, // contribution
+  { 
+    id: "hs10-wb11", 
+    meaning: "吸引; 引起", 
+    options: ["at", "tract", "track", "atrac"], 
+    correctOptions: ["at", "tract"] 
+  }, // attract
+  { 
+    id: "hs10-wb12", 
+    meaning: "(使)流通,(使)环流;(使)传播", 
+    options: ["circ", "ul", "ate", "cirq"], 
+    correctOptions: ["circ", "ul", "ate"] 
+  } // circulate
+];
+
+export const highSchoolUnit11BuildingData: WordBuilding[] = [
+  { 
+    id: "hs11-wb1", 
+    meaning: "获得;达到", 
+    options: ["at", "tain", "tan", "ain"], 
+    correctOptions: ["at", "tain"] 
+  }, // attain
+  { 
+    id: "hs11-wb2", 
+    meaning: "命令;指挥;控制", 
+    options: ["com", "mand", "man", "mend"], 
+    correctOptions: ["com", "mand"] 
+  }, // command
+  { 
+    id: "hs11-wb3", 
+    meaning: "代表", 
+    options: ["re", "present", "ative", "pres"], 
+    correctOptions: ["re", "present", "ative"] 
+  }, // representative
+  { 
+    id: "hs11-wb4", 
+    meaning: "(说法、真相等)同…矛盾,同…抵触", 
+    options: ["contra", "dict", "duct", "trad"], 
+    correctOptions: ["contra", "dict"] 
+  }, // contradict
+  { 
+    id: "hs11-wb5", 
+    meaning: "要求;需要", 
+    options: ["de", "mand", "man", "mend"], 
+    correctOptions: ["de", "mand"] 
+  }, // demand
+  { 
+    id: "hs11-wb6", 
+    meaning: "控告;谴责", 
+    options: ["ac", "cuse", "cause", "accu"], 
+    correctOptions: ["ac", "cuse"] 
+  }, // accuse
+  { 
+    id: "hs11-wb7", 
+    meaning: "收到;得到;接待", 
+    options: ["re", "ceive", "cieve", "rece"], 
+    correctOptions: ["re", "ceive"] 
+  }, // receive
+  { 
+    id: "hs11-wb8", 
+    meaning: "心理学;心理", 
+    options: ["psycho", "logy", "chology", "psy"], 
+    correctOptions: ["psycho", "logy"] 
+  }, // psychology
+  { 
+    id: "hs11-wb9", 
+    meaning: "发音", 
+    options: ["pro", "nunci", "ation", "nounce"], 
+    correctOptions: ["pro", "nunci", "ation"] 
+  }, // pronunciation
+  { 
+    id: "hs11-wb10", 
+    meaning: "证明,证书", 
+    options: ["certi", "fic", "ate", "certif"], 
+    correctOptions: ["certi", "fic", "ate"] 
+  }, // certificate
+  { 
+    id: "hs11-wb11", 
+    meaning: "庆祝", 
+    options: ["cele", "br", "ate", "celeb"], 
+    correctOptions: ["cele", "br", "ate"] 
+  }, // celebrate
+  { 
+    id: "hs11-wb12", 
+    meaning: "申请;申请书", 
+    options: ["ap", "plic", "ation", "apply"], 
+    correctOptions: ["ap", "plic", "ation"] 
+  } // application
+];
+
+export const highSchoolUnit12BuildingData: WordBuilding[] = [
+  { 
+    id: "hs12-wb1", 
+    meaning: "辨认,鉴定;身份证明", 
+    options: ["ident", "ific", "ation", "identif"], 
+    correctOptions: ["ident", "ific", "ation"] 
+  }, // identification (ident + ific + ation)
+  { 
+    id: "hs12-wb2", 
+    meaning: "压;压力;压强", 
+    options: ["press", "ure", "presy", "surex"], 
+    correctOptions: ["press", "ure"] 
+  }, // pressure (press + ure)
+  { 
+    id: "hs12-wb3", 
+    meaning: "活动", 
+    options: ["act", "iv", "ity", "activx"], 
+    correctOptions: ["act", "iv", "ity"] 
+  }, // activity (act + iv + ity)
+  { 
+    id: "hs12-wb4", 
+    meaning: "牙科医生", 
+    options: ["dent", "ist", "denty", "istx"], 
+    correctOptions: ["dent", "ist"] 
+  }, // dentist (dent + ist)
+  { 
+    id: "hs12-wb5", 
+    meaning: "接受", 
+    options: ["ac", "cept", "ax", "kept"], 
+    correctOptions: ["ac", "cept"] 
+  }, // accept (ac + cept)
+  { 
+    id: "hs12-wb6", 
+    meaning: "转播;转发", 
+    options: ["re", "lay", "rix", "lai"], 
+    correctOptions: ["re", "lay"] 
+  }, // relay (re + lay)
+  { 
+    id: "hs12-wb7", 
+    meaning: "废止,废除", 
+    options: ["abol", "ish", "abo", "lishx"], 
+    correctOptions: ["abol", "ish"] 
+  }, // abolish (abol + ish)
+  { 
+    id: "hs12-wb8", 
+    meaning: "证据,证明", 
+    options: ["e", "vid", "ence", "evidex"], 
+    correctOptions: ["e", "vid", "ence"] 
+  }, // evidence (e + vid + ence)
+  { 
+    id: "hs12-wb9", 
+    meaning: "协调;融洽", 
+    options: ["harm", "ony", "har", "monyx"], 
+    correctOptions: ["harm", "ony"] 
+  }, // harmony (harm + ony)
+  { 
+    id: "hs12-wb10", 
+    meaning: "关系;亲属", 
+    options: ["relat", "ion", "relax", "tionx"], 
+    correctOptions: ["relat", "ion"] 
+  }, // relation (relat + ion)
+  { 
+    id: "hs12-wb11", 
+    meaning: "证实;确定;批准", 
+    options: ["con", "firm", "comx", "formx"], 
+    correctOptions: ["con", "firm"] 
+  }, // confirm (con + firm)
+  { 
+    id: "hs12-wb12", 
+    meaning: "守旧的,保守的;保守主义的", 
+    options: ["con", "serv", "ative", "cons", "ervativex"], 
+    correctOptions: ["con", "serv", "ative"] 
+  } // conservative (con + serv + ative)
+];

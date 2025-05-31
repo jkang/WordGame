@@ -163,6 +163,110 @@ export const HIGH_SCHOOL_1_UNIT8_DATA = {
   ],
 }
 
+export const HIGH_SCHOOL_1_UNIT9_DATA = {
+  categories: [
+    { id: "hs9-rc1", root: "ex- (out) / -press- (press)", meaning: "出 / 压" },
+    { id: "hs9-rc2", root: "agri- (field) / -cult- (cultivate)", meaning: "田地 / 耕作" },
+    { id: "hs9-rc3", root: "com- (together) / -plex (fold)", meaning: "共同 / 重叠" },
+    { id: "hs9-rc4", root: "techn- (skill) / -logy (study)", meaning: "技术 / 学科" },
+    { id: "hs9-rc5", root: "in- (in) / -form- (shape)", meaning: "进入 / 形式" },
+    { id: "hs9-rc6", root: "con- (together) / -nect- (tie)", meaning: "共同 / 连接" },
+  ],
+  words: [
+    { id: "hs9-w1", word: "express", categoryId: "hs9-rc1" },
+    { id: "hs9-w2", word: "experience", categoryId: "hs9-rc1" },
+    { id: "hs9-w3", word: "agriculture", categoryId: "hs9-rc2" },
+    { id: "hs9-w4", word: "complex", categoryId: "hs9-rc3" },
+    { id: "hs9-w5", word: "technology", categoryId: "hs9-rc4" },
+    { id: "hs9-w6", word: "inform", categoryId: "hs9-rc5" },
+    { id: "hs9-w7", word: "information", categoryId: "hs9-rc5" },
+    { id: "hs9-w8", word: "connect", categoryId: "hs9-rc6" },
+    { id: "hs9-w9", word: "connection", categoryId: "hs9-rc6" },
+    { id: "hs9-w10", word: "permanent", categoryId: "hs9-rc5" },
+    { id: "hs9-w11", word: "recommend", categoryId: "hs9-rc6" },
+    { id: "hs9-w12", word: "section", categoryId: "hs9-rc3" },
+    { id: "hs9-w13", word: "terror", categoryId: "hs9-rc1" },
+    { id: "hs9-w14", word: "academic", categoryId: "hs9-rc4" },
+  ],
+};
+export const HIGH_SCHOOL_1_UNIT10_DATA = {
+  categories: [
+    { id: "hs10-rc1", root: "over- (above, too much) / weight (heavy)", meaning: "超过 / 重量" },
+    { id: "hs10-rc2", root: "antiq- (ancient)", meaning: "古老的" },
+    { id: "hs10-rc3", root: "suf- (under) / -fer- (carry, bear)", meaning: "在下面 / 承受" },
+    { id: "hs10-rc4", root: "e- (out) / -leg- (choose)", meaning: "出 / 选择" },
+    { id: "hs10-rc5", root: "uni- (one)", meaning: "单一" },
+    { id: "hs10-rc6", root: "cor- (together) / -respond- (answer)", meaning: "共同 / 回应" },
+  ],
+  words: [
+    { id: "hs10-w1", word: "overweight", categoryId: "hs10-rc1" },
+    { id: "hs10-w2", word: "antique", categoryId: "hs10-rc2" },
+    { id: "hs10-w3", word: "suffer", categoryId: "hs10-rc3" },
+    { id: "hs10-w4", word: "suffering", categoryId: "hs10-rc3" },
+    { id: "hs10-w5", word: "elegant", categoryId: "hs10-rc4" },
+    { id: "hs10-w6", word: "union", categoryId: "hs10-rc5" },
+    { id: "hs10-w7", word: "correspond", categoryId: "hs10-rc6" },
+    { id: "hs10-w8", word: "reference", categoryId: "hs10-rc6" }, // re- (back/again) + fer- (carry)
+    { id: "hs10-w9", word: "majority", categoryId: "hs10-rc5" }, // major (greater, uni- related to one/whole)
+    { id: "hs10-w10", word: "contribution", categoryId: "hs10-rc1" }, // con- (together) + tribute (give, over- a bit of a stretch)
+    { id: "hs10-w11", word: "attract", categoryId: "hs10-rc4" }, // ad- (to) + tract (draw, e- for selection)
+    { id: "hs10-w12", word: "circulate", categoryId: "hs10-rc2" }, // circ- (circle, antiq- for old patterns)
+    { id: "hs10-w13", word: "approval", categoryId: "hs10-rc3" }, // ap- (to) + prove (test, suf-fering for a cause)
+    { id: "hs10-w14", word: "oppose", categoryId: "hs10-rc1" }, // op- (against, over- as in overwhelming)
+  ],
+};
+export const HIGH_SCHOOL_1_UNIT11_DATA = {
+  categories: [
+    { id: "hs11-rc1", root: "at- (to, toward) / -tain- (hold, reach)", meaning: "向 / 拿住" },
+    { id: "hs11-rc2", root: "com- (together) / -mand- (order)", meaning: "共同 / 命令" },
+    { id: "hs11-rc3", root: "re- (again) / -present- (be present, show)", meaning: "再 / 出现" },
+    { id: "hs11-rc4", root: "contra- (against) / -dict- (say)", meaning: "反对 / 说" },
+    { id: "hs11-rc5", root: "de- (down, from) / -mand- (order)", meaning: "向下 / 命令" },
+    { id: "hs11-rc6", root: "ac- (to) / -cuse- (reason, cause)", meaning: "向 / 指责" },
+  ],
+  words: [
+    { id: "hs11-w1", word: "attain", categoryId: "hs11-rc1" },
+    { id: "hs11-w2", word: "command", categoryId: "hs11-rc2" },
+    { id: "hs11-w3", word: "representative", categoryId: "hs11-rc3" },
+    { id: "hs11-w4", word: "represent", categoryId: "hs11-rc3" },
+    { id: "hs11-w5", word: "contradict", categoryId: "hs11-rc4" },
+    { id: "hs11-w6", word: "contradiction", categoryId: "hs11-rc4" },
+    { id: "hs11-w7", word: "demand", categoryId: "hs11-rc5" },
+    { id: "hs11-w8", word: "demanding", categoryId: "hs11-rc5" },
+    { id: "hs11-w9", word: "accuse", categoryId: "hs11-rc6" },
+    { id: "hs11-w10", word: "receive", categoryId: "hs11-rc3" }, // re- (back) + ceive (take)
+    { id: "hs11-w11", word: "socialist", categoryId: "hs11-rc3" }, // social + ist (represent a belief)
+    { id: "hs11-w12", word: "psychology", categoryId: "hs11-rc2" }, // psycho (mind) + logy (study) - command as in understanding
+    { id: "hs11-w13", word: "pronunciation", categoryId: "hs11-rc4" }, // pro (forth) + nounce (report) - dict as in speech
+    { id: "hs11-w14", word: "certificate", categoryId: "hs11-rc1" }, // certi (sure) + fic (make) - attain a status
+  ],
+};
+export const HIGH_SCHOOL_1_UNIT12_DATA = {
+  categories: [
+    { id: "hs12-rc1", root: "ident- (same) / -fic- (make)", meaning: "相同 / 制作" },
+    { id: "hs12-rc2", root: "-press- (press) / -ure (result)", meaning: "压 / 结果" },
+    { id: "hs12-rc3", root: "act- (do, act) / -iv- (tendency)", meaning: "行动 / 倾向" },
+    { id: "hs12-rc4", root: "dent- (tooth)", meaning: "牙齿" },
+    { id: "hs12-rc5", root: "ac- (to) / -cept- (take)", meaning: "向 / 拿取" },
+    { id: "hs12-rc6", root: "con- (together) / -firm- (strong, firm)", meaning: "共同 / 坚定" },
+  ],
+  words: [
+    { id: "hs12-w1", word: "identification", categoryId: "hs12-rc1" },
+    { id: "hs12-w2", word: "pressure", categoryId: "hs12-rc2" },
+    { id: "hs12-w3", word: "activity", categoryId: "hs12-rc3" },
+    { id: "hs12-w4", word: "dentist", categoryId: "hs12-rc4" },
+    { id: "hs12-w5", word: "accept", categoryId: "hs12-rc5" },
+    { id: "hs12-w6", word: "acceptable", categoryId: "hs12-rc5" },
+    { id: "hs12-w7", word: "confirm", categoryId: "hs12-rc6" },
+    { id: "hs12-w8", word: "confirmation", categoryId: "hs12-rc6" }, // Assuming confirmation might exist or be relevant
+    { id: "hs12-w9", word: "firm", categoryId: "hs12-rc6" }, // firm is the root of confirm
+    { id: "hs12-w10", word: "defeat", categoryId: "hs12-rc2" }, // de- (down) + feat (make, do) - pressure as in force
+    { id: "hs12-w11", word: "astonish", categoryId: "hs12-rc3" }, // ex- (out) + tonare (thunder) - act of surprising
+    { id: "hs12-w12", word: "abolish", categoryId: "hs12-rc1" }, // ab- (away) + olere (grow) - identify and remove
+    { id: "hs12-w13", word: "evidence", categoryId: "hs12-rc4" }, // e- (out) + vid (see) - dental records as evidence
+    { id: "hs12-w14", word: "conservative", categoryId: "hs12-rc6" }, // con- + serv (keep) - firm in keeping traditions
+  ],
+};
 export const rootClassificationDataByLevel = {
   "middle-school-8-unit1": rootClassificationData,
   "middle-school-8-unit2": rootClassificationData,
@@ -180,4 +284,8 @@ export const rootClassificationDataByLevel = {
   "high-school-1-unit4": HIGH_SCHOOL_1_UNIT4_DATA,
   "high-school-1-unit5": HIGH_SCHOOL_1_UNIT5_DATA,
   "high-school-1-unit8": HIGH_SCHOOL_1_UNIT8_DATA,
+  "high-school-1-unit9": HIGH_SCHOOL_1_UNIT9_DATA,
+  "high-school-1-unit10": HIGH_SCHOOL_1_UNIT10_DATA,
+  "high-school-1-unit11": HIGH_SCHOOL_1_UNIT11_DATA,
+  "high-school-1-unit12": HIGH_SCHOOL_1_UNIT12_DATA,
 }

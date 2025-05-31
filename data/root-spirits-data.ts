@@ -630,11 +630,189 @@ export const highSchoolUnit8SpiritsData = [
   }
 ]
 
+export const highSchoolUnit9SpiritsData = [
+  // 前缀精灵
+  {
+    id: "pre-hs9-1",
+    name: "pro-",
+    meaning: "向前，在前",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"向前"或"在前"的含义。',
+    examples: ["progress", "project", "provide"],
+    collected: false
+  },
+  {
+    id: "pre-hs9-2",
+    name: "ante-",
+    meaning: "在...之前",
+    category: "prefix",
+    description: '这个前缀精灵能赋予词根"在...之前"的含义，通常指时间上。',
+    examples: ["antedate", "antecedent", "anteroom"],
+    collected: false
+  },
+  // 词根精灵
+  {
+    id: "root-hs9-1",
+    name: "-pel-/-puls-",
+    meaning: "驱动，推",
+    category: "root",
+    description: '这个词根精灵掌管"驱动"或"推"的含义。',
+    examples: ["compel", "expel", "propel", "pulse"],
+    collected: false
+  },
+  {
+    id: "root-hs9-2",
+    name: "-sum-/-sumpt-",
+    meaning: "拿，取",
+    category: "root",
+    description: '这个词根精灵掌管"拿"或"取"的含义。',
+    examples: ["consume", "assume", "resume", "presume"],
+    collected: false
+  },
+  {
+    id: "root-hs9-3",
+    name: "-tain-",
+    meaning: "保持，握住",
+    category: "root",
+    description: '这个词根精灵掌管"保持"或"握住"的含义。',
+    examples: ["contain", "maintain", "obtain", "sustain"],
+    collected: false
+  },
+  // 后缀精灵
+  {
+    id: "suf-hs9-1",
+    name: "-ure",
+    meaning: "行为，结果",
+    category: "suffix",
+    description: "这个后缀精灵能将动词转变为名词，表示行为或结果。",
+    examples: ["pressure", "failure", "pleasure", "exposure"],
+    collected: false
+  },
+  {
+    id: "suf-hs9-2",
+    name: "-ory",
+    meaning: "与...有关的；场所",
+    category: "suffix",
+    description: "这个后缀精灵能构成形容词或名词，表示相关性或场所。",
+    examples: ["sensory", "laboratory", "factory", "territory"],
+    collected: false
+  }
+];
+
+// 请在此处填充 highSchoolUnit10SpiritsData 的实际数据
+export const highSchoolUnit10SpiritsData = [
+  // 示例前缀精灵 (请替换为实际数据)
+  {
+    id: "pre_u10_1",
+    name: "uni-",
+    meaning: "单一，一个",
+    category: "prefix",
+    description: "这个前缀精灵表示单一或一个的概念。",
+    examples: ["uniform", "unique", "unison"],
+    collected: false
+  },
+  // 示例词根精灵 (请替换为实际数据)
+  {
+    id: "root_u10_1",
+    name: "-ann-/-enn-",
+    meaning: "年",
+    category: "root",
+    description: "这个词根精灵与年份或年度有关。",
+    examples: ["annual", "anniversary", "perennial"],
+    collected: false
+  },
+  // 示例后缀精灵 (请替换为实际数据)
+  {
+    id: "suf_u10_1",
+    name: "-ology",
+    meaning: "...学，学科",
+    category: "suffix",
+    description: "这个后缀精灵表示一门学科或研究领域。",
+    examples: ["biology", "geology", "psychology"],
+    collected: false
+  }
+  // ... 根据需要添加更多前缀、词根和后缀精灵
+];
+
+// 请在此处填充 highSchoolUnit11SpiritsData 的实际数据
+export const highSchoolUnit11SpiritsData = [
+  // 示例前缀精灵 (请替换为实际数据)
+  {
+    id: "pre_u11_1",
+    name: "mal-",
+    meaning: "坏，不良",
+    category: "prefix",
+    description: "这个前缀精灵表示坏的或不良的含义。",
+    examples: ["malfunction", "malnutrition", "malevolent"],
+    collected: false
+  },
+  // 示例词根精灵 (请替换为实际数据)
+  {
+    id: "root_u11_1",
+    name: "-bene-",
+    meaning: "好",
+    category: "root",
+    description: "这个词根精灵与好的、善意的含义相关。",
+    examples: ["benefit", "benevolent", "beneficial"],
+    collected: false
+  },
+  // 示例后缀精灵 (请替换为实际数据)
+  {
+    id: "suf_u11_1",
+    name: "-fy",
+    meaning: "使...化",
+    category: "suffix",
+    description: "这个后缀精灵通常加在名词或形容词后，构成动词，表示使...化。",
+    examples: ["simplify", "purify", "classify"],
+    collected: false
+  }
+  // ... 根据需要添加更多前缀、词根和后缀精灵
+];
+
+// 请在此处填充 highSchoolUnit12SpiritsData 的实际数据
+export const highSchoolUnit12SpiritsData = [
+  // 示例前缀精灵 (请替换为实际数据)
+  {
+    id: "pre_u12_1",
+    name: "auto-",
+    meaning: "自己，自动",
+    category: "prefix",
+    description: "这个前缀精灵表示自己或自动的含义。",
+    examples: ["autograph", "automatic", "autobiography"],
+    collected: false
+  },
+  // 示例词根精灵 (请替换为实际数据)
+  {
+    id: "root_u12_1",
+    name: "-bio-",
+    meaning: "生命",
+    category: "root",
+    description: "这个词根精灵与生命或生物有关。",
+    examples: ["biology", "biography", "biosphere"],
+    collected: false
+  },
+  // 示例后缀精灵 (请替换为实际数据)
+  {
+    id: "suf_u12_1",
+    name: "-graphy",
+    meaning: "书写，记录法",
+    category: "suffix",
+    description: "这个后缀精灵表示书写或某种记录方法。",
+    examples: ["biography", "autograph", "photography"],
+    collected: false
+  }
+  // ... 根据需要添加更多前缀、词根和后缀精灵
+];
+
 export const rootSpiritsDataByLevel = {
   "high-school-1-unit1": highSchoolUnit1SpiritsData,
   "high-school-1-unit2": highSchoolUnit2SpiritsData,
   "high-school-1-unit6": highSchoolUnit6SpiritsData,
   "high-school-1-unit8": highSchoolUnit8SpiritsData,
+  "high-school-1-unit9": highSchoolUnit9SpiritsData,
+  "high-school-1-unit10": highSchoolUnit10SpiritsData,
+  "high-school-1-unit11": highSchoolUnit11SpiritsData,
+  "high-school-1-unit12": highSchoolUnit12SpiritsData, // 新增 unit 12
   "default": sampleSpiritsData
 }
 
