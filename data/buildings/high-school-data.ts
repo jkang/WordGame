@@ -642,3 +642,78 @@ export const highSchoolUnit15BuildingData: WordBuilding[] = [
     correctOptions: ["con", "ven", "ience"]
   } // convenience (con + ven + ience)
 ];
+
+export const highSchoolUnit16BuildingData: WordBuilding[] = [
+  { 
+    id: "hs16-wb1", 
+    meaning: "脉搏; 脉冲", 
+    options: ["puls", "e", "pulse", "pul"], 
+    correctOptions: ["puls", "e"] 
+  }, // pulse (puls + e)
+  { 
+    id: "hs16-wb2", 
+    meaning: "腐败的, 贪污的", 
+    options: ["cor", "rupt", "corr", "upt"], 
+    correctOptions: ["cor", "rupt"] 
+  }, // corrupt (cor + rupt)
+  { 
+    id: "hs16-wb3", 
+    meaning: "原则; 原理", 
+    options: ["prin", "cip", "le", "princ"], 
+    correctOptions: ["prin", "cip", "le"] 
+  }, // principle (prin + cip + le)
+  { 
+    id: "hs16-wb4", 
+    meaning: "大气; 气氛", 
+    options: ["atmo", "sphere", "atmos", "phere"], 
+    correctOptions: ["atmo", "sphere"] 
+  }, // atmosphere (atmo + sphere)
+  { 
+    id: "hs16-wb5", 
+    meaning: "谴责, 声讨", 
+    options: ["con", "demn", "cond", "emn"], 
+    correctOptions: ["con", "demn"] 
+  }, // condemn (con + demn)
+  { 
+    id: "hs16-wb6", 
+    meaning: "电; 电流", 
+    options: ["electr", "icity", "elect", "ricity"], 
+    correctOptions: ["electr", "icity"] 
+  }, // electricity (electr + icity)
+  { 
+    id: "hs16-wb7", 
+    meaning: "特殊的; 明确的", 
+    options: ["spec", "ific", "spe", "cific"], 
+    correctOptions: ["spec", "ific"] 
+  }, // specific (spec + ific)
+  { 
+    id: "hs16-wb8", 
+    meaning: "由…组成", 
+    options: ["con", "sist", "cons", "ist"], 
+    correctOptions: ["con", "sist"] 
+  }, // consist (con + sist)
+  { 
+    id: "hs16-wb9", 
+    meaning: "原始的, 远古的", 
+    options: ["prim", "itive", "pri", "mitive"], 
+    correctOptions: ["prim", "itive"] 
+  }, // primitive (prim + itive)
+  { 
+    id: "hs16-wb10", 
+    meaning: "预料; 期望", 
+    options: ["ex", "pect", "ation", "expect"], 
+    correctOptions: ["ex", "pect", "ation"] 
+  }, // expectation (ex + pect + ation)
+  { 
+    id: "hs16-wb11", 
+    meaning: "标点符号", 
+    options: ["punct", "uat", "ion", "punctua"], 
+    correctOptions: ["punct", "uat", "ion"] 
+  }, // punctuation (punct + uat + ion)
+  { 
+    id: "hs16-wb12", 
+    meaning: "唯一的; 独特的", 
+    options: ["uni", "que", "un", "ique"], 
+    correctOptions: ["uni", "que"] 
+  } // unique (uni + que)
+];

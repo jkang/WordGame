@@ -345,6 +345,34 @@ export const HIGH_SCHOOL_1_UNIT15_DATA = {
     { id: "hs15-w14", word: "relevant", categoryId: "hs15-rc2" }
   ]
 };
+
+export const HIGH_SCHOOL_1_UNIT16_DATA = {
+  categories: [
+    { id: "hs16-rc1", root: "puls- (drive)", meaning: "驱动" },
+    { id: "hs16-rc2", root: "cor- (strengthen) / rupt- (break)", meaning: "加强 / 断裂" },
+    { id: "hs16-rc3", root: "prin- (first) / cip- (take)", meaning: "第一 / 拿取" },
+    { id: "hs16-rc4", root: "atmo- (air) / sphere- (ball)", meaning: "空气 / 球体" },
+    { id: "hs16-rc5", root: "con- (together) / demn- (punish)", meaning: "共同 / 惩罚" },
+    { id: "hs16-rc6", root: "electr- (electric) / icity (noun)", meaning: "电 / 名词" },
+  ],
+  words: [
+    { id: "hs16-w1", word: "pulse", categoryId: "hs16-rc1" },
+    { id: "hs16-w2", word: "corrupt", categoryId: "hs16-rc2" },
+    { id: "hs16-w3", word: "principle", categoryId: "hs16-rc3" },
+    { id: "hs16-w4", word: "atmosphere", categoryId: "hs16-rc4" },
+    { id: "hs16-w5", word: "condemn", categoryId: "hs16-rc5" },
+    { id: "hs16-w6", word: "electricity", categoryId: "hs16-rc6" },
+    { id: "hs16-w7", word: "specific", categoryId: "hs16-rc6" },
+    { id: "hs16-w8", word: "consist", categoryId: "hs16-rc5" },
+    { id: "hs16-w9", word: "primitive", categoryId: "hs16-rc3" },
+    { id: "hs16-w10", word: "expectation", categoryId: "hs16-rc1" },
+    { id: "hs16-w11", word: "punctuation", categoryId: "hs16-rc2" },
+    { id: "hs16-w12", word: "unique", categoryId: "hs16-rc4" },
+    { id: "hs16-w13", word: "adore", categoryId: "hs16-rc5" },
+    { id: "hs16-w14", word: "association", categoryId: "hs16-rc6" },
+  ],
+};
+
 export const rootClassificationDataByLevel = {
   "middle-school-8-unit1": rootClassificationData,
   "middle-school-8-unit2": rootClassificationData,
@@ -369,4 +397,5 @@ export const rootClassificationDataByLevel = {
   "high-school-1-unit13": HIGH_SCHOOL_1_UNIT13_DATA,
   "high-school-1-unit14": HIGH_SCHOOL_1_UNIT14_DATA,
   "high-school-1-unit15": HIGH_SCHOOL_1_UNIT15_DATA,
+  "high-school-1-unit16": HIGH_SCHOOL_1_UNIT16_DATA,
 }

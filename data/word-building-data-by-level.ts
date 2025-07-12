@@ -14,6 +14,8 @@ import { highSchoolUnit12BuildingData } from "@/data/buildings/high-school-data"
 import { highSchoolUnit13BuildingData } from "@/data/buildings/high-school-data"
 import { highSchoolUnit14BuildingData } from "@/data/buildings/high-school-data"
 import { highSchoolUnit15BuildingData } from "@/data/buildings/high-school-data"
+import { highSchoolUnit16BuildingData } from "@/data/buildings/high-school-data"
+
 
 
 
@@ -56,4 +58,5 @@ export const wordBuildingDataByLevel = {
   "high-school-1-unit13": highSchoolUnit13BuildingData,
   "high-school-1-unit14": highSchoolUnit14BuildingData,
   "high-school-1-unit15": highSchoolUnit15BuildingData,
+  "high-school-1-unit16": highSchoolUnit16BuildingData,
 }

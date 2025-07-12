@@ -13,6 +13,7 @@ import { highSchoolUnit12RootData } from "./roots/high-school-unit12";
 import { highSchoolUnit13RootData } from "./roots/high-school-unit13";
 import { highSchoolUnit14RootData } from "./roots/high-school-unit14";
 import { highSchoolUnit15RootData } from "./roots/high-school-unit15";
+import { highSchoolUnit16RootData } from "./roots/high-school-unit16";
 import { wordRootData } from "./roots/word-root-data";
 
 export const wordRootDataByLevel = {
@@ -32,4 +33,5 @@ export const wordRootDataByLevel = {
   "high-school-1-unit13": highSchoolUnit13RootData,
   "high-school-1-unit14": highSchoolUnit14RootData,
   "high-school-1-unit15": highSchoolUnit15RootData,
+  "high-school-1-unit16": highSchoolUnit16RootData,
 }

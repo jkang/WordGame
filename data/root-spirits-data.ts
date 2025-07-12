@@ -769,40 +769,1080 @@ export const highSchoolUnit11SpiritsData = [
   // ... 根据需要添加更多前缀、词根和后缀精灵
 ];
 
-// 请在此处填充 highSchoolUnit12SpiritsData 的实际数据
 export const highSchoolUnit12SpiritsData = [
-  // 示例前缀精灵 (请替换为实际数据)
+  // 前缀精灵
   {
     id: "pre_u12_1",
-    name: "auto-",
-    meaning: "自己，自动",
+    name: "im-",
+    meaning: "进入，向内",
     category: "prefix",
-    description: "这个前缀精灵表示自己或自动的含义。",
-    examples: ["autograph", "automatic", "autobiography"],
+    description: "这个前缀精灵能赋予词根'进入'或'向内'的含义。",
+    examples: ["import", "include", "insert"],
     collected: false
   },
-  // 示例词根精灵 (请替换为实际数据)
+  {
+    id: "pre_u12_2",
+    name: "re-",
+    meaning: "重新，再次",
+    category: "prefix",
+    description: "这个前缀精灵能赋予词根'重新'或'再次'的含义。",
+    examples: ["relay", "return", "review"],
+    collected: false
+  },
+  {
+    id: "pre_u12_3",
+    name: "con-",
+    meaning: "共同，加强",
+    category: "prefix",
+    description: "这个前缀精灵能赋予词根'共同'或'加强'的含义。",
+    examples: ["confirm", "conservative", "connect"],
+    collected: false
+  },
+  {
+    id: "pre_u12_4",
+    name: "ac-",
+    meaning: "加强",
+    category: "prefix",
+    description: "这个前缀精灵能赋予词根'加强'的含义。",
+    examples: ["accept", "access", "accord"],
+    collected: false
+  },
+
+  // 词根精灵
   {
     id: "root_u12_1",
-    name: "-bio-",
-    meaning: "生命",
+    name: "-ident-",
+    meaning: "相同",
     category: "root",
-    description: "这个词根精灵与生命或生物有关。",
-    examples: ["biology", "biography", "biosphere"],
+    description: "这个词根精灵掌管'相同'的含义。",
+    examples: ["identification", "identity", "identical"],
     collected: false
   },
-  // 示例后缀精灵 (请替换为实际数据)
+  {
+    id: "root_u12_2",
+    name: "-press-",
+    meaning: "压",
+    category: "root",
+    description: "这个词根精灵掌管'压'的含义。",
+    examples: ["pressure", "press", "compress"],
+    collected: false
+  },
+  {
+    id: "root_u12_3",
+    name: "-act-",
+    meaning: "活动",
+    category: "root",
+    description: "这个词根精灵掌管'活动'的含义。",
+    examples: ["activity", "act", "action"],
+    collected: false
+  },
+  {
+    id: "root_u12_4",
+    name: "-dent-",
+    meaning: "牙齿",
+    category: "root",
+    description: "这个词根精灵掌管'牙齿'的含义。",
+    examples: ["dentist", "dental", "dentistry"],
+    collected: false
+  },
+  {
+    id: "root_u12_5",
+    name: "-cept-",
+    meaning: "拿，抓",
+    category: "root",
+    description: "这个词根精灵掌管'拿'或'抓'的含义。",
+    examples: ["accept", "concept", "except"],
+    collected: false
+  },
+  {
+    id: "root_u12_6",
+    name: "-lay-",
+    meaning: "放置",
+    category: "root",
+    description: "这个词根精灵掌管'放置'的含义。",
+    examples: ["relay", "lay", "delay"],
+    collected: false
+  },
+  {
+    id: "root_u12_7",
+    name: "-abol-",
+    meaning: "消除",
+    category: "root",
+    description: "这个词根精灵掌管'消除'的含义。",
+    examples: ["abolish", "abolition"],
+    collected: false
+  },
+  {
+    id: "root_u12_8",
+    name: "-vid-",
+    meaning: "看见",
+    category: "root",
+    description: "这个词根精灵掌管'看见'的含义。",
+    examples: ["evidence", "video", "evident"],
+    collected: false
+  },
+  {
+    id: "root_u12_9",
+    name: "-harm-",
+    meaning: "适合",
+    category: "root",
+    description: "这个词根精灵掌管'适合'的含义。",
+    examples: ["harmony", "harmonious"],
+    collected: false
+  },
+  {
+    id: "root_u12_10",
+    name: "-free-",
+    meaning: "自由",
+    category: "root",
+    description: "这个词根精灵掌管'自由'的含义。",
+    examples: ["freedom", "free", "freely"],
+    collected: false
+  },
+  {
+    id: "root_u12_11",
+    name: "-firm-",
+    meaning: "坚定",
+    category: "root",
+    description: "这个词根精灵掌管'坚定'的含义。",
+    examples: ["confirm", "firm", "affirm"],
+    collected: false
+  },
+  {
+    id: "root_u12_12",
+    name: "-serv-",
+    meaning: "保持",
+    category: "root",
+    description: "这个词根精灵掌管'保持'的含义。",
+    examples: ["conservative", "preserve", "reserve"],
+    collected: false
+  },
+  {
+    id: "root_u12_13",
+    name: "-decor-",
+    meaning: "装饰",
+    category: "root",
+    description: "这个词根精灵掌管'装饰'的含义。",
+    examples: ["decorate", "decoration", "decorative"],
+    collected: false
+  },
+  {
+    id: "root_u12_14",
+    name: "-fac-",
+    meaning: "面",
+    category: "root",
+    description: "这个词根精灵掌管'面'的含义。",
+    examples: ["facial", "face", "surface"],
+    collected: false
+  },
+  {
+    id: "root_u12_15",
+    name: "-liter-",
+    meaning: "文字",
+    category: "root",
+    description: "这个词根精灵掌管'文字'的含义。",
+    examples: ["literature", "literary", "literal"],
+    collected: false
+  },
+  {
+    id: "root_u12_16",
+    name: "-sen-",
+    meaning: "老的，年长的",
+    category: "root",
+    description: "这个词根精灵掌管'老的'或'年长的'的含义。",
+    examples: ["senior", "seniority", "senate"],
+    collected: false
+  },
+  {
+    id: "root_u12_17",
+    name: "-port-",
+    meaning: "拿，运",
+    category: "root",
+    description: "这个词根精灵掌管'拿'或'运'的含义。",
+    examples: ["import", "export", "transport"],
+    collected: false
+  },
+  {
+    id: "root_u12_18",
+    name: "-citi-",
+    meaning: "城市",
+    category: "root",
+    description: "这个词根精灵掌管'城市'的含义。",
+    examples: ["citizen", "city", "civil"],
+    collected: false
+  },
+  {
+    id: "root_u12_19",
+    name: "-cur-",
+    meaning: "跑，发生",
+    category: "root",
+    description: "这个词根精灵掌管'跑'或'发生'的含义。",
+    examples: ["occur", "current", "course"],
+    collected: false
+  },
+
+  // 后缀精灵
   {
     id: "suf_u12_1",
-    name: "-graphy",
-    meaning: "书写，记录法",
+    name: "-ification",
+    meaning: "表抽象名词",
     category: "suffix",
-    description: "这个后缀精灵表示书写或某种记录方法。",
-    examples: ["biography", "autograph", "photography"],
+    description: "这个后缀精灵能将词根转变为抽象名词。",
+    examples: ["identification", "classification", "simplification"],
+    collected: false
+  },
+  {
+    id: "suf_u12_2",
+    name: "-ure",
+    meaning: "表行为及行为结果",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为名词，表示行为及行为结果。",
+    examples: ["pressure", "failure", "pleasure"],
+    collected: false
+  },
+  {
+    id: "suf_u12_3",
+    name: "-ivity",
+    meaning: "表名词",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为名词。",
+    examples: ["activity", "creativity", "productivity"],
+    collected: false
+  },
+  {
+    id: "suf_u12_4",
+    name: "-ist",
+    meaning: "表人",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为表示人的名词。",
+    examples: ["dentist", "artist", "scientist"],
+    collected: false
+  },
+  {
+    id: "suf_u12_5",
+    name: "-ish",
+    meaning: "使...",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为动词，表示'使...'。",
+    examples: ["abolish", "establish", "finish"],
+    collected: false
+  },
+  {
+    id: "suf_u12_6",
+    name: "-ence",
+    meaning: "表名词",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为名词。",
+    examples: ["evidence", "difference", "confidence"],
+    collected: false
+  },
+  {
+    id: "suf_u12_7",
+    name: "-ony",
+    meaning: "表名词",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为名词。",
+    examples: ["harmony", "ceremony", "colony"],
+    collected: false
+  },
+  {
+    id: "suf_u12_8",
+    name: "-dom",
+    meaning: "表名词",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为名词。",
+    examples: ["freedom", "kingdom", "wisdom"],
+    collected: false
+  },
+  {
+    id: "suf_u12_9",
+    name: "-ate",
+    meaning: "表动词",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为动词。",
+    examples: ["decorate", "create", "educate"],
+    collected: false
+  },
+  {
+    id: "suf_u12_10",
+    name: "-ial",
+    meaning: "...的",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为形容词，表示'...的'。",
+    examples: ["facial", "special", "official"],
+    collected: false
+  },
+  {
+    id: "suf_u12_11",
+    name: "-ative",
+    meaning: "有...性质的",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为形容词，表示'有...性质的'。",
+    examples: ["conservative", "creative", "active"],
+    collected: false
+  },
+  {
+    id: "suf_u12_12",
+    name: "-ature",
+    meaning: "表名词",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为名词。",
+    examples: ["literature", "nature", "signature"],
+    collected: false
+  },
+  {
+    id: "suf_u12_13",
+    name: "-ior",
+    meaning: "比较级后缀",
+    category: "suffix",
+    description: "这个后缀精灵能构成形容词的比较级。",
+    examples: ["senior", "junior", "superior"],
+    collected: false
+  },
+  {
+    id: "suf_u12_14",
+    name: "-zen",
+    meaning: "表人",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为表示人的名词。",
+    examples: ["citizen", "denizen"],
     collected: false
   }
-  // ... 根据需要添加更多前缀、词根和后缀精灵
 ];
+export const highSchoolUnit13SpiritsData = [
+  // Prefixes
+  {
+    id: "pre_u13_1",
+    name: "dis-",
+    meaning: "表加强, 分开",
+    category: "prefix",
+    description: "前缀'dis-'可以表示加强语气或“分开、区别”的含义。",
+    examples: ["discrimination", "discover", "dishonest"],
+    collected: false
+  },
+  {
+    id: "pre_u13_2",
+    name: "sym-",
+    meaning: "共同",
+    category: "prefix",
+    description: "前缀'sym-'来源于希腊语，表示“共同、相同”的意思。",
+    examples: ["symptom", "sympathy", "symphony"],
+    collected: false
+  },
+  {
+    id: "pre_u13_3",
+    name: "re-",
+    meaning: "一再",
+    category: "prefix",
+    description: "前缀're-'表示“再次”或“往回”的意思。",
+    examples: ["relax", "review", "return"],
+    collected: false
+  },
+  // Roots
+  {
+    id: "root_u13_1",
+    name: "account",
+    meaning: "账目",
+    category: "root",
+    description: "词根'account'与计算或账目有关。",
+    examples: ["accountant", "accountable", "recount"],
+    collected: false
+  },
+  {
+    id: "root_u13_2",
+    name: "techn",
+    meaning: "技艺, 技术",
+    category: "root",
+    description: "词根'techn'来源于希腊语，指“艺术、技能或手艺”。",
+    examples: ["technique", "technical", "technology"],
+    collected: false
+  },
+  {
+    id: "root_u13_3",
+    name: "set",
+    meaning: "放置",
+    category: "root",
+    description: "词根'set'是一个基础词，意为“放置、设定”。",
+    examples: ["upset", "setting", "reset"],
+    collected: false
+  },
+  {
+    id: "root_u13_4",
+    name: "strophe",
+    meaning: "转",
+    category: "root",
+    description: "词根'strophe'来自希腊语，意为“转动、转折”。",
+    examples: ["catastrophe", "apostrophe"],
+    collected: false
+  },
+  {
+    id: "root_u13_5",
+    name: "sculpt",
+    meaning: "雕塑",
+    category: "root",
+    description: "词根'sculpt'与雕刻和塑造有关。",
+    examples: ["sculpture", "sculptor"],
+    collected: false
+  },
+  {
+    id: "root_u13_6",
+    name: "crimin",
+    meaning: "区别",
+    category: "root",
+    description: "词根'crimin'与“区别、判断或罪行”有关。",
+    examples: ["discrimination", "crime", "criminal"],
+    collected: false
+  },
+  {
+    id: "root_u13_7",
+    name: "lax",
+    meaning: "放松",
+    category: "root",
+    description: "词根'lax'意为“松弛、放松”。",
+    examples: ["relax", "laxity"],
+    collected: false
+  },
+  // Suffixes
+  {
+    id: "suf_u13_1",
+    name: "-ant",
+    meaning: "表名词，人",
+    category: "suffix",
+    description: "后缀'-ant'通常加在动词后，构成名词，表示“做…的人”。",
+    examples: ["accountant", "assistant", "consultant"],
+    collected: false
+  },
+  {
+    id: "suf_u13_2",
+    name: "-ique",
+    meaning: "名词后缀",
+    category: "suffix",
+    description: "后缀'-ique'通常用于构成名词，表示与某种技术或艺术相关的物。",
+    examples: ["technique", "antique", "boutique"],
+    collected: false
+  },
+  {
+    id: "suf_u13_3",
+    name: "-ure",
+    meaning: "表名词，状态或行为",
+    category: "suffix",
+    description: "后缀'-ure'用于构成抽象名词，表示“行为、状态或结果”。",
+    examples: ["sculpture", "culture", "pressure"],
+    collected: false
+  },
+  {
+    id: "suf_u13_4",
+    name: "-ency",
+    meaning: "表名词，状态",
+    category: "suffix",
+    description: "后缀'-ency'用于构成抽象名词，表示某种“性质或状态”。",
+    examples: ["agency", "frequency", "emergency"],
+    collected: false
+  }
+]
+export const highSchoolUnit14SpiritsData = [
+  // Prefixes
+  {
+    id: "pre_u14_1",
+    name: "in-",
+    meaning: "向内, 进入",
+    category: "prefix",
+    description: "前缀 'in-' 表示“向内”或“进入”，如在单词 'inspect' (检查)中，字面意思是“向内看”。",
+    examples: ["inspect", "import", "include"],
+    collected: false
+  },
+  {
+    id: "pre_u14_2",
+    name: "dis-",
+    meaning: "除去, 否定",
+    category: "prefix",
+    description: "前缀 'dis-' 表示否定、相反或“除去”，如 'discourage' (使气馁)就是“除去勇气”。",
+    examples: ["discourage", "disagree", "dislike"],
+    collected: false
+  },
+  {
+    id: "pre_u14_3",
+    name: "con-",
+    meaning: "共同",
+    category: "prefix",
+    description: "前缀 'con-' 表示“共同”或“一起”，如 'conflict' (冲突)的字面意思是“共同打击”。",
+    examples: ["conflict", "connect", "concentrate"],
+    collected: false
+  },
+  {
+    id: "pre_u14_4",
+    name: "mis-",
+    meaning: "错误",
+    category: "prefix",
+    description: "前缀 'mis-' 表示“错误地”或“坏”，如 'mistake' (错误)就是“错拿”。",
+    examples: ["mistake", "misunderstand", "misfortune"],
+    collected: false
+  },
+  // Roots
+  {
+    id: "root_u14_1",
+    name: "spect",
+    meaning: "看",
+    category: "root",
+    description: "词根 'spect' 来自拉丁语，意为“看”。",
+    examples: ["inspect", "respect", "prospect"],
+    collected: false
+  },
+  {
+    id: "root_u14_2",
+    name: "flict",
+    meaning: "打击",
+    category: "root",
+    description: "词根 'flict' 意为“打击”。",
+    examples: ["conflict", "afflict"],
+    collected: false
+  },
+  {
+    id: "root_u14_3",
+    name: "courage",
+    meaning: "勇气",
+    category: "root",
+    description: "词根 'courage' 意为“勇气”，是构成 'discourage' 的一部分。",
+    examples: ["discourage", "encourage"],
+    collected: false
+  },
+  {
+    id: "root_u14_4",
+    name: "pend",
+    meaning: "悬挂",
+    category: "root",
+    description: "词根 'pend' 意为“悬挂”，引申为“依赖”。",
+    examples: ["depend", "suspend", "independent"],
+    collected: false
+  },
+  {
+    id: "root_u14_5",
+    name: "physi",
+    meaning: "自然",
+    category: "root",
+    description: "词根 'physi' 来自希腊语，与“自然”或“身体”有关。",
+    examples: ["physical", "physics", "physician"],
+    collected: false
+  },
+  {
+    id: "root_u14_6",
+    name: "bene",
+    meaning: "善, 好",
+    category: "root",
+    description: "词根 'bene' 来自拉丁语，意为“好”。",
+    examples: ["beneficial", "benefit", "benevolent"],
+    collected: false
+  },
+  // Suffixes
+  {
+    id: "suf_u14_1",
+    name: "-er",
+    meaning: "表人的名词后缀",
+    category: "suffix",
+    description: "后缀 '-er' 加在动词或名词后，常表示“从事…的人”。",
+    examples: ["photographer", "teacher", "worker"],
+    collected: false
+  },
+  {
+    id: "suf_u14_2",
+    name: "-ion",
+    meaning: "表名词后缀",
+    category: "suffix",
+    description: "后缀 '-ion' 用于将动词变为名词，表示“行为、过程或状态”。",
+    examples: ["intention", "inspection", "action"],
+    collected: false
+  },
+  {
+    id: "suf_u14_3",
+    name: "-ical",
+    meaning: "形容词后缀",
+    category: "suffix",
+    description: "形容词后缀 '-ical' 表示“与…有关的”或“具有…性质的”。",
+    examples: ["electrical", "physical", "medical"],
+    collected: false
+  },
+  {
+    id: "suf_u14_4",
+    name: "-less",
+    meaning: "形容词后缀",
+    category: "suffix",
+    description: "形容词后缀 '-less' 表示“没有…的”或“缺乏…的”。",
+    examples: ["careless", "homeless", "useless"],
+    collected: false
+  },
+  {
+    id: "suf_u14_5",
+    name: "-ive",
+    meaning: "形容词后缀",
+    category: "suffix",
+    description: "后缀 '-ive' 用于构成形容词，表示某种倾向或性质。",
+    examples: ["alternative", "active", "creative"],
+    collected: false
+  }
+]
+export const highSchoolUnit15SpiritsData = [
+  // Prefixes
+  {
+    id: "pre_u15_1",
+    name: "sup-",
+    meaning: "在...上, 重复",
+    category: "prefix",
+    description: "前缀 'sup-' 在这里表示“重复”或“在...之上”的含义，构成单词 'supply' (供给)。",
+    examples: ["supply", "support", "suppress"],
+    collected: false
+  },
+  {
+    id: "pre_u15_2",
+    name: "ap-",
+    meaning: "表加强",
+    category: "prefix",
+    description: "前缀 'ap-' 是 'ad-' 的变体，用在以 'p' 开头的词根前，表示加强语气。",
+    examples: ["appropriate", "appoint", "appear"],
+    collected: false
+  },
+  {
+    id: "pre_u15_3",
+    name: "de-",
+    meaning: "向下, 加强",
+    category: "prefix",
+    description: "前缀 'de-' 含义丰富，可以表示“向下”如 'decline' (下降)，或加强语气如 'deserve' (应受)。",
+    examples: ["deserve", "decline", "depend"],
+    collected: false
+  },
+  {
+    id: "pre_u15_4",
+    name: "pro-",
+    meaning: "在前",
+    category: "prefix",
+    description: "前缀 'pro-' 表示“向前”或“在前”，'provide' (提供)的字面意思就是“预先看到”。",
+    examples: ["provide", "progress", "project"],
+    collected: false
+  },
+  {
+    id: "pre_u15_5",
+    name: "con-",
+    meaning: "共同, 加强",
+    category: "prefix",
+    description: "前缀 'con-' 表示“共同”或“加强语气”。在 'convenience' 中，它加强了“一起来”的含义，引申为方便。",
+    examples: ["convenience", "connect", "concert"],
+    collected: false
+  },
+  {
+    id: "pre_u15_6",
+    name: "trans-",
+    meaning: "越过",
+    category: "prefix",
+    description: "前缀 'trans-' 表示“横过、越过”，'transparent' (透明的) 的字面意思就是“可以看穿的”。",
+    examples: ["transparent", "transport", "translate"],
+    collected: false
+  },
+  // Roots
+  {
+    id: "root_u15_1",
+    name: "-ply-",
+    meaning: "重叠",
+    category: "root",
+    description: "词根 '-ply-' 意为“重叠”或“折叠”。",
+    examples: ["supply", "reply", "multiply"],
+    collected: false
+  },
+  {
+    id: "root_u15_2",
+    name: "-propri-",
+    meaning: "恰当的",
+    category: "root",
+    description: "词根 '-propri-' 意为“恰当的”或“自己的”。",
+    examples: ["appropriate", "property"],
+    collected: false
+  },
+  {
+    id: "root_u15_3",
+    name: "-serve-",
+    meaning: "服务",
+    category: "root",
+    description: "词根 '-serve-' 意为“服务”或“保持”。",
+    examples: ["deserve", "serve", "reserve"],
+    collected: false
+  },
+  {
+    id: "root_u15_4",
+    name: "-solut-",
+    meaning: "松开",
+    category: "root",
+    description: "词根 '-solut-' 意为“松开、解决”。",
+    examples: ["absolute", "solution", "resolve"],
+    collected: false
+  },
+  {
+    id: "root_u15_5",
+    name: "-unit-",
+    meaning: "个体",
+    category: "root",
+    description: "词根 '-unit-' 意为“一”或“个体”。",
+    examples: ["unite", "unit", "community"],
+    collected: false
+  },
+  {
+    id: "root_u15_6",
+    name: "-cline-",
+    meaning: "倾斜",
+    category: "root",
+    description: "词根 '-cline-' 意为“倾斜”。",
+    examples: ["decline", "incline"],
+    collected: false
+  },
+  {
+    id: "root_u15_7",
+    name: "-vide-",
+    meaning: "看",
+    category: "root",
+    description: "词根 '-vide-' 或 '-vis-' 意为“看”。",
+    examples: ["provide", "video", "visit"],
+    collected: false
+  },
+  {
+    id: "root_u15_8",
+    name: "-apt-",
+    meaning: "适应",
+    category: "root",
+    description: "词根 '-apt-' 意为“适应、适合”。",
+    examples: ["adapt", "aptitude"],
+    collected: false
+  },
+  {
+    id: "root_u15_9",
+    name: "-spect-",
+    meaning: "看",
+    category: "root",
+    description: "词根 '-spect-' 是一个常见的词根，意为“看”。",
+    examples: ["aspect", "inspect", "respect"],
+    collected: false
+  },
+  {
+    id: "root_u15_10",
+    name: "-posit-",
+    meaning: "放置",
+    category: "root",
+    description: "词根 '-posit-' 意为“放置”。",
+    examples: ["positive", "position", "deposit"],
+    collected: false
+  },
+  {
+    id: "root_u15_11",
+    name: "-rid-",
+    meaning: "笑",
+    category: "root",
+    description: "词根 '-rid-' 意为“笑”。",
+    examples: ["ridiculous", "deride"],
+    collected: false
+  },
+  {
+    id: "root_u15_12",
+    name: "-ven-",
+    meaning: "来",
+    category: "root",
+    description: "词根 '-ven-' 意为“来”。",
+    examples: ["convenience", "invent", "adventure"],
+    collected: false
+  },
+  // Suffixes
+  {
+    id: "suf_u15_1",
+    name: "-ate",
+    meaning: "动词/形容词后缀",
+    category: "suffix",
+    description: "后缀 '-ate' 可以用作动词或形容词后缀。",
+    examples: ["appropriate", "tolerate", "desperate"],
+    collected: false
+  },
+  {
+    id: "suf_u15_2",
+    name: "-ous",
+    meaning: "形容词后缀",
+    category: "suffix",
+    description: "后缀 '-ous' 是一个形容词后缀，表示“充满…的”或“具有…性质的”。",
+    examples: ["ridiculous", "serious", "dangerous"],
+    collected: false
+  },
+  {
+    id: "suf_u15_3",
+    name: "-able",
+    meaning: "能…的",
+    category: "suffix",
+    description: "后缀 '-able' 是一个常见的形容词后缀，表示“能够…的”或“可以…的”。",
+    examples: ["stable", "comfortable", "reliable"],
+    collected: false
+  },
+  {
+    id: "suf_u15_4",
+    name: "-ience",
+    meaning: "名词后缀",
+    category: "suffix",
+    description: "后缀 '-ience' 用于构成名词，表示“性质”或“状态”。",
+    examples: ["convenience", "patience", "experience"],
+    collected: false
+  },
+  {
+    id: "suf_u15_5",
+    name: "-ent",
+    meaning: "形容词后缀",
+    category: "suffix",
+    description: "后缀 '-ent' 可用作形容词后缀，表示“…的”。",
+    examples: ["transparent", "different", "absent"],
+    collected: false
+  },
+  {
+    id: "suf_u15_6",
+    name: "-ish",
+    meaning: "形容词后缀",
+    category: "suffix",
+    description: "后缀 '-ish' 是一个形容词后缀，表示“有…性质的”或“有点…的”。",
+    examples: ["selfish", "foolish", "childish"],
+    collected: false
+  }
+]
+
+export const highSchoolUnit16SpiritsData = [
+  // 前缀精灵
+  {
+    id: "pre_u16_1",
+    name: "cor-",
+    meaning: "表加强",
+    category: "prefix",
+    description: "这个前缀精灵能赋予词根'加强'的含义。",
+    examples: ["corrupt", "correct", "correspond"],
+    collected: false
+  },
+  {
+    id: "pre_u16_2",
+    name: "con-",
+    meaning: "共同，加强",
+    category: "prefix",
+    description: "这个前缀精灵能赋予词根'共同'或'加强'的含义。",
+    examples: ["condemn", "consist", "connect"],
+    collected: false
+  },
+  {
+    id: "pre_u16_3",
+    name: "ex-",
+    meaning: "表加强，出",
+    category: "prefix",
+    description: "这个前缀精灵能赋予词根'加强'或'出'的含义。",
+    examples: ["expectation", "export", "exclude"],
+    collected: false
+  },
+  {
+    id: "pre_u16_4",
+    name: "ad-",
+    meaning: "表加强",
+    category: "prefix",
+    description: "这个前缀精灵能赋予词根'加强'的含义。",
+    examples: ["adore", "admit", "advance"],
+    collected: false
+  },
+
+  // 词根精灵
+  {
+    id: "root_u16_1",
+    name: "-puls-",
+    meaning: "驱动",
+    category: "root",
+    description: "这个词根精灵掌管'驱动'的含义。",
+    examples: ["pulse", "pulsate", "impulse"],
+    collected: false
+  },
+  {
+    id: "root_u16_2",
+    name: "-rupt-",
+    meaning: "断裂",
+    category: "root",
+    description: "这个词根精灵掌管'断裂'的含义。",
+    examples: ["corrupt", "rupture", "interrupt"],
+    collected: false
+  },
+  {
+    id: "root_u16_3",
+    name: "-prin-",
+    meaning: "第一",
+    category: "root",
+    description: "这个词根精灵掌管'第一'的含义。",
+    examples: ["principle", "principal", "prince"],
+    collected: false
+  },
+  {
+    id: "root_u16_4",
+    name: "-cip-",
+    meaning: "抓",
+    category: "root",
+    description: "这个词根精灵掌管'抓'的含义。",
+    examples: ["principle", "participate", "anticipate"],
+    collected: false
+  },
+  {
+    id: "root_u16_5",
+    name: "-atmo-",
+    meaning: "气",
+    category: "root",
+    description: "这个词根精灵掌管'气'的含义。",
+    examples: ["atmosphere", "atmospheric"],
+    collected: false
+  },
+  {
+    id: "root_u16_6",
+    name: "-sphere-",
+    meaning: "球体",
+    category: "root",
+    description: "这个词根精灵掌管'球体'的含义。",
+    examples: ["atmosphere", "sphere", "hemisphere"],
+    collected: false
+  },
+  {
+    id: "root_u16_7",
+    name: "-demn-",
+    meaning: "惩罚",
+    category: "root",
+    description: "这个词根精灵掌管'惩罚'的含义。",
+    examples: ["condemn", "condemnation"],
+    collected: false
+  },
+  {
+    id: "root_u16_8",
+    name: "-electr-",
+    meaning: "电",
+    category: "root",
+    description: "这个词根精灵掌管'电'的含义。",
+    examples: ["electricity", "electric", "electronic"],
+    collected: false
+  },
+  {
+    id: "root_u16_9",
+    name: "-spec-",
+    meaning: "种类",
+    category: "root",
+    description: "这个词根精灵掌管'种类'的含义。",
+    examples: ["specific", "species", "special"],
+    collected: false
+  },
+  {
+    id: "root_u16_10",
+    name: "-sist-",
+    meaning: "站",
+    category: "root",
+    description: "这个词根精灵掌管'站'的含义。",
+    examples: ["consist", "resist", "assist"],
+    collected: false
+  },
+  {
+    id: "root_u16_11",
+    name: "-prim-",
+    meaning: "第一",
+    category: "root",
+    description: "这个词根精灵掌管'第一'的含义。",
+    examples: ["primitive", "primary", "prime"],
+    collected: false
+  },
+  {
+    id: "root_u16_12",
+    name: "-pect-",
+    meaning: "看",
+    category: "root",
+    description: "这个词根精灵掌管'看'的含义。",
+    examples: ["expectation", "expect", "inspect"],
+    collected: false
+  },
+  {
+    id: "root_u16_13",
+    name: "-punct-",
+    meaning: "点",
+    category: "root",
+    description: "这个词根精灵掌管'点'的含义。",
+    examples: ["punctuation", "punctual", "puncture"],
+    collected: false
+  },
+  {
+    id: "root_u16_14",
+    name: "-uni-",
+    meaning: "单一",
+    category: "root",
+    description: "这个词根精灵掌管'单一'的含义。",
+    examples: ["unique", "unite", "unity"],
+    collected: false
+  },
+  {
+    id: "root_u16_15",
+    name: "-ore-",
+    meaning: "讲话",
+    category: "root",
+    description: "这个词根精灵掌管'讲话'的含义。",
+    examples: ["adore", "orator", "oral"],
+    collected: false
+  },
+
+  // 后缀精灵
+  {
+    id: "suf_u16_1",
+    name: "-le",
+    meaning: "表名词",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为名词。",
+    examples: ["principle", "particle", "article"],
+    collected: false
+  },
+  {
+    id: "suf_u16_2",
+    name: "-icity",
+    meaning: "表名词",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为名词。",
+    examples: ["electricity", "simplicity", "authenticity"],
+    collected: false
+  },
+  {
+    id: "suf_u16_3",
+    name: "-ific",
+    meaning: "产生...的",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为形容词，表示'产生...的'。",
+    examples: ["specific", "scientific", "terrific"],
+    collected: false
+  },
+  {
+    id: "suf_u16_4",
+    name: "-itive",
+    meaning: "具有...性质的",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为形容词，表示'具有...性质的'。",
+    examples: ["primitive", "positive", "sensitive"],
+    collected: false
+  },
+  {
+    id: "suf_u16_5",
+    name: "-ation",
+    meaning: "表名词",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为名词。",
+    examples: ["expectation", "information", "education"],
+    collected: false
+  },
+  {
+    id: "suf_u16_6",
+    name: "-uat",
+    meaning: "表动词",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为动词。",
+    examples: ["punctuation", "situate", "evaluate"],
+    collected: false
+  },
+  {
+    id: "suf_u16_7",
+    name: "-que",
+    meaning: "...的",
+    category: "suffix",
+    description: "这个后缀精灵能将词根转变为形容词，表示'...的'。",
+    examples: ["unique", "antique", "technique"],
+    collected: false
+  }
+]
 
 export const rootSpiritsDataByLevel = {
   "high-school-1-unit1": highSchoolUnit1SpiritsData,
@@ -813,9 +1853,10 @@ export const rootSpiritsDataByLevel = {
   "high-school-1-unit10": highSchoolUnit10SpiritsData,
   "high-school-1-unit11": highSchoolUnit11SpiritsData,
   "high-school-1-unit12": highSchoolUnit12SpiritsData, 
-  // "high-school-1-unit13": highSchoolUnit13SpiritsData,
-  // "high-school-1-unit14": highSchoolUnit14SpiritsData,
-  // "high-school-1-unit15": highSchoolUnit15SpiritsData,
+  "high-school-1-unit13": highSchoolUnit13SpiritsData,
+  "high-school-1-unit14": highSchoolUnit14SpiritsData,
+  "high-school-1-unit15": highSchoolUnit15SpiritsData,
+  "high-school-1-unit16": highSchoolUnit16SpiritsData,
   
   "default": sampleSpiritsData
 }
