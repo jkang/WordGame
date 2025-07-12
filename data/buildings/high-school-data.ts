@@ -90,6 +90,21 @@ export const highSchoolUnit6BuildingData: WordBuilding[] = [
     { id: "hs6-wb12", meaning: "插入,放进", options: ["in", "sert", "ion"], correctOptions: ["in", "sert"] }
 ];
 
+export const highSchoolUnit7BuildingData: WordBuilding[] = [
+    { id: "hs7-wb1", meaning: "自由的;空闲的;免费的", options: ["free", "dom", "ly"], correctOptions: ["free"] },
+    { id: "hs7-wb2", meaning: "很,非常", options: ["very", "ver", "ily"], correctOptions: ["very"] },
+    { id: "hs7-wb3", meaning: "装饰,修饰;装饰品", options: ["decor", "ation", "ate"], correctOptions: ["decor", "ation"] },
+    { id: "hs7-wb4", meaning: "土地;陆地", options: ["land", "scape", "lord"], correctOptions: ["land"] },
+    { id: "hs7-wb5", meaning: "火焰", options: ["flame", "flam", "ing"], correctOptions: ["flame"] },
+    { id: "hs7-wb6", meaning: "丛林,密林", options: ["jung", "le", "gle"], correctOptions: ["jung", "le"] },
+    { id: "hs7-wb7", meaning: "政治的", options: ["polit", "ical", "ics"], correctOptions: ["polit", "ical"] },
+    { id: "hs7-wb8", meaning: "(投票)选举", options: ["elect", "ion", "ive"], correctOptions: ["elect"] },
+    { id: "hs7-wb9", meaning: "一点,一些,少量", options: ["bit", "bite", "ting"], correctOptions: ["bit"] },
+    { id: "hs7-wb10", meaning: "扎牢,扣住", options: ["fast", "en", "ing"], correctOptions: ["fast", "en"] },
+    { id: "hs7-wb11", meaning: "旅行,旅程", options: ["jour", "ney", "ney"], correctOptions: ["jour", "ney"] },
+    { id: "hs7-wb12", meaning: "快活的,愉快的", options: ["gay", "ly", "ness"], correctOptions: ["gay"] }
+];
+
 export const highSchoolUnit8BuildingData: WordBuilding[] = [
     { id: "hs8-wb1", meaning: "提倡,拥护,主张", options: ["ad", "voc", "ate", "advo"], correctOptions: ["ad", "voc", "ate"] },
     { id: "hs8-wb2", meaning: "完成,达到", options: ["ac", "compl", "ish", "plishm"], correctOptions: ["ac", "compl", "ish"] },
@@ -404,4 +419,226 @@ export const highSchoolUnit12BuildingData: WordBuilding[] = [
     options: ["con", "serv", "ative", "cons", "ervativex"], 
     correctOptions: ["con", "serv", "ative"] 
   } // conservative (con + serv + ative)
+];
+export const highSchoolUnit13BuildingData: WordBuilding[] = [
+  {
+    id: "hs13-wb1",
+    meaning: "会计;会计师",
+    options: ["account", "ant", "acount", "ent"],
+    correctOptions: ["account", "ant"]
+  }, // accountant (account + ant)
+  {
+    id: "hs13-wb2",
+    meaning: "技术, 技巧",
+    options: ["techn", "ique", "tech", "nique"],
+    correctOptions: ["techn", "ique"]
+  }, // technique (techn + ique)
+  {
+    id: "hs13-wb3",
+    meaning: "心烦的,苦恼的",
+    options: ["up", "set", "ups", "etx"],
+    correctOptions: ["up", "set"]
+  }, // upset (up + set)
+  {
+    id: "hs13-wb4",
+    meaning: "灾难,灾祸,横祸",
+    options: ["cata", "strophe", "catas", "trophy"],
+    correctOptions: ["cata", "strophe"]
+  }, // catastrophe (cata + strophe)
+  {
+    id: "hs13-wb5",
+    meaning: "国籍;民族",
+    options: ["nation", "al", "ity", "nasion"],
+    correctOptions: ["nation", "al", "ity"]
+  }, // nationality (nation + al + ity)
+  {
+    id: "hs13-wb6",
+    meaning: "症状;征兆",
+    options: ["sym", "ptom", "simp", "tom"],
+    correctOptions: ["sym", "ptom"]
+  }, // symptom (sym + ptom)
+  {
+    id: "hs13-wb7",
+    meaning: "二氧化物",
+    options: ["di", "oxide", "diox", "ide"],
+    correctOptions: ["di", "oxide"]
+  }, // dioxide (di + oxide)
+  {
+    id: "hs13-wb8",
+    meaning: "证明,证实",
+    options: ["prov", "e", "pro", "vex"],
+    correctOptions: ["prov", "e"]
+  }, // prove (prov + e)
+  {
+    id: "hs13-wb9",
+    meaning: "代理处,经销处;机构",
+    options: ["ag", "ency", "agen", "cyx"],
+    correctOptions: ["ag", "ency"]
+  }, // agency (ag + ency)
+  {
+    id: "hs13-wb10",
+    meaning: "文化",
+    options: ["cult", "ure", "cul", "turex"],
+    correctOptions: ["cult", "ure"]
+  }, // culture (cult + ure)
+  {
+    id: "hs13-wb11",
+    meaning: "歧视",
+    options: ["dis", "crimin", "ation", "discrim"],
+    correctOptions: ["dis", "crimin", "ation"]
+  }, // discrimination (dis + crimin + ation)
+  {
+    id: "hs13-wb12",
+    meaning: "分布广的;普遍的;广泛的",
+    options: ["wide", "spread", "wid", "spred"],
+    correctOptions: ["wide", "spread"]
+  } // widespread (wide + spread)
+];
+export const highSchoolUnit14BuildingData: WordBuilding[] = [
+  {
+    id: "hs14-wb1",
+    meaning: "检查;审视",
+    options: ["in", "spect", "ins", "pectx"],
+    correctOptions: ["in", "spect"]
+  }, // inspect (in + spect)
+  {
+    id: "hs14-wb2",
+    meaning: "使气馁,打消(念头)",
+    options: ["dis", "courage", "disco", "rage"],
+    correctOptions: ["dis", "courage"]
+  }, // discourage (dis + courage)
+  {
+    id: "hs14-wb3",
+    meaning: "选择性的,二者择一的",
+    options: ["altern", "ative", "alter", "native"],
+    correctOptions: ["altern", "ative"]
+  }, // alternative (altern + ative)
+  {
+    id: "hs14-wb4",
+    meaning: "弄错;错误",
+    options: ["mis", "take", "mist", "akex"],
+    correctOptions: ["mis", "take"]
+  }, // mistake (mis + take)
+  {
+    id: "hs14-wb5",
+    meaning: "斗争,冲突",
+    options: ["con", "flict", "conf", "lictx"],
+    correctOptions: ["con", "flict"]
+  }, // conflict (con + flict)
+  {
+    id: "hs14-wb6",
+    meaning: "摄影师",
+    options: ["photo", "graph", "er", "fotograf"],
+    correctOptions: ["photo", "graph", "er"]
+  }, // photographer (photo + graph + er)
+  {
+    id: "hs14-wb7",
+    meaning: "计划,意图,目的",
+    options: ["in", "tent", "ion", "inten"],
+    correctOptions: ["in", "tent", "ion"]
+  }, // intention (in + tent + ion)
+  {
+    id: "hs14-wb8",
+    meaning: "与电有关的,电气的",
+    options: ["electr", "ical", "electric", "alx"],
+    correctOptions: ["electr", "ical"]
+  }, // electrical (electr + ical)
+  {
+    id: "hs14-wb9",
+    meaning: "在…下面画线;强调;使突出",
+    options: ["under", "line", "und", "erline"],
+    correctOptions: ["under", "line"]
+  }, // underline (under + line)
+  {
+    id: "hs14-wb10",
+    meaning: "地心引力,重力",
+    options: ["grav", "ity", "gravy", "tix"],
+    correctOptions: ["grav", "ity"]
+  }, // gravity (grav + ity)
+  {
+    id: "hs14-wb11",
+    meaning: "清楚的;直率的",
+    options: ["ex", "plic", "it", "explix"],
+    correctOptions: ["ex", "plic", "it"]
+  }, // explicit (ex + plic + it)
+  {
+    id: "hs14-wb12",
+    meaning: "依靠,指望;信任;取决于",
+    options: ["de", "pend", "dep", "endx"],
+    correctOptions: ["de", "pend"]
+  } // depend (de + pend)
+];
+export const highSchoolUnit15BuildingData: WordBuilding[] = [
+  {
+    id: "hs15-wb1",
+    meaning: "供给,提供",
+    options: ["sup", "ply", "su", "pplyx"],
+    correctOptions: ["sup", "ply"]
+  }, // supply (sup + ply)
+  {
+    id: "hs15-wb2",
+    meaning: "适当的",
+    options: ["ap", "propri", "ate", "approp"],
+    correctOptions: ["ap", "propri", "ate"]
+  }, // appropriate (ap + propri + ate)
+  {
+    id: "hs15-wb3",
+    meaning: "应受,值得",
+    options: ["de", "serve", "des", "ervex"],
+    correctOptions: ["de", "serve"]
+  }, // deserve (de + serve)
+  {
+    id: "hs15-wb4",
+    meaning: "完全的,绝对的",
+    options: ["ab", "solut", "e", "absol"],
+    correctOptions: ["ab", "solut", "e"]
+  }, // absolute (ab + solut + e)
+  {
+    id: "hs15-wb5",
+    meaning: "联合,团结",
+    options: ["unit", "e", "uni", "tex"],
+    correctOptions: ["unit", "e"]
+  }, // unite (unit + e)
+  {
+    id: "hs15-wb6",
+    meaning: "忍受,容忍",
+    options: ["toler", "ate", "tole", "ratex"],
+    correctOptions: ["toler", "ate"]
+  }, // tolerate (toler + ate)
+  {
+    id: "hs15-wb7",
+    meaning: "下降;衰落;谢绝",
+    options: ["de", "cline", "dec", "linex"],
+    correctOptions: ["de", "cline"]
+  }, // decline (de + cline)
+  {
+    id: "hs15-wb8",
+    meaning: "提供",
+    options: ["pro", "vide", "prov", "idex"],
+    correctOptions: ["pro", "vide"]
+  }, // provide (pro + vide)
+  {
+    id: "hs15-wb9",
+    meaning: "(使)适应;改编",
+    options: ["ad", "apt", "ada", "ptx"],
+    correctOptions: ["ad", "apt"]
+  }, // adapt (ad + apt)
+  {
+    id: "hs15-wb10",
+    meaning: "方面;外表",
+    options: ["a", "spect", "as", "pectx"],
+    correctOptions: ["a", "spect"]
+  }, // aspect (a + spect)
+  {
+    id: "hs15-wb11",
+    meaning: "荒谬的,可笑的",
+    options: ["rid", "icul", "ous", "ridic"],
+    correctOptions: ["rid", "icul", "ous"]
+  }, // ridiculous (rid + icul + ous)
+  {
+    id: "hs15-wb12",
+    meaning: "方便,便利",
+    options: ["con", "ven", "ience", "conven"],
+    correctOptions: ["con", "ven", "ience"]
+  } // convenience (con + ven + ience)
 ];

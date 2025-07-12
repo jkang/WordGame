@@ -1,0 +1,38 @@
+export const highSchoolUnit11RootData = {
+  prefixes: [
+    { id: "hs11-p1", prefix: "at-", meaning: "表加强 (ad-变体)", examples: ["attain", "attach", "attend"] },
+    { id: "hs11-p2", prefix: "com-", meaning: "共同, 加强", examples: ["command", "combine", "commit"] },
+    { id: "hs11-p3", prefix: "re-", meaning: "再, 回", examples: ["representative", "receive", "return", "review"] },
+    { id: "hs11-p4", prefix: "contra-", meaning: "反, 相对", examples: ["contradict", "contrast", "contrary"] },
+    { id: "hs11-p5", prefix: "de-", meaning: "向下, 加强", examples: ["demand", "describe", "decide"] },
+    { id: "hs11-p6", prefix: "ac-", meaning: "表加强 (ad-变体)", examples: ["accuse", "accept", "accompany"] },
+    { id: "hs11-p7", prefix: "ex-", meaning: "出, 向外", examples: ["examine", "expose", "expert", "export"] },
+  ],
+  roots: [
+    { id: "hs11-r1", root: "-tain-", meaning: "拿住, 保持", examples: ["attain", "contain", "maintain", "obtain"] },
+    { id: "hs11-r2", root: "-mand-", meaning: "命令, 委托", examples: ["command", "demand", "remand"] },
+    { id: "hs11-r3", root: "-present-", meaning: "呈现, 出现", examples: ["representative", "present", "presentation"] },
+    { id: "hs11-r4", root: "-dict-", meaning: "说, 言", examples: ["contradict", "predict", "dictionary"] },
+    { id: "hs11-r5", root: "-soci-", meaning: "伙伴, 社会", examples: ["socialist", "social", "associate"] },
+    { id: "hs11-r6", root: "-cus-", meaning: "原因, 控告", examples: ["accuse", "excuse", "cause"] },
+    { id: "hs11-r7", root: "-ceive- / -cept-", meaning: "拿, 接收", examples: ["receive", "accept", "concept", "perceive"] },
+    { id: "hs11-r8", root: "psych-", meaning: "心灵, 精神", examples: ["psychology", "psychiatrist", "psychic"] },
+    { id: "hs11-r9", root: "-nunci- / -nounce-", meaning: "报告, 宣布", examples: ["pronunciation", "announce", "denounce"] },
+    { id: "hs11-r10", root: "-pos-", meaning: "放", examples: ["expose", "position", "compose"] },
+    { id: "hs11-r11", root: "-vers-", meaning: "转", examples: ["controversial", "reverse", "conversation"] },
+    { id: "hs11-r12", root: "-fic-", meaning: "做, 制作", examples: ["certificate", "efficient", "fiction"] },
+    { id: "hs11-r13", root: "-celebr-", meaning: "荣誉, 庆祝", examples: ["celebrate", "celebrity"] },
+    { id: "hs11-r14", root: "-plic-", meaning: "重叠, 折叠, 应用", examples: ["application", "complicate", "imply"] },
+    { id: "hs11-r15", root: "-line-", meaning: "线", examples: ["deadline", "outline", "online"] },
+    { id: "hs11-r16", root: "-vey-", meaning: "运送, 道路", examples: ["convey", "survey", "vehicle"] },
+  ],
+  suffixes: [
+    { id: "hs11-s1", suffix: "-ative", meaning: "表示形容词或名词 (倾向于...的, 人)", examples: ["representative", "talkative", "native"] },
+    { id: "hs11-s2", suffix: "-ist", meaning: "表示人 (信仰者,专家)", examples: ["socialist", "artist", "scientist"] },
+    { id: "hs11-s3", suffix: "-ology", meaning: "表示学科", examples: ["psychology", "biology", "geology"] },
+    { id: "hs11-s4", suffix: "-ation", meaning: "表示名词 (行为,过程,结果)", examples: ["pronunciation", "application", "examination", "celebration"] },
+    { id: "hs11-s5", suffix: "-ial", meaning: "表示形容词 (...的)", examples: ["controversial", "social", "official"] },
+    { id: "hs11-s6", suffix: "-ment", meaning: "表示名词 (结果,行为)", examples: ["amusement", "government", "development"] },
+    { id: "hs11-s7", suffix: "-ing", meaning: "表示动名词或现在分词", examples: ["boring", "amazing", "disturbing"] },
+  ]
+}

@@ -1,0 +1,37 @@
+export const highSchoolUnit12RootData = {
+  prefixes: [
+    { id: "hs12-p1", prefix: "ac-", meaning: "表加强 (ad-变体)", examples: ["accept", "accompany", "account"] },
+    { id: "hs12-p2", prefix: "ab-", meaning: "离去, 相反", examples: ["abolish", "abandon", "abnormal"] },
+    { id: "hs12-p3", prefix: "con-", meaning: "共同, 加强", examples: ["confirm", "conservative", "congratulation", "connect"] },
+    { id: "hs12-p4", prefix: "de-", meaning: "向下, 加强, 除去", examples: ["defeat", "decorate", "decide"] },
+    { id: "hs12-p5", prefix: "im-", meaning: "进入, 在内 (in-变体)", examples: ["imagine", "import", "impact"] },
+  ],
+  roots: [
+    { id: "hs12-r1", root: "-dent-", meaning: "牙齿", examples: ["dentist", "dental", "indent"] },
+    { id: "hs12-r2", root: "-cept-", meaning: "拿, 接收", examples: ["accept", "except", "concept", "reception"] },
+    { id: "hs12-r3", root: "-lay-", meaning: "放, 置", examples: ["relay", "layout", "delay"] },
+    { id: "hs12-r4", root: "-vid- / -vis-", meaning: "看", examples: ["evidence", "visual", "provide", "visit"] },
+    { id: "hs12-r5", root: "-firm-", meaning: "坚固, 确定", examples: ["firm", "confirm", "affirm"] },
+    { id: "hs12-r6", root: "-decor-", meaning: "装饰", examples: ["decorate", "decoration", "decorum"] },
+    { id: "hs12-r7", root: "-serv-", meaning: "保持, 服务", examples: ["conservative", "observe", "reserve", "deserve"] },
+    { id: "hs12-r8", root: "-grat-", meaning: "喜悦, 感激", examples: ["congratulation", "grateful", "gratitude"] },
+    { id: "hs12-r9", root: "-val-", meaning: "价值, 强壮", examples: ["valuable", "value", "valid", "evaluate"] },
+    { id: "hs12-r10", root: "-liter-", meaning: "文字", examples: ["literature", "literal", "literate"] },
+    { id: "hs12-r11", root: "-port-", meaning: "拿, 运", examples: ["import", "export", "transport", "portable"] },
+    { id: "hs12-r12", root: "-cit-", meaning: "引用, 唤起, 市民", examples: ["citizen", "city", "excite", "recite"] },
+    { id: "hs12-r13", root: "-cur-", meaning: "跑, 发生", examples: ["occur", "current", "currency"] },
+  ],
+  suffixes: [
+    { id: "hs12-s1", suffix: "-ific(ation)", meaning: "表示名词 (...化,作用)", examples: ["identification", "clarification", "magnification"] },
+    { id: "hs12-s2", suffix: "-ure", meaning: "表示名词 (行为,结果)", examples: ["pressure", "literature", "pleasure"] },
+    { id: "hs12-s3", suffix: "-ity", meaning: "表示名词 (性质,状态)", examples: ["activity", "ability", "curiosity"] },
+    { id: "hs12-s4", suffix: "-ist", meaning: "表示人 (信仰者,专家)", examples: ["dentist", "artist", "socialist"] },
+    { id: "hs12-s5", suffix: "-ish", meaning: "表示动词或形容词", examples: ["abolish", "foolish", "childish"] },
+    { id: "hs12-s6", suffix: "-ence", meaning: "表示名词 (状态,性质)", examples: ["evidence", "difference", "patience"] },
+    { id: "hs12-s7", suffix: "-ation", meaning: "表示名词 (行为,过程,结果)", examples: ["relation", "organisation", "congratulation", "decoration"] },
+    { id: "hs12-s8", suffix: "-able", meaning: "可...的,能...的", examples: ["valuable", "acceptable", "comfortable"] },
+    { id: "hs12-s9", suffix: "-ive", meaning: "表示形容词 (倾向于...的)", examples: ["conservative", "active", "attractive"] },
+    { id: "hs12-s10", suffix: "-or", meaning: "表示人或物", examples: ["senior", "doctor", "actor"] },
+    { id: "hs12-s11", suffix: "-izen", meaning: "表示居民,公民", examples: ["citizen", "denizen"] },
+  ]
+}

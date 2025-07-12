@@ -1,0 +1,36 @@
+export const highSchoolUnit10RootData = {
+  prefixes: [
+    { id: "hs10-p1", prefix: "over-", meaning: "超过, 在...之上", examples: ["overweight", "overcome", "overlook"] },
+    { id: "hs10-p2", prefix: "suf-", meaning: "在下面 (sub-变体)", examples: ["suffer", "sufficient", "suffix"] },
+    { id: "hs10-p3", prefix: "uni-", meaning: "单一, 一个", examples: ["union", "uniform", "unite"] },
+    { id: "hs10-p4", prefix: "cor-", meaning: "共同 (con-变体)", examples: ["correspond", "correct", "correlate"] },
+    { id: "hs10-p5", prefix: "op-", meaning: "反, 向 (ob-变体)", examples: ["oppose", "opposite", "opponent"] },
+    { id: "hs10-p6", prefix: "con-", meaning: "共同, 加强", examples: ["concept", "contribution", "conclude"] },
+  ],
+  roots: [
+    { id: "hs10-r1", root: "-weight-", meaning: "重量", examples: ["overweight", "weightless", "weigh"] },
+    { id: "hs10-r2", root: "-antiq-", meaning: "古老", examples: ["antique", "antiquity", "antiquated"] },
+    { id: "hs10-r3", root: "-fer-", meaning: "拿, 带, 忍受", examples: ["suffer", "refer", "transfer", "differ"] },
+    { id: "hs10-r4", root: "-leg-", meaning: "选择, 收集, 读", examples: ["elegant", "select", "collect", "lecture"] },
+    { id: "hs10-r5", root: "-spond-", meaning: "承诺, 回应", examples: ["correspond", "respond", "sponsor"] },
+    { id: "hs10-r6", root: "-tract-", meaning: "拉", examples: ["attract", "contract", "subtract"] },
+    { id: "hs10-r7", root: "-circ-", meaning: "圆, 环", examples: ["circulate", "circle", "circuit"] },
+    { id: "hs10-r8", root: "-pos-", meaning: "放", examples: ["oppose", "position", "deposit"] },
+    { id: "hs10-r9", root: "-cert-", meaning: "搞清, 确定", examples: ["certain", "certificate", "certify"] },
+    { id: "hs10-r10", root: "-serv-", meaning: "服务, 保持", examples: ["observe", "reserve", "conserve"] },
+    { id: "hs10-r11", root: "-cept-", meaning: "抓, 取", examples: ["concept", "accept", "except"] },
+    { id: "hs10-r12", root: "-clud- / -clus-", meaning: "关闭", examples: ["conclude", "include", "exclude"] },
+    { id: "hs10-r13", root: "-mount-", meaning: "山, 登上", examples: ["mountainous", "amount", "surmount"] },
+    { id: "hs10-r14", root: "-botan-", meaning: "草, 植物", examples: ["botany", "botanist"] },
+  ],
+  suffixes: [
+    { id: "hs10-s1", suffix: "-ant", meaning: "表示人或形容词", examples: ["elegant", "assistant", "important"] },
+    { id: "hs10-s2", suffix: "-ion", meaning: "表示名词 (行为,状态)", examples: ["union", "contribution", "attraction", "opposition"] },
+    { id: "hs10-s3", suffix: "-ence", meaning: "表示名词 (性质,状态)", examples: ["reference", "difference", "correspondence"] },
+    { id: "hs10-s4", suffix: "-ity", meaning: "表示名词 (性质,状态)", examples: ["majority", "ability", "charity"] },
+    { id: "hs10-s5", suffix: "-ate", meaning: "表示动词,形容词或名词", examples: ["circulate", "fortunate", "certificate"] },
+    { id: "hs10-s6", suffix: "-al", meaning: "...的, 与...有关的", examples: ["visual", "approval", "national"] },
+    { id: "hs10-s7", suffix: "-ous", meaning: "充满...的", examples: ["mountainous", "dangerous", "famous"] },
+    { id: "hs10-s8", suffix: "-y", meaning: "表示名词或形容词", examples: ["botany", "difficulty", "healthy"] },
+  ]
+}

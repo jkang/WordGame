@@ -812,7 +812,11 @@ export const rootSpiritsDataByLevel = {
   "high-school-1-unit9": highSchoolUnit9SpiritsData,
   "high-school-1-unit10": highSchoolUnit10SpiritsData,
   "high-school-1-unit11": highSchoolUnit11SpiritsData,
-  "high-school-1-unit12": highSchoolUnit12SpiritsData, // 新增 unit 12
+  "high-school-1-unit12": highSchoolUnit12SpiritsData, 
+  // "high-school-1-unit13": highSchoolUnit13SpiritsData,
+  // "high-school-1-unit14": highSchoolUnit14SpiritsData,
+  // "high-school-1-unit15": highSchoolUnit15SpiritsData,
+  
   "default": sampleSpiritsData
 }
 

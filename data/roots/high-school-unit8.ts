@@ -1,0 +1,42 @@
+export const highSchoolUnit8RootData = {
+  prefixes: [
+    { id: "hs8-p1", prefix: "ad-", meaning: "表加强, 向", examples: ["advocate", "attempt", "appoint", "accessible"] },
+    { id: "hs8-p2", prefix: "ac-", meaning: "表加强 (同ad-)", examples: ["accomplish", "accessible", "according"] },
+    { id: "hs8-p3", prefix: "con-", meaning: "共同, 加强", examples: ["consequence", "contain", "constant", "conclusion"] },
+    { id: "hs8-p4", prefix: "in-", meaning: "进入, 在内", examples: ["incident", "nutrition", "irrigation"] },
+    { id: "hs8-p5", prefix: "en-", meaning: "进入, 使...", examples: ["envelope", "encourage"] },
+    { id: "hs8-p6", prefix: "cata-", meaning: "下面, 向下", examples: ["catalogue", "catastrophe", "cataclysm"] },
+    { id: "hs8-p7", prefix: "di-", meaning: "二, 两", examples: ["dilemma", "divide", "dialogue"] },
+  ],
+  roots: [
+    { id: "hs8-r1", root: "-voc-", meaning: "声音, 喊叫", examples: ["advocate", "vocabulary", "vocal"] },
+    { id: "hs8-r2", root: "-compl-", meaning: "满, 完成", examples: ["accomplish", "complete", "complement"] },
+    { id: "hs8-r3", root: "-sequ-", meaning: "跟随", examples: ["consequence", "sequence", "subsequent"] },
+    { id: "hs8-r4", root: "-cid-", meaning: "落下", examples: ["incident", "accident", "coincide"] },
+    { id: "hs8-r5", root: "-velop-", meaning: "包, 裹", examples: ["envelope", "develop"] },
+    { id: "hs8-r6", root: "-tempt-", meaning: "尝试", examples: ["attempt", "temptation"] },
+    { id: "hs8-r7", root: "-tain-", meaning: "拿住, 保持", examples: ["contain", "maintain", "obtain", "sustain"] },
+    { id: "hs8-r8", root: "-nutri-", meaning: "滋养", examples: ["nutrition", "nutrient", "nutritious"] },
+    { id: "hs8-r9", root: "-tray-", meaning: "交出", examples: ["betray", "portray"] },
+    { id: "hs8-r10", root: "-stant-", meaning: "站, 立", examples: ["constant", "instant", "distance"] },
+    { id: "hs8-r11", root: "-logu-", meaning: "说话, 言语", examples: ["catalogue", "dialogue", "monologue"] },
+    { id: "hs8-r12", root: "-lemma-", meaning: "争论, 主题", examples: ["dilemma"] },
+    { id: "hs8-r13", root: "-tect-", meaning: "遮盖, 察觉", examples: ["detective", "protect", "detect"] },
+    { id: "hs8-r14", root: "-point-", meaning: "指向, 点", examples: ["appoint", "point", "disappoint"] },
+    { id: "hs8-r15", root: "-act-", meaning: "行动", examples: ["react", "action", "active"] },
+    { id: "hs8-r16", root: "-courage-", meaning: "勇气", examples: ["encourage", "courageous"] },
+    { id: "hs8-r17", root: "-peal-", meaning: "拉, 呼吁", examples: ["appeal", "repeal"] },
+    { id: "hs8-r18", root: "-rig-", meaning: "浇水", examples: ["irrigation", "rigorous (引申)"] },
+  ],
+  suffixes: [
+    { id: "hs8-s1", suffix: "-ate", meaning: "表动词或形容词", examples: ["advocate", "accomplish", "constant", "irrigation"] },
+    { id: "hs8-s2", suffix: "-ence", meaning: "表名词 (状态,性质)", examples: ["consequence", "offence", "difference"] },
+    { id: "hs8-s3", suffix: "-ent", meaning: "表形容词或名词", examples: ["incident", "constant", "student"] },
+    { id: "hs8-s4", suffix: "-tion", meaning: "表名词 (行为,结果)", examples: ["nutrition", "conclusion", "reaction", "irrigation"] },
+    { id: "hs8-s5", suffix: "-ish", meaning: "表动词或形容词 (使...的, 如同...的)", examples: ["accomplish", "publish", "foolish"] },
+    { id: "hs8-s6", suffix: "-ive", meaning: "表形容词 (倾向于...的)", examples: ["detective", "active", "creative"] },
+    { id: "hs8-s7", suffix: "-ible", meaning: "可...的", examples: ["accessible", "visible", "possible"] },
+    { id: "hs8-s8", suffix: "-ion", meaning: "表名词 (行为,结果)", examples: ["conclusion", "reaction", "irrigation", "nutrition"] }, // 重复-tion，但应用广泛
+    { id: "hs8-s9", suffix: "-ment", meaning: "表名词 (结果,手段)", examples: ["appointment", "encouragement", "movement"] },
+  ]
+}

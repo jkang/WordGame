@@ -267,6 +267,84 @@ export const HIGH_SCHOOL_1_UNIT12_DATA = {
     { id: "hs12-w14", word: "conservative", categoryId: "hs12-rc6" }, // con- + serv (keep) - firm in keeping traditions
   ],
 };
+export const HIGH_SCHOOL_1_UNIT13_DATA = {
+  categories: [
+    { id: "hs13-rc1", root: "account- (bill) / -ant (person)", meaning: "账目 / 表人" },
+    { id: "hs13-rc2", root: "techn- (skill) / -ique (noun)", meaning: "技艺 / 名词" },
+    { id: "hs13-rc3", root: "cata- (down) / strophe (turn)", meaning: "下 / 转" },
+    { id: "hs13-rc4", root: "sym- (together) / ptom (phenomenon)", meaning: "共同 / 现象" },
+    { id: "hs13-rc5", root: "sculpt- (carve) / -ure (noun)", meaning: "雕塑 / 名词" },
+    { id: "hs13-rc6", root: "ag- (act) / -ency (state)", meaning: "行动 / 状态" },
+  ],
+  words: [
+    { id: "hs13-w1", word: "accountant", categoryId: "hs13-rc1" },
+    { id: "hs13-w2", word: "technique", categoryId: "hs13-rc2" },
+    { id: "hs13-w3", word: "technical", categoryId: "hs13-rc2" },
+    { id: "hs13-w4", word: "catastrophe", categoryId: "hs13-rc3" },
+    { id: "hs13-w5", word: "symptom", categoryId: "hs13-rc4" },
+    { id: "hs13-w6", word: "sculpture", categoryId: "hs13-rc5" },
+    { id: "hs13-w7", word: "culture", categoryId: "hs13-rc5" },
+    { id: "hs13-w8", word: "agency", categoryId: "hs13-rc6" },
+    { id: "hs13-w9", word: "prove", categoryId: "hs13-rc6" },
+    { id: "hs13-w10", word: "consult", categoryId: "hs13-rc6" },
+    { id: "hs13-w11", word: "project", categoryId: "hs13-rc6" },
+    { id: "hs13-w12", word: "upset", categoryId: "hs13-rc3" },
+    { id: "hs13-w13", word: "period", categoryId: "hs13-rc3" },
+    { id: "hs13-w14", word: "nationality", categoryId: "hs13-rc4" },
+  ],
+};
+export const HIGH_SCHOOL_1_UNIT14_DATA = {
+  categories: [
+    { id: "hs14-rc1", root: "in- (inward) / -spect- (look)", meaning: "向内 / 看" },
+    { id: "hs14-rc2", root: "dis- (away) / courage (bravery)", meaning: "除去 / 勇气" },
+    { id: "hs14-rc3", root: "con- (together) / -flict- (strike)", meaning: "共同 / 打击" },
+    { id: "hs14-rc4", root: "de- (away) / -pend- (hang)", meaning: "离开 / 悬挂" },
+    { id: "hs14-rc5", root: "bene- (good) / -fic- (make)", meaning: "好 / 制作" },
+    { id: "hs14-rc6", root: "photo- (light) / -graph- (write)", meaning: "光 / 写" }
+  ],
+  words: [
+    { id: "hs14-w1", word: "inspect", categoryId: "hs14-rc1" },
+    { id: "hs14-w2", word: "inspection", categoryId: "hs14-rc1" },
+    { id: "hs14-w3", word: "discourage", categoryId: "hs14-rc2" },
+    { id: "hs14-w4", word: "discouraged", categoryId: "hs14-rc2" },
+    { id: "hs14-w5", word: "conflict", categoryId: "hs14-rc3" },
+    { id: "hs14-w6", word: "depend", categoryId: "hs14-rc4" },
+    { id: "hs14-w7", word: "beneficial", categoryId: "hs14-rc5" },
+    { id: "hs14-w8", word: "photographer", categoryId: "hs14-rc6" },
+    { id: "hs14-w9", word: "intention", categoryId: "hs14-rc1" },
+    { id: "hs14-w10", word: "explicit", categoryId: "hs14-rc1" },
+    { id: "hs14-w11", word: "reply", categoryId: "hs14-rc3" },
+    { id: "hs14-w12", word: "gravity", categoryId: "hs14-rc4" },
+    { id: "hs14-w13", word: "share", categoryId: "hs14-rc5" },
+    { id: "hs14-w14", word: "careless", categoryId: "hs14-rc2" }
+  ]
+};
+export const HIGH_SCHOOL_1_UNIT15_DATA = {
+  categories: [
+    { id: "hs15-rc1", root: "pro- (before) / -vid- (see)", meaning: "在前 / 看" },
+    { id: "hs15-rc2", root: "de- (down) / -cline- (lean)", meaning: "向下 / 倾斜" },
+    { id: "hs15-rc3", root: "con- (together) / -ven- (come)", meaning: "共同 / 来" },
+    { id: "hs15-rc4", root: "ad- / ap- (to) / apt- (fit)", meaning: "向 / 适应" },
+    { id: "hs15-rc5", root: "a- / ab- (to, away) / -spect- (look)", meaning: "向, 离开 / 看" },
+    { id: "hs15-rc6", root: "sup- (over) / -ply- (fold)", meaning: "重复 / 重叠" }
+  ],
+  words: [
+    { id: "hs15-w1", word: "provide", categoryId: "hs15-rc1" },
+    { id: "hs15-w2", word: "provision", categoryId: "hs15-rc1" },
+    { id: "hs15-w3", word: "decline", categoryId: "hs15-rc2" },
+    { id: "hs15-w4", word: "deserve", categoryId: "hs15-rc2" },
+    { id: "hs15-w5", word: "convenience", categoryId: "hs15-rc3" },
+    { id: "hs15-w6", word: "coincidence", categoryId: "hs15-rc3" },
+    { id: "hs15-w7", word: "adapt", categoryId: "hs15-rc4" },
+    { id: "hs15-w8", word: "appropriate", categoryId: "hs15-rc4" },
+    { id: "hs15-w9", word: "aspect", categoryId: "hs15-rc5" },
+    { id: "hs15-w10", word: "absolute", categoryId: "hs15-rc5" },
+    { id: "hs15-w11", word: "absorb", categoryId: "hs15-rc5" },
+    { id: "hs15-w12", word: "supply", categoryId: "hs15-rc6" },
+    { id: "hs15-w13", word: "profit", categoryId: "hs15-rc1" },
+    { id: "hs15-w14", word: "relevant", categoryId: "hs15-rc2" }
+  ]
+};
 export const rootClassificationDataByLevel = {
   "middle-school-8-unit1": rootClassificationData,
   "middle-school-8-unit2": rootClassificationData,
@@ -288,4 +366,7 @@ export const rootClassificationDataByLevel = {
   "high-school-1-unit10": HIGH_SCHOOL_1_UNIT10_DATA,
   "high-school-1-unit11": HIGH_SCHOOL_1_UNIT11_DATA,
   "high-school-1-unit12": HIGH_SCHOOL_1_UNIT12_DATA,
+  "high-school-1-unit13": HIGH_SCHOOL_1_UNIT13_DATA,
+  "high-school-1-unit14": HIGH_SCHOOL_1_UNIT14_DATA,
+  "high-school-1-unit15": HIGH_SCHOOL_1_UNIT15_DATA,
 }
