@@ -122,17 +122,18 @@ export const middleSchool8Unit8BuildingData: WordBuilding[] = [
 export const middleSchool8Unit9BuildingData: WordBuilding[] = [
   { id: "ms9-wb1", meaning: "娱乐，消遣", options: ["muse", "ment", "amu"], correctOptions: ["amu", "muse", "ment"] },
   { id: "ms9-wb2", meaning: "发明，创造", options: ["vent", "in", "ion"], correctOptions: ["in", "vent", "ion"] },
-  { id: "ms9-wb3", meaning: "难以置信的", options: ["un", "believe", "able"], correctOptions: ["un", "believe", "able"] },
-  { id: "ms9-wb4", meaning: "进步，进展", options: ["pro", "gress", "gre"], correctOptions: ["pro", "gress"] },
-  { id: "ms9-wb5", meaning: "特别的，不寻常的", options: ["un", "usual", "use"], correctOptions: ["un", "usual"] },
+  { id: "ms9-wb3", meaning: "发明家", options: ["in", "vent", "or", "ion"], correctOptions: ["in", "vent", "or"] },
+  { id: "ms9-wb4", meaning: "电话", options: ["tele", "phone", "scope"], correctOptions: ["tele", "phone"] },
+  { id: "ms9-wb5", meaning: "电视", options: ["tele", "vis", "ion", "ment"], correctOptions: ["tele", "vis", "ion"] },
   { id: "ms9-wb6", meaning: "鼓励，激励", options: ["en", "courage", "cour"], correctOptions: ["en", "courage"] },
-  { id: "ms9-wb7", meaning: "和平的，平静的", options: ["peace", "ful", "full"], correctOptions: ["peace", "ful"] },
-  { id: "ms9-wb8", meaning: "表演，演出", options: ["per", "form", "ance"], correctOptions: ["per", "form", "ance"] },
+  { id: "ms9-wb7", meaning: "创造力", options: ["creat", "iv", "ity", "ion"], correctOptions: ["creat", "iv", "ity"] },
+  { id: "ms9-wb8", meaning: "科学家", options: ["sci", "ent", "ist", "ism"], correctOptions: ["sci", "ent", "ist"] },
   { id: "ms9-wb9", meaning: "完美的，理想的", options: ["per", "fect", "fact"], correctOptions: ["per", "fect"] },
   { id: "ms9-wb10", meaning: "仅仅，只", options: ["simp", "ly", "ply"], correctOptions: ["simp", "ly"] },
-  { id: "ms9-wb11", meaning: "无论何时", options: ["when", "ever", "where"], correctOptions: ["when", "ever"] },
-  { id: "ms9-wb12", meaning: "地点，位置", options: ["locat", "ion", "loc"], correctOptions: ["locat", "ion"] },
+  { id: "ms9-wb11", meaning: "有用的", options: ["use", "ful", "less", "ness"], correctOptions: ["use", "ful"] },
+  { id: "ms9-wb12", meaning: "无用的", options: ["use", "less", "ful", "ness"], correctOptions: ["use", "less"] },
 ];
+
 
 export const middleSchool8Unit10BuildingData: WordBuilding[] = [
   { id: "ms10-wb1", meaning: "记忆，回忆", options: ["mem", "ory", "mory"], correctOptions: ["mem", "ory"] },
@@ -142,7 +143,7 @@ export const middleSchool8Unit10BuildingData: WordBuilding[] = [
   { id: "ms10-wb5", meaning: "初中", options: ["junior", "high", "school"], correctOptions: ["junior", "high", "school"] },
   { id: "ms10-wb6", meaning: "诚实的", options: ["hon", "est", "nest"], correctOptions: ["hon", "est"] },
   { id: "ms10-wb7", meaning: "家乡", options: ["home", "town", "mown"], correctOptions: ["home", "town"] },
-  { id: "ms10-wb8", meaning: "现今", options: ["now", "days", "days"], correctOptions: ["now", "days"] },
+  { id: "ms10-wb8", meaning: "现今", options: ["now", "days", "way"], correctOptions: ["now", "days"] },
   { id: "ms10-wb9", meaning: "彩色铅笔", options: ["cray", "on", "yon"], correctOptions: ["cray", "on"] },
   { id: "ms10-wb10", meaning: "世纪", options: ["cent", "ury", "tury"], correctOptions: ["cent", "ury"] },
   { id: "ms10-wb11", meaning: "孩童时期", options: ["child", "hood", "good"], correctOptions: ["child", "hood"] },

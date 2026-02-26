@@ -23,6 +23,7 @@ export default function Home() {
   const [selectedUnit, setSelectedUnit] = useState<string>("")
   const [showProfile, setShowProfile] = useState<boolean>(false)
   const [userProgress, setUserProgress] = useState(loadUserProgress())
+  const [stars, setStars] = useState<Array<{ width: string; height: string; top: string; left: string; animation: string }>>([])
 
   // Load the selected level and unit from localStorage on initial render
   useEffect(() => {
@@ -30,7 +31,7 @@ export default function Home() {
     if (savedLevel) {
       setSelectedLevel(savedLevel)
     }
-    
+
     const savedUnit = localStorage.getItem(SELECTED_UNIT_KEY)
     if (savedUnit) {
       setSelectedUnit(savedUnit)
@@ -38,6 +39,17 @@ export default function Home() {
 
     // Refresh user progress data
     setUserProgress(loadUserProgress())
+
+    // Generate star data on client only to avoid hydration mismatch
+    setStars(
+      Array.from({ length: 50 }).map(() => ({
+        width: `${Math.random() * 3 + 1}px`,
+        height: `${Math.random() * 3 + 1}px`,
+        top: `${Math.random() * 100}%`,
+        left: `${Math.random() * 100}%`,
+        animation: `twinkle ${Math.random() * 5 + 3}s infinite ${Math.random() * 5}s`,
+      }))
+    )
 
     // Set up interval to refresh user progress every 5 seconds
     const interval = setInterval(() => {
@@ -52,7 +64,7 @@ export default function Home() {
     setSelectedLevel(levelId)
     localStorage.setItem(SELECTED_LEVEL_KEY, levelId)
   }
-  
+
   // 添加处理选择 unit 的函数
   const handleSelectUnit = (unitId: string) => {
     setSelectedUnit(unitId)
@@ -71,17 +83,11 @@ export default function Home() {
       {/* Animated stars background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="stars-container">
-          {Array.from({ length: 50 }).map((_, i) => (
+          {stars.map((star, i) => (
             <div
               key={i}
               className="absolute rounded-full bg-white opacity-70"
-              style={{
-                width: `${Math.random() * 3 + 1}px`,
-                height: `${Math.random() * 3 + 1}px`,
-                top: `${Math.random() * 100}%`,
-                left: `${Math.random() * 100}%`,
-                animation: `twinkle ${Math.random() * 5 + 3}s infinite ${Math.random() * 5}s`,
-              }}
+              style={star}
             />
           ))}
         </div>
@@ -104,8 +110,8 @@ export default function Home() {
 
         {currentPage === "home" && (
           <>
-            <LevelSelection 
-              onSelectLevel={handleSelectLevel} 
+            <LevelSelection
+              onSelectLevel={handleSelectLevel}
               currentLevel={selectedLevel}
               onSelectUnit={handleSelectUnit}
               currentUnit={selectedUnit}

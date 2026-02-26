@@ -1852,21 +1852,24 @@ export const rootSpiritsDataByLevel = {
   "high-school-1-unit9": highSchoolUnit9SpiritsData,
   "high-school-1-unit10": highSchoolUnit10SpiritsData,
   "high-school-1-unit11": highSchoolUnit11SpiritsData,
-  "high-school-1-unit12": highSchoolUnit12SpiritsData, 
+  "high-school-1-unit12": highSchoolUnit12SpiritsData,
   "high-school-1-unit13": highSchoolUnit13SpiritsData,
   "high-school-1-unit14": highSchoolUnit14SpiritsData,
   "high-school-1-unit15": highSchoolUnit15SpiritsData,
   "high-school-1-unit16": highSchoolUnit16SpiritsData,
-  
+
   "default": sampleSpiritsData
 }
 
 export const SPIRIT_TYPES = [
-      
-{
+  {
     category: "prefix",
     name: "前缀精灵",
     color: "#f9c851",
+    textColor: "text-[#f9c851]",
+    bgColor: "bg-[#f9c851]",
+    borderColor: "border-[#f9c851]/30",
+    shadow: "shadow-[0_0_10px_rgba(249,200,81,0.5)]",
     bgGradient: "from-[#f9c851]/10 to-[#ff8a5c]/10",
     description: "前缀精灵能改变或增强词根的含义，它们总是出现在词根精灵的前面。",
   },
@@ -1874,6 +1877,10 @@ export const SPIRIT_TYPES = [
     category: "root",
     name: "词根精灵",
     color: "#4ade80",
+    textColor: "text-[#4ade80]",
+    bgColor: "bg-[#4ade80]",
+    borderColor: "border-[#4ade80]/30",
+    shadow: "shadow-[0_0_10px_rgba(74,222,128,0.5)]",
     bgGradient: "from-[#4ade80]/10 to-[#22d3ee]/10",
     description: "词根精灵是单词的核心，它们掌管着单词的基本含义。",
   },
@@ -1881,6 +1888,10 @@ export const SPIRIT_TYPES = [
     category: "suffix",
     name: "后缀精灵",
     color: "#a78bfa",
+    textColor: "text-[#a78bfa]",
+    bgColor: "bg-[#a78bfa]",
+    borderColor: "border-[#a78bfa]/30",
+    shadow: "shadow-[0_0_10px_rgba(167,139,250,0.5)]",
     bgGradient: "from-[#a78bfa]/10 to-[#f472b6]/10",
     description: "后缀精灵能改变词根的词性或为词根添加特定的含义，它们总是出现在词根精灵的后面。",
   },

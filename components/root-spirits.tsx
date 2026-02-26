@@ -170,24 +170,22 @@ export default function RootSpirits({ level, onBack }: RootSpiritsProps) {
         <div className="flex flex-wrap gap-2 mb-4">
           <button
             onClick={() => handleCategorySelect(null)}
-            className={`px-3 py-1 rounded-full text-sm transition-all ${
-              selectedCategory === null
+            className={`px-3 py-1 rounded-full text-sm transition-all ${selectedCategory === null
                 ? "bg-[#f9c851] text-[#1a0b4b] font-medium shadow-[0_0_10px_rgba(249,200,81,0.5)]"
                 : "bg-[#2a1b6a] text-[#a5b4fc] border border-[#6366f1]/30 hover:bg-[#3a1d6f]"
-            }`}
+              }`}
           >
             全部精灵
           </button>
 
-          {SPIRIT_TYPES.map((type) => (
+          {SPIRIT_TYPES.map((type: any) => (
             <button
               key={type.category}
               onClick={() => handleCategorySelect(type.category)}
-              className={`px-3 py-1 rounded-full text-sm transition-all ${
-                selectedCategory === type.category
-                  ? `bg-[${type.color}] text-[#1a0b4b] font-medium shadow-[0_0_10px_rgba(123,97,255,0.5)]`
-                  : `bg-[#2a1b6a] text-[${type.color}] border border-[#6366f1]/30 hover:bg-[#3a1d6f]`
-              }`}
+              className={`px-3 py-1 rounded-full text-sm transition-all ${selectedCategory === type.category
+                  ? `${type.bgColor} text-[#1a0b4b] font-medium ${type.shadow}`
+                  : `bg-[#2a1b6a] ${type.textColor} border border-[#6366f1]/30 hover:bg-[#3a1d6f]`
+                }`}
             >
               {type.name}
             </button>
@@ -195,11 +193,10 @@ export default function RootSpirits({ level, onBack }: RootSpiritsProps) {
 
           <button
             onClick={toggleShowCollected}
-            className={`ml-auto px-3 py-1 rounded-full text-sm transition-all flex items-center ${
-              showOnlyCollected
+            className={`ml-auto px-3 py-1 rounded-full text-sm transition-all flex items-center ${showOnlyCollected
                 ? "bg-[#f9c851] text-[#1a0b4b] font-medium"
                 : "bg-[#2a1b6a] text-[#a5b4fc] border border-[#6366f1]/30"
-            }`}
+              }`}
           >
             <Filter className="h-4 w-4 mr-1" />
             仅显示已收集
@@ -216,7 +213,7 @@ export default function RootSpirits({ level, onBack }: RootSpiritsProps) {
             <div
               key={spirit.id}
               onClick={() => handleSpiritClick(spirit)}
-              className={`relative bg-gradient-to-br ${spiritType.bgGradient} border border-[${spiritType.color}]/30 
+              className={`relative bg-gradient-to-br ${spiritType.bgGradient} border ${spiritType.borderColor} 
                 rounded-lg p-4 cursor-pointer transition-all hover:shadow-[0_0_15px_rgba(123,97,255,0.3)] 
                 hover:scale-105 ${spirit.collected ? "opacity-100" : "opacity-70"}`}
             >
@@ -224,11 +221,11 @@ export default function RootSpirits({ level, onBack }: RootSpiritsProps) {
               <div className="absolute top-2 right-2">
                 <Sparkles
                   size={16}
-                  className={`text-[${spiritType.color}] ${spirit.collected ? "animate-pulse" : "opacity-50"}`}
+                  className={`${spiritType.textColor} ${spirit.collected ? "animate-pulse" : "opacity-50"}`}
                 />
               </div>
 
-              <h3 className={`text-[${spiritType.color}] font-bold mb-1`}>{spirit.name}</h3>
+              <h3 className={`${spiritType.textColor} font-bold mb-1`}>{spirit.name}</h3>
               <p className="text-[#d8b4fe] text-sm">{spirit.meaning}</p>
 
               {!spirit.collected && (
@@ -244,9 +241,8 @@ export default function RootSpirits({ level, onBack }: RootSpiritsProps) {
       {/* Spirit details modal */}
       {activeSpirit && (
         <div
-          className={`fixed inset-0 bg-black/70 flex items-center justify-center z-50 transition-opacity duration-300 ${
-            showSpiritDetails ? "opacity-100" : "opacity-0"
-          }`}
+          className={`fixed inset-0 bg-black/70 flex items-center justify-center z-50 transition-opacity duration-300 ${showSpiritDetails ? "opacity-100" : "opacity-0"
+            }`}
           onClick={handleCloseDetails}
         >
           <div
